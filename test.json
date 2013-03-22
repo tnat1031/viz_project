@@ -1,0 +1,101 @@
+[
+    {
+        "city": "", 
+        "areaCode": "", 
+        "country": "US", 
+        "region": "", 
+        "locId": "223", 
+        "longitude": "-97.0000", 
+        "postalCode": "", 
+        "metroCode": "", 
+        "latitude": "38.0000"
+    }, 
+    {
+        "city": "Valhalla", 
+        "areaCode": "914", 
+        "country": "US", 
+        "region": "NY", 
+        "locId": "605", 
+        "longitude": "-73.7768", 
+        "postalCode": "10595", 
+        "metroCode": "501", 
+        "latitude": "41.0877"
+    }, 
+    {
+        "city": "Pittsburgh", 
+        "areaCode": "412", 
+        "country": "US", 
+        "region": "PA", 
+        "locId": "606", 
+        "longitude": "-79.9880", 
+        "postalCode": "15222", 
+        "metroCode": "508", 
+        "latitude": "40.4495"
+    }, 
+    {
+        "city": "Bridgeton", 
+        "areaCode": "314", 
+        "country": "US", 
+        "region": "MO", 
+        "locId": "607", 
+        "longitude": "-90.4201", 
+        "postalCode": "63044", 
+        "metroCode": "609", 
+        "latitude": "38.7667"
+    }, 
+    {
+        "city": "San Francisco", 
+        "areaCode": "415", 
+        "country": "US", 
+        "region": "CA", 
+        "locId": "608", 
+        "longitude": "-122.3826", 
+        "postalCode": "94124", 
+        "metroCode": "807", 
+        "latitude": "37.7312"
+    }, 
+    {
+        "city": "New York", 
+        "areaCode": "212", 
+        "country": "US", 
+        "region": "NY", 
+        "locId": "609", 
+        "longitude": "-73.9725", 
+        "postalCode": "10017", 
+        "metroCode": "501", 
+        "latitude": "40.7528"
+    }, 
+    {
+        "city": "Bear Lake", 
+        "areaCode": "814", 
+        "country": "US", 
+        "region": "PA", 
+        "locId": "610", 
+        "longitude": "-79.4448", 
+        "postalCode": "16402", 
+        "metroCode": "516", 
+        "latitude": "41.9491"
+    }, 
+    {
+        "city": "Piscataway", 
+        "areaCode": "732", 
+        "country": "US", 
+        "region": "NJ", 
+        "locId": "611", 
+        "longitude": "-74.4637", 
+        "postalCode": "08854", 
+        "metroCode": "501", 
+        "latitude": "40.5516"
+    }, 
+    {
+        "city": "Keuka Park", 
+        "areaCode": "315", 
+        "country": "US", 
+        "region": "NY", 
+        "locId": "612", 
+        "longitude": "-77.1325", 
+        "postalCode": "14478", 
+        "metroCode": "555", 
+        "latitude": "42.5669"
+    }
+]
