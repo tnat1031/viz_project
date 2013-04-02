@@ -1,0 +1,698 @@
+{
+    "y": {
+        "units": "Hits per Plate Appearance", 
+        "title": "BA"
+    }, 
+    "x": {
+        "units": "Year", 
+        "title": "Year"
+    }, 
+    "points": [
+        [
+            "2012", 
+            "0.336", 
+            "Buster Posey   (SFG)"
+        ], 
+        [
+            "2011", 
+            "0.337", 
+            "Jose Reyes #  (NYM)"
+        ], 
+        [
+            "2010", 
+            "0.336", 
+            "Carlos Gonzalez *  (COL)"
+        ], 
+        [
+            "2009", 
+            "0.342", 
+            "Hanley Ramirez   (FLA)"
+        ], 
+        [
+            "2008", 
+            "0.364", 
+            "Chipper Jones #  (ATL)"
+        ], 
+        [
+            "2007", 
+            "0.34", 
+            "Matt Holliday   (COL)"
+        ], 
+        [
+            "2006", 
+            "0.344", 
+            "Freddy Sanchez   (PIT)"
+        ], 
+        [
+            "2005", 
+            "0.335", 
+            "Derrek Lee   (CHC)"
+        ], 
+        [
+            "2004", 
+            "0.362", 
+            "Barry Bonds *  (SFG)"
+        ], 
+        [
+            "2003", 
+            "0.359", 
+            "Albert Pujols   (STL)"
+        ], 
+        [
+            "2002", 
+            "0.37", 
+            "Barry Bonds *  (SFG)"
+        ], 
+        [
+            "2001", 
+            "0.35", 
+            "Larry Walker *  (COL)"
+        ], 
+        [
+            "2000", 
+            "0.372", 
+            "Todd Helton *  (COL)"
+        ], 
+        [
+            "1999", 
+            "0.379", 
+            "Larry Walker *  (COL)"
+        ], 
+        [
+            "1998", 
+            "0.363", 
+            "Larry Walker *  (COL)"
+        ], 
+        [
+            "1997", 
+            "0.372", 
+            "Tony Gwynn+ *  (SDP)"
+        ], 
+        [
+            "1996", 
+            "0.353", 
+            "Tony Gwynn+ *  (SDP)"
+        ], 
+        [
+            "1995", 
+            "0.368", 
+            "Tony Gwynn+ *  (SDP)"
+        ], 
+        [
+            "1994", 
+            "0.394", 
+            "Tony Gwynn+ *  (SDP)"
+        ], 
+        [
+            "1993", 
+            "0.37", 
+            "Andres Galarraga   (COL)"
+        ], 
+        [
+            "1992", 
+            "0.33", 
+            "Gary Sheffield   (SDP)"
+        ], 
+        [
+            "1991", 
+            "0.319", 
+            "Terry Pendleton #  (ATL)"
+        ], 
+        [
+            "1990", 
+            "0.335", 
+            "Willie McGee #  (STL)"
+        ], 
+        [
+            "1989", 
+            "0.336", 
+            "Tony Gwynn+ *  (SDP)"
+        ], 
+        [
+            "1988", 
+            "0.313", 
+            "Tony Gwynn+ *  (SDP)"
+        ], 
+        [
+            "1987", 
+            "0.37", 
+            "Tony Gwynn+ *  (SDP)"
+        ], 
+        [
+            "1986", 
+            "0.334", 
+            "Tim Raines #  (MON)"
+        ], 
+        [
+            "1985", 
+            "0.353", 
+            "Willie McGee #  (STL)"
+        ], 
+        [
+            "1984", 
+            "0.351", 
+            "Tony Gwynn+ *  (SDP)"
+        ], 
+        [
+            "1983", 
+            "0.323", 
+            "Bill Madlock   (PIT)"
+        ], 
+        [
+            "1982", 
+            "0.331", 
+            "Al Oliver *  (MON)"
+        ], 
+        [
+            "1981", 
+            "0.341", 
+            "Bill Madlock   (PIT)"
+        ], 
+        [
+            "1980", 
+            "0.324", 
+            "Bill Buckner *  (CHC)"
+        ], 
+        [
+            "1979", 
+            "0.344", 
+            "Keith Hernandez *  (STL)"
+        ], 
+        [
+            "1978", 
+            "0.334", 
+            "Dave Parker *  (PIT)"
+        ], 
+        [
+            "1977", 
+            "0.338", 
+            "Dave Parker *  (PIT)"
+        ], 
+        [
+            "1976", 
+            "0.339", 
+            "Bill Madlock   (CHC)"
+        ], 
+        [
+            "1975", 
+            "0.354", 
+            "Bill Madlock   (CHC)"
+        ], 
+        [
+            "1974", 
+            "0.353", 
+            "Ralph Garr *  (ATL)"
+        ], 
+        [
+            "1973", 
+            "0.338", 
+            "Pete Rose #  (CIN)"
+        ], 
+        [
+            "1972", 
+            "0.333", 
+            "Billy Williams+ *  (CHC)"
+        ], 
+        [
+            "1971", 
+            "0.363", 
+            "Joe Torre   (STL)"
+        ], 
+        [
+            "1970", 
+            "0.366", 
+            "Rico Carty   (ATL)"
+        ], 
+        [
+            "1969", 
+            "0.348", 
+            "Pete Rose #  (CIN)"
+        ], 
+        [
+            "1968", 
+            "0.335", 
+            "Pete Rose #  (CIN)"
+        ], 
+        [
+            "1967", 
+            "0.357", 
+            "Roberto Clemente+   (PIT)"
+        ], 
+        [
+            "1966", 
+            "0.342", 
+            "Matty Alou *  (PIT)"
+        ], 
+        [
+            "1965", 
+            "0.329", 
+            "Roberto Clemente+   (PIT)"
+        ], 
+        [
+            "1964", 
+            "0.339", 
+            "Roberto Clemente+   (PIT)"
+        ], 
+        [
+            "1963", 
+            "0.326", 
+            "Tommy Davis   (LAD)"
+        ], 
+        [
+            "1962", 
+            "0.346", 
+            "Tommy Davis   (LAD)"
+        ], 
+        [
+            "1961", 
+            "0.351", 
+            "Roberto Clemente+   (PIT)"
+        ], 
+        [
+            "1960", 
+            "0.325", 
+            "Dick Groat   (PIT)"
+        ], 
+        [
+            "1959", 
+            "0.355", 
+            "Hank Aaron+   (MLN)"
+        ], 
+        [
+            "1958", 
+            "0.35", 
+            "Richie Ashburn+ *  (PHI)"
+        ], 
+        [
+            "1957", 
+            "0.351", 
+            "Stan Musial+ *  (STL)"
+        ], 
+        [
+            "1956", 
+            "0.328", 
+            "Hank Aaron+   (MLN)"
+        ], 
+        [
+            "1955", 
+            "0.338", 
+            "Richie Ashburn+ *  (PHI)"
+        ], 
+        [
+            "1954", 
+            "0.345", 
+            "Willie Mays+   (NYG)"
+        ], 
+        [
+            "1953", 
+            "0.344", 
+            "Carl Furillo   (BRO)"
+        ], 
+        [
+            "1952", 
+            "0.336", 
+            "Stan Musial+ *  (STL)"
+        ], 
+        [
+            "1951", 
+            "0.355", 
+            "Stan Musial+ *  (STL)"
+        ], 
+        [
+            "1950", 
+            "0.346", 
+            "Stan Musial+ *  (STL)"
+        ], 
+        [
+            "1949", 
+            "0.342", 
+            "Jackie Robinson+   (BRO)"
+        ], 
+        [
+            "1948", 
+            "0.376", 
+            "Stan Musial+ *  (STL)"
+        ], 
+        [
+            "1947", 
+            "0.363", 
+            "Harry Walker *  (2TM)"
+        ], 
+        [
+            "1946", 
+            "0.365", 
+            "Stan Musial+ *  (STL)"
+        ], 
+        [
+            "1945", 
+            "0.355", 
+            "Phil Cavarretta *  (CHC)"
+        ], 
+        [
+            "1944", 
+            "0.357", 
+            "Dixie Walker *  (BRO)"
+        ], 
+        [
+            "1943", 
+            "0.357", 
+            "Stan Musial+ *  (STL)"
+        ], 
+        [
+            "1942", 
+            "0.33", 
+            "Ernie Lombardi+   (BSN)"
+        ], 
+        [
+            "1941", 
+            "0.343", 
+            "Pete Reiser *  (BRO)"
+        ], 
+        [
+            "1940", 
+            "0.355", 
+            "Debs Garms *  (PIT)"
+        ], 
+        [
+            "1939", 
+            "0.349", 
+            "Johnny Mize+ *  (STL)"
+        ], 
+        [
+            "1938", 
+            "0.342", 
+            "Ernie Lombardi+   (CIN)"
+        ], 
+        [
+            "1937", 
+            "0.374", 
+            "Joe Medwick+   (STL)"
+        ], 
+        [
+            "1936", 
+            "0.373", 
+            "Paul Waner+ *  (PIT)"
+        ], 
+        [
+            "1935", 
+            "0.385", 
+            "Arky Vaughan+ *  (PIT)"
+        ], 
+        [
+            "1934", 
+            "0.362", 
+            "Paul Waner+ *  (PIT)"
+        ], 
+        [
+            "1933", 
+            "0.368", 
+            "Chuck Klein+ *  (PHI)"
+        ], 
+        [
+            "1932", 
+            "0.368", 
+            "Lefty O'Doul *  (BRO)"
+        ], 
+        [
+            "1931", 
+            "0.349", 
+            "Chick Hafey+   (STL)"
+        ], 
+        [
+            "1930", 
+            "0.401", 
+            "Bill Terry+ *  (NYG)"
+        ], 
+        [
+            "1929", 
+            "0.398", 
+            "Lefty O'Doul *  (PHI)"
+        ], 
+        [
+            "1928", 
+            "0.387", 
+            "Rogers Hornsby+   (BSN)"
+        ], 
+        [
+            "1927", 
+            "0.38", 
+            "Paul Waner+ *  (PIT)"
+        ], 
+        [
+            "1926", 
+            "0.353", 
+            "Bubbles Hargrave   (CIN)"
+        ], 
+        [
+            "1925", 
+            "0.403", 
+            "Rogers Hornsby+   (STL)"
+        ], 
+        [
+            "1924", 
+            "0.424", 
+            "Rogers Hornsby+   (STL)"
+        ], 
+        [
+            "1923", 
+            "0.384", 
+            "Rogers Hornsby+   (STL)"
+        ], 
+        [
+            "1922", 
+            "0.401", 
+            "Rogers Hornsby+   (STL)"
+        ], 
+        [
+            "1921", 
+            "0.397", 
+            "Rogers Hornsby+   (STL)"
+        ], 
+        [
+            "1920", 
+            "0.37", 
+            "Rogers Hornsby+   (STL)"
+        ], 
+        [
+            "1919", 
+            "0.321", 
+            "Edd Roush+ *  (CIN)"
+        ], 
+        [
+            "1918", 
+            "0.335", 
+            "Zack Wheat+ *  (BRO)"
+        ], 
+        [
+            "1917", 
+            "0.341", 
+            "Edd Roush+ *  (CIN)"
+        ], 
+        [
+            "1916", 
+            "0.339", 
+            "Hal Chase   (CIN)"
+        ], 
+        [
+            "1915", 
+            "0.32", 
+            "Larry Doyle *  (NYG)"
+        ], 
+        [
+            "1914", 
+            "0.329", 
+            "Jake Daubert *  (BRO)"
+        ], 
+        [
+            "1913", 
+            "0.35", 
+            "Jake Daubert *  (BRO)"
+        ], 
+        [
+            "1912", 
+            "0.372", 
+            "Heinie Zimmerman   (CHC)"
+        ], 
+        [
+            "1911", 
+            "0.334", 
+            "Honus Wagner+   (PIT)"
+        ], 
+        [
+            "1910", 
+            "0.331", 
+            "Sherry Magee   (PHI)"
+        ], 
+        [
+            "1909", 
+            "0.339", 
+            "Honus Wagner+   (PIT)"
+        ], 
+        [
+            "1908", 
+            "0.354", 
+            "Honus Wagner+   (PIT)"
+        ], 
+        [
+            "1907", 
+            "0.35", 
+            "Honus Wagner+   (PIT)"
+        ], 
+        [
+            "1906", 
+            "0.339", 
+            "Honus Wagner+   (PIT)"
+        ], 
+        [
+            "1905", 
+            "0.377", 
+            "Cy Seymour *  (CIN)"
+        ], 
+        [
+            "1904", 
+            "0.349", 
+            "Honus Wagner+   (PIT)"
+        ], 
+        [
+            "1903", 
+            "0.355", 
+            "Honus Wagner+   (PIT)"
+        ], 
+        [
+            "1902", 
+            "0.357", 
+            "Ginger Beaumont *  (PIT)"
+        ], 
+        [
+            "1901", 
+            "0.376", 
+            "Jesse Burkett+ *  (STL)"
+        ], 
+        [
+            "1900", 
+            "0.381", 
+            "Honus Wagner+   (PIT)"
+        ], 
+        [
+            "1899", 
+            "0.41", 
+            "Ed Delahanty+   (PHI)"
+        ], 
+        [
+            "1898", 
+            "0.385", 
+            "Willie Keeler+ *  (BLN)"
+        ], 
+        [
+            "1897", 
+            "0.424", 
+            "Willie Keeler+ *  (BLN)"
+        ], 
+        [
+            "1896", 
+            "0.41", 
+            "Jesse Burkett+ *  (CLV)"
+        ], 
+        [
+            "1895", 
+            "0.405", 
+            "Jesse Burkett+ *  (CLV)"
+        ], 
+        [
+            "1894", 
+            "0.44", 
+            "Hugh Duffy+   (BSN)"
+        ], 
+        [
+            "1893", 
+            "0.38", 
+            "Billy Hamilton+ *  (PHI)"
+        ], 
+        [
+            "1892", 
+            "0.335", 
+            "Dan Brouthers+ *  (BRO)"
+        ], 
+        [
+            "1891", 
+            "0.34", 
+            "Billy Hamilton+ *  (PHI)"
+        ], 
+        [
+            "1890", 
+            "0.336", 
+            "Jack Glasscock   (NYG)"
+        ], 
+        [
+            "1889", 
+            "0.373", 
+            "Dan Brouthers+ *  (BSN)"
+        ], 
+        [
+            "1888", 
+            "0.344", 
+            "Cap Anson+   (CHC)"
+        ], 
+        [
+            "1887", 
+            "0.372", 
+            "Sam Thompson+ *  (DTN)"
+        ], 
+        [
+            "1886", 
+            "0.388", 
+            "King Kelly+   (CHC)"
+        ], 
+        [
+            "1885", 
+            "0.371", 
+            "Roger Connor+ *  (NYG)"
+        ], 
+        [
+            "1884", 
+            "0.354", 
+            "King Kelly+   (CHC)"
+        ], 
+        [
+            "1883", 
+            "0.374", 
+            "Dan Brouthers+ *  (BUF)"
+        ], 
+        [
+            "1882", 
+            "0.368", 
+            "Dan Brouthers+ *  (BUF)"
+        ], 
+        [
+            "1881", 
+            "0.399", 
+            "Cap Anson+   (CHC)"
+        ], 
+        [
+            "1880", 
+            "0.36", 
+            "George Gore *  (CHC)"
+        ], 
+        [
+            "1879", 
+            "0.357", 
+            "Paul Hines   (PRO)"
+        ], 
+        [
+            "1878", 
+            "0.358", 
+            "Paul Hines   (PRO)"
+        ], 
+        [
+            "1877", 
+            "0.387", 
+            "Deacon White+ *  (BSN)"
+        ], 
+        [
+            "1876", 
+            "0.429", 
+            "Ross Barnes   (CHC)"
+        ]
+    ], 
+    "title": "National League Yearly Batting Leaders"
+}
