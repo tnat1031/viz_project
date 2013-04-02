@@ -33,7 +33,7 @@ Ted Natoli & Brad Taylor
 
 # pattern_copy is our modified version of pattern that allows us to return lat, long with tweets
 
-from pattern_copy.web import Twitter, hashtags
+from pattern_copy.web import Twitter, hashtags, HTTP500InternalServerError, HTTPError
 from pattern_copy.db import Datasheet, STRING, DATE, date
 import sys
 import argparse
@@ -44,9 +44,16 @@ def getTweetsGeo(search_terms_list, csv_output, json_output,
                  radius='10km', cached=False, count=100):
     '''
     use pattern's search feature to get tweets within the given search area
+    :param search_terms_list:
+    :param csv_output:
+    :param json_output:
+    :param radius:
+    :param cached:
+    :param count:
     '''
 
-    tweet_headers = ['lat', 'long', 'author', 'year', 'month', 'day', 'hour', 'minute', 'text', 'hashtags', 'search_term', 'id']
+    tweet_headers = ['lat', 'long', 'author', 'year', 'month', 'day', 'hour',
+                     'minute', 'text', 'hashtags', 'search_term', 'id']
     #loc_headers = locations_list_of_dicts[0].keys()
 
     try:
@@ -64,32 +71,38 @@ def getTweetsGeo(search_terms_list, csv_output, json_output,
 
 
     for s in search_terms_list:
-        for tweet in engine.search(s, cached=cached, count=count):
-            id = str(hash(tweet.author + tweet.text))
-            if len(table) == 0 or id not in seen_tweet_ids:
-                # does it have a geo code?
-                if tweet.geo:
-                    # this is a new tweet, store it
-                    # does it encode properly?
-                    try:
-                        encoded_text = unicode(tweet.text)
-                        new_row = []
-                        d = date(tweet.date)
-                        [lat, long] = json.loads(re.sub("'", '"', re.sub('u', '', tweet.geo)))['coordinates']
-                        new_row += [str(lat), str(long), tweet.author, str(d.year), d.month, d.day, d.hour, d.minute,
-                                    encoded_text, '|'.join(hashtags(tweet.text)), s, id]
-                        table.append(new_row)
-                    except UnicodeEncodeError:
-                        print tweet.text
-                        continue
+        try:
+            for tweet in engine.search(s, cached=cached, count=count):
+                id = str(hash(tweet.author + tweet.text + s))
+                if len(table) == 0 or id not in seen_tweet_ids:
+                    # does it have a geo code?
+                    if tweet.geo:
+                        # this is a new tweet, store it
+                        # does it encode properly?
+                        try:
+                            encoded_text = unicode(tweet.text)
+                            new_row = []
+                            d = date(tweet.date)
+                            [lat, long] = json.loads(re.sub("'", '"', re.sub('u', '', tweet.geo)))['coordinates']
+                            new_row += [str(lat), str(long), tweet.author, str(d.year), d.month, d.day, d.hour, d.minute,
+                                        encoded_text, '|'.join(hashtags(tweet.text)), s, id]
+                            table.append(new_row)
+                        except UnicodeEncodeError:
+                            print tweet.text
+                            continue
+        except HTTP500InternalServerError or HTTPError:
+            continue
+
 
 
     table.save(csv_output, headers=True)
-    #f = open(json_output, 'w')
+    f = open(json_output, 'w')
     # would like to do something like this:
     #j = table.json.replace('\r', '\\r').replace('\n', '\\n')
     #print j[491700:491705]
-    #json.dump(json.loads(j), f, indent=4)
+    d = {'tweets' : table.json}
+    json.dump(d, f, indent=4)
+    f.close()
 
     # but having problems converting directly from Datasheet object to json
     # So, will write to file, read back in, then convert to json
@@ -116,10 +129,13 @@ if __name__ == '__main__':
         'fuck', 'shit', 'bitch', 'ass', 'asshole',
 
         # derogatory terms
-        'nigger', 'faggot', 'cunt', 'slut', 'whore', 'spic', 'dick', 'fucker', 'mother fucker'
+        'nigger', 'nigga', 'faggot', 'cunt', 'slut', 'whore', 'spic', 'dick', 'fucker', 'mother fucker',
 
         # violent terms
-        'kill', 'beat', 'rape', 'fight', 'stab', 'shoot'
+        'kill', 'beat', 'rape', 'fight', 'stab', 'shoot',
+
+        # control words
+        'twitter', 'tweet'
         ]
 
     getTweetsGeo(search_terms, args.csv_output, args.json_output)
