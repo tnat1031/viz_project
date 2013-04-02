@@ -90,7 +90,7 @@ def getTweetsGeo(search_terms_list, csv_output, json_output,
                         except UnicodeEncodeError:
                             print tweet.text
                             continue
-        except HTTP500InternalServerError or HTTPError:
+        except (HTTP500InternalServerError, HTTPError) as e:
             continue
 
 
