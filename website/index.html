@@ -99,7 +99,7 @@
 		               		.attr("cy", function(d) { return y(d[1]); })
 		               		.attr("fill", "blue")
 		               		.attr("r", 5)
-		               		.on("mouseover", function(){return tooltip.style("visibility", "visible");})
+		               		.on("mouseover", function(d){return tooltip.style("visibility", "visible").text(d[1]);})
 		               		.on("mousemove", function(){return tooltip.style("top", (event.pageY-10)+"px").style("left",(event.pageX+10)+"px");})
 										.on("mouseout", function(){return tooltip.style("visibility", "hidden");});
                		
