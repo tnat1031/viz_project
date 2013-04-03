@@ -35,8 +35,17 @@
             var line = d3.svg.line()
                 .x(function(d) { return x(parseDate(d[0])); })
                 .y(function(d) { return y(d[1]); });
-            
+                
+                
+            var tooltip = d3.select("body")
+						.append("div")
+						.style("position", "absolute")
+						.style("z-index", "10")
+						.style("visibility", "hidden")
+						.text("a simple tooltip");
+
             var svg = d3.select("body").append("svg")
+            		 .attr("class", "plot_svg")
                 .attr("width", width + margin.left + margin.right)
                 .attr("height", height + margin.top + margin.bottom)
               .append("g")
@@ -77,7 +86,27 @@
                       .datum(data)
                       .attr("class", "line")
                       .attr("d", line);
+                      
+                  svg.selectAll("circle").data(data).enter()
+		               		.append("circle")
+		               		.attr("class", "tooltip_circle")
+		               		.attr("cx", function(d) { return x(parseDate(d[0])); })
+		               		.attr("cy", function(d) { return y(d[1]); })
+		               		.attr("fill", "blue")
+		               		.attr("r", 5)
+		               		.on("mouseover", function(){return tooltip.style("visibility", "visible");})
+		               		.on("mousemove", function(){return tooltip.style("top", (event.pageY-10)+"px").style("left",(event.pageX+10)+"px");})
+										.on("mouseout", function(){return tooltip.style("visibility", "hidden");});
+               		
+               		
+									
+							//	svg.selectAll(")
+                
             });
+            
+            
+            
+            
               
         </script>
     </body>
