@@ -1,22 +1,4 @@
-<!DOCTYPE html>
-<html language="en">
-<link rel="stylesheet" href="website.css">
-    <head>
-        <script src="http://d3js.org/d3.v3.min.js"></script>
-		<script src="http://datamaps.github.com/scripts/datamaps-all.js"></script>
-		<script src="./scripts/brad.js"></script>
-		<script src="./scripts/ted.js"></script>
-		<script src="./scripts/pageLoad.js"></script>
-    </head>
-    <body>
-        
-        <!-- <div id="plot_container"></div> -->
-        <!-- NOTE: leaving Ted's original script commented out. Didn't want to erase anything, so that he could revert easily if necessary.
-		<header>
-            <h1>Vulgar Tweets per Day</h1>
-        </header>
-        <script type="text/javascript">
-            
+function drawCharts() {
             var margin = {top: 20, right: 20, bottom: 30, left: 50},
             width = 960 - margin.left - margin.right,
             height = 500 - margin.top - margin.bottom;
@@ -108,21 +90,4 @@
 							//	svg.selectAll(")
                 
             });
-            
-            
-            
-            
-              
-        </script>
-		-->
-        <h1>Vulgar Tweets by Location</h1>
-		<div id="mapDiv" style="height: 500px; width: 960px">
-		</div>
-		
-		</br>
-		</br>
-        
-		<h1>Vulgar Tweets per Day</h1>
-		
-    </body>
-</html>
+}
