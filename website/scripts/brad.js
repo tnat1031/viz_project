@@ -1,9 +1,6 @@
 /* Draw the map */
 function drawMap() {
 	
-	alert('yah!');
-	//document.getElementById("mapDiv").innerHTML = "aaaw yah";
-	
 	// TODO- fix all of this
 	/*******
 	var tweets = d3.csv("tweets2.csv", function(d) {
@@ -29,8 +26,9 @@ function drawMap() {
 	});
 	********/
 	//Draw the datamap
-    $("#mapDiv").datamap({
+    var map = new Map({
         scope: 'usa',
+		el: $('#mapDiv'),
         // bubbles: myData.mydata,
         // bubble_config: {
             // popupTemplate: _.template([
@@ -51,4 +49,5 @@ function drawMap() {
             'USA': {fillKey: 'USA'}
         }
     });
+	map.render();
 }
