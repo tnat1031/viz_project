@@ -18,3 +18,26 @@ body {
   stroke: steelblue;
   stroke-width: 1.5px;
 }
+
+#linegraph_svg {
+	border-style: none;
+}
+
+#barchart_svg {
+	border-style: none;
+	border-width: 5px;
+	float: left;
+}
+
+.tooltip_div {
+	font: 20px sans-serif;
+}
+
+.tooltip_circle {
+	fill: steelblue;
+	cursor: pointer;
+}
+
+.barchart_bar {
+	fill: steelblue;
+}

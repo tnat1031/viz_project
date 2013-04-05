@@ -1,7 +1,7 @@
 /* Draw the map */
 function drawMap() {
 	// get the data
-	d3.csv("../tweets.csv", function(error, rows) {
+	d3.csv("data/tweets.csv", function(error, rows) {
               if (error) return console.warn(error);
                 var data = [];
                 

@@ -2,9 +2,11 @@
 # Ted Natoli
 
 library("ggplot2")
+library("reshape")
+library("rjson")
 
 # load data
-tweets <- read.csv("~/github/viz_project/tweets.csv", header=T)
+tweets <- read.csv("~/github/viz_project/website/data/tweets.csv", header=T)
 
 # fix headers
 names(tweets) <- gsub("..STRING.", "", names(tweets))
@@ -39,7 +41,19 @@ tweets$full_date_hour <- paste(tweets$full_date, tweets$hour)
 # tweet frequency
 tbl <- as.data.frame.table(table(tweets$full_date))
 names(tbl) <- c("date", "num_tweets")
-write.table(tbl, file="~/github/viz_project/tweets_per_day.csv", col.names=T, row.names=F, sep=",", quote=F, eol="\n")
+write.table(tbl, file="~/github/viz_project/website/data/tweets_per_day.csv", col.names=T, row.names=F, sep=",", quote=F, eol="\n")
+
+# tweet count per day by search term
+tmp_tbl <- melt(table(tweets$full_date, tweets$search_term))
+day_list <- list()
+for (d in levels(as.factor(tmp_tbl$Var.1))) {
+  tmp <- tmp_tbl[tmp_tbl$Var.1==d, c("Var.2", "value")]
+  names(tmp) <- c("search_term", "count")
+
+  
+  day_list[[length(day_list) + 1]] <- tmp_list
+}
+cat(toJSON(day_list), file="~/github/viz_project/website/data/tweet_distrib_by_day.json")
 
 
 makePlots <- function() {
