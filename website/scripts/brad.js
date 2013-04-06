@@ -1,10 +1,81 @@
-/* Draw the map */
+/* Draw the initial map */
 function drawMap() {
+	//drawDots();
+	drawChloro();
+}
+
+/*
+* Grabs the JSON data embedded in the HTML doc and parses to object
+* To be used for Chloropleth
+*/
+function processJSON() {
+	// grab the JSON string from its hidden div and parse with builtin
+	var JSON_string  = document.getElementById('chloroJSON').innerHTML;
+	var jdata = JSON.parse(JSON_string);
+	return jdata;
+}
+
+function drawChloro() {
+	// grab the tweet count data
+	// data format: { "NY": {"tweets": 1977, "fillKey": "NY", "perCapita": 2.999999e-18 }, MA:... }
+	var stateData = processJSON();
+	
+	// find the min, max tweet counts.
+	// Use d3 to create a f'n color() that maps tweet counts -> colors via linear scale
+	var numsArray = [];
+	for (state in stateData) {
+		numsArray.push(stateData[state].perCapita);
+	}
+	maxData = d3.max(numsArray)
+	var color = d3.scale.linear()
+		.domain([0, maxData])
+		.range(["white", "red"]);
+	
+	// load an object detailing the fill levels (color map)
+	// We are assigning a color to each state. Color is pulled from our linear color scale f'n color()
+	// Object format: { {AZ:ffffff}, {MA: #ff0000} }
+	var myfills = JSON.parse('{"defaultFill": "#BADA55"}')
+	for (state in stateData) {
+		var myColor = color(stateData[state].perCapita)
+		myfills[state] = myColor;
+	}
+	
+	/* Backbone style execution */
+	  var map = new Map({
+		  scope: 'usa',
+		  el: $('#mapDiv'),
+		  geography_config: { 
+			highlightBorderColor: '#222',
+			highlightOnHover: true,
+			popupTemplate: _.template('<div class="hoverinfo"><strong><%= geography.properties.name %></strong> <% if (data.tweets) { %><hr/>  Tweet Count: <%= data.tweets %> <% } %><% if (data.perCapita) { %><hr/>  Tweets Per Capita: <%= data.perCapita %> <% } %></div>')
+		  },
+		  // this is our fill color map object from earlier
+		  fills: myfills,
+		  // our data, with tweet counts and fill keys
+		  data: stateData
+		});
+
+   map.render();
+   
+   d3.select('#mapDiv').selectAll('svg')
+       .on("click",	switchToDots);
+}
+
+function switchToDots() {
+	d3.select('#mapDiv').selectAll('div')
+	    .remove();
+	
+	drawDots();
+}
+
+function drawDots() {
 	var search_terms = ['fuck','shit', 'bitch', 'ass', 	'asshole','dick', 'cunt', 
 						'nigger', 'nigga', 'faggot',  'spic', 
 						'slut', 'whore','fucker', 'mother fucker',
 						'kill', 'beat', 'rape', 'fight', 'stab', 'shoot',
 						'twitter', 'tweet'];
+	
+	var mapData = [];
 	
 	// get the data
 	d3.csv("data/tweets.csv", function(error, rows) {
@@ -32,7 +103,7 @@ function drawMap() {
                     data.push(o);
                 });
 	
-	var mapData = data;
+	mapData = data;
 	
 	//Draw the datamap
     var map = new Map({
@@ -85,32 +156,21 @@ function drawMap() {
 					//.append('input')
 					//.attr('type','checkbox')
 					.attr('class',function(d){return d+' button'})
-					.on("click", click);
-	});
-}
+					.on("click", highlightTweets);
 
-function click(term) {
-			// Unselect the undesired spans
+	// });
+// }
+	
+	function highlightTweets(term) {
+			// Unselect the undesired span buttons
 			d3.selectAll('#sterms').selectAll('span')
 				.style('color','black')
 				.style('background-color','white')
 			
-			// Select the desired span
+			// Select the desired span button
 			d3.selectAll('#sterms').select('span.'+term+'.button')
 				.style('background-color','grey')
 				.style('color','white');
-
-			
-			// var unchecked_boxes = d3.select('#sterms').select('input.'+term+'.noChecked');
-			// unchecked_boxes.attr('class',term+' yesChecked');
-			// checked_boxes.attr('checked', 'true');
-			
-			// boxes = document.getElementsByClassName(term+' yesChecked');
-			// for (box in boxes) {
-				// if (boxes[box].checked == true) {
-					// alert('yaaaah');
-				// }
-			// }
 			
 			// color unselected dots blue
 			d3.select('svg').select('g.bubbles').selectAll('circle')
@@ -119,10 +179,26 @@ function click(term) {
 			// color 'term' dots red
 			d3.select('svg').select('g.bubbles').selectAll('circle.bubble.'+term)
 				.style('stroke','#FF0000');
-				//.data(data)
-				//.style('Fill','#FF0000');
+				
 			
-			//alert(term);
-			//tweetData.forEach(function (d) {alert(d.author)})
-			//data 	
+			// This was a block to filter data based on term and then re-render the datamap. It doesnt work
+			// It is failing to filter the data. It creates a second map same as the first.
+			// It is also to slow to be a nice user feature
+			// myData = [];
+			// data.forEach(function(d) {
+                // if (d.searchTerm == term) {
+					// var o = d;
+					// myData.push(d);
+				// }
+			// });
+			//alert(myData[0].searchTerm);
+			// d3.select('#mapDiv').selectAll('svg').remove()
+			
+			// map.options.data = myData;
+			// map.render();
+				
+            
+				
 	}
+	});
+}
