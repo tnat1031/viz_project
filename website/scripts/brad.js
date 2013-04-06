@@ -59,27 +59,52 @@ function drawMap() {
     });
 	map.render();
 	
+	// add the search term to to each dot as a class
+	d3.selectAll('.bubble')
+		.data(data)
+		// .enter()
+		.attr('class', function(d){return ("bubble " + d.searchTerm)});
+	
 	// getting started on a series of checkboxes for highlighting
 	// d3 is hard.
-	// d3.select('body')
-			// .append('div')
-			//.style('float', 'right')
-			// .append('form')
-			// .selectAll('input')
-			// .data(search_terms)
-			// .enter()
-					// .append('span').text(function(d){return d})
-					// .append('input')
-					// .attr('type','radio')
-					// .attr('class','termBox')
-					// .on("click", click);
-		
-		// function click(term) {
-			//d3.selectAll('#termBox');
-			// alert(term);
-			// tweetData.forEach(function (d) {alert(d.author)})
-			// data 	
-		// }
-	
+	d3.select('#sterms')
+			.append('div')
+			.append('form')
+			.selectAll('input')
+			.data(search_terms)
+			.enter()
+					.append('span').text(function(d){return d})
+					.append('input')
+					.attr('type','checkbox')
+					.attr('class',function(d){return d+' noChecked'})
+					.on("click", click);
 	});
 }
+
+function click(term) {
+			// trying to put in some logic so I can UNCHECK boxes. But now time for sleep
+			var checked_boxes = d3.select('#sterms').select('input.'+term+'.yesChecked')
+			checked_boxes.attr('class',term+' noChecked');
+			checked_boxes.attr('checked', 'true');
+			
+			var unchecked_boxes = d3.select('#sterms').select('input.'+term+'.noChecked');
+			unchecked_boxes.attr('class',term+' yesChecked');
+			checked_boxes.attr('checked', 'true');
+			
+			// boxes = document.getElementsByClassName(term+' yesChecked');
+			// for (box in boxes) {
+				// if (boxes[box].checked == true) {
+					// alert('yaaaah');
+				// }
+			// }
+			
+			// color 'term' dots red
+			d3.select('svg').select('g.bubbles').selectAll('circle.bubble.'+term)
+				.style('stroke','#FF0000');
+				//.data(data)
+				//.style('Fill','#FF0000');
+			
+			//alert(term);
+			//tweetData.forEach(function (d) {alert(d.author)})
+			//data 	
+	}
