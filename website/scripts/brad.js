@@ -32,11 +32,13 @@ function drawMap() {
                     data.push(o);
                 });
 	
+	var mapData = data;
+	
 	//Draw the datamap
     var map = new Map({
         scope: 'usa',
 		el: $('#mapDiv'),
-        bubbles: data,
+        bubbles: mapData,
         bubble_config: {
             borderColor: '#667FAF',
 			popupTemplate: _.template([
@@ -60,6 +62,7 @@ function drawMap() {
 	map.render();
 	
 	// add the search term to to each dot as a class
+	// CHANGE THIS SO IT REFERS TO DATE- FACILITATE BRUSH
 	d3.selectAll('.bubble')
 		.data(data)
 		// .enter()
@@ -68,28 +71,39 @@ function drawMap() {
 	// getting started on a series of checkboxes for highlighting
 	// d3 is hard.
 	d3.select('#sterms')
-			.append('div')
-			.append('form')
-			.selectAll('input')
+			 // .attr('height', '20px')
+			 // .append('form')
+			.selectAll('span')
 			.data(search_terms)
 			.enter()
 					.append('span').text(function(d){return d})
-					.append('input')
-					.attr('type','checkbox')
-					.attr('class',function(d){return d+' noChecked'})
+					.style('border','2px solid grey')
+					.style('color','black')
+					.style('background-color','white')
+					.style('margin', '3px')
+					.style('padding', '3px')
+					//.append('input')
+					//.attr('type','checkbox')
+					.attr('class',function(d){return d+' button'})
 					.on("click", click);
 	});
 }
 
 function click(term) {
-			// trying to put in some logic so I can UNCHECK boxes. But now time for sleep
-			var checked_boxes = d3.select('#sterms').select('input.'+term+'.yesChecked')
-			checked_boxes.attr('class',term+' noChecked');
-			checked_boxes.attr('checked', 'true');
+			// Unselect the undesired spans
+			d3.selectAll('#sterms').selectAll('span')
+				.style('color','black')
+				.style('background-color','white')
 			
-			var unchecked_boxes = d3.select('#sterms').select('input.'+term+'.noChecked');
-			unchecked_boxes.attr('class',term+' yesChecked');
-			checked_boxes.attr('checked', 'true');
+			// Select the desired span
+			d3.selectAll('#sterms').select('span.'+term+'.button')
+				.style('background-color','grey')
+				.style('color','white');
+
+			
+			// var unchecked_boxes = d3.select('#sterms').select('input.'+term+'.noChecked');
+			// unchecked_boxes.attr('class',term+' yesChecked');
+			// checked_boxes.attr('checked', 'true');
 			
 			// boxes = document.getElementsByClassName(term+' yesChecked');
 			// for (box in boxes) {
@@ -98,6 +112,10 @@ function click(term) {
 				// }
 			// }
 			
+			// color unselected dots blue
+			d3.select('svg').select('g.bubbles').selectAll('circle')
+				.style('stroke','#667FAF');
+				
 			// color 'term' dots red
 			d3.select('svg').select('g.bubbles').selectAll('circle.bubble.'+term)
 				.style('stroke','#FF0000');
