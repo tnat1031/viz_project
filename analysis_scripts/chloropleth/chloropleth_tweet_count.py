@@ -65,6 +65,7 @@ with open('tweets_geocoded.csv', 'rb') as fcsv:
         for state in stateData:
             if state in statePops:
                 finalData[state] = {}
+                finalData[state]['tweets'] = stateData[state]['tweets']
                 finalData[state]['perCapita']= (stateData[state]['tweets'] / statePops[state])
                 finalData[state]['fillKey'] = state
         json.dump(finalData, fjson,indent=4,separators=(',',': '))
