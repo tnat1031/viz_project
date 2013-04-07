@@ -72,7 +72,7 @@ function switchToDots() {
 function switchToChloro() {
 	d3.select('#mapDiv').selectAll('div')
 	    .remove();
-	d3.selectAll('#sterms').remove();
+	d3.selectAll('#sterms').selectAll('span').remove();
 	drawChloro();
 }
 
@@ -181,32 +181,27 @@ function drawDots() {
 				.style('color','white');
 			
 			// color unselected dots blue
-			d3.select('svg').select('g.bubbles').selectAll('circle')
-				.style('stroke','#667FAF');
+			//d3.select('svg').select('g.bubbles').selectAll('circle')
+			//	.style('stroke','#667FAF');
 				
 			// color 'term' dots red
-			d3.select('svg').select('g.bubbles').selectAll('circle.bubble.'+term)
-				.style('stroke','#FF0000');
+			//d3.select('svg').select('g.bubbles').selectAll('circle.bubble.'+term)
+			//	.style('stroke','#FF0000');
 				
 			
-			// This was a block to filter data based on term and then re-render the datamap. It doesnt work
-			// It is failing to filter the data. It creates a second map same as the first.
-			// It is also to slow to be a nice user feature
-			// myData = [];
-			// data.forEach(function(d) {
-                // if (d.searchTerm == term) {
-					// var o = d;
-					// myData.push(d);
-				// }
-			// });
-			//alert(myData[0].searchTerm);
-			// d3.select('#mapDiv').selectAll('svg').remove()
+			// Filter the data displayed on the map, and redraw
+			// Replaces recolor deactivated above. Does not require selection by class
+			var myData = [];
+			data.forEach(function(d) {
+                if (d.searchTerm == term) {
+			        var o = d;
+					myData.push(d);
+				}
+			});
 			
-			// map.options.data = myData;
-			// map.render();
-				
-            
-				
+			d3.select('#mapDiv').selectAll('svg').remove()
+			map.options.bubbles = myData;
+			map.render();			
 	}
 	d3.select('#mapDiv').selectAll('svg')
        .on("click",	switchToChloro);
