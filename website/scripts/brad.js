@@ -1,8 +1,6 @@
 /* Draw the initial map */
 function drawMap() {
 	//drawDots();
-	var butterfly = 'my'.concat(' ','cater','piller');
-	alert(butterfly);
 	drawChloro();
 }
 
@@ -101,7 +99,7 @@ function drawDots() {
                 rows.forEach(function(d) {
                     
 					year = d.year
-					month = d.month
+					month = "0".concat(d.month)
 					day = d.day
 					thisTextDate = year.concat('-', month, '-', day)
 					
