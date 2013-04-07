@@ -72,6 +72,8 @@ function drawBarChart (date) {
         .scale(y)
         .orient("left");
         
+    var parseDate = d3.time.format("%Y-%m-%d").parse;
+        
     var h1 = d3.select("body").append("h1").attr("id", "barchart_header");
 		
 		var svg = d3.select("body").append("svg")
@@ -81,14 +83,16 @@ function drawBarChart (date) {
        .append("g")
            .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
            
-    d3.json("data/tweet_distrib_by_day.json", function(error, json) {
+    d3.json("data/raw_tweet_distrib_by_day.json", function(error, json) {
     		if (error) return console.warn(error);
     		
     		console.log(json);
     		data = null;
     		
     		for (var i = 0; i < json.length; i++) {
-    			if (json[i].date == date) {
+				console.log(date);
+				console.log(String(parseDate(json[i].date)));		
+    			if (String(parseDate(json[i].date)) == date) {
 					data = json[i];
 					d3.select("#barchart_header").text("Vulgar Tweets on " + date);    			
     			}
@@ -147,7 +151,7 @@ function drawLineGraph () {
 						.style("z-index", "10")
 						.style("visibility", "hidden"); 
 					 
-					 var margin = {top: 20, right: 20, bottom: 30, left: 50},
+					 var margin = {top: 20, right: 100, bottom: 30, left: 50},
             width = 960 - margin.left - margin.right,
             height = 500 - margin.top - margin.bottom;
             
@@ -168,8 +172,10 @@ function drawLineGraph () {
                 .orient("left");
 
             var line = d3.svg.line()
-                .x(function(d) { return x(parseDate(d[0])); })
-                .y(function(d) { return y(d[1]); });
+                .x(function(d) { return x(d.date); })
+                .y(function(d) { return y(d.count); });
+                
+            var color = d3.scale.category10();
                 
 
             var svg = d3.select("body").append("svg")
@@ -180,20 +186,29 @@ function drawLineGraph () {
                 .attr("transform", "translate(" + margin.left + "," + margin.top + ")");    
                 
             
-            d3.csv("data/tweets_per_day.csv", function(error, rows) {
+            d3.csv("data/norm_tweets_per_day.csv", function(error, rows) {
               if (error) return console.warn(error);
-                var data = [];
+                color.domain(d3.keys(rows[0]).filter(function(key) { return key !== "date"; }));
                 
                 
                 rows.forEach(function(d) {
-                    var o = [d.date, +d.num_tweets];
-                    data.push(o);
-                });
+    							d.date = parseDate(d.date);
+  							});
                 
+                var tweets = color.domain().map(function(name) {
+						    return {
+						      name: name,
+						      values: rows.map(function(d) {
+						        return {date: d.date, count: +d[name]};
+						      })
+						    };
+						  });
                 
-                
-                x.domain(d3.extent(data, function(d) { return parseDate(d[0]); }));
-                y.domain([0, d3.max(data, function(d) { return +d[1]; })]);
+                x.domain(d3.extent(rows, function(d) { return d.date; }));
+                y.domain([
+						    d3.min(tweets, function(c) { return d3.min(c.values, function(v) { return v.count; }); }),
+						    d3.max(tweets, function(c) { return d3.max(c.values, function(v) { return v.count; }); })
+						  ]);
             
                 svg.append("g")
                   .attr("class", "x axis")
@@ -210,22 +225,77 @@ function drawLineGraph () {
                   .style("text-anchor", "end")
                   .text("Number of vulgar Tweets");
                   
-                  svg.append("path")
-                      .datum(data)
-                      .attr("class", "line")
-                      .attr("d", line);
+							var tweet = svg.selectAll(".line")
+					      .data(tweets)
+					    .enter().append("g")
+					      .attr("class", "tweet");
+					                   
+                  
+                  tweet.append("path")
+						      .attr("class", "line")
+						      .attr("d", function(d) { return line(d.values); })
+						      .style("stroke", function(d) { return color(d.name); });
+						      
+						     tweet.append("text")
+						      .datum(function(d) { return {name: d.name, value: d.values[d.values.length - 1]}; })
+						      .attr("transform", function(d) { return "translate(" + x(d.value.date) + "," + y(d.value.count) + ")"; })
+						      .attr("x", 3)
+						      .attr("dy", ".35em")
+						      .text(function(d) { return d.name; });
+						      
+
+						      
+						     // this is a hack to get the line graph colors and point
+						     // colors to match up. need to fix
+						     
+						     colors = ["#1f77b4", "#ff7f0e", "#2ca02c"]
+						     ind = 0;
+						      
+						      tweets.forEach(function(d) {
+						      	svg.selectAll("null_selection").data(d.values).enter().append("circle")
+						      	.attr("class", "tooltip_circle")
+						      //.attr("class", "loop"+ind)
+						      	.attr("id", function(v) { return v.date; })
+						      	.attr("cx", function(v) { return x(v.date); })
+						      	.attr("cy", function(v) { return y(v.count); })
+						      	.attr("r", 5)
+						      	.attr("fill", colors[ind])
+						      	.on("mouseover", function(v){return tooltip.style("visibility", "visible").text(Math.round(v.count*100)/100 + " tweets"); })
+		               		.on("mousemove", function(){return tooltip.style("top", (event.pageY-10)+"px").style("left",(event.pageX+10)+"px");})
+										.on("mouseout", function(){return tooltip.style("visibility", "hidden");})
+										.on("click", function(v) {  drawBarChart(v.date); });
+										
+									ind = ind + 1;
+						      	});
+						      
+						  /*   tweet.selectAll("circle")
+									.datum(function(d) { return {name: d.name, value: d.values[d.values.length - 1]}; })						     
+						     .enter().append("circle")
+						      .attr("class", "tooltip_circle")
+						      .attr("id", function(d) { return d.value.date; })
+						      .attr("cx", function(d) { return x(d.value.date); })
+						      .attr("cy", function(d) { return y(d.value.count); })
+						      .attr("r", "5");*/
+						      
+/*						      svg.selectAll("circle").data(tweets).enter()
+						      		.append("circle")
+						      		.attr("class", "tooltip_circle")
+						      		.attr("cx", function(d) { return x(d.values.date); })
+						      		.attr("cy", function(d) { return y(d.values.count); })*/
                       
-                  svg.selectAll("circle").data(data).enter()
+                  /*tweet.selectAll("tweet.line")
+                  		.data(tweet)
+                  		.enter()
 		               		.append("circle")
 		               		.attr("class", "tooltip_circle")
-		               		.attr("cx", function(d) { return x(parseDate(d[0])); })
-		               		.attr("cy", function(d) { return y(d[1]); })
+		               		.attr("cx", function(d) { return x(d.values.date); })
+		               		.attr("cy", function(d) { return y(d.values.count); })
 		               		.attr("r", 5)
-		               		.attr("id", function(d) { return parseDate(d[0]); })
+		               		.attr("id", function(d) { return d.values.date; })
 		               		.on("mouseover", function(d){return tooltip.style("visibility", "visible").text(d[1] + " tweets"); })
 		               		.on("mousemove", function(){return tooltip.style("top", (event.pageY-10)+"px").style("left",(event.pageX+10)+"px");})
 										.on("mouseout", function(){return tooltip.style("visibility", "hidden");})
-										.on("click", function(d) {  drawBarChart(d[0]); });
+										.on("click", function(d) {  drawBarChart(d[0]); });*/
 
                 
             });	

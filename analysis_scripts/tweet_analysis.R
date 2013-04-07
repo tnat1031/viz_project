@@ -48,11 +48,24 @@ names(tbl) <- c("date", "num_tweets")
 write.table(tbl, file="~/github/viz_project/website/data/raw_tweets_per_day.csv", col.names=T, row.names=F, sep=",", quote=F, eol="\n")
 
 # normalized tweet frequency
+avg_tbl <- as.data.frame.table(table(tweets$full_date) / length(setdiff(unique(tweets$search_term), control_terms)))
+names(avg_tbl) <- c("date", "avg_vulgar_tweets")
+control_tbl <- as.data.frame.table(table(tweets[tweets$search_term=="tweet" | tweets$search_term=="twitter", ]$full_date) / length(control_terms))
+names(control_tbl) <- c("date", "avg_control_tweets")
+norm_tbl <- merge(avg_tbl, control_tbl, by="date")
+norm_tbl$norm_tweets <- norm_tbl$avg_vulgar_tweets / norm_tbl$avg_control_tweets
+write.table(norm_tbl, file="~/github/viz_project/website/data/norm_tweets_per_day.csv", col.names=T, row.names=F, sep=",", quote=F, eol="\n")
+
+
+
 tweet_tbl <- table(tweets$full_date, tweets$search_term)
 tweet_tbl_norm <- tweet_tbl[tweet_tbl[, "tweet"] > 0 & tweet_tbl[, "twitter"] > 0, ]
 norm_tweet_means <- apply(tweet_tbl_norm[, control_terms], 1, mean)
 tweet_tbl_norm <- tweet_tbl_norm / norm_tweet_means
-write.table(as.data.frame.table(tweet_tbl_norm), ### NEED TO FINISH THIS)
+tweet_tbl_norm_out <- as.data.frame.table(tweet_tbl_norm)
+names(tweet_tbl_norm_out) <- c("date", "search_term", "norm_count")
+#write.table(tweet_tbl_norm_out, file="~/github/viz_project/website/data/norm_tweets_per_day.csv", col.names=T, row.names=F, sep=",", quote=F, eol="\n")
+)
 
 # tweet count per day by search term
 tmp_tbl <- melt(table(tweets$full_date, tweets$search_term))
@@ -63,7 +76,7 @@ for (d in levels(as.factor(tmp_tbl$Var.1))) {
   tmp_list <- list("date"=d, "search_term"=tmp$search_term, "count"=tmp$count)
   day_list[[length(day_list) + 1]] <- tmp_list
 }
-#cat(toJSON(day_list), file="~/github/viz_project/website/data/raw_tweet_distrib_by_day.json")
+cat(toJSON(day_list), file="~/github/viz_project/website/data/raw_tweet_distrib_by_day.json")
 
 
 makePlots <- function() {

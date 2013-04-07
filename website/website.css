@@ -15,7 +15,6 @@ body {
 
 .line {
   fill: none;
-  stroke: steelblue;
   stroke-width: 1.5px;
 }
 
@@ -38,10 +37,9 @@ body {
 }
 
 .tooltip_circle {
-	fill: steelblue;
 	cursor: pointer;
 }
 
 .barchart_bar {
-	fill: pink;
+	fill: steelblue;
 }
