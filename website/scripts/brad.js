@@ -1,6 +1,8 @@
 /* Draw the initial map */
 function drawMap() {
 	//drawDots();
+	var butterfly = 'my'.concat(' ','cater','piller');
+	alert(butterfly);
 	drawChloro();
 }
 
@@ -83,6 +85,8 @@ function drawDots() {
 						'kill', 'beat', 'rape', 'fight', 'stab', 'shoot',
 						'twitter', 'tweet'];
 	
+	var parseDate = d3.time.format("%Y-%m-%d").parse;
+	
 	var mapData = [];
 	
 	// get the data
@@ -90,9 +94,18 @@ function drawDots() {
               if (error) return console.warn(error);
                 var data = [];
                 
-                
+                var year = 2013;
+				var month = 3;
+				var day = 1;
+				
                 rows.forEach(function(d) {
-                    var o = {radius: 1,
+                    
+					year = d.year
+					month = d.month
+					day = d.day
+					thisTextDate = year.concat('-', month, '-', day)
+					
+					var o = {radius: 1,
 							//city: d.city,
 							//areaCode: +d.areaCode,
 							country: "USA", 
@@ -103,7 +116,8 @@ function drawDots() {
 							latitude: +d.lat,
 							//TODO- fix year- Make an exact date object.
 							author: d.author,
-							//year: new Date(+d.year, 0, 1), // convert "Year" column to Date
+							textDate: thisTextDate,
+							date: new Date(+d.year, +d.day, +d.month), // convert "Year" column to Date
 							text: d.text,
 							searchTerm: d.search_term,
 							id: +d.id};
@@ -145,7 +159,7 @@ function drawDots() {
 	d3.selectAll('.bubble')
 		.data(data)
 		// .enter()
-		.attr('class', function(d){return ("bubble " + d.searchTerm)});
+		.attr('class', function(d){return ("bubble " + d.textDate)});
 	
 	// getting started on a series of checkboxes for highlighting
 	// d3 is hard.
