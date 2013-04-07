@@ -1,4 +1,4 @@
 window.onload = function() {
-	//drawMap();
+	drawMap();
 	drawCharts();
 }
