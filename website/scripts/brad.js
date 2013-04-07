@@ -32,7 +32,8 @@ function drawChloro() {
 		.range(["white", "red"]);
 	
 	// load an object detailing the fill levels (color map)
-	// We are assigning a color to each state. Color is pulled from our linear color scale f'n color()
+	// We are assigning a color to each state, based on tweets per capita
+	// Color is pulled from our linear color scale f'n color()
 	// Object format: { {AZ:ffffff}, {MA: #ff0000} }
 	var myfills = JSON.parse('{"defaultFill": "#BADA55"}')
 	for (state in stateData) {
@@ -66,6 +67,13 @@ function switchToDots() {
 	    .remove();
 	
 	drawDots();
+}
+
+function switchToChloro() {
+	d3.select('#mapDiv').selectAll('div')
+	    .remove();
+	d3.selectAll('#sterms').remove();
+	drawChloro();
 }
 
 function drawDots() {
@@ -200,5 +208,7 @@ function drawDots() {
             
 				
 	}
+	d3.select('#mapDiv').selectAll('svg')
+       .on("click",	switchToChloro);
 	});
 }
