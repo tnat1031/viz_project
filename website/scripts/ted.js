@@ -162,6 +162,7 @@ function drawLineGraph () {
                 .range([height, 0]);
             
             var parseDate = d3.time.format("%Y-%m-%d").parse;
+			var encodeDate = d3.time.format("%Y%m%d");
             
             var xAxis = d3.svg.axis()
                 .scale(x)
@@ -260,9 +261,18 @@ function drawLineGraph () {
 						      	.attr("cy", function(v) { return y(v.count); })
 						      	.attr("r", 5)
 						      	.attr("fill", colors[ind])
-						      	.on("mouseover", function(v){return tooltip.style("visibility", "visible").text(Math.round(v.count*100)/100 + " tweets"); })
+						      	.on("mouseover", function(v){
+									var textDate = (encodeDate(v.date));
+									d3.select('#mapDiv').select('svg').select('g.bubbles').selectAll('circle.b'+encodeDate(v.date))
+										.style('stroke','#FF0000');
+									return tooltip.style("visibility", "visible").text(Math.round(v.count*100)/100 + " tweets");
+								})
 		               		.on("mousemove", function(){return tooltip.style("top", (event.pageY-10)+"px").style("left",(event.pageX+10)+"px");})
-										.on("mouseout", function(){return tooltip.style("visibility", "hidden");})
+										.on("mouseout", function(){
+											d3.select('#mapDiv').select('svg').select('g.bubbles').selectAll('circle')
+												.style('stroke','#667FAF');
+											return tooltip.style("visibility", "hidden");
+										})
 										.on("click", function(v) {  drawBarChart(v.date); });
 										
 									ind = ind + 1;

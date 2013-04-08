@@ -1,7 +1,7 @@
 /* Draw the initial map */
 function drawMap() {
-	//drawDots();
-	drawChloro();
+	drawDots();
+	//drawChloro();
 }
 
 /*
@@ -84,6 +84,7 @@ function drawDots() {
 						'twitter', 'tweet'];
 	
 	var parseDate = d3.time.format("%Y-%m-%d").parse;
+	var encodeDate = d3.time.format("%b%d%Y");
 	
 	var mapData = [];
 	
@@ -100,8 +101,9 @@ function drawDots() {
                     
 					year = d.year
 					month = "0".concat(d.month)
-					day = d.day
-					thisTextDate = year.concat('-', month, '-', day)
+					if (d.day < 10) {day = "0".concat(d.day)}
+					else {day = d.day}
+					thisTextDate = year.concat(month,day)
 					
 					var o = {radius: 1,
 							//city: d.city,
@@ -115,7 +117,7 @@ function drawDots() {
 							//TODO- fix year- Make an exact date object.
 							author: d.author,
 							textDate: thisTextDate,
-							date: new Date(+d.year, +d.day, +d.month), // convert "Year" column to Date
+							date: new Date(+d.year, +d.month, +d.day), // convert "Year" column to Date
 							text: d.text,
 							searchTerm: d.search_term,
 							id: +d.id};
@@ -157,7 +159,8 @@ function drawDots() {
 	d3.selectAll('.bubble')
 		.data(data)
 		// .enter()
-		.attr('class', function(d){return ("bubble " + d.textDate)});
+		//.attr('class', function(d){return ("bubble " + d.textDate)});
+		.attr('class', function(d){return ('b'+d.textDate)});
 	
 	// getting started on a series of checkboxes for highlighting
 	// d3 is hard.
@@ -197,7 +200,7 @@ function drawDots() {
 			//	.style('stroke','#667FAF');
 				
 			// color 'term' dots red
-			//d3.select('svg').select('g.bubbles').selectAll('circle.bubble.'+term)
+			//d3.select('svg').select('g.bubbles').selectAll("circle.20130407")
 			//	.style('stroke','#FF0000');
 				
 			
