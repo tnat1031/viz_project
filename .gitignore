@@ -2,5 +2,4 @@
 *.zip
 *.iml
 *.name
-tweets.json
 website/data/tweets.json
