@@ -268,36 +268,7 @@ function drawLineGraph () {
 									ind = ind + 1;
 						      	});
 						      
-						  /*   tweet.selectAll("circle")
-									.datum(function(d) { return {name: d.name, value: d.values[d.values.length - 1]}; })						     
-						     .enter().append("circle")
-						      .attr("class", "tooltip_circle")
-						      .attr("id", function(d) { return d.value.date; })
-						      .attr("cx", function(d) { return x(d.value.date); })
-						      .attr("cy", function(d) { return y(d.value.count); })
-						      .attr("r", "5");*/
-						      
-/*						      svg.selectAll("circle").data(tweets).enter()
-						      		.append("circle")
-						      		.attr("class", "tooltip_circle")
-						      		.attr("cx", function(d) { return x(d.values.date); })
-						      		.attr("cy", function(d) { return y(d.values.count); })*/
-                      
-                  /*tweet.selectAll("tweet.line")
-                  		.data(tweet)
-                  		.enter()
-		               		.append("circle")
-		               		.attr("class", "tooltip_circle")
-		               		.attr("cx", function(d) { return x(d.values.date); })
-		               		.attr("cy", function(d) { return y(d.values.count); })
-		               		.attr("r", 5)
-		               		.attr("id", function(d) { return d.values.date; })
-		               		.on("mouseover", function(d){return tooltip.style("visibility", "visible").text(d[1] + " tweets"); })
-		               		.on("mousemove", function(){return tooltip.style("top", (event.pageY-10)+"px").style("left",(event.pageX+10)+"px");})
-										.on("mouseout", function(){return tooltip.style("visibility", "hidden");})
-										.on("click", function(d) {  drawBarChart(d[0]); });*/
-
-                
+						  
             });	
 	
 	}
