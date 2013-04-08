@@ -47,7 +47,15 @@ with open('tweets_geocoded.csv', 'rb') as fcsv:
         
         # count the tweets, pack it into a dict
         for line in reader:
-            state = line[12]
+            searchTerm = line[10]
+            print searchTerm
+	    #do not count control tweets. We want vulgarity/capita, not tweeting/capita
+	    if searchTerm == 'tweet':
+	    	continue
+	    else:
+                if searchTerm == 'twitter':
+                    continue
+	    state = line[12]
             # skip tweets where geocoding failed, or for non-US-states
             #if len(state) > 2: continue
             if state not in stateData:
