@@ -46,4 +46,5 @@ body {
 
 .*button {
 	fill: steelblue;
+	cursor: pointer;
 }
