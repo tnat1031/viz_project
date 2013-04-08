@@ -1,0 +1,202 @@
+{
+    "WA": {
+        "perCapita": 4.639690347066237e-06,
+        "fillKey": "WA"
+    },
+    "DE": {
+        "perCapita": 1.0904031438503443e-05,
+        "fillKey": "DE"
+    },
+    "WI": {
+        "perCapita": 2.968707379403248e-06,
+        "fillKey": "WI"
+    },
+    "WV": {
+        "perCapita": 5.928599185194886e-06,
+        "fillKey": "WV"
+    },
+    "HI": {
+        "perCapita": 4.309375837186035e-06,
+        "fillKey": "HI"
+    },
+    "FL": {
+        "perCapita": 3.313046445598121e-06,
+        "fillKey": "FL"
+    },
+    "WY": {
+        "perCapita": 3.4697403940237192e-06,
+        "fillKey": "WY"
+    },
+    "NH": {
+        "perCapita": 2.271491718898357e-06,
+        "fillKey": "NH"
+    },
+    "NJ": {
+        "perCapita": 5.301993662425448e-06,
+        "fillKey": "NJ"
+    },
+    "NM": {
+        "perCapita": 2.8769554906216047e-06,
+        "fillKey": "NM"
+    },
+    "TX": {
+        "perCapita": 5.2956339455201294e-06,
+        "fillKey": "TX"
+    },
+    "LA": {
+        "perCapita": 6.5190563970087965e-06,
+        "fillKey": "LA"
+    },
+    "AK": {
+        "perCapita": 2.7342986318936795e-06,
+        "fillKey": "AK"
+    },
+    "NC": {
+        "perCapita": 2.97372671430987e-06,
+        "fillKey": "NC"
+    },
+    "ND": {
+        "perCapita": 5.717324063645251e-06,
+        "fillKey": "ND"
+    },
+    "NE": {
+        "perCapita": 8.083965454520958e-06,
+        "fillKey": "NE"
+    },
+    "TN": {
+        "perCapita": 3.2526656756878576e-06,
+        "fillKey": "TN"
+    },
+    "NY": {
+        "perCapita": 4.8032062525890685e-06,
+        "fillKey": "NY"
+    },
+    "PA": {
+        "perCapita": 5.484373609319549e-06,
+        "fillKey": "PA"
+    },
+    "RI": {
+        "perCapita": 5.712697040442087e-06,
+        "fillKey": "RI"
+    },
+    "NV": {
+        "perCapita": 6.1618068737492894e-06,
+        "fillKey": "NV"
+    },
+    "VA": {
+        "perCapita": 4.764309021878807e-06,
+        "fillKey": "VA"
+    },
+    "CO": {
+        "perCapita": 3.469824669759437e-06,
+        "fillKey": "CO"
+    },
+    "CA": {
+        "perCapita": 4.941980361936972e-06,
+        "fillKey": "CA"
+    },
+    "AL": {
+        "perCapita": 4.1476367906167185e-06,
+        "fillKey": "AL"
+    },
+    "AR": {
+        "perCapita": 6.103492859421979e-06,
+        "fillKey": "AR"
+    },
+    "VT": {
+        "perCapita": 1.5974160198462966e-06,
+        "fillKey": "VT"
+    },
+    "IL": {
+        "perCapita": 4.970775336100139e-06,
+        "fillKey": "IL"
+    },
+    "GA": {
+        "perCapita": 5.745999599796168e-06,
+        "fillKey": "GA"
+    },
+    "IN": {
+        "perCapita": 4.741994213543319e-06,
+        "fillKey": "IN"
+    },
+    "IA": {
+        "perCapita": 8.782812751082725e-06,
+        "fillKey": "IA"
+    },
+    "MA": {
+        "perCapita": 4.212969204398821e-06,
+        "fillKey": "MA"
+    },
+    "AZ": {
+        "perCapita": 7.324604337844323e-06,
+        "fillKey": "AZ"
+    },
+    "ID": {
+        "perCapita": 1.8800196524721005e-06,
+        "fillKey": "ID"
+    },
+    "CT": {
+        "perCapita": 4.734918379755494e-06,
+        "fillKey": "CT"
+    },
+    "ME": {
+        "perCapita": 1.5046735159405112e-06,
+        "fillKey": "ME"
+    },
+    "MD": {
+        "perCapita": 5.947765365074688e-06,
+        "fillKey": "MD"
+    },
+    "OK": {
+        "perCapita": 6.291253584703865e-06,
+        "fillKey": "OK"
+    },
+    "OH": {
+        "perCapita": 8.142599438247262e-06,
+        "fillKey": "OH"
+    },
+    "UT": {
+        "perCapita": 1.40090996106521e-06,
+        "fillKey": "UT"
+    },
+    "MO": {
+        "perCapita": 3.487220499276983e-06,
+        "fillKey": "MO"
+    },
+    "MN": {
+        "perCapita": 2.7885503609406638e-06,
+        "fillKey": "MN"
+    },
+    "MI": {
+        "perCapita": 5.463728934289553e-06,
+        "fillKey": "MI"
+    },
+    "KS": {
+        "perCapita": 1.2474423101245536e-05,
+        "fillKey": "KS"
+    },
+    "MT": {
+        "perCapita": 1.989770589399895e-06,
+        "fillKey": "MT"
+    },
+    "MS": {
+        "perCapita": 5.6952835681688594e-06,
+        "fillKey": "MS"
+    },
+    "SC": {
+        "perCapita": 5.292435648745703e-06,
+        "fillKey": "SC"
+    },
+    "KY": {
+        "perCapita": 4.3374885712883365e-06,
+        "fillKey": "KY"
+    },
+    "OR": {
+        "perCapita": 4.1032448203586595e-06,
+        "fillKey": "OR"
+    },
+    "SD": {
+        "perCapita": 4.799880962952119e-06,
+        "fillKey": "SD"
+    }
+}
