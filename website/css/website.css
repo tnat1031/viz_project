@@ -44,7 +44,7 @@ body {
 	fill: steelblue;
 }
 
-.*button {
-	fill: steelblue;
+
+#sterms span {
 	cursor: pointer;
 }

@@ -1,7 +1,7 @@
 /* Draw the initial map */
 function drawMap() {
-	//drawDots();
-	drawChloro();
+	drawDots();
+	//drawChloro();
 }
 
 /*
@@ -77,13 +77,14 @@ function switchToChloro() {
 }
 
 function drawDots() {
-	var search_terms = ['fuck','shit', 'bitch', 'ass', 	'asshole','dick', 'cunt', 
+	var search_terms = ['all','fuck','shit', 'bitch', 'ass', 'asshole','dick', 'cunt', 
 						'nigger', 'nigga', 'faggot',  'spic', 
 						'slut', 'whore','fucker', 'mother fucker',
 						'kill', 'beat', 'rape', 'fight', 'stab', 'shoot',
 						'twitter', 'tweet'];
 	
 	var parseDate = d3.time.format("%Y-%m-%d").parse;
+	var encodeDate = d3.time.format("%b%d%Y");
 	
 	var mapData = [];
 	
@@ -100,8 +101,9 @@ function drawDots() {
                     
 					year = d.year
 					month = "0".concat(d.month)
-					day = d.day
-					thisTextDate = year.concat('-', month, '-', day)
+					if (d.day < 10) {day = "0".concat(d.day)}
+					else {day = d.day}
+					thisTextDate = year.concat(month,day)
 					
 					var o = {radius: 1,
 							//city: d.city,
@@ -115,7 +117,7 @@ function drawDots() {
 							//TODO- fix year- Make an exact date object.
 							author: d.author,
 							textDate: thisTextDate,
-							date: new Date(+d.year, +d.day, +d.month), // convert "Year" column to Date
+							date: new Date(+d.year, +d.month, +d.day), // convert "Year" column to Date
 							text: d.text,
 							searchTerm: d.search_term,
 							id: +d.id};
@@ -152,12 +154,11 @@ function drawDots() {
     });
 	map.render();
 	
-	// add the search term to to each dot as a class
-	// CHANGE THIS SO IT REFERS TO DATE- FACILITATE BRUSH
+	// add the date to each dot as a class
+	// NOTE- D3 can NOT select a ddate if it starts with a number. Throw a 'b' on there!
 	d3.selectAll('.bubble')
 		.data(data)
-		// .enter()
-		.attr('class', function(d){return ("bubble " + d.textDate)});
+		.attr('class', function(d){return ('b'+d.textDate)});
 	
 	// getting started on a series of checkboxes for highlighting
 	// d3 is hard.
@@ -197,7 +198,7 @@ function drawDots() {
 			//	.style('stroke','#667FAF');
 				
 			// color 'term' dots red
-			//d3.select('svg').select('g.bubbles').selectAll('circle.bubble.'+term)
+			//d3.select('svg').select('g.bubbles').selectAll("circle.20130407")
 			//	.style('stroke','#FF0000');
 				
 			
@@ -206,14 +207,29 @@ function drawDots() {
 			var myData = [];
 			data.forEach(function(d) {
                 if (d.searchTerm == term) {
-			        var o = d;
+					var o = d;
 					myData.push(d);
 				}
 			});
-			
+			if (term == 'all') {myData = data;}
 			d3.select('#mapDiv').selectAll('svg').remove()
 			map.options.bubbles = myData;
-			map.render();			
+			map.render();
+			// Ok. My filter function IS working correctly, BUT:
+			//     The hoverover tooltip references data (full set) not mapData (what is actually being rendered)
+			//	   Tried to switch it to mapData, but it claims this is not defined (no idea why- should be within scope?)
+			//     This causes tooltip to get out of sync with actual dots, once tweets are filtered
+			//     Dont want user to think filter itself was messed up, so removing the tooltip after filtering
+			d3.select('#mapDiv').selectAll('.hoverover').remove()
+			
+			// have to reset those bubble classes, since we redrew them.
+			d3.selectAll('.bubble')
+				.data(myData)
+				.attr('class', function(d){return ('b'+d.textDate)});
+			// have to reset the map click event as well
+			// this is a hack. Should set click event as part of map draw
+			d3.select('#mapDiv').selectAll('svg')
+				.on("click", switchToChloro);
 	}
 	d3.select('#mapDiv').selectAll('svg')
        .on("click",	switchToChloro);

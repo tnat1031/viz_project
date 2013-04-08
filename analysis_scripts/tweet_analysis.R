@@ -65,7 +65,7 @@ tweet_tbl_norm <- tweet_tbl_norm / norm_tweet_means
 tweet_tbl_norm_out <- as.data.frame.table(tweet_tbl_norm)
 names(tweet_tbl_norm_out) <- c("date", "search_term", "norm_count")
 #write.table(tweet_tbl_norm_out, file="~/github/viz_project/website/data/norm_tweets_per_day.csv", col.names=T, row.names=F, sep=",", quote=F, eol="\n")
-)
+
 
 # tweet count per day by search term
 tmp_tbl <- melt(table(tweets$full_date, tweets$search_term))
