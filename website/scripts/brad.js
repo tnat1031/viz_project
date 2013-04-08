@@ -77,7 +77,7 @@ function switchToChloro() {
 }
 
 function drawDots() {
-	var search_terms = ['fuck','shit', 'bitch', 'ass', 	'asshole','dick', 'cunt', 
+	var search_terms = ['all','fuck','shit', 'bitch', 'ass', 'asshole','dick', 'cunt', 
 						'nigger', 'nigga', 'faggot',  'spic', 
 						'slut', 'whore','fucker', 'mother fucker',
 						'kill', 'beat', 'rape', 'fight', 'stab', 'shoot',
@@ -207,17 +207,24 @@ function drawDots() {
 			var myData = [];
 			data.forEach(function(d) {
                 if (d.searchTerm == term) {
-			        var o = d;
+					var o = d;
 					myData.push(d);
 				}
 			});
+			if (term == 'all') {myData = data;}
 			d3.select('#mapDiv').selectAll('svg').remove()
 			map.options.bubbles = myData;
 			map.render();
+			// Ok. My filter function IS working correctly, BUT:
+			//     The hoverover tooltip references data (full set) not mapData (what is actually being rendered)
+			//	   Tried to switch it to mapData, but it claims this is not defined (no idea why- should be within scope?)
+			//     This causes tooltip to get out of sync with actual dots, once tweets are filtered
+			//     Dont want user to think filter itself was messed up, so removing the tooltip after filtering
+			d3.select('#mapDiv').selectAll('.hoverover').remove()
 			
 			// have to reset those bubble classes, since we redrew them.
 			d3.selectAll('.bubble')
-				.data(data)
+				.data(myData)
 				.attr('class', function(d){return ('b'+d.textDate)});
 			// have to reset the map click event as well
 			// this is a hack. Should set click event as part of map draw
