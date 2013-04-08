@@ -43,3 +43,7 @@ body {
 .barchart_bar {
 	fill: steelblue;
 }
+
+#sterms span {
+	cursor: pointer;
+}
