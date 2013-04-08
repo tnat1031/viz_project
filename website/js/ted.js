@@ -86,12 +86,9 @@ function drawBarChart (date) {
     d3.json("data/raw_tweet_distrib_by_day.json", function(error, json) {
     		if (error) return console.warn(error);
     		
-    		console.log(json);
     		data = null;
     		
-    		for (var i = 0; i < json.length; i++) {
-				console.log(date);
-				console.log(String(parseDate(json[i].date)));		
+    		for (var i = 0; i < json.length; i++) {	
     			if (String(parseDate(json[i].date)) == date) {
 					data = json[i];
 					d3.select("#barchart_header").text("Vulgar Tweets on " + date);    			
