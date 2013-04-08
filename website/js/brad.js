@@ -2,7 +2,7 @@
 function drawMap() {
 	drawChloro();	
 	//drawDots();
-	
+
 }
 
 /*
@@ -100,11 +100,18 @@ function drawDots() {
 
 				
                 rows.forEach(function(d) {
+<<<<<<< HEAD:website/js/brad.js
                     
 					year = d.year
 					month = "0".concat(d.month)
 					if (d.day < 10) {day = "0".concat(d.day)}
 					else {day = d.day}
+=======
+					year = d.year;
+					month = "0".concat(d.month);
+					if (d.day < 10) {day = "0".concat(d.day);}
+					else {day = d.day;}
+>>>>>>> c1f1bd13624410a54c9501ba9b07b41b59498f80:website/scripts/brad.js
 					thisTextDate = year.concat(month,day);
 					
 					var o = {radius: 1,
