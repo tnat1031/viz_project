@@ -154,12 +154,10 @@ function drawDots() {
     });
 	map.render();
 	
-	// add the search term to to each dot as a class
-	// CHANGE THIS SO IT REFERS TO DATE- FACILITATE BRUSH
+	// add the date to each dot as a class
+	// NOTE- D3 can NOT select a ddate if it starts with a number. Throw a 'b' on there!
 	d3.selectAll('.bubble')
 		.data(data)
-		// .enter()
-		//.attr('class', function(d){return ("bubble " + d.textDate)});
 		.attr('class', function(d){return ('b'+d.textDate)});
 	
 	// getting started on a series of checkboxes for highlighting
@@ -213,10 +211,18 @@ function drawDots() {
 					myData.push(d);
 				}
 			});
-			
 			d3.select('#mapDiv').selectAll('svg').remove()
 			map.options.bubbles = myData;
-			map.render();			
+			map.render();
+			
+			// have to reset those bubble classes, since we redrew them.
+			d3.selectAll('.bubble')
+				.data(data)
+				.attr('class', function(d){return ('b'+d.textDate)});
+			// have to reset the map click event as well
+			// this is a hack. Should set click event as part of map draw
+			d3.select('#mapDiv').selectAll('svg')
+				.on("click", switchToChloro);
 	}
 	d3.select('#mapDiv').selectAll('svg')
        .on("click",	switchToChloro);
