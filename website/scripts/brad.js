@@ -1,7 +1,7 @@
 /* Draw the initial map */
 function drawMap() {
-	drawDots();
-	//drawChloro();
+	//drawDots();
+	drawChloro();
 }
 
 /*
@@ -98,12 +98,11 @@ function drawDots() {
 				var day = 1;
 				
                 rows.forEach(function(d) {
-                    
-					year = d.year
-					month = "0".concat(d.month)
-					if (d.day < 10) {day = "0".concat(d.day)}
-					else {day = d.day}
-					thisTextDate = year.concat(month,day)
+					year = d.year;
+					month = "0".concat(d.month);
+					if (d.day < 10) {day = "0".concat(d.day);}
+					else {day = d.day;}
+					thisTextDate = year.concat(month,day);
 					
 					var o = {radius: 1,
 							//city: d.city,
