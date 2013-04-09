@@ -131,7 +131,7 @@ function drawBarChart (date) {
                   .attr("y", 6)
                   .attr("dy", ".71em")
                   .style("text-anchor", "end")
-                  .text("Number of vulgar Tweets");
+                  .text("Number of Tweets");
 				
 		});
     	
@@ -221,7 +221,7 @@ function drawLineGraph () {
                   .attr("y", 6)
                   .attr("dy", ".71em")
                   .style("text-anchor", "end")
-                  .text("Number of vulgar Tweets");
+                  .text("Number of Tweets");
                   
 							var tweet = svg.selectAll(".line")
 					      .data(tweets)

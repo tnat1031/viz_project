@@ -1,6 +1,23 @@
 body {
   width: 1200px;
   margin: 0 auto;
+  font-family: sans-serif;
+}
+
+h1 {
+	font-weight: bold;
+}
+
+header {
+	width: 100%;
+	background-color: #EFEAEA; 
+ font: 44px sans-serif;
+ font-weight: bolder;;
+}
+
+header p {
+	font-size: 18px;
+	font-weight: normal;
 }
 
 .axis path,
