@@ -45,3 +45,9 @@ b. norm_tweets_per_day.csv - A file containing the average number of vulgar and 
 c. raw_tweet_dstrib_by_day.json - A file containing the raw number of occurrences for each of our search terms
 							for each of the days we collected data. It is loaded using D3's d3.json function.
 
+5. Any other information we need to understand your code. 
+
+The visualizations are described but parts 1 through 4, but we also included our data collection and analysis 
+scripts in the 'analysis_scripts' folder. These are not needed for generating the visualizations, but helped
+gather and process the data and generate the files that feed into the visualizations. 
+
