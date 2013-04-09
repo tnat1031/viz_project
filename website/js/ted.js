@@ -235,6 +235,7 @@ function drawLineGraph () {
 						      .style("stroke", function(d) { return color(d.name); });
 						      
 						     tweet.append("text")
+						     	.attr("class", "tweet_line_text")
 						      .datum(function(d) { return {name: d.name, value: d.values[d.values.length - 1]}; })
 						      .attr("transform", function(d) { return "translate(" + x(d.value.date) + "," + y(d.value.count) + ")"; })
 						      .attr("x", 3)

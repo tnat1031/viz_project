@@ -1,5 +1,6 @@
 body {
-  font: 10px sans-serif;
+  width: 1200px;
+  margin: 0 auto;
 }
 
 .axis path,
@@ -7,6 +8,14 @@ body {
   fill: none;
   stroke: #000;
   shape-rendering: crispEdges;
+}
+
+.axis text {
+	font: 10px sans-serif;
+}
+
+.tweet_line_text {
+	font: 10px sans-serif;
 }
 
 .x.axis path {

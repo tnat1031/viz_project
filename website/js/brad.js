@@ -17,6 +17,7 @@ function processJSON() {
 }
 
 function drawChloro() {
+	d3.select("p.map_desc").html("Tweets per capita for every state. Click the map to see exact tweet locations.");		
 	// grab the tweet count data
 	// data format: { "NY": {"tweets": 1977, "fillKey": "NY", "perCapita": 2.999999e-18 }, MA:... }
 	var stateData = processJSON();
@@ -78,6 +79,7 @@ function switchToChloro() {
 }
 
 function drawDots() {
+	d3.select("p.map_desc").html("Exact Tweet locations. Click the map to tweets per capita for every state.");	
 	var search_terms = ['all','fuck','shit', 'bitch', 'ass', 'asshole','dick', 'cunt', 
 						'nigger', 'nigga', 'faggot',  'spic', 
 						'slut', 'whore','fucker', 'mother fucker',
