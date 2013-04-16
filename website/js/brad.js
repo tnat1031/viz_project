@@ -80,7 +80,7 @@ function switchToChloro() {
 
 function drawDots() {
 	d3.select("p.map_desc").html("Exact Tweet locations. Click the map to tweets per capita for every state.");	
-	var search_terms = ['all','fuck','shit', 'bitch', 'ass', 'asshole','dick', 'cunt', 
+	var search_terms = ['fuck','shit', 'bitch', 'ass', 'asshole','dick', 'cunt', 
 						'nigger', 'nigga', 'faggot',  'spic', 
 						'slut', 'whore','fucker', 'mother fucker',
 						'kill', 'beat', 'rape', 'fight', 'stab', 'shoot',
@@ -128,7 +128,13 @@ function drawDots() {
                     data.push(o);
                 });
 	
-	mapData = data;
+	mapData = [];
+	data.forEach(function(d) {
+                if (d.searchTerm == 'fuck') {
+					var o = d;
+					mapData.push(d);
+				}
+			});
 	
 	//Draw the datamap
     var map = new Map({
@@ -181,7 +187,11 @@ function drawDots() {
 					//.attr('type','checkbox')
 					.attr('class',function(d){return d+' button'})
 					.on("click", highlightTweets);
-
+	
+	
+	d3.selectAll('#sterms').select('span.fuck.button')
+				.style('background-color','grey')
+				.style('color','white')
 	// });
 // }
 	

@@ -55,8 +55,8 @@ function drawBarChart (date) {
 						.style("visibility", "hidden"); 
 		
 		var margin = {top: 20, right: 20, bottom: 75, left: 50},
-	   width = 960 - margin.left - margin.right,
-	   height = 500 - margin.top - margin.bottom;
+	   width = 576 - margin.left - margin.right,
+	   height = 300 - margin.top - margin.bottom;
 	   
 	   var x = d3.scale.ordinal()
 	       .rangeBands([0, width]);
@@ -141,6 +141,7 @@ function drawBarChart (date) {
 
 
 function drawLineGraph () {
+
 					var tooltip = d3.select("body")
 						.append("div")
 						.attr("class", "tooltip_div")
@@ -150,7 +151,7 @@ function drawLineGraph () {
 					 
 					 var margin = {top: 20, right: 100, bottom: 30, left: 50},
             width = 960 - margin.left - margin.right,
-            height = 500 - margin.top - margin.bottom;
+            height = 250 - margin.top - margin.bottom;
             
             var x = d3.time.scale()
                 .range([0, width]);
@@ -270,11 +271,12 @@ function drawLineGraph () {
 												.style('stroke','#667FAF');
 											return tooltip.style("visibility", "hidden");
 										})
-										.on("click", function(v) {  drawBarChart(v.date); });
+										.on("click", function(v) {
+										drawBarChart(v.date); });
 										
 									ind = ind + 1;
 						      	});
 
             });	
-	
+	drawBarChart('Tue Apr 02 2013 00:00:00 GMT-0400 (Eastern Daylight Time)');
 	}
