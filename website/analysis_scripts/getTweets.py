@@ -39,6 +39,8 @@ import sys
 import argparse
 import json
 import re
+import s3_utils
+import os
 
 def getTweetsGeo(search_terms_list, csv_output, json_output,
                  radius='10km', cached=False, count=100):
@@ -118,6 +120,8 @@ if __name__ == '__main__':
     #parser.add_argument('-location_csv', type=str, default='/Users/tnatoli/github/viz_project/US_locations.csv')
     parser.add_argument('-csv_output', type=str, default='/Users/tnatoli/github/viz_project/website/data/tweets.csv')
     parser.add_argument('-json_output', type=str,default='/Users/tnatoli/github/viz_project/website/data/tweets.json')
+    parser.add_argument('-bucket', type=str, default='tn_bucket')
+    parser.add_argument('-aws_cred_file', type=str, default='/xchip/cogs/projects/aws/creds.txt')
 
     args = parser.parse_args(sys.argv[1:])
 
@@ -139,3 +143,10 @@ if __name__ == '__main__':
         ]
 
     getTweetsGeo(search_terms, args.csv_output, args.json_output)
+
+    # get AWS login credentials
+    [aws_key_id, aws_secret_key] = s3_utils.getCredentials(args.aws_cred_file)
+
+    # connect to amazon s3 and upload tweet data
+    # assumes AWS environment variables are set
+    s3_utils.pushToS3(args.csv_output, aws_key_id, aws_secret_key, args.bucket, name=os.path.basename(args.csv_output))
