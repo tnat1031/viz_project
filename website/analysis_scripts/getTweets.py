@@ -39,7 +39,7 @@ import sys
 import argparse
 import json
 import re
-#import s3_utils
+import s3_utils
 import os
 import urllib
 
