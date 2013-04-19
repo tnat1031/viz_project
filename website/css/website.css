@@ -2,6 +2,7 @@ body {
   width: 1500px;
   margin: 0 auto;
   font-family: sans-serif;
+  font: 14px sans-serif;
 }
 
 h1 {
@@ -11,12 +12,12 @@ h1 {
 header {
 	width: 100%;
 	background-color: #EFEAEA; 
- font: 44px sans-serif;
+ font: 32px sans-serif;
  font-weight: bolder;;
 }
 
 header p {
-	font-size: 18px;
+	font-size: 16px;
 	font-weight: normal;
 }
 
@@ -55,7 +56,15 @@ header p {
 #barchart_svg {
 	border-style: none;
 	border-width: 5px;
-	float: left;
+	position: relative;
+	top: -800px;
+	right: -600px;
+}
+
+#barchart_header{ 
+	position: relative;
+	top: -875px;
+	right: -600px;
 }
 
 .tooltip_div {
@@ -73,4 +82,16 @@ header p {
 
 #sterms span {
 	cursor: pointer;
+}
+
+.vulgar{
+	color:blue;
+}
+
+.control{
+	color:orange;
+}
+
+.norm{
+	color:green;
 }

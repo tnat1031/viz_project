@@ -2,7 +2,10 @@
 *.zip
 *.iml
 *.name
+*.pyc
 website/data/tweets.json
 website/data/tweets.csv
+
+website/analysis_scripts/s3_utils.pyc
 
 website/data/tweets.csv
