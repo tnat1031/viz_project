@@ -39,8 +39,43 @@ import sys
 import argparse
 import json
 import re
-import s3_utils
+#import s3_utils
 import os
+import urllib
+
+GEOCODE_BASE_URL = 'http://maps.googleapis.com/maps/api/geocode/json'
+RESULT_FORMAT = u'short_name'
+DESIRED_INFO = ['administrative_area_level_1', 'administrative_area_level_2', 'country']
+
+def reverse_geocode(latlng,sensor='false', **geo_args):
+    geo_args.update({
+        'latlng': latlng,
+        'sensor': sensor  
+    })
+
+    url = GEOCODE_BASE_URL + '?' + urllib.urlencode(geo_args)
+    result = json.load(urllib.urlopen(url))
+
+    # parse the url result and pull out JUST the element we need (ie state)
+    if result == {u'status': u'OVER_QUERY_LIMIT', u'results': []}:
+        return result['status']
+    try:
+        address_components = result['results'][0]['address_components']
+        geonames = filter(lambda x: len(set(x['types']).intersection(DESIRED_INFO)), address_components)
+        
+        # Return the result in the desired format (ie long_name, short_name, etc.)
+        results = { 'country' : '',
+                    'state' : '',
+                    'county' : ''}
+        for g in geonames:
+            if 'country' in g['types']:
+                results['country'] = g[RESULT_FORMAT]
+            elif 'administrative_area_level_1' in g['types']:
+                results['state'] = g[RESULT_FORMAT]
+            elif 'administrative_area_level_2' in g['types']:
+                results['county'] = g[RESULT_FORMAT]
+        return results
+    except: return {}
 
 def getTweetsGeo(search_terms_list, csv_output, json_output,
                  radius='10km', cached=False, count=100):
@@ -55,7 +90,7 @@ def getTweetsGeo(search_terms_list, csv_output, json_output,
     '''
 
     tweet_headers = ['lat', 'long', 'author', 'year', 'month', 'day', 'hour',
-                     'minute', 'text', 'hashtags', 'search_term', 'id']
+                     'minute', 'text', 'hashtags', 'search_term', 'state', 'county', 'country', 'id']
     #loc_headers = locations_list_of_dicts[0].keys()
 
     try:
@@ -85,10 +120,14 @@ def getTweetsGeo(search_terms_list, csv_output, json_output,
                             encoded_text = unicode(tweet.text)
                             new_row = []
                             d = date(tweet.date)
-                            [lat, long] = json.loads(re.sub("'", '"', re.sub('u', '', tweet.geo)))['coordinates']
-                            new_row += [str(lat), str(long), tweet.author, str(d.year), d.month, d.day, d.hour, d.minute,
-                                        encoded_text, '|'.join(hashtags(tweet.text)), s, id]
-                            table.append(new_row)
+                            [lat, lng] = json.loads(re.sub("'", '"', re.sub('u', '', tweet.geo)))['coordinates']
+                            latlng = str(lat) + ',' + str(lng)
+                            results = reverse_geocode(latlng)
+                            if results:
+                                new_row += [str(lat), str(lng), tweet.author, str(d.year), d.month, d.day, d.hour, d.minute,
+                                        encoded_text, '|'.join(hashtags(tweet.text)), s, results['state'], results['county'],
+                                        results['country'], id]
+                                table.append(new_row)
                         except UnicodeEncodeError:
                             print tweet.text
                             continue
