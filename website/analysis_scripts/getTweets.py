@@ -155,8 +155,7 @@ def getTweetsGeo(search_terms_list, csv_output, json_output,
 
 if __name__ == '__main__':
     # get arguments
-    parser = argparse.ArgumentParser(description='get tweets within a set of locations\n')
-    #parser.add_argument('-location_csv', type=str, default='/Users/tnatoli/github/viz_project/US_locations.csv')
+    parser = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.ArgumentDefaultsHelpFormatter)
     parser.add_argument('-csv_output', type=str, default='/Users/tnatoli/github/viz_project/website/data/tweets.csv')
     parser.add_argument('-json_output', type=str,default='/Users/tnatoli/github/viz_project/website/data/tweets.json')
     parser.add_argument('-bucket', type=str, default='tn_bucket')
