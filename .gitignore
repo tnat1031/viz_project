@@ -12,5 +12,3 @@ website/data/tweets.csv
 *.pdf
 
 website/data/tweets_geocoded.csv
-
-*.pyc
