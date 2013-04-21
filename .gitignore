@@ -9,3 +9,4 @@ website/data/tweets.csv
 website/analysis_scripts/s3_utils.pyc
 
 website/data/tweets.csv
+*.pdf
