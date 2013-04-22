@@ -5,7 +5,7 @@ function drawCharts() {
            
        
 		
-		drawLineGraph(); 
+		drawLineGraph("#time_tab");
            //drawBarChart();
 }
 
@@ -140,9 +140,9 @@ function drawBarChart (date) {
 }
 
 
-function drawLineGraph () {
+function drawLineGraph (element) {
 
-					var tooltip = d3.select("body")
+					var tooltip = d3.select(element)
 						.append("div")
 						.attr("class", "tooltip_div")
 						.style("position", "absolute")
@@ -177,17 +177,18 @@ function drawLineGraph () {
             var color = d3.scale.category10();
                 
 
-            var svg = d3.select("body").append("svg")
+            var svg = d3.select(element).append("svg")
             		 .attr("id", "linegraph_svg")
                 .attr("width", width + margin.left + margin.right)
                 .attr("height", height + margin.top + margin.bottom)
               .append("g")
                 .attr("transform", "translate(" + margin.left + "," + margin.top + ")"); 
 
-            function drawOneLine (data, color)  {
-            	d3.select("#linegraph_svg").remove();
+            function drawLine (data, color)  {
+            	console.log(data);
+                d3.select("#linegraph_svg").remove();
 
-            	var tooltip = d3.select("body")
+            	var tooltip = d3.select(element)
 					.append("div")
 					.attr("class", "tooltip_div")
 					.style("position", "absolute")
@@ -219,7 +220,7 @@ function drawLineGraph () {
 	                .x(function(d) { return x(d.date); })
 	                .y(function(d) { return y(d.count); });
 	            
-	            var svg = d3.select("body").append("svg")
+	            var svg = d3.select(element).append("svg")
             		.attr("id", "linegraph_svg")
                 	.attr("width", width + margin.left + margin.right)
                 	.attr("height", height + margin.top + margin.bottom)
@@ -244,24 +245,19 @@ function drawLineGraph () {
                     	.style("text-anchor", "end")
                     	.text("Number of Tweets");
 
-                var tweet_line = svg.selectAll(".line")
-					.data(data)
-					.enter().append("g")
-					    .attr("class", "tweet_line");
-					                   
-                  
-                tweet_line.append("path")
-			        .attr("class", "line")
-			        .attr("d", function(d) { return line(d); })
-			        .style("stroke",  color);
+                svg.append("path")
+                   .datum(data.values)
+			       .attr("class", "line")
+			       .attr("d", line)
+			       .style("stroke",  color);
 						      
-			    tweet_line.append("text")
+			   /* tweet_line.append("text")
 			     	.attr("class", "tweet_line_text")
 			        .datum(function(d) { return {name: d.name, value: d.values[d.values.length - 1]}; })
 			        .attr("transform", function(d) { return "translate(" + x(d.value.date) + "," + y(d.value.count) + ")"; })
 			        .attr("x", 3)
 			        .attr("dy", ".35em")
-			        .text(function(d) { return d.name; });
+			        .text(function(d) { return d.name; });*/
 	        }
                 
             
@@ -310,7 +306,7 @@ function drawLineGraph () {
 					      .data(tweets)
 					    .enter().append("g")
 					      .attr("class", "tweet_line");
-					                   
+
                   
                   tweet_line.append("path")
 						      .attr("class", "line")
@@ -359,9 +355,9 @@ function drawLineGraph () {
 									ind = ind + 1;
 						      	});
 	
-	var tweet_buttons = d3.select("body").selectAll("button").data(tweets).enter().append("button")
+	var tweet_buttons = d3.select(element).selectAll("button").data(tweets).enter().append("button")
 		.text(function(d) { return d.name; })
-		.on("click", function(d) { drawOneLine(d, "red"); });
+		.on("click", function(d) { drawLine(d, "red"); });
 
             });	
 	}
