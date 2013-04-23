@@ -142,6 +142,101 @@ function drawBarChart (date) {
 
 function drawLineGraph (element) {
 
+	function readData(file_path) {
+		var parseDate = d3.time.format("%Y-%m-%d").parse;
+		d3.csv(file_path, function(error, rows) {
+         	if (error) return console.warn(error);
+            
+            var columns = function(name) {
+					    	return {
+					      		name: name,
+					      		values: rows.map(function(d) {
+					        		return {date: parseDate(d.date), count: +d[name]};
+					      		});
+					    	};
+						});
+			return(columns);
+		}
+	}
+
+	console.log(readData("data/norm_tweets_per_day.csv"));
+
+	function drawLine (data, color)  {
+		console.log(data);
+	    d3.select("#linegraph_svg").remove();
+
+		var tooltip = d3.select(element)
+			.append("div")
+			.attr("class", "tooltip_div")
+			.style("position", "absolute")
+			.style("z-index", "10")
+			.style("visibility", "hidden"); 
+			 
+		var margin = {top: 20, right: 100, bottom: 30, left: 50},
+		width = 960 - margin.left - margin.right,
+		height = 250 - margin.top - margin.bottom;
+
+		var x = d3.time.scale()
+	    	.range([0, width]);
+
+		var y = d3.scale.linear()
+	    	.range([height, 0]);
+
+	    x.domain(d3.extent(data, function(d) { return d.date; }));
+	    y.domain([0, d3.max(data, function(d) { return d.count; })]);
+
+		
+		var encodeDate = d3.time.format("%Y%m%d");
+
+		var xAxis = d3.svg.axis()
+	    	.scale(x)
+	    	.orient("bottom");
+
+		var yAxis = d3.svg.axis()
+	    	.scale(y)
+	    	.orient("left");
+
+	    var line = d3.svg.line()
+	        .x(function(d) { return x(d.date); })
+	        .y(function(d) { return y(d.count); });
+	    
+	    var svg = d3.select(element).append("svg")
+			.attr("id", "linegraph_svg")
+	    	.attr("width", width + margin.left + margin.right)
+	    	.attr("height", height + margin.top + margin.bottom)
+	  		.append("g")
+	    		.attr("transform", "translate(" + margin.left + "," + margin.top + ")");
+
+
+	    svg.append("g")
+	        .attr("class", "x axis")
+	        .attr("transform", "translate(0," + height + ")")
+	        .call(xAxis);
+
+	    svg.append("g")
+	        .attr("class", "y axis")
+	        .call(yAxis)
+	    	.append("text")
+	        	.attr("transform", "rotate(-90)")
+	        	.attr("y", 6)
+	        	.attr("dy", ".71em")
+	        	.style("text-anchor", "end")
+	        	.text("Number of Tweets");
+
+	    svg.append("path")
+	       .datum(data.values)
+	       .attr("class", "line")
+	       .attr("d", line)
+	       .style("stroke",  color);
+				      
+	   /* tweet_line.append("text")
+	     	.attr("class", "tweet_line_text")
+	        .datum(function(d) { return {name: d.name, value: d.values[d.values.length - 1]}; })
+	        .attr("transform", function(d) { return "translate(" + x(d.value.date) + "," + y(d.value.count) + ")"; })
+	        .attr("x", 3)
+	        .attr("dy", ".35em")
+	        .text(function(d) { return d.name; });*/
+	}
 					var tooltip = d3.select(element)
 						.append("div")
 						.attr("class", "tooltip_div")
@@ -184,81 +279,7 @@ function drawLineGraph (element) {
               .append("g")
                 .attr("transform", "translate(" + margin.left + "," + margin.top + ")"); 
 
-            function drawLine (data, color)  {
-            	console.log(data);
-                d3.select("#linegraph_svg").remove();
 
-            	var tooltip = d3.select(element)
-					.append("div")
-					.attr("class", "tooltip_div")
-					.style("position", "absolute")
-					.style("z-index", "10")
-					.style("visibility", "hidden"); 
-					 
-				var margin = {top: 20, right: 100, bottom: 30, left: 50},
-            	width = 960 - margin.left - margin.right,
-            	height = 250 - margin.top - margin.bottom;
-            
-            	var x = d3.time.scale()
-                	.range([0, width]);
-
-            	var y = d3.scale.linear()
-                	.range([height, 0]);
-            
-            	var parseDate = d3.time.format("%Y-%m-%d").parse;
-				var encodeDate = d3.time.format("%Y%m%d");
-            
-            	var xAxis = d3.svg.axis()
-                	.scale(x)
-                	.orient("bottom");
-
-            	var yAxis = d3.svg.axis()
-                	.scale(y)
-                	.orient("left");
-
-	            var line = d3.svg.line()
-	                .x(function(d) { return x(d.date); })
-	                .y(function(d) { return y(d.count); });
-	            
-	            var svg = d3.select(element).append("svg")
-            		.attr("id", "linegraph_svg")
-                	.attr("width", width + margin.left + margin.right)
-                	.attr("height", height + margin.top + margin.bottom)
-              		.append("g")
-                		.attr("transform", "translate(" + margin.left + "," + margin.top + ")");
-
-                x.domain(d3.extent(data, function(d) { return d.date; }));
-                y.domain([0, d3.max(data, function(d) { return d.count; })]);
-
-                svg.append("g")
-	                .attr("class", "x axis")
-	                .attr("transform", "translate(0," + height + ")")
-	                .call(xAxis);
-            
-                svg.append("g")
-                    .attr("class", "y axis")
-                    .call(yAxis)
-                	.append("text")
-                    	.attr("transform", "rotate(-90)")
-                    	.attr("y", 6)
-                    	.attr("dy", ".71em")
-                    	.style("text-anchor", "end")
-                    	.text("Number of Tweets");
-
-                svg.append("path")
-                   .datum(data.values)
-			       .attr("class", "line")
-			       .attr("d", line)
-			       .style("stroke",  color);
-						      
-			   /* tweet_line.append("text")
-			     	.attr("class", "tweet_line_text")
-			        .datum(function(d) { return {name: d.name, value: d.values[d.values.length - 1]}; })
-			        .attr("transform", function(d) { return "translate(" + x(d.value.date) + "," + y(d.value.count) + ")"; })
-			        .attr("x", 3)
-			        .attr("dy", ".35em")
-			        .text(function(d) { return d.name; });*/
-	        }
                 
             
             d3.csv("data/norm_tweets_per_day.csv", function(error, rows) {
@@ -355,7 +376,7 @@ function drawLineGraph (element) {
 									ind = ind + 1;
 						      	});
 	
-	var tweet_buttons = d3.select(element).selectAll("button").data(tweets).enter().append("button")
+	var tweet_buttons = d3.select(element).append("div").selectAll("button").data(tweets).enter().append("button")
 		.text(function(d) { return d.name; })
 		.on("click", function(d) { drawLine(d, "red"); });
 
