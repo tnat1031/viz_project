@@ -80,6 +80,7 @@ if __name__ == '__main__':
             latlng = str(lat) + ',' + str(lng)
             results = getTweets.reverse_geocode(latlng)
             if results:
+                print results
                 # retain id as the last element in the row, but insert state, county, country before it
                 try:
                     tmp_row = row[:-1]
