@@ -8,8 +8,10 @@
         <script src="libraries/d3.v3.min.js"></script>
 		<script src="libraries/datamaps-us-only.js"></script>
 		<script src="js/brad.js"></script>
+		<script src="js/brad2.js"></script>
 		<script src="js/ted2.js"></script>
 		<script src="js/pageLoad.js"></script>
+		
     </head>
     <body>
     	<header>
@@ -23,7 +25,7 @@
         <div class="tabbable tabs-left"> <!-- Only required for left/right tabs -->
           <ul class="nav nav-tabs">
             <li class="active"><a href="#words_tab" data-toggle="tab">Words</a></li>
-            <li><a href="#geo_tab" data-toggle="tab">Geography</a></li>
+            <li><a href="#geo_tab" data-toggle="tab" id="geo_link">Geography</a></li>
             <li><a href="#time_tab" data-toggle="tab">Time</a></li>
             <li><a href="#social_tab" data-toggle="tab">Social</a></li>
             <li><a href="#video_tab" data-toggle="tab">Video</a></li>
@@ -53,6 +55,8 @@
                 <div class="conclude"></div>
                     <h3>Conclude</h3>
                 <hr>
+				<div id="mapDiv" style="height: 500px; width: 960px">
+				</div>
             </div>
             <!-- time -->
             <div class="tab-pane container" id="time_tab">
@@ -79,16 +83,19 @@
             <div class="tab-pane container" id="social_tab">
                 <div class="ask"></div>
                     <h3>Ask</h3>
+					<p>Does tweet vulgarity correlate with any social factors?</p>
                 <div class="explore"></div>
                     <h3>Explore</h3>
                 <div class="conclude"></div>
                     <h3>Conclude</h3>
                 <hr>
+				<div class="span10 viz_body">
+                </div>
             </div>
             <div class="video tab-pane container" id="video_tab">
                 <iframe width="420" height="315" src="http://www.youtube.com/embed/PwpZqQNQv_c" frameborder="0" allowfullscreen></iframe>
             </div>
           </div>
         </div>
-    </body>
+	</body>
 </html>
