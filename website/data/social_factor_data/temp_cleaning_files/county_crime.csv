@@ -1,0 +1,2578 @@
+county_type,state,county,Violent_crime,Murder_and_nonnegligent_manslaughter,Forcible_rape,Robbery,Aggravated_assault,Property_crime,Burglary,Larceny_theft,Motor_vehicle_theft,Arson
+Metropolitan,ALABAMA,Autauga,77,1,7,13,56,469,161,271,37,6
+Metropolitan,ALABAMA,Blount,71,3,9,3,56,964,333,551,80,3
+Metropolitan,ALABAMA,Calhoun,21,0,11,1,9,675,237,437,1,0
+Metropolitan,ALABAMA,Chilton,88,1,16,3,68,772,302,414,56,0
+Metropolitan,ALABAMA,Colbert,31,0,1,1,29,125,33,89,3,0
+Metropolitan,ALABAMA,Elmore,56,2,10,9,35,768,269,454,45,0
+Metropolitan,ALABAMA,Etowah,156,0,12,3,141,669,277,327,65,6
+Metropolitan,ALABAMA,Geneva,30,0,3,1,26,249,82,144,23,1
+Metropolitan,ALABAMA,Greene,50,1,2,2,45,144,62,68,14,1
+Metropolitan,ALABAMA,Henry,33,2,1,1,29,126,44,73,9,1
+Metropolitan,ALABAMA,Houston,83,1,9,7,66,606,193,355,58,1
+Metropolitan,ALABAMA,Jefferson,569,9,55,153,352,"4,125","2,348","1,678",99,20
+Metropolitan,ALABAMA,Lauderdale,10,0,1,0,9,143,50,85,8,5
+Metropolitan,ALABAMA,Lawrence,61,0,4,5,52,490,161,293,36,9
+Metropolitan,ALABAMA,Lee,0,0,0,0,0,124,19,105,0,7
+Metropolitan,ALABAMA,Limestone,26,0,1,2,23,200,56,123,21,0
+Metropolitan,ALABAMA,Lowndes,37,0,1,6,30,277,143,115,19,79
+Metropolitan,ALABAMA,Mobile,241,6,19,43,173,"2,517",844,"1,437",236,4
+Metropolitan,ALABAMA,Montgomery,80,3,1,10,66,613,248,307,58,4
+Metropolitan,ALABAMA,Morgan,38,0,9,3,26,524,269,236,19,0
+Metropolitan,ALABAMA,Russell,29,0,3,2,24,531,185,319,27,0
+Metropolitan,ALABAMA,Shelby,118,1,24,13,80,"1,309",409,810,90,3
+Metropolitan,ALABAMA,St. Clair,42,1,16,1,24,669,245,409,15,0
+Metropolitan,ALABAMA,Tuscaloosa,228,2,8,21,197,"1,525",427,970,128,5
+Nonmetropolitan,ALABAMA,Baldwin,91,0,10,13,68,982,374,556,52,7
+Nonmetropolitan,ALABAMA,Barbour,3,0,0,0,3,54,24,26,4,3
+Nonmetropolitan,ALABAMA,Bullock,12,0,2,2,8,70,66,3,1,8
+Nonmetropolitan,ALABAMA,Butler,43,1,5,2,35,277,90,177,10,4
+Nonmetropolitan,ALABAMA,Chambers,0,0,0,0,0,0,0,0,0,0
+Nonmetropolitan,ALABAMA,Cherokee,48,1,2,1,44,535,216,296,23,8
+Nonmetropolitan,ALABAMA,Choctaw,7,1,0,0,6,29,14,11,4,0
+Nonmetropolitan,ALABAMA,Clay,12,0,0,0,12,52,13,34,5,0
+Nonmetropolitan,ALABAMA,Coffee,29,0,1,3,25,239,101,121,17,5
+Nonmetropolitan,ALABAMA,Conecuh,43,0,3,5,35,190,60,117,13,1
+Nonmetropolitan,ALABAMA,Coosa,33,0,1,2,30,245,110,128,7,4
+Nonmetropolitan,ALABAMA,Crenshaw,57,2,0,2,53,198,92,94,12,1
+Nonmetropolitan,ALABAMA,Cullman,113,1,16,3,93,"1,235",383,800,52,0
+Nonmetropolitan,ALABAMA,Dale,65,0,9,3,53,205,51,146,8,3
+Nonmetropolitan,ALABAMA,Dallas,73,0,6,11,56,614,207,381,26,3
+Nonmetropolitan,ALABAMA,De Kalb,179,4,21,2,152,908,320,515,73,0
+Nonmetropolitan,ALABAMA,Escambia,42,0,3,4,35,396,126,228,42,0
+Nonmetropolitan,ALABAMA,Fayette,6,0,0,0,6,90,34,50,6,2
+Nonmetropolitan,ALABAMA,Franklin,34,2,4,1,27,319,102,195,22,0
+Nonmetropolitan,ALABAMA,Jackson,78,1,4,1,72,621,232,329,60,4
+Nonmetropolitan,ALABAMA,Lamar,2,0,2,0,0,4,1,3,0,0
+Nonmetropolitan,ALABAMA,Macon,0,0,0,0,0,1,1,0,0,0
+Nonmetropolitan,ALABAMA,Marengo,23,0,4,1,18,180,68,103,9,3
+Nonmetropolitan,ALABAMA,Marion,28,0,1,1,26,247,91,133,23,1
+Nonmetropolitan,ALABAMA,Marshall,55,0,9,1,45,817,312,461,44,3
+Nonmetropolitan,ALABAMA,Monroe,33,0,1,1,31,100,53,44,3,1
+Nonmetropolitan,ALABAMA,Pickens,4,0,1,0,3,17,6,10,1,0
+Nonmetropolitan,ALABAMA,Pike,4,0,0,0,4,33,11,22,0,0
+Nonmetropolitan,ALABAMA,Randolph,44,0,4,2,38,319,124,176,19,1
+Nonmetropolitan,ALABAMA,Sumter,12,0,1,2,9,22,12,7,3,0
+Nonmetropolitan,ALABAMA,Talladega,56,1,4,4,47,957,335,545,77,5
+Nonmetropolitan,ALABAMA,Tallapoosa,17,1,2,1,13,233,109,112,12,0
+Nonmetropolitan,ALABAMA,Washington,26,1,0,0,25,177,44,114,19,2
+Nonmetropolitan,ALABAMA,Winston,13,0,0,0,13,185,76,100,9,0
+Metropolitan,ARIZONA,Coconino,141,5,10,7,119,531,181,335,15,28
+Metropolitan,ARIZONA,Maricopa,884,6,45,72,761,"4,955","1,371","3,143",441,102
+Metropolitan,ARIZONA,Mohave,145,6,11,15,113,"2,144",762,"1,245",137,11
+Metropolitan,ARIZONA,Pima,607,16,62,163,366,"11,711","2,857","8,007",847,96
+Metropolitan,ARIZONA,Pinal,227,5,47,22,153,"3,789",710,"2,654",425,17
+Metropolitan,ARIZONA,Yavapai,312,9,13,5,285,"1,320",465,764,91,12
+Nonmetropolitan,ARIZONA,Apache,45,1,0,1,43,176,95,74,7,20
+Nonmetropolitan,ARIZONA,Cochise,367,3,15,12,337,797,334,400,63,16
+Nonmetropolitan,ARIZONA,Gila,34,1,1,3,29,347,55,261,31,3
+Nonmetropolitan,ARIZONA,Graham,,0,0,1,,227,62,152,13,10
+Nonmetropolitan,ARIZONA,La Paz,41,0,2,0,39,390,113,253,24,0
+Nonmetropolitan,ARIZONA,Navajo,59,2,1,2,54,610,383,181,46,7
+Nonmetropolitan,ARIZONA,Santa Cruz,7,1,2,2,2,276,103,131,42,9
+Metropolitan,ARKANSAS,Benton,158,1,21,1,135,459,227,216,16,2
+Metropolitan,ARKANSAS,Cleveland,5,0,0,0,5,113,68,37,8,0
+Metropolitan,ARKANSAS,Craighead,12,1,0,3,8,296,120,163,13,2
+Metropolitan,ARKANSAS,Crawford,139,1,18,1,119,334,67,237,30,1
+Metropolitan,ARKANSAS,Crittenden,181,1,7,15,158,454,130,286,38,7
+Metropolitan,ARKANSAS,Faulkner,46,0,8,0,38,921,291,554,76,6
+Metropolitan,ARKANSAS,Franklin,39,0,4,0,35,191,69,109,13,4
+Metropolitan,ARKANSAS,Jefferson,69,2,5,7,55,531,238,200,93,5
+Metropolitan,ARKANSAS,Lincoln,3,1,0,1,1,99,52,43,4,3
+Metropolitan,ARKANSAS,Lonoke,116,3,9,3,101,787,308,403,76,7
+Metropolitan,ARKANSAS,Madison,21,0,5,0,16,122,49,56,17,0
+Metropolitan,ARKANSAS,Miller,14,0,4,1,9,279,84,158,37,3
+Metropolitan,ARKANSAS,Poinsett,21,0,5,0,16,35,14,16,5,3
+Metropolitan,ARKANSAS,Pulaski,409,6,25,31,347,"2,244",896,"1,144",204,13
+Metropolitan,ARKANSAS,Sebastian,83,0,11,3,69,356,183,151,22,3
+Metropolitan,ARKANSAS,Washington,148,2,12,4,130,547,199,305,43,7
+Nonmetropolitan,ARKANSAS,Arkansas,5,0,0,0,5,98,32,57,9,0
+Nonmetropolitan,ARKANSAS,Ashley,22,1,1,3,17,218,88,116,14,2
+Nonmetropolitan,ARKANSAS,Baxter,30,2,3,0,25,653,114,502,37,0
+Nonmetropolitan,ARKANSAS,Boone,21,1,8,0,12,366,114,205,47,5
+Nonmetropolitan,ARKANSAS,Carroll,29,0,0,0,29,208,53,145,10,4
+Nonmetropolitan,ARKANSAS,Chicot,0,0,0,0,0,39,14,25,0,0
+Nonmetropolitan,ARKANSAS,Clark,12,0,1,1,10,142,44,88,10,1
+Nonmetropolitan,ARKANSAS,Clay,8,0,2,0,6,76,26,48,2,0
+Nonmetropolitan,ARKANSAS,Cleburne,41,1,6,0,34,495,253,195,47,5
+Nonmetropolitan,ARKANSAS,Columbia,41,0,0,2,39,212,55,139,18,0
+Nonmetropolitan,ARKANSAS,Conway,25,1,1,3,20,322,74,229,19,5
+Nonmetropolitan,ARKANSAS,Cross,27,0,4,0,23,28,19,6,3,2
+Nonmetropolitan,ARKANSAS,Dallas,1,0,0,0,1,26,7,19,0,1
+Nonmetropolitan,ARKANSAS,Drew,30,0,6,1,23,122,38,69,15,2
+Nonmetropolitan,ARKANSAS,Fulton,16,0,0,0,16,153,67,79,7,6
+Nonmetropolitan,ARKANSAS,Greene,21,0,2,0,19,266,96,154,16,0
+Nonmetropolitan,ARKANSAS,Hempstead,42,0,4,0,38,195,47,126,22,6
+Nonmetropolitan,ARKANSAS,Howard,14,0,4,0,10,85,36,46,3,0
+Nonmetropolitan,ARKANSAS,Independence,136,0,10,12,114,"1,546",691,758,97,14
+Nonmetropolitan,ARKANSAS,Izard,2,0,1,0,1,186,69,117,0,1
+Nonmetropolitan,ARKANSAS,Jackson,23,0,0,2,21,164,49,102,13,2
+Nonmetropolitan,ARKANSAS,Johnson,21,0,1,0,20,225,189,36,0,8
+Nonmetropolitan,ARKANSAS,Lafayette,4,0,0,0,4,71,17,54,0,0
+Nonmetropolitan,ARKANSAS,Lawrence,8,0,1,0,7,129,38,91,0,3
+Nonmetropolitan,ARKANSAS,Lee,7,2,0,0,5,66,18,44,4,0
+Nonmetropolitan,ARKANSAS,Little River,6,0,0,0,6,72,22,47,3,4
+Nonmetropolitan,ARKANSAS,Logan,20,0,9,2,9,311,120,164,27,1
+Nonmetropolitan,ARKANSAS,Marion,35,0,2,1,32,219,85,132,2,6
+Nonmetropolitan,ARKANSAS,Mississippi,35,0,6,2,27,343,81,226,36,2
+Nonmetropolitan,ARKANSAS,Monroe,1,0,0,0,1,51,7,44,0,0
+Nonmetropolitan,ARKANSAS,Montgomery,4,0,0,0,4,19,7,12,0,0
+Nonmetropolitan,ARKANSAS,Nevada,6,0,0,0,6,45,19,24,2,1
+Nonmetropolitan,ARKANSAS,Newton,10,0,2,0,8,79,25,51,3,1
+Nonmetropolitan,ARKANSAS,Ouachita,2,0,0,0,2,22,13,9,0,1
+Nonmetropolitan,ARKANSAS,Pike,7,1,3,0,3,30,13,13,4,1
+Nonmetropolitan,ARKANSAS,Polk,39,0,3,0,36,204,87,103,14,14
+Nonmetropolitan,ARKANSAS,Pope,60,0,10,2,48,460,165,256,39,2
+Nonmetropolitan,ARKANSAS,Prairie,0,0,0,0,0,50,10,38,2,0
+Nonmetropolitan,ARKANSAS,Scott,8,0,4,0,4,66,20,43,3,2
+Nonmetropolitan,ARKANSAS,Searcy,10,0,0,0,10,28,16,10,2,0
+Nonmetropolitan,ARKANSAS,Sevier,19,1,0,2,16,168,45,101,22,2
+Nonmetropolitan,ARKANSAS,St. Francis,23,1,3,5,14,379,105,274,0,2
+Nonmetropolitan,ARKANSAS,Stone,18,0,4,0,14,119,56,61,2,3
+Nonmetropolitan,ARKANSAS,Union,34,0,0,11,23,436,127,268,41,0
+Nonmetropolitan,ARKANSAS,Van Buren,46,0,2,0,44,219,51,140,28,5
+Nonmetropolitan,ARKANSAS,White,56,3,10,4,39,907,373,438,96,3
+Nonmetropolitan,ARKANSAS,Yell,18,0,4,2,12,164,70,82,12,2
+Metropolitan,CALIFORNIA,Alameda,725,3,26,218,478,"2,192",650,991,551,19
+Metropolitan,CALIFORNIA,Butte,106,2,13,23,68,"1,310",560,744,6,3
+Metropolitan,CALIFORNIA,Contra Costa,456,13,30,109,304,"2,475","1,033","1,423",19,18
+Metropolitan,CALIFORNIA,El Dorado,192,2,21,21,148,"2,273","1,020","1,241",12,10
+Metropolitan,CALIFORNIA,Fresno,740,6,23,125,586,"4,781","1,618","2,331",832,
+Metropolitan,CALIFORNIA,Imperial,110,0,4,6,100,676,255,399,22,7
+Metropolitan,CALIFORNIA,Kern,"1,822",22,108,358,"1,334","10,198","3,301","5,378","1,519",282
+Metropolitan,CALIFORNIA,Kings,137,2,13,15,107,683,242,386,55,7
+Metropolitan,CALIFORNIA,Los Angeles,"5,595",88,165,"1,484","3,858","16,010","4,624","7,730","3,656",222
+Metropolitan,CALIFORNIA,Madera,311,4,10,20,277,"1,634",836,778,20,11
+Metropolitan,CALIFORNIA,Marin,122,0,8,22,92,739,263,473,3,5
+Metropolitan,CALIFORNIA,Merced,459,2,22,41,394,"2,319",767,"1,538",14,6
+Metropolitan,CALIFORNIA,Monterey,197,8,19,44,126,"1,290",504,781,5,18
+Metropolitan,CALIFORNIA,Napa,52,2,2,1,47,371,125,243,3,4
+Metropolitan,CALIFORNIA,Orange,251,1,11,42,197,"1,301",277,935,89,3
+Metropolitan,CALIFORNIA,Placer,301,4,25,28,244,"1,946",622,"1,293",31,3
+Metropolitan,CALIFORNIA,Riverside,903,13,47,188,655,"8,872","2,673","4,884","1,315",18
+Metropolitan,CALIFORNIA,Sacramento,"2,719",33,144,959,"1,583","11,797","4,150","7,539",108,77
+Metropolitan,CALIFORNIA,San Benito,38,1,6,0,31,268,93,161,14,1
+Metropolitan,CALIFORNIA,San Bernardino,"1,081",18,57,178,828,"6,207","2,202","2,879","1,126",94
+Metropolitan,CALIFORNIA,San Diego,"1,397",18,84,218,"1,077","5,851","1,725","3,202",924,27
+Metropolitan,CALIFORNIA,San Joaquin,820,23,20,164,613,"4,767","1,802","2,831",134,22
+Metropolitan,CALIFORNIA,San Luis Obispo,208,1,26,13,168,"1,356",481,872,3,3
+Metropolitan,CALIFORNIA,San Mateo,219,0,18,32,169,"1,976",312,"1,464",200,9
+Metropolitan,CALIFORNIA,Santa Barbara,255,1,34,30,190,"1,539",487,"1,045",7,12
+Metropolitan,CALIFORNIA,Santa Clara,186,4,30,39,113,"1,487",316,"1,025",146,2
+Metropolitan,CALIFORNIA,Santa Cruz,362,3,34,36,289,"2,301",913,"1,382",6,10
+Metropolitan,CALIFORNIA,Shasta,524,2,32,22,468,970,512,430,28,1
+Metropolitan,CALIFORNIA,Solano,95,3,4,18,70,423,195,207,21,8
+Metropolitan,CALIFORNIA,Sonoma,511,5,36,48,422,"1,306",490,802,14,13
+Metropolitan,CALIFORNIA,Stanislaus,323,16,15,77,215,"2,404","1,135","1,222",47,61
+Metropolitan,CALIFORNIA,Sutter,132,3,8,4,117,847,210,589,48,6
+Metropolitan,CALIFORNIA,Tulare,517,20,31,68,398,,"1,200","2,191",,31
+Metropolitan,CALIFORNIA,Ventura,155,2,10,23,120,"1,124",273,795,56,17
+Metropolitan,CALIFORNIA,Yolo,82,0,9,4,69,408,125,273,10,7
+Metropolitan,CALIFORNIA,Yuba,230,3,18,29,180,"1,323",457,858,8,5
+Nonmetropolitan,CALIFORNIA,Alpine,7,0,0,0,7,105,20,84,1,0
+Nonmetropolitan,CALIFORNIA,Amador,54,1,5,4,44,598,187,401,10,4
+Nonmetropolitan,CALIFORNIA,Calaveras,102,1,14,8,79,974,314,655,5,0
+Nonmetropolitan,CALIFORNIA,Colusa,28,1,2,1,24,281,91,186,4,2
+Nonmetropolitan,CALIFORNIA,Del Norte,99,2,18,7,72,427,242,180,5,6
+Nonmetropolitan,CALIFORNIA,Glenn,11,2,0,2,7,169,61,105,3,2
+Nonmetropolitan,CALIFORNIA,Humboldt,203,2,21,46,134,"1,109",436,646,27,14
+Nonmetropolitan,CALIFORNIA,Inyo,52,1,7,3,41,141,54,85,2,5
+Nonmetropolitan,CALIFORNIA,Lake,169,1,18,20,130,704,315,383,6,10
+Nonmetropolitan,CALIFORNIA,Lassen,39,1,5,2,31,143,56,86,1,3
+Nonmetropolitan,CALIFORNIA,Mariposa,55,0,5,1,49,342,128,214,0,1
+Nonmetropolitan,CALIFORNIA,Mendocino,295,7,13,23,252,544,247,297,0,10
+Nonmetropolitan,CALIFORNIA,Modoc,24,0,7,1,16,93,36,53,4,3
+Nonmetropolitan,CALIFORNIA,Mono,11,0,1,0,10,67,21,46,0,0
+Nonmetropolitan,CALIFORNIA,Nevada,166,2,10,6,148,533,226,301,6,1
+Nonmetropolitan,CALIFORNIA,Plumas,104,1,14,3,86,356,124,231,1,7
+Nonmetropolitan,CALIFORNIA,Sierra,5,0,0,0,5,55,17,38,0,2
+Nonmetropolitan,CALIFORNIA,Siskiyou,71,2,10,4,55,228,102,124,2,1
+Nonmetropolitan,CALIFORNIA,Tehama,184,1,5,8,170,316,134,182,0,6
+Nonmetropolitan,CALIFORNIA,Trinity,34,3,5,1,25,100,63,37,0,0
+Nonmetropolitan,CALIFORNIA,Tuolumne,75,1,13,13,48,731,354,371,6,18
+Metropolitan,COLORADO,Adams,385,2,57,59,267,"2,413",622,"1,431",360,20
+Metropolitan,COLORADO,Arapahoe,236,0,29,45,162,"1,313",350,856,107,19
+Metropolitan,COLORADO,Boulder,65,1,11,1,52,554,164,360,30,16
+Metropolitan,COLORADO,Clear Creek,17,0,4,0,13,68,30,33,5,1
+Metropolitan,COLORADO,Douglas,312,2,197,15,98,"1,812",406,"1,317",89,21
+Metropolitan,COLORADO,El Paso,486,2,62,15,407,"2,097",604,"1,314",179,27
+Metropolitan,COLORADO,Gilpin,2,0,1,0,1,25,5,19,1,0
+Metropolitan,COLORADO,Jefferson,127,0,20,18,89,"2,323",437,"1,779",107,15
+Metropolitan,COLORADO,Larimer,107,0,18,3,86,973,252,669,52,21
+Metropolitan,COLORADO,Mesa,181,1,15,12,153,"1,201",292,842,67,6
+Metropolitan,COLORADO,Park,7,0,0,0,7,110,37,61,12,1
+Metropolitan,COLORADO,Pueblo,28,1,0,6,21,"1,545",331,"1,157",57,0
+Metropolitan,COLORADO,Teller,23,1,1,0,21,78,34,43,1,1
+Metropolitan,COLORADO,Weld,185,5,17,8,155,772,252,435,85,9
+Nonmetropolitan,COLORADO,Alamosa,1,0,0,0,1,37,10,27,0,0
+Nonmetropolitan,COLORADO,Archuleta,15,3,2,0,10,10,4,5,1,0
+Nonmetropolitan,COLORADO,Bent,2,0,0,1,1,26,7,19,0,1
+Nonmetropolitan,COLORADO,Chaffee,8,0,2,0,6,89,16,68,5,1
+Nonmetropolitan,COLORADO,Cheyenne,0,0,0,0,0,3,0,3,0,0
+Nonmetropolitan,COLORADO,Crowley,4,0,0,0,4,0,0,0,0,0
+Nonmetropolitan,COLORADO,Custer,7,0,0,0,7,33,8,23,2,0
+Nonmetropolitan,COLORADO,Delta,19,0,7,0,12,120,25,86,9,2
+Nonmetropolitan,COLORADO,Dolores,3,0,1,0,2,22,13,7,2,0
+Nonmetropolitan,COLORADO,Eagle,25,0,4,0,21,386,90,296,0,4
+Nonmetropolitan,COLORADO,Fremont,36,0,0,1,35,237,96,131,10,2
+Nonmetropolitan,COLORADO,Grand,10,0,0,0,10,89,10,79,0,0
+Nonmetropolitan,COLORADO,Gunnison,8,0,0,0,8,32,7,23,2,0
+Nonmetropolitan,COLORADO,Hinsdale,1,0,0,0,1,12,4,8,0,0
+Nonmetropolitan,COLORADO,Huerfano,3,0,0,0,3,8,4,4,0,0
+Nonmetropolitan,COLORADO,Kit Carson,2,0,0,0,2,16,2,11,3,0
+Nonmetropolitan,COLORADO,Las Animas,0,0,0,0,0,0,0,0,0,0
+Nonmetropolitan,COLORADO,Lincoln,4,2,0,0,2,0,0,0,0,0
+Nonmetropolitan,COLORADO,Logan,10,0,2,1,7,110,45,57,8,0
+Nonmetropolitan,COLORADO,Moffat,4,0,1,0,3,20,8,7,5,1
+Nonmetropolitan,COLORADO,Montezuma,31,0,2,0,29,163,60,93,10,1
+Nonmetropolitan,COLORADO,Montrose,36,2,5,0,29,155,36,102,17,0
+Nonmetropolitan,COLORADO,Morgan,2,0,0,1,1,40,8,30,2,0
+Nonmetropolitan,COLORADO,Otero,5,0,0,1,4,62,26,36,0,2
+Nonmetropolitan,COLORADO,Ouray,3,0,0,0,3,12,3,8,1,0
+Nonmetropolitan,COLORADO,Phillips,0,0,0,0,0,3,1,2,0,0
+Nonmetropolitan,COLORADO,Pitkin,14,0,0,0,14,50,5,44,1,0
+Nonmetropolitan,COLORADO,Prowers,8,0,1,0,7,20,8,12,0,0
+Nonmetropolitan,COLORADO,Rio Grande,4,0,1,1,2,53,11,38,4,2
+Nonmetropolitan,COLORADO,Routt,12,0,0,0,12,77,21,54,2,1
+Nonmetropolitan,COLORADO,San Juan,2,0,0,0,2,25,1,19,5,1
+Nonmetropolitan,COLORADO,San Miguel,0,0,0,0,0,20,7,12,1,1
+Nonmetropolitan,COLORADO,Sedgwick,7,0,0,0,7,19,5,13,1,0
+Nonmetropolitan,COLORADO,Washington,14,0,3,0,11,82,21,57,4,0
+Metropolitan,DELAWARE,New Castle County Police Department,"1,122",5,55,341,721,"6,117","1,983","3,711",423,5
+Metropolitan,FLORIDA,Alachua,581,4,35,84,458,"2,495",794,"1,592",109,12
+Metropolitan,FLORIDA,Baker,46,0,4,6,36,312,43,258,11,1
+Metropolitan,FLORIDA,Bay,344,4,38,53,249,"2,728",716,"1,848",164,5
+Metropolitan,FLORIDA,Brevard,991,6,66,132,787,"5,845","1,458","4,170",217,19
+Metropolitan,FLORIDA,Broward,291,2,15,73,201,"1,043",260,731,52,8
+Metropolitan,FLORIDA,Charlotte,381,2,31,50,298,"3,710","1,089","2,521",100,14
+Metropolitan,FLORIDA,Clay,665,5,32,94,534,"4,269",883,"3,245",141,28
+Metropolitan,FLORIDA,Collier,956,9,42,208,697,"5,250","1,373","3,683",194,14
+Metropolitan,FLORIDA,Escambia,"1,782",14,140,463,"1,165","10,728","2,600","7,543",585,29
+Metropolitan,FLORIDA,Flagler,227,1,13,26,187,"1,751",408,"1,287",56,6
+Metropolitan,FLORIDA,Gadsden,88,1,6,12,69,340,150,184,6,0
+Metropolitan,FLORIDA,Gilchrist,31,1,1,1,28,221,84,131,6,0
+Metropolitan,FLORIDA,Hernando,495,8,33,69,385,"4,724","1,321","3,241",162,17
+Metropolitan,FLORIDA,Hillsborough,"2,130",28,133,530,"1,439","19,487","5,104","13,190","1,193",41
+Metropolitan,FLORIDA,Indian River,351,3,25,62,261,"2,728",778,"1,869",81,5
+Metropolitan,FLORIDA,Jefferson,79,0,5,1,73,171,91,65,15,3
+Metropolitan,FLORIDA,Lake,562,6,27,48,481,"3,488","1,159","2,090",239,10
+Metropolitan,FLORIDA,Lee,"1,198",15,59,373,751,"10,134","3,593","6,064",477,48
+Metropolitan,FLORIDA,Leon,323,4,18,48,253,"1,629",699,837,93,16
+Metropolitan,FLORIDA,Manatee,"1,518",12,88,348,"1,070","9,911","2,532","7,029",350,2
+Metropolitan,FLORIDA,Marion,"1,292",9,135,79,"1,069","4,952","1,733","3,000",219,7
+Metropolitan,FLORIDA,Martin,300,1,16,84,199,"2,922",690,"2,140",92,8
+Metropolitan,FLORIDA,Miami-Dade,"6,913",90,311,"1,848","4,664","44,395","9,324","30,843","4,228",12
+Metropolitan,FLORIDA,Nassau,85,0,0,8,77,"1,153",325,764,64,2
+Metropolitan,FLORIDA,Okaloosa,557,1,38,69,449,"3,346",637,"2,569",140,2
+Metropolitan,FLORIDA,Orange,"5,325",56,284,"1,345","3,640","27,348","8,705","16,344","2,299",2
+Metropolitan,FLORIDA,Osceola,866,2,36,91,737,"5,408","1,691","3,469",248,1
+Metropolitan,FLORIDA,Palm Beach,"2,122",14,120,590,"1,398","15,418","4,269","10,031","1,118",84
+Metropolitan,FLORIDA,Pasco,"1,190",11,79,261,839,"12,380","3,436","8,373",571,80
+Metropolitan,FLORIDA,Pinellas,"1,018",8,121,164,725,"7,019","1,817","4,887",315,27
+Metropolitan,FLORIDA,Polk,"1,288",12,70,185,"1,021","9,473","3,274","5,779",420,7
+Metropolitan,FLORIDA,Santa Rosa,199,1,24,13,161,"1,913",602,"1,219",92,4
+Metropolitan,FLORIDA,Sarasota,769,8,39,165,557,"7,912","2,224","5,420",268,10
+Metropolitan,FLORIDA,Seminole,621,6,43,79,493,"3,369",907,"2,276",186,0
+Metropolitan,FLORIDA,St. Johns,517,4,10,56,447,"3,789",841,"2,768",180,3
+Metropolitan,FLORIDA,St. Lucie,268,2,20,50,196,"1,920",637,"1,191",92,3
+Metropolitan,FLORIDA,Volusia,714,10,51,104,549,"5,528","1,878","3,362",288,22
+Metropolitan,FLORIDA,Wakulla,90,2,12,7,69,748,167,567,14,7
+Nonmetropolitan,FLORIDA,Bradford,77,0,1,1,75,329,138,172,19,1
+Nonmetropolitan,FLORIDA,Calhoun,9,1,0,0,8,76,33,38,5,0
+Nonmetropolitan,FLORIDA,Citrus,398,5,17,60,316,"2,868",806,"1,934",128,30
+Nonmetropolitan,FLORIDA,Columbia,233,3,5,11,214,"1,406",532,840,34,0
+Nonmetropolitan,FLORIDA,DeSoto,107,1,5,18,83,623,284,318,21,1
+Nonmetropolitan,FLORIDA,Dixie,62,0,14,4,44,415,163,227,25,5
+Nonmetropolitan,FLORIDA,Franklin,92,0,9,1,82,185,55,122,8,2
+Nonmetropolitan,FLORIDA,Glades,41,1,1,6,33,270,77,172,21,0
+Nonmetropolitan,FLORIDA,Gulf,48,1,0,0,47,169,62,103,4,1
+Nonmetropolitan,FLORIDA,Hamilton,34,0,1,1,32,223,94,108,21,0
+Nonmetropolitan,FLORIDA,Hardee,44,1,10,8,25,532,197,312,23,0
+Nonmetropolitan,FLORIDA,Hendry,223,7,9,24,183,"1,080",471,562,47,9
+Nonmetropolitan,FLORIDA,Highlands,191,2,10,24,155,"1,828",630,"1,128",70,0
+Nonmetropolitan,FLORIDA,Holmes,58,1,4,1,52,240,55,168,17,0
+Nonmetropolitan,FLORIDA,Jackson,124,0,17,4,103,715,170,525,20,0
+Nonmetropolitan,FLORIDA,Lafayette,12,0,0,0,12,64,15,47,2,0
+Nonmetropolitan,FLORIDA,Levy,126,1,11,10,104,918,326,545,47,6
+Nonmetropolitan,FLORIDA,Liberty,7,0,0,0,7,38,17,21,0,0
+Nonmetropolitan,FLORIDA,Madison,92,0,2,8,82,250,91,149,10,1
+Nonmetropolitan,FLORIDA,Monroe,164,1,12,14,137,"1,847",327,"1,468",52,0
+Nonmetropolitan,FLORIDA,Okeechobee,183,0,27,17,139,"1,042",433,578,31,1
+Nonmetropolitan,FLORIDA,Putnam,433,1,33,57,342,"2,453","1,120","1,258",75,8
+Nonmetropolitan,FLORIDA,Sumter,120,1,14,12,93,656,208,419,29,4
+Nonmetropolitan,FLORIDA,Suwannee,110,1,4,2,103,528,174,325,29,0
+Nonmetropolitan,FLORIDA,Taylor,62,3,1,2,56,170,125,39,6,0
+Nonmetropolitan,FLORIDA,Union,35,0,2,5,28,170,80,85,5,0
+Nonmetropolitan,FLORIDA,Walton,153,3,6,1,143,"1,198",376,759,63,3
+Nonmetropolitan,FLORIDA,Washington,52,2,0,3,47,239,77,149,13,0
+Metropolitan,GEORGIA,Augusta-Richmond,990,26,104,550,310,"13,336","3,817","8,108","1,411",74
+Metropolitan,GEORGIA,Barrow,173,0,8,7,158,943,267,614,62,
+Metropolitan,GEORGIA,Bartow,241,2,7,37,195,"2,841",805,"1,845",191,0
+Metropolitan,GEORGIA,Bibb,218,3,11,35,169,"2,762",672,"1,855",235,9
+Metropolitan,GEORGIA,Brantley,45,0,7,2,36,293,201,92,0,3
+Metropolitan,GEORGIA,Brooks,28,0,0,1,27,227,68,132,27,
+Metropolitan,GEORGIA,Bryan,32,0,1,2,29,424,120,298,6,1
+Metropolitan,GEORGIA,Burke,148,2,0,0,146,494,147,344,3,0
+Metropolitan,GEORGIA,Butts,42,3,6,18,15,511,147,313,51,1
+Metropolitan,GEORGIA,Carroll,107,2,8,10,87,"1,583",503,938,142,10
+Metropolitan,GEORGIA,Catoosa,76,0,9,8,59,"1,040",265,666,109,1
+Metropolitan,GEORGIA,Chatham,0,0,0,0,0,0,0,0,0,0
+Metropolitan,GEORGIA,Chattahoochee,18,2,2,3,11,55,24,27,4,2
+Metropolitan,GEORGIA,Cherokee,107,0,13,19,75,"2,114",665,"1,348",101,4
+Metropolitan,GEORGIA,Clarke,2,0,0,0,2,0,0,0,0,0
+Metropolitan,GEORGIA,Clayton,4,0,0,1,3,8,0,7,1,0
+Metropolitan,GEORGIA,Clayton County Police Department,"1,060",28,74,491,467,"10,164","3,770","4,989","1,405",32
+Metropolitan,GEORGIA,Cobb,0,0,0,0,0,0,0,0,0,0
+Metropolitan,GEORGIA,Cobb County Police Department,934,18,92,388,436,"11,112","3,376","6,836",900,32
+Metropolitan,GEORGIA,Columbia,94,4,19,20,51,"2,438",452,"1,900",86,10
+Metropolitan,GEORGIA,Coweta,102,2,15,18,67,"1,651",453,"1,086",112,5
+Metropolitan,GEORGIA,Crawford,28,0,3,1,24,523,158,335,30,1
+Metropolitan,GEORGIA,Dade,62,1,3,0,58,272,90,153,29,1
+Metropolitan,GEORGIA,Dawson,15,0,0,0,15,551,112,411,28,0
+Metropolitan,GEORGIA,DeKalb County Police Department,"3,159",65,139,"1,735","1,220","30,194","10,338","15,599","4,257",139
+Metropolitan,GEORGIA,Dougherty,6,0,0,2,4,193,9,179,5,0
+Metropolitan,GEORGIA,Dougherty County Police Department,32,0,7,7,18,431,157,250,24,2
+Metropolitan,GEORGIA,Douglas,176,2,13,68,93,"2,191",608,"1,394",189,4
+Metropolitan,GEORGIA,Echols,2,0,0,0,2,37,11,23,3,0
+Metropolitan,GEORGIA,Effingham,56,0,14,8,34,348,265,58,25,3
+Metropolitan,GEORGIA,Fayette,33,1,3,7,22,626,201,383,42,6
+Metropolitan,GEORGIA,Floyd,51,0,1,2,48,14,7,7,0,0
+Metropolitan,GEORGIA,Floyd County Police Department,206,1,8,12,185,"1,448",383,972,93,15
+Metropolitan,GEORGIA,Forsyth,363,1,22,14,326,"1,837",438,"1,333",66,2
+Metropolitan,GEORGIA,Fulton,1,0,0,0,1,9,1,8,0,0
+Metropolitan,GEORGIA,Fulton County Police Department,748,13,25,362,348,"5,842","1,712","3,242",888,10
+Metropolitan,GEORGIA,Glynn,0,0,0,0,0,0,0,0,0,0
+Metropolitan,GEORGIA,Glynn County Police Department,243,3,17,73,150,"3,108",697,"2,318",93,2
+Metropolitan,GEORGIA,Gwinnett County Police Department,"1,495",24,145,630,696,"15,736","5,095","9,451","1,190",75
+Metropolitan,GEORGIA,Hall,154,2,20,33,99,"2,553",722,"1,624",207,15
+Metropolitan,GEORGIA,Haralson,134,2,2,6,124,532,271,201,60,5
+Metropolitan,GEORGIA,Harris,15,0,2,0,13,271,86,173,12,
+Metropolitan,GEORGIA,Heard,18,0,0,1,17,152,45,79,28,0
+Metropolitan,GEORGIA,Henry,9,0,0,0,9,125,0,124,1,
+Metropolitan,GEORGIA,Henry County Police Department,272,5,30,106,131,"4,490","1,360","2,777",353,19
+Metropolitan,GEORGIA,Houston,71,0,6,13,52,"1,195",290,853,52,
+Metropolitan,GEORGIA,Jasper,15,0,2,1,12,345,132,203,10,0
+Metropolitan,GEORGIA,Jones,14,1,1,1,11,541,149,344,48,4
+Metropolitan,GEORGIA,Lamar,40,0,0,1,39,269,72,182,15,0
+Metropolitan,GEORGIA,Lanier,9,0,0,0,9,145,51,89,5,0
+Metropolitan,GEORGIA,Lee,79,0,0,1,78,613,161,422,30,1
+Metropolitan,GEORGIA,Liberty,61,1,1,4,55,429,166,232,31,
+Metropolitan,GEORGIA,Lowndes,74,2,6,10,56,746,180,523,43,
+Metropolitan,GEORGIA,Madison,194,0,4,5,185,743,204,488,51,
+Metropolitan,GEORGIA,McDuffie,31,1,1,7,22,303,103,171,29,0
+Metropolitan,GEORGIA,McIntosh,22,2,1,2,17,400,118,256,26,6
+Metropolitan,GEORGIA,Meriwether,24,1,2,0,21,438,159,248,31,0
+Metropolitan,GEORGIA,Monroe,24,0,1,9,14,482,156,295,31,1
+Metropolitan,GEORGIA,Murray,51,1,5,1,44,856,176,611,69,
+Metropolitan,GEORGIA,Muscogee,0,0,0,0,0,0,0,0,0,0
+Metropolitan,GEORGIA,Newton,330,1,18,45,266,"2,201",813,"1,193",195,
+Metropolitan,GEORGIA,Oconee,44,0,1,2,41,485,105,339,41,1
+Metropolitan,GEORGIA,Oglethorpe,62,0,4,6,52,650,152,485,13,0
+Metropolitan,GEORGIA,Paulding,141,0,18,14,109,"2,571",664,"1,723",184,13
+Metropolitan,GEORGIA,Pickens,26,2,0,0,24,427,95,317,15,
+Metropolitan,GEORGIA,Pike,2,0,1,0,1,93,30,59,4,
+Metropolitan,GEORGIA,Rockdale,272,1,15,42,214,"2,413",677,"1,568",168,
+Metropolitan,GEORGIA,Spalding,127,4,15,18,90,"1,668",507,"1,032",129,0
+Metropolitan,GEORGIA,Terrell,16,2,1,0,13,105,38,60,7,
+Metropolitan,GEORGIA,Twiggs,8,1,0,0,7,175,75,89,11,0
+Metropolitan,GEORGIA,Walton,113,2,4,13,94,"1,215",287,813,115,0
+Metropolitan,GEORGIA,Whitfield,166,1,16,7,142,"1,823",492,"1,205",126,7
+Metropolitan,GEORGIA,Worth,4,0,0,3,1,181,46,120,15,1
+Nonmetropolitan,GEORGIA,Appling,23,1,2,0,20,455,74,359,22,0
+Nonmetropolitan,GEORGIA,Atkinson,4,0,0,0,4,64,32,29,3,
+Nonmetropolitan,GEORGIA,Baldwin,72,1,6,9,56,868,263,582,23,1
+Nonmetropolitan,GEORGIA,Banks,16,0,2,0,14,670,134,500,36,0
+Nonmetropolitan,GEORGIA,Ben Hill,14,1,4,2,7,216,74,131,11,0
+Nonmetropolitan,GEORGIA,Berrien,12,1,1,0,10,257,57,191,9,0
+Nonmetropolitan,GEORGIA,Bleckley,14,0,2,1,11,150,51,90,9,2
+Nonmetropolitan,GEORGIA,Bulloch,27,1,1,7,18,728,259,414,55,
+Nonmetropolitan,GEORGIA,Calhoun,2,0,0,0,2,31,9,21,1,0
+Nonmetropolitan,GEORGIA,Camden,50,2,2,0,46,471,112,339,20,
+Nonmetropolitan,GEORGIA,Charlton,9,0,1,3,5,157,63,89,5,1
+Nonmetropolitan,GEORGIA,Clay,10,2,0,0,8,6,6,0,0,
+Nonmetropolitan,GEORGIA,Clinch,6,0,0,1,5,69,26,35,8,1
+Nonmetropolitan,GEORGIA,Coffee,59,1,6,4,48,856,233,577,46,2
+Nonmetropolitan,GEORGIA,Cook,17,0,0,1,16,133,60,66,7,
+Nonmetropolitan,GEORGIA,Crisp,18,0,0,0,18,429,97,318,14,0
+Nonmetropolitan,GEORGIA,Decatur,33,2,1,5,25,238,74,158,6,1
+Nonmetropolitan,GEORGIA,Dodge,25,1,2,1,21,418,143,265,10,0
+Nonmetropolitan,GEORGIA,Dooly,19,0,0,3,16,106,17,84,5,
+Nonmetropolitan,GEORGIA,Early,22,0,0,0,22,138,47,85,6,0
+Nonmetropolitan,GEORGIA,Elbert,25,0,1,2,22,582,174,374,34,0
+Nonmetropolitan,GEORGIA,Emanuel,19,0,1,6,12,366,177,165,24,
+Nonmetropolitan,GEORGIA,Evans,13,0,1,1,11,86,46,35,5,
+Nonmetropolitan,GEORGIA,Fannin,95,0,1,2,92,440,150,275,15,0
+Nonmetropolitan,GEORGIA,Franklin,10,1,2,5,2,396,124,255,17,
+Nonmetropolitan,GEORGIA,Gilmer,25,1,3,0,21,427,169,236,22,0
+Nonmetropolitan,GEORGIA,Gordon,148,2,3,2,141,795,233,512,50,0
+Nonmetropolitan,GEORGIA,Grady,28,0,0,1,27,142,70,62,10,
+Nonmetropolitan,GEORGIA,Greene,9,0,0,2,7,247,62,175,10,0
+Nonmetropolitan,GEORGIA,Habersham,38,0,8,1,29,468,168,286,14,0
+Nonmetropolitan,GEORGIA,Hancock,1,0,1,0,0,84,38,44,2,0
+Nonmetropolitan,GEORGIA,Hart,64,0,1,3,60,604,172,403,29,
+Nonmetropolitan,GEORGIA,Irwin,6,0,0,1,5,158,51,99,8,0
+Nonmetropolitan,GEORGIA,Jackson,25,0,1,5,19,"1,087",296,737,54,8
+Nonmetropolitan,GEORGIA,Jeff Davis,52,1,0,2,49,306,68,206,32,1
+Nonmetropolitan,GEORGIA,Jefferson,16,0,0,4,12,178,94,67,17,
+Nonmetropolitan,GEORGIA,Laurens,27,0,5,5,17,869,239,536,94,1
+Nonmetropolitan,GEORGIA,Lumpkin,102,0,8,1,93,528,132,373,23,2
+Nonmetropolitan,GEORGIA,Miller,2,0,0,0,2,31,5,26,0,
+Nonmetropolitan,GEORGIA,Mitchell,33,0,4,1,28,250,72,156,22,
+Nonmetropolitan,GEORGIA,Morgan,7,0,1,0,6,209,47,142,20,5
+Nonmetropolitan,GEORGIA,Peach,19,0,0,7,12,377,139,210,28,0
+Nonmetropolitan,GEORGIA,Pierce,7,0,0,1,6,,4,,5,
+Nonmetropolitan,GEORGIA,Polk,0,0,0,0,0,0,0,0,0,0
+Nonmetropolitan,GEORGIA,Polk County Police Department,63,0,6,3,54,775,280,433,62,7
+Nonmetropolitan,GEORGIA,Pulaski,34,1,0,2,31,263,80,179,4,0
+Nonmetropolitan,GEORGIA,Putnam,66,1,1,1,63,384,127,249,8,0
+Nonmetropolitan,GEORGIA,Rabun,3,0,0,0,3,209,45,157,7,0
+Nonmetropolitan,GEORGIA,Randolph,8,0,1,1,6,92,33,56,3,
+Nonmetropolitan,GEORGIA,Schley,5,0,0,0,5,34,7,27,0,
+Nonmetropolitan,GEORGIA,Screven,12,0,0,3,9,223,80,123,20,1
+Nonmetropolitan,GEORGIA,Seminole,10,3,0,3,4,87,32,51,4,1
+Nonmetropolitan,GEORGIA,Stephens,25,1,9,4,11,492,136,327,29,0
+Nonmetropolitan,GEORGIA,Stewart,2,0,0,0,2,24,12,10,2,0
+Nonmetropolitan,GEORGIA,Taliaferro,8,0,2,1,5,68,27,36,5,0
+Nonmetropolitan,GEORGIA,Taylor,3,1,1,1,0,83,20,49,14,
+Nonmetropolitan,GEORGIA,Telfair,6,0,0,1,5,66,30,34,2,0
+Nonmetropolitan,GEORGIA,Thomas,40,1,2,3,34,580,198,339,43,8
+Nonmetropolitan,GEORGIA,Tift,136,3,8,31,94,860,220,592,48,1
+Nonmetropolitan,GEORGIA,Toombs,18,1,5,3,9,284,91,167,26,0
+Nonmetropolitan,GEORGIA,Towns,3,0,0,1,2,135,65,65,5,0
+Nonmetropolitan,GEORGIA,Treutlen,4,0,0,0,4,84,35,47,2,0
+Nonmetropolitan,GEORGIA,Turner,8,0,0,1,7,104,26,70,8,1
+Nonmetropolitan,GEORGIA,Union,15,1,0,1,13,138,56,70,12,0
+Nonmetropolitan,GEORGIA,Upson,21,1,0,3,17,463,116,314,33,
+Nonmetropolitan,GEORGIA,Ware,57,2,5,4,46,757,199,538,20,0
+Nonmetropolitan,GEORGIA,Warren,21,0,0,0,21,61,29,22,10,0
+Nonmetropolitan,GEORGIA,Washington,21,0,2,3,16,231,52,175,4,0
+Nonmetropolitan,GEORGIA,Wayne,160,1,3,16,140,"1,003",233,766,4,0
+Nonmetropolitan,GEORGIA,Webster,1,0,0,1,0,31,20,8,3,1
+Nonmetropolitan,GEORGIA,White,11,0,0,0,11,375,137,202,36,0
+Nonmetropolitan,GEORGIA,Wilcox,8,1,1,0,6,79,25,49,5,0
+Nonmetropolitan,GEORGIA,Wilkes,6,0,0,0,6,36,7,27,2,0
+Nonmetropolitan,GEORGIA,Wilkinson,11,1,0,1,9,124,36,76,12,3
+Metropolitan,IDAHO,Ada,122,2,14,3,103,801,165,597,39,20
+Metropolitan,IDAHO,Bannock,6,0,1,0,5,76,13,59,4,0
+Metropolitan,IDAHO,Boise,11,0,1,0,10,121,33,87,1,0
+Metropolitan,IDAHO,Bonneville,81,5,10,3,63,904,213,656,35,5
+Metropolitan,IDAHO,Canyon,74,0,8,1,65,727,316,364,47,4
+Metropolitan,IDAHO,Franklin,0,0,0,0,0,57,6,49,2,0
+Metropolitan,IDAHO,Gem,13,0,1,0,12,41,22,16,3,0
+Metropolitan,IDAHO,Jefferson,24,0,0,0,24,131,53,68,10,1
+Metropolitan,IDAHO,Kootenai,121,1,26,7,87,"1,328",478,794,56,13
+Metropolitan,IDAHO,Nez Perce,3,0,0,1,2,123,29,87,7,0
+Metropolitan,IDAHO,Owyhee,9,0,1,0,8,122,24,93,5,0
+Metropolitan,IDAHO,Power,2,0,0,0,2,50,13,35,2,0
+Nonmetropolitan,IDAHO,Bear Lake,0,0,0,0,0,26,11,15,0,0
+Nonmetropolitan,IDAHO,Benewah,15,3,0,0,12,26,9,14,3,1
+Nonmetropolitan,IDAHO,Bingham,10,0,3,0,7,309,80,206,23,1
+Nonmetropolitan,IDAHO,Blaine,5,0,0,0,5,39,14,20,5,4
+Nonmetropolitan,IDAHO,Bonner,33,0,5,1,27,454,156,268,30,0
+Nonmetropolitan,IDAHO,Boundary,9,1,0,0,8,94,47,42,5,0
+Nonmetropolitan,IDAHO,Butte,3,0,0,0,3,4,0,2,2,0
+Nonmetropolitan,IDAHO,Camas,1,0,0,1,0,13,7,6,0,0
+Nonmetropolitan,IDAHO,Caribou,3,0,1,0,2,24,7,17,0,0
+Nonmetropolitan,IDAHO,Cassia,32,0,4,1,27,317,38,261,18,0
+Nonmetropolitan,IDAHO,Clark,0,0,0,0,0,12,3,9,0,0
+Nonmetropolitan,IDAHO,Clearwater,10,0,0,0,10,101,20,75,6,0
+Nonmetropolitan,IDAHO,Custer,1,0,0,0,1,18,3,12,3,0
+Nonmetropolitan,IDAHO,Elmore,15,0,1,0,14,65,18,46,1,1
+Nonmetropolitan,IDAHO,Fremont,4,0,0,0,4,68,9,55,4,2
+Nonmetropolitan,IDAHO,Gooding,13,1,2,0,10,68,26,36,6,1
+Nonmetropolitan,IDAHO,Idaho,12,0,0,0,12,111,30,78,3,1
+Nonmetropolitan,IDAHO,Jerome,11,0,1,0,10,128,41,77,10,0
+Nonmetropolitan,IDAHO,Latah,20,0,5,0,15,195,87,102,6,0
+Nonmetropolitan,IDAHO,Lemhi,5,0,0,0,5,37,11,23,3,0
+Nonmetropolitan,IDAHO,Lewis,5,0,0,0,5,26,7,17,2,0
+Nonmetropolitan,IDAHO,Lincoln,2,0,2,0,0,9,2,7,0,0
+Nonmetropolitan,IDAHO,Madison,12,0,4,0,8,80,28,49,3,0
+Nonmetropolitan,IDAHO,Minidoka,15,0,3,1,11,168,32,126,10,1
+Nonmetropolitan,IDAHO,Oneida,0,0,0,0,0,29,7,21,1,0
+Nonmetropolitan,IDAHO,Payette,20,0,1,1,18,119,45,63,11,0
+Nonmetropolitan,IDAHO,Shoshone,25,0,7,1,17,125,31,84,10,2
+Nonmetropolitan,IDAHO,Teton,7,0,0,0,7,45,10,35,0,0
+Nonmetropolitan,IDAHO,Twin Falls,34,1,4,0,29,280,150,110,20,0
+Nonmetropolitan,IDAHO,Valley,12,0,4,0,8,69,27,40,2,1
+Nonmetropolitan,IDAHO,Washington,9,0,0,0,9,29,21,8,0,0
+Metropolitan,ILLINOIS,Alexander,8,0,3,0,5,84,23,52,9,1
+Metropolitan,ILLINOIS,Bond,2,0,0,0,2,139,42,93,4,0
+Metropolitan,ILLINOIS,Champaign,126,3,11,15,97,618,216,382,20,5
+Metropolitan,ILLINOIS,Clinton,10,0,1,2,7,110,11,97,2,0
+Metropolitan,ILLINOIS,Cook,313,2,36,33,242,"1,279",395,776,108,16
+Metropolitan,ILLINOIS,De Kalb,28,0,6,2,20,310,69,228,13,2
+Metropolitan,ILLINOIS,Ford,25,0,3,0,22,129,42,84,3,0
+Metropolitan,ILLINOIS,Grundy,13,0,2,2,9,232,78,141,13,3
+Metropolitan,ILLINOIS,Henry,5,0,1,0,4,120,40,77,3,0
+Metropolitan,ILLINOIS,Jersey,42,0,8,2,32,149,49,95,5,1
+Metropolitan,ILLINOIS,Kane,75,1,12,2,60,692,241,420,31,7
+Metropolitan,ILLINOIS,Kankakee,56,0,10,8,38,522,154,348,20,9
+Metropolitan,ILLINOIS,Kendall,44,0,9,3,32,311,88,216,7,5
+Metropolitan,ILLINOIS,Lake,61,1,9,16,35,"1,795",569,"1,154",72,5
+Metropolitan,ILLINOIS,Macon,69,0,17,3,49,376,118,247,11,4
+Metropolitan,ILLINOIS,Macoupin,7,0,0,0,7,233,73,154,6,1
+Metropolitan,ILLINOIS,Madison,79,3,5,4,67,882,313,548,21,2
+Metropolitan,ILLINOIS,Marshall,2,0,0,0,2,80,41,31,8,1
+Metropolitan,ILLINOIS,McHenry,83,4,12,3,64,616,165,425,26,2
+Metropolitan,ILLINOIS,McLean,40,1,7,3,29,260,96,153,11,0
+Metropolitan,ILLINOIS,Menard,1,0,1,0,0,41,14,23,4,0
+Metropolitan,ILLINOIS,Monroe,4,0,1,0,3,65,28,33,4,1
+Metropolitan,ILLINOIS,Peoria,142,3,20,12,107,825,225,566,34,3
+Metropolitan,ILLINOIS,Piatt,19,1,5,0,13,108,44,60,4,0
+Metropolitan,ILLINOIS,Rock Island,57,0,14,2,41,390,117,254,19,1
+Metropolitan,ILLINOIS,Sangamon,119,0,24,19,76,823,292,499,32,4
+Metropolitan,ILLINOIS,Stark,2,0,0,0,2,102,28,68,6,0
+Metropolitan,ILLINOIS,Tazewell,3,0,0,1,2,221,69,146,6,0
+Metropolitan,ILLINOIS,Vermilion,69,0,13,5,51,627,229,363,35,0
+Metropolitan,ILLINOIS,Will,134,6,13,14,101,"1,362",527,730,105,16
+Metropolitan,ILLINOIS,Winnebago,93,4,20,13,56,"1,039",367,606,66,6
+Metropolitan,ILLINOIS,Woodford,7,0,2,0,5,181,68,105,8,1
+Nonmetropolitan,ILLINOIS,Adams,25,0,7,0,18,275,63,200,12,2
+Nonmetropolitan,ILLINOIS,Bureau,14,0,2,2,10,159,40,116,3,1
+Nonmetropolitan,ILLINOIS,Carroll,0,0,0,0,0,69,12,57,0,0
+Nonmetropolitan,ILLINOIS,Cass,6,0,1,0,5,49,9,40,0,0
+Nonmetropolitan,ILLINOIS,Clay,6,1,1,0,4,59,20,35,4,2
+Nonmetropolitan,ILLINOIS,Coles,13,0,2,1,10,91,29,58,4,0
+Nonmetropolitan,ILLINOIS,Crawford,2,0,1,0,1,58,18,37,3,0
+Nonmetropolitan,ILLINOIS,Cumberland,7,1,0,0,6,52,20,31,1,0
+Nonmetropolitan,ILLINOIS,De Witt,20,0,6,3,11,84,23,59,2,0
+Nonmetropolitan,ILLINOIS,Douglas,5,0,2,0,3,45,13,29,3,0
+Nonmetropolitan,ILLINOIS,Edgar,21,0,2,0,19,74,40,31,3,2
+Nonmetropolitan,ILLINOIS,Effingham,15,0,0,0,15,122,25,93,4,0
+Nonmetropolitan,ILLINOIS,Fayette,4,0,0,1,3,107,24,77,6,0
+Nonmetropolitan,ILLINOIS,Franklin,5,0,0,0,5,345,148,180,17,2
+Nonmetropolitan,ILLINOIS,Fulton,10,0,0,0,10,170,43,121,6,0
+Nonmetropolitan,ILLINOIS,Greene,1,0,0,0,1,46,19,25,2,1
+Nonmetropolitan,ILLINOIS,Hamilton,3,0,0,0,3,83,31,50,2,0
+Nonmetropolitan,ILLINOIS,Iroquois,10,0,4,0,6,223,92,126,5,0
+Nonmetropolitan,ILLINOIS,Jackson,36,0,5,7,24,319,146,161,12,1
+Nonmetropolitan,ILLINOIS,Jefferson,40,0,6,2,32,255,109,139,7,4
+Nonmetropolitan,ILLINOIS,Jo Daviess,3,0,3,0,0,131,21,107,3,0
+Nonmetropolitan,ILLINOIS,Johnson,28,0,0,0,28,112,30,76,6,1
+Nonmetropolitan,ILLINOIS,Knox,13,0,4,0,9,212,58,143,11,0
+Nonmetropolitan,ILLINOIS,La Salle,31,0,16,1,14,472,163,292,17,4
+Nonmetropolitan,ILLINOIS,Lee,6,0,1,1,4,187,80,105,2,2
+Nonmetropolitan,ILLINOIS,Livingston,16,4,3,0,9,164,30,130,4,68
+Nonmetropolitan,ILLINOIS,Logan,20,0,5,1,14,195,89,101,5,1
+Nonmetropolitan,ILLINOIS,Marion,17,1,6,2,8,266,82,165,19,1
+Nonmetropolitan,ILLINOIS,Mason,23,2,5,0,16,118,29,86,3,1
+Nonmetropolitan,ILLINOIS,Massac,13,0,4,0,9,111,36,73,2,0
+Nonmetropolitan,ILLINOIS,McDonough,4,0,1,0,3,71,20,50,1,1
+Nonmetropolitan,ILLINOIS,Montgomery,86,0,1,2,83,137,59,78,0,3
+Nonmetropolitan,ILLINOIS,Morgan,13,0,6,0,7,92,47,44,1,3
+Nonmetropolitan,ILLINOIS,Moultrie,4,0,0,0,4,42,17,25,0,0
+Nonmetropolitan,ILLINOIS,Ogle,15,0,3,0,12,222,64,149,9,1
+Nonmetropolitan,ILLINOIS,Perry,8,0,3,0,5,74,27,47,0,1
+Nonmetropolitan,ILLINOIS,Pike,5,0,1,0,4,9,1,7,1,0
+Nonmetropolitan,ILLINOIS,Pulaski,44,0,4,1,39,74,31,38,5,0
+Nonmetropolitan,ILLINOIS,Putnam,2,0,0,0,2,45,15,29,1,0
+Nonmetropolitan,ILLINOIS,Schuyler,3,0,0,0,3,3,0,3,0,0
+Nonmetropolitan,ILLINOIS,Scott,2,0,1,0,1,29,13,15,1,0
+Nonmetropolitan,ILLINOIS,Shelby,16,0,0,0,16,104,44,60,0,1
+Nonmetropolitan,ILLINOIS,Stephenson,11,0,2,0,9,181,46,130,5,1
+Nonmetropolitan,ILLINOIS,Union,7,0,1,0,6,96,15,74,7,0
+Nonmetropolitan,ILLINOIS,Wabash,3,0,1,0,2,65,35,25,5,2
+Nonmetropolitan,ILLINOIS,Warren,7,0,1,0,6,95,39,51,5,1
+Nonmetropolitan,ILLINOIS,Washington,25,0,0,0,25,33,10,23,0,1
+Nonmetropolitan,ILLINOIS,Wayne,25,0,0,0,25,141,57,78,6,0
+Nonmetropolitan,ILLINOIS,White,14,0,1,0,13,187,55,125,7,0
+Nonmetropolitan,ILLINOIS,Whiteside,15,0,0,2,13,234,78,152,4,0
+Nonmetropolitan,ILLINOIS,Williamson,28,1,7,1,19,366,145,202,19,2
+Metropolitan,INDIANA,Allen,71,2,9,15,45,938,169,711,58,1
+Metropolitan,INDIANA,Bartholomew,40,0,6,4,30,587,114,414,59,0
+Metropolitan,INDIANA,Boone,0,0,0,0,0,171,39,132,0,2
+Metropolitan,INDIANA,Brown,2,0,0,0,2,128,43,73,12,1
+Metropolitan,INDIANA,Carroll,10,0,0,0,10,221,86,114,21,1
+Metropolitan,INDIANA,Clark,57,1,5,1,50,651,270,355,26,1
+Metropolitan,INDIANA,Dearborn,0,0,0,0,0,19,17,2,0,0
+Metropolitan,INDIANA,Delaware,53,1,8,6,38,525,149,336,40,2
+Metropolitan,INDIANA,Elkhart,37,1,16,13,7,"1,479",532,828,119,9
+Metropolitan,INDIANA,Floyd,0,0,0,0,0,726,183,500,43,0
+Metropolitan,INDIANA,Franklin,6,0,0,0,6,189,110,79,0,2
+Metropolitan,INDIANA,Gibson,12,0,1,0,11,184,28,152,4,2
+Metropolitan,INDIANA,Greene,2,1,0,0,1,155,25,114,16,1
+Metropolitan,INDIANA,Hancock,9,0,3,1,5,324,112,201,11,3
+Metropolitan,INDIANA,Harrison,9,0,0,4,5,,157,,33,1
+Metropolitan,INDIANA,Howard,43,0,1,3,39,492,233,246,13,0
+Metropolitan,INDIANA,Johnson,57,0,3,6,48,871,183,672,16,0
+Metropolitan,INDIANA,Lake,51,1,8,21,21,"1,002",178,713,111,1
+Metropolitan,INDIANA,La Porte,23,0,6,7,10,811,271,493,47,1
+Metropolitan,INDIANA,Monroe,37,0,6,7,24,805,248,484,73,0
+Metropolitan,INDIANA,Newton,29,0,2,1,26,216,72,132,12,0
+Metropolitan,INDIANA,Porter,44,2,5,3,34,965,176,721,68,0
+Metropolitan,INDIANA,Putnam,16,0,0,3,13,201,89,90,22,0
+Metropolitan,INDIANA,Shelby,25,0,2,4,19,379,149,199,31,1
+Metropolitan,INDIANA,St. Joseph,131,3,10,22,96,"1,823",529,"1,230",64,3
+Metropolitan,INDIANA,Sullivan,10,0,1,3,6,194,70,114,10,5
+Metropolitan,INDIANA,Tippecanoe,38,0,9,5,24,907,266,593,48,8
+Metropolitan,INDIANA,Tipton,17,1,0,0,16,65,27,33,5,0
+Metropolitan,INDIANA,Vermillion,28,0,4,1,23,65,14,42,9,0
+Metropolitan,INDIANA,Vigo,34,2,6,7,19,"1,279",385,801,93,5
+Metropolitan,INDIANA,Warrick,120,0,4,1,115,679,121,541,17,1
+Metropolitan,INDIANA,Wells,4,0,1,0,3,187,67,116,4,0
+Nonmetropolitan,INDIANA,Blackford,11,0,0,2,9,42,12,25,5,1
+Nonmetropolitan,INDIANA,Cass,5,1,1,1,2,296,64,231,1,1
+Nonmetropolitan,INDIANA,Clark,57,1,5,1,50,651,270,355,26,1
+Nonmetropolitan,INDIANA,Clinton,21,0,2,8,11,428,118,286,24,0
+Nonmetropolitan,INDIANA,Crawford,6,0,0,0,6,128,106,19,3,0
+Nonmetropolitan,INDIANA,Daviess,2,1,0,0,1,133,33,76,24,3
+Nonmetropolitan,INDIANA,Fulton,11,1,2,0,8,146,56,80,10,1
+Nonmetropolitan,INDIANA,Grant,6,0,2,1,3,322,105,194,23,2
+Nonmetropolitan,INDIANA,Henry,5,0,3,2,0,602,223,355,24,0
+Nonmetropolitan,INDIANA,Huntington,4,0,0,0,4,144,38,96,10,0
+Nonmetropolitan,INDIANA,Jackson,18,0,3,2,13,491,98,373,20,1
+Nonmetropolitan,INDIANA,Jay,6,0,0,0,6,115,27,78,10,0
+Nonmetropolitan,INDIANA,Jennings,42,0,4,0,38,477,235,234,8,0
+Nonmetropolitan,INDIANA,Knox,0,0,0,0,0,0,0,0,0,0
+Nonmetropolitan,INDIANA,Kosciusko,33,0,6,2,25,702,138,536,28,6
+Nonmetropolitan,INDIANA,LaGrange,9,0,4,0,5,251,66,174,11,0
+Nonmetropolitan,INDIANA,Lawrence,60,0,1,1,58,350,136,195,19,3
+Nonmetropolitan,INDIANA,Marshall,21,1,3,0,17,377,117,237,23,1
+Nonmetropolitan,INDIANA,Martin,2,0,0,1,1,72,20,43,9,0
+Nonmetropolitan,INDIANA,Montgomery,36,0,6,0,30,450,153,266,31,0
+Nonmetropolitan,INDIANA,Noble,14,0,1,0,13,233,94,122,17,1
+Nonmetropolitan,INDIANA,Parke,15,1,2,4,8,85,33,50,2,5
+Nonmetropolitan,INDIANA,Pike,32,0,2,2,28,293,90,194,9,1
+Nonmetropolitan,INDIANA,Pulaski,18,0,2,0,16,231,57,148,26,3
+Nonmetropolitan,INDIANA,Randolph,0,0,0,0,0,281,94,179,8,3
+Nonmetropolitan,INDIANA,Ripley,2,0,0,0,2,298,83,201,14,0
+Nonmetropolitan,INDIANA,Rush,2,0,1,1,0,247,77,162,8,3
+Nonmetropolitan,INDIANA,Scott,14,0,1,0,13,346,50,289,7,0
+Nonmetropolitan,INDIANA,Starke,22,0,3,1,18,206,61,132,13,1
+Nonmetropolitan,INDIANA,Steuben,16,0,3,2,11,484,136,334,14,0
+Nonmetropolitan,INDIANA,Wayne,1,1,0,0,0,87,33,53,1,1
+Nonmetropolitan,INDIANA,White,6,0,1,1,4,62,16,41,5,0
+Metropolitan,IOWA,Black Hawk,37,0,7,0,30,143,48,80,15,1
+Metropolitan,IOWA,Bremer,6,0,2,0,4,42,10,30,2,3
+Metropolitan,IOWA,Dallas,13,0,0,0,13,133,39,86,8,1
+Metropolitan,IOWA,Dubuque,11,0,1,1,9,189,73,104,12,5
+Metropolitan,IOWA,Guthrie,3,0,0,0,3,47,19,24,4,1
+Metropolitan,IOWA,Harrison,5,0,3,0,2,105,24,70,11,1
+Metropolitan,IOWA,Johnson,65,0,5,1,59,220,56,144,20,6
+Metropolitan,IOWA,Jones,0,0,0,0,0,79,18,54,7,0
+Metropolitan,IOWA,Linn,40,0,13,0,27,285,108,155,22,7
+Metropolitan,IOWA,Madison,3,0,0,1,2,58,27,25,6,0
+Metropolitan,IOWA,Mills,22,0,2,2,18,215,81,115,19,2
+Metropolitan,IOWA,Polk,87,0,7,4,76,779,234,483,62,4
+Metropolitan,IOWA,Pottawattamie,50,0,4,1,45,570,215,287,68,3
+Metropolitan,IOWA,Scott,40,0,4,1,35,153,45,99,9,2
+Metropolitan,IOWA,Story,9,0,3,0,6,143,54,78,11,3
+Metropolitan,IOWA,Warren,22,0,3,0,19,275,109,144,22,4
+Metropolitan,IOWA,Washington,25,1,4,0,20,130,69,57,4,0
+Metropolitan,IOWA,Woodbury,34,0,4,1,29,129,46,71,12,2
+Nonmetropolitan,IOWA,Adair,5,0,0,0,5,54,14,37,3,0
+Nonmetropolitan,IOWA,Appanoose,12,0,1,0,11,102,48,48,6,2
+Nonmetropolitan,IOWA,Boone,7,0,1,0,6,48,11,24,13,0
+Nonmetropolitan,IOWA,Buena Vista,6,0,1,0,5,89,25,55,9,0
+Nonmetropolitan,IOWA,Butler,1,1,0,0,0,25,9,8,8,0
+Nonmetropolitan,IOWA,Calhoun,12,0,0,0,12,87,37,46,4,0
+Nonmetropolitan,IOWA,Cass,4,0,0,0,4,76,25,45,6,0
+Nonmetropolitan,IOWA,Cedar,10,0,2,1,7,85,1,82,2,1
+Nonmetropolitan,IOWA,Cerro Gordo,3,0,0,0,3,131,39,81,11,1
+Nonmetropolitan,IOWA,Clarke,3,0,0,0,3,49,16,29,4,0
+Nonmetropolitan,IOWA,Clay,6,0,1,0,5,53,37,12,4,0
+Nonmetropolitan,IOWA,Clinton,14,1,0,0,13,132,54,74,4,5
+Nonmetropolitan,IOWA,Crawford,4,0,0,0,4,8,0,7,1,0
+Nonmetropolitan,IOWA,Davis,7,0,0,0,7,19,15,3,1,0
+Nonmetropolitan,IOWA,Delaware,8,0,0,0,8,36,13,23,0,0
+Nonmetropolitan,IOWA,Des Moines,37,0,0,0,37,153,42,95,16,1
+Nonmetropolitan,IOWA,Dickinson,7,0,0,0,7,50,27,22,1,1
+Nonmetropolitan,IOWA,Emmet,17,0,0,0,17,32,9,23,0,0
+Nonmetropolitan,IOWA,Fayette,10,0,2,0,8,31,7,19,5,0
+Nonmetropolitan,IOWA,Floyd,1,0,1,0,0,22,10,12,0,0
+Nonmetropolitan,IOWA,Hancock,9,0,0,1,8,41,19,19,3,0
+Nonmetropolitan,IOWA,Hardin,7,1,0,0,6,116,47,62,7,1
+Nonmetropolitan,IOWA,Henry,12,0,0,0,12,122,54,61,7,0
+Nonmetropolitan,IOWA,Howard,5,0,1,3,1,55,14,38,3,1
+Nonmetropolitan,IOWA,Humboldt,1,0,0,0,1,37,13,20,4,0
+Nonmetropolitan,IOWA,Ida,2,0,1,0,1,37,13,22,2,0
+Nonmetropolitan,IOWA,Iowa,15,0,0,0,15,75,25,44,6,0
+Nonmetropolitan,IOWA,Jefferson,1,0,0,0,1,59,13,40,6,0
+Nonmetropolitan,IOWA,Kossuth,7,0,0,0,7,73,48,22,3,2
+Nonmetropolitan,IOWA,Lee,20,1,0,0,19,217,120,89,8,0
+Nonmetropolitan,IOWA,Louisa,10,0,1,0,9,68,27,35,6,2
+Nonmetropolitan,IOWA,Lucas,5,0,0,0,5,74,29,43,2,3
+Nonmetropolitan,IOWA,Lyon,17,0,6,0,11,66,24,39,3,2
+Nonmetropolitan,IOWA,Marion,24,1,7,1,15,119,59,50,10,3
+Nonmetropolitan,IOWA,Marshall,9,0,0,1,8,92,42,44,6,2
+Nonmetropolitan,IOWA,Mitchell,0,0,0,0,0,23,4,18,1,0
+Nonmetropolitan,IOWA,Monona,1,0,0,0,1,18,6,9,3,1
+Nonmetropolitan,IOWA,Monroe,4,1,1,0,2,27,2,19,6,0
+Nonmetropolitan,IOWA,Muscatine,24,0,6,0,18,116,57,48,11,4
+Nonmetropolitan,IOWA,O'Brien,10,0,0,0,10,46,19,21,6,0
+Nonmetropolitan,IOWA,Osceola,1,0,0,0,1,8,2,5,1,2
+Nonmetropolitan,IOWA,Page,5,1,0,0,4,36,9,24,3,0
+Nonmetropolitan,IOWA,Palo Alto,14,0,0,0,14,71,26,42,3,0
+Nonmetropolitan,IOWA,Plymouth,12,0,0,1,11,77,29,47,1,0
+Nonmetropolitan,IOWA,Pocahontas,8,0,2,0,6,76,24,50,2,0
+Nonmetropolitan,IOWA,Sioux,10,0,1,0,9,44,20,22,2,1
+Nonmetropolitan,IOWA,Story,9,0,3,0,6,143,54,78,11,3
+Nonmetropolitan,IOWA,Tama,22,0,1,0,21,83,44,35,4,1
+Nonmetropolitan,IOWA,Van Buren,14,0,1,0,13,58,27,26,5,0
+Nonmetropolitan,IOWA,Wapello,13,0,0,0,13,96,44,45,7,1
+Nonmetropolitan,IOWA,Wayne,4,0,0,0,4,26,10,16,0,0
+Nonmetropolitan,IOWA,Webster,16,0,1,0,15,211,71,128,12,3
+Nonmetropolitan,IOWA,Winnebago,2,0,0,0,2,14,5,8,1,0
+Nonmetropolitan,IOWA,Winneshiek,0,0,0,0,0,16,4,11,1,0
+Nonmetropolitan,IOWA,Worth,3,0,0,0,3,96,29,63,4,0
+Nonmetropolitan,IOWA,Wright,1,0,0,0,1,46,23,21,2,0
+Metropolitan,KANSAS,Butler,40,1,3,0,36,440,123,298,19,6
+Metropolitan,KANSAS,Doniphan,2,0,1,0,1,37,7,26,4,0
+Metropolitan,KANSAS,Douglas,25,0,2,0,23,179,64,104,11,1
+Metropolitan,KANSAS,Franklin,25,0,1,0,24,196,63,120,13,2
+Metropolitan,KANSAS,Geary,6,0,1,0,5,34,13,19,2,1
+Metropolitan,KANSAS,Harvey,18,1,0,0,17,86,39,45,2,1
+Metropolitan,KANSAS,Jackson,18,0,2,0,16,110,33,65,12,5
+Metropolitan,KANSAS,Jefferson,29,0,3,0,26,330,122,188,20,2
+Metropolitan,KANSAS,Johnson,38,0,7,0,31,278,73,187,18,7
+Metropolitan,KANSAS,Leavenworth,48,0,3,1,44,233,85,121,27,15
+Metropolitan,KANSAS,Linn,15,0,0,0,15,107,51,45,11,3
+Metropolitan,KANSAS,Miami,18,0,3,0,15,189,70,110,9,6
+Metropolitan,KANSAS,Osage,13,0,0,1,12,111,45,56,10,2
+Metropolitan,KANSAS,Pottawatomie,38,0,5,1,32,224,72,140,12,6
+Metropolitan,KANSAS,Riley County Police Department,173,5,28,20,120,"1,467",372,"1,062",33,9
+Metropolitan,KANSAS,Shawnee,65,0,1,4,60,"1,281",359,871,51,13
+Metropolitan,KANSAS,Sumner,17,0,2,2,13,161,71,72,18,2
+Metropolitan,KANSAS,Wabaunsee,10,0,2,0,8,95,37,53,5,4
+Metropolitan,KANSAS,Wyandotte,12,0,1,0,11,37,4,27,6,1
+Nonmetropolitan,KANSAS,Allen,10,0,1,0,9,85,27,55,3,5
+Nonmetropolitan,KANSAS,Anderson,7,0,0,1,6,60,27,30,3,1
+Nonmetropolitan,KANSAS,Atchison,15,1,3,1,10,12,8,4,0,1
+Nonmetropolitan,KANSAS,Barber,3,0,1,0,2,30,6,21,3,0
+Nonmetropolitan,KANSAS,Barton,9,1,1,0,7,157,61,92,4,3
+Nonmetropolitan,KANSAS,Bourbon,20,2,1,0,17,129,50,62,17,8
+Nonmetropolitan,KANSAS,Brown,14,0,4,0,10,44,14,25,5,0
+Nonmetropolitan,KANSAS,Chase,1,0,0,0,1,14,8,4,2,0
+Nonmetropolitan,KANSAS,Chautauqua,0,0,0,0,0,19,4,11,4,1
+Nonmetropolitan,KANSAS,Cherokee,25,0,2,2,21,253,96,146,11,24
+Nonmetropolitan,KANSAS,Cheyenne,4,0,1,0,3,33,15,16,2,0
+Nonmetropolitan,KANSAS,Clark,3,0,0,0,3,16,2,14,0,0
+Nonmetropolitan,KANSAS,Clay,1,0,1,0,0,42,11,24,7,0
+Nonmetropolitan,KANSAS,Cloud,22,0,7,0,15,62,25,33,4,0
+Nonmetropolitan,KANSAS,Coffey,4,0,1,0,3,37,10,24,3,0
+Nonmetropolitan,KANSAS,Cowley,19,0,2,1,16,142,51,84,7,1
+Nonmetropolitan,KANSAS,Crawford,26,0,3,0,23,229,74,138,17,6
+Nonmetropolitan,KANSAS,Dickinson,13,0,1,0,12,123,43,71,9,2
+Nonmetropolitan,KANSAS,Edwards,5,0,1,0,4,24,11,12,1,2
+Nonmetropolitan,KANSAS,Elk,3,0,0,0,3,23,10,11,2,0
+Nonmetropolitan,KANSAS,Ellis,8,0,2,0,6,59,23,34,2,0
+Nonmetropolitan,KANSAS,Ellsworth,7,0,1,1,5,38,17,20,1,2
+Nonmetropolitan,KANSAS,Finney,25,0,5,2,18,170,47,114,9,4
+Nonmetropolitan,KANSAS,Ford,7,0,0,0,7,113,33,75,5,0
+Nonmetropolitan,KANSAS,Graham,0,0,0,0,0,26,3,20,3,1
+Nonmetropolitan,KANSAS,Grant,6,0,0,0,6,9,2,5,2,0
+Nonmetropolitan,KANSAS,Gray,4,0,1,0,3,41,9,29,3,0
+Nonmetropolitan,KANSAS,Greenwood,12,0,2,1,9,94,45,44,5,1
+Nonmetropolitan,KANSAS,Harper,3,0,1,0,2,16,10,5,1,1
+Nonmetropolitan,KANSAS,Hodgeman,7,0,0,0,7,44,14,21,9,0
+Nonmetropolitan,KANSAS,Kingman,2,0,0,0,2,77,24,51,2,2
+Nonmetropolitan,KANSAS,Kiowa,1,0,0,1,0,43,15,24,4,0
+Nonmetropolitan,KANSAS,Labette,8,0,2,0,6,109,42,60,7,5
+Nonmetropolitan,KANSAS,Lane,2,0,1,0,1,14,7,6,1,0
+Nonmetropolitan,KANSAS,Lincoln,1,0,0,0,1,56,18,34,4,0
+Nonmetropolitan,KANSAS,Logan,2,0,0,0,2,18,2,16,0,0
+Nonmetropolitan,KANSAS,Lyon,9,0,0,0,9,102,18,84,0,2
+Nonmetropolitan,KANSAS,Marion,9,0,0,0,9,5,1,3,1,1
+Nonmetropolitan,KANSAS,Marshall,3,0,0,0,3,56,14,41,1,0
+Nonmetropolitan,KANSAS,McPherson,11,0,3,2,6,106,59,39,8,0
+Nonmetropolitan,KANSAS,Montgomery,30,0,4,1,25,175,65,102,8,6
+Nonmetropolitan,KANSAS,Morris,9,0,0,0,9,58,23,32,3,0
+Nonmetropolitan,KANSAS,Morton,4,0,0,0,4,21,4,16,1,1
+Nonmetropolitan,KANSAS,Nemaha,2,0,0,0,2,30,7,20,3,1
+Nonmetropolitan,KANSAS,Neosho,3,0,2,0,1,159,69,74,16,7
+Nonmetropolitan,KANSAS,Ness,4,0,0,0,4,19,2,14,3,0
+Nonmetropolitan,KANSAS,Pawnee,1,0,0,0,1,31,11,18,2,0
+Nonmetropolitan,KANSAS,Phillips,2,0,0,0,2,19,11,8,0,0
+Nonmetropolitan,KANSAS,Pratt,4,0,0,0,4,66,12,47,7,1
+Nonmetropolitan,KANSAS,Republic,0,0,0,0,0,19,9,9,1,0
+Nonmetropolitan,KANSAS,Rice,3,0,2,0,1,43,18,19,6,0
+Nonmetropolitan,KANSAS,Rush,3,0,2,0,1,28,10,17,1,0
+Nonmetropolitan,KANSAS,Russell,5,0,1,0,4,46,14,30,2,0
+Nonmetropolitan,KANSAS,Saline,27,1,2,0,24,149,68,77,4,4
+Nonmetropolitan,KANSAS,Seward,16,0,2,0,14,42,9,31,2,1
+Nonmetropolitan,KANSAS,Sherman,1,0,0,0,1,17,6,9,2,0
+Nonmetropolitan,KANSAS,Stafford,1,0,0,0,1,29,6,21,2,0
+Nonmetropolitan,KANSAS,Washington,11,0,1,0,10,23,11,9,3,3
+Nonmetropolitan,KANSAS,Wichita,3,0,0,0,3,36,9,24,3,0
+Nonmetropolitan,KANSAS,Wilson,8,0,0,0,8,68,24,43,1,0
+Nonmetropolitan,KANSAS,Woodson,8,0,1,0,7,79,32,44,3,0
+Metropolitan,KENTUCKY,Boone,71,4,21,17,29,"1,483",359,"1,067",57,3
+Metropolitan,KENTUCKY,Bourbon,0,0,0,0,0,88,23,63,2,0
+Metropolitan,KENTUCKY,Boyd,25,0,1,10,14,179,43,122,14,0
+Metropolitan,KENTUCKY,Bracken,8,0,1,2,5,145,65,79,1,0
+Metropolitan,KENTUCKY,Bullitt,18,0,7,6,5,737,383,314,40,1
+Metropolitan,KENTUCKY,Campbell County Police Department,11,1,3,2,5,263,78,167,18,1
+Metropolitan,KENTUCKY,Christian,17,1,4,2,10,438,173,239,26,3
+Metropolitan,KENTUCKY,Clark,4,0,2,1,1,270,108,151,11,1
+Metropolitan,KENTUCKY,Daviess,21,0,10,5,6,628,159,451,18,3
+Metropolitan,KENTUCKY,Edmonson,5,0,0,0,5,55,25,24,6,3
+Metropolitan,KENTUCKY,Gallatin,2,0,0,0,2,100,45,48,7,0
+Metropolitan,KENTUCKY,Grant,3,0,0,2,1,159,49,98,12,1
+Metropolitan,KENTUCKY,Greenup,9,1,4,1,3,58,30,19,9,0
+Metropolitan,KENTUCKY,Hancock,0,0,0,0,0,19,9,8,2,1
+Metropolitan,KENTUCKY,Hardin,4,0,1,0,3,107,34,66,7,3
+Metropolitan,KENTUCKY,Henderson,10,0,4,2,4,172,72,90,10,2
+Metropolitan,KENTUCKY,Henry,1,0,0,1,0,25,14,11,0,0
+Metropolitan,KENTUCKY,Jessamine,16,0,1,7,8,378,179,185,14,0
+Metropolitan,KENTUCKY,Kenton,0,0,0,0,0,7,1,6,0,0
+Metropolitan,KENTUCKY,Kenton County Police Department,18,0,6,1,11,199,79,111,9,2
+Metropolitan,KENTUCKY,Larue,6,0,2,0,4,72,31,34,7,0
+Metropolitan,KENTUCKY,McLean,0,0,0,0,0,66,28,33,5,0
+Metropolitan,KENTUCKY,Meade,7,0,1,2,4,112,69,38,5,0
+Metropolitan,KENTUCKY,Nelson,14,0,4,2,8,303,154,139,10,0
+Metropolitan,KENTUCKY,Oldham,0,0,0,0,0,10,3,7,0,0
+Metropolitan,KENTUCKY,Oldham County Police Department,19,0,6,8,5,485,184,290,11,2
+Metropolitan,KENTUCKY,Pendleton,3,0,1,1,1,109,33,74,2,1
+Metropolitan,KENTUCKY,Scott,9,0,3,3,3,262,106,140,16,0
+Metropolitan,KENTUCKY,Shelby,17,0,4,4,9,465,131,311,23,0
+Metropolitan,KENTUCKY,Spencer,0,0,0,0,0,159,96,52,11,1
+Metropolitan,KENTUCKY,Trigg,7,0,1,0,6,149,56,85,8,0
+Metropolitan,KENTUCKY,Trimble,0,0,0,0,0,9,3,4,2,0
+Metropolitan,KENTUCKY,Warren,26,0,2,4,20,408,130,260,18,1
+Metropolitan,KENTUCKY,Webster,0,0,0,0,0,11,6,4,1,0
+Metropolitan,KENTUCKY,Woodford,0,0,0,0,0,20,5,13,2,0
+Nonmetropolitan,KENTUCKY,Adair,2,0,0,0,2,23,7,12,4,0
+Nonmetropolitan,KENTUCKY,Allen,3,0,2,0,1,107,53,41,13,1
+Nonmetropolitan,KENTUCKY,Anderson,2,0,0,2,0,87,41,39,7,0
+Nonmetropolitan,KENTUCKY,Ballard,4,0,0,0,4,149,47,96,6,2
+Nonmetropolitan,KENTUCKY,Barren,3,0,0,1,2,111,57,43,11,0
+Nonmetropolitan,KENTUCKY,Bell,15,0,2,3,10,165,55,99,11,2
+Nonmetropolitan,KENTUCKY,Boyle,4,0,0,0,4,78,37,39,2,1
+Nonmetropolitan,KENTUCKY,Breckinridge,3,1,0,0,2,13,9,4,0,0
+Nonmetropolitan,KENTUCKY,Butler,6,0,1,0,5,43,22,18,3,0
+Nonmetropolitan,KENTUCKY,Caldwell,4,0,1,0,3,61,37,23,1,0
+Nonmetropolitan,KENTUCKY,Calloway,12,0,1,1,10,368,159,198,11,2
+Nonmetropolitan,KENTUCKY,Carlisle,4,0,1,0,3,43,13,28,2,0
+Nonmetropolitan,KENTUCKY,Carroll,1,0,0,0,1,59,18,34,7,2
+Nonmetropolitan,KENTUCKY,Carter,5,0,1,0,4,41,20,19,2,0
+Nonmetropolitan,KENTUCKY,Casey,1,0,0,0,1,41,22,13,6,1
+Nonmetropolitan,KENTUCKY,Clay,5,0,1,2,2,126,42,74,10,2
+Nonmetropolitan,KENTUCKY,Crittenden,0,0,0,0,0,41,12,24,5,1
+Nonmetropolitan,KENTUCKY,Cumberland,2,0,0,0,2,14,10,4,0,0
+Nonmetropolitan,KENTUCKY,Estill,7,0,0,2,5,114,69,44,1,0
+Nonmetropolitan,KENTUCKY,Fleming,1,0,0,0,1,8,4,3,1,0
+Nonmetropolitan,KENTUCKY,Floyd,3,0,0,0,3,92,18,62,12,1
+Nonmetropolitan,KENTUCKY,Franklin,15,0,5,3,7,411,140,254,17,0
+Nonmetropolitan,KENTUCKY,Fulton,2,0,0,0,2,32,13,17,2,0
+Nonmetropolitan,KENTUCKY,Garrard,2,0,0,1,1,52,16,30,6,0
+Nonmetropolitan,KENTUCKY,Graves,16,0,3,3,10,219,94,107,18,4
+Nonmetropolitan,KENTUCKY,Grayson,4,0,1,0,3,102,45,48,9,0
+Nonmetropolitan,KENTUCKY,Green,4,0,1,0,3,8,3,5,0,0
+Nonmetropolitan,KENTUCKY,Harlan,7,0,0,0,7,87,36,43,8,0
+Nonmetropolitan,KENTUCKY,Harrison,5,0,0,0,5,209,88,114,7,0
+Nonmetropolitan,KENTUCKY,Hart,3,0,2,0,1,18,6,9,3,0
+Nonmetropolitan,KENTUCKY,Hickman,0,0,0,0,0,8,5,0,3,0
+Nonmetropolitan,KENTUCKY,Hopkins,17,1,5,3,8,332,128,167,37,1
+Nonmetropolitan,KENTUCKY,Jackson,0,0,0,0,0,93,39,50,4,1
+Nonmetropolitan,KENTUCKY,Johnson,7,0,1,1,5,135,45,76,14,3
+Nonmetropolitan,KENTUCKY,Knott,0,0,0,0,0,2,0,2,0,0
+Nonmetropolitan,KENTUCKY,Knox,14,0,2,5,7,321,196,103,22,0
+Nonmetropolitan,KENTUCKY,Laurel,18,1,0,11,6,538,207,271,60,0
+Nonmetropolitan,KENTUCKY,Lawrence,4,0,1,1,2,58,21,25,12,0
+Nonmetropolitan,KENTUCKY,Letcher,2,0,0,1,1,49,22,19,8,0
+Nonmetropolitan,KENTUCKY,Lewis,8,1,1,2,4,32,16,12,4,0
+Nonmetropolitan,KENTUCKY,Lincoln,7,0,0,4,3,89,36,37,16,0
+Nonmetropolitan,KENTUCKY,Livingston,5,0,2,0,3,75,30,37,8,0
+Nonmetropolitan,KENTUCKY,Logan,3,0,1,0,2,195,82,102,11,1
+Nonmetropolitan,KENTUCKY,Lyon,0,0,0,0,0,94,45,48,1,0
+Nonmetropolitan,KENTUCKY,Madison,8,1,3,0,4,483,174,294,15,0
+Nonmetropolitan,KENTUCKY,Magoffin,1,0,0,0,1,24,10,12,2,0
+Nonmetropolitan,KENTUCKY,Marion,2,0,1,0,1,90,37,45,8,0
+Nonmetropolitan,KENTUCKY,Marshall,20,1,4,5,10,300,136,147,17,0
+Nonmetropolitan,KENTUCKY,Martin,6,0,1,1,4,70,28,32,10,0
+Nonmetropolitan,KENTUCKY,Mason,4,0,0,2,2,193,90,100,3,0
+Nonmetropolitan,KENTUCKY,McCracken,46,0,8,15,23,578,178,356,44,1
+Nonmetropolitan,KENTUCKY,McCreary,6,0,0,4,2,142,76,60,6,1
+Nonmetropolitan,KENTUCKY,Menifee,0,0,0,0,0,50,28,20,2,2
+Nonmetropolitan,KENTUCKY,Mercer,5,1,1,0,3,89,48,35,6,0
+Nonmetropolitan,KENTUCKY,Metcalfe,1,0,0,0,1,58,20,36,2,0
+Nonmetropolitan,KENTUCKY,Montgomery,22,2,2,10,8,574,268,287,19,1
+Nonmetropolitan,KENTUCKY,Muhlenberg,7,0,1,3,3,63,30,20,13,0
+Nonmetropolitan,KENTUCKY,Ohio,17,0,1,0,16,172,62,81,29,3
+Nonmetropolitan,KENTUCKY,Owen,1,0,0,1,0,57,33,19,5,0
+Nonmetropolitan,KENTUCKY,Perry,6,0,0,1,5,12,7,2,3,0
+Nonmetropolitan,KENTUCKY,Pike,0,0,0,0,0,24,13,9,2,0
+Nonmetropolitan,KENTUCKY,Powell,2,0,1,1,0,93,46,45,2,0
+Nonmetropolitan,KENTUCKY,Pulaski,12,0,2,5,5,797,447,331,19,4
+Nonmetropolitan,KENTUCKY,Rockcastle,3,1,0,1,1,90,57,18,15,0
+Nonmetropolitan,KENTUCKY,Rowan,4,0,1,1,2,44,13,28,3,0
+Nonmetropolitan,KENTUCKY,Russell,2,0,0,0,2,43,25,13,5,0
+Nonmetropolitan,KENTUCKY,Simpson,4,0,1,0,3,142,50,78,14,0
+Nonmetropolitan,KENTUCKY,Taylor,15,1,6,0,8,236,127,102,7,2
+Nonmetropolitan,KENTUCKY,Todd,3,0,0,1,2,101,43,52,6,0
+Nonmetropolitan,KENTUCKY,Union,4,0,1,1,2,48,15,26,7,0
+Nonmetropolitan,KENTUCKY,Washington,1,0,0,0,1,38,18,19,1,0
+Nonmetropolitan,KENTUCKY,Wayne,0,0,0,0,0,30,14,14,2,3
+Nonmetropolitan,KENTUCKY,Whitley,8,0,0,1,7,200,118,64,18,0
+Nonmetropolitan,KENTUCKY,Wolfe,0,0,0,0,0,26,10,14,2,0
+Metropolitan,LOUISIANA,Ascension,373,8,33,41,291,"2,837",800,"1,887",150,0
+Metropolitan,LOUISIANA,Bossier,66,0,0,6,60,487,71,386,30,1
+Metropolitan,LOUISIANA,Caddo,113,0,4,8,101,841,211,578,52,3
+Metropolitan,LOUISIANA,Calcasieu,375,5,66,41,263,"3,893","1,314","2,392",187,24
+Metropolitan,LOUISIANA,Cameron,15,0,0,0,15,152,28,117,7,2
+Metropolitan,LOUISIANA,East Baton Rouge,536,14,6,193,323,"8,008","1,710","6,157",141,25
+Metropolitan,LOUISIANA,East Feliciana,1,0,1,0,0,67,25,38,4,0
+Metropolitan,LOUISIANA,Grant,10,0,1,0,9,288,77,196,15,0
+Metropolitan,LOUISIANA,Iberville,276,0,5,20,251,580,151,408,21,
+Metropolitan,LOUISIANA,Jefferson,"1,809",49,67,464,"1,229","13,028","2,950","9,193",885,94
+Metropolitan,LOUISIANA,Lafayette,336,4,19,41,272,"1,504",418,"1,021",65,21
+Metropolitan,LOUISIANA,Lafourche,77,1,0,18,58,"1,975",755,"1,140",80,2
+Metropolitan,LOUISIANA,Livingston,270,2,22,24,222,"2,677",796,"1,784",97,1
+Metropolitan,LOUISIANA,Ouachita,134,2,8,23,101,"2,727",950,"1,689",88,4
+Metropolitan,LOUISIANA,Plaquemines,41,0,1,1,39,387,100,278,9,8
+Metropolitan,LOUISIANA,Pointe Coupee,122,1,3,8,110,432,106,305,21,0
+Metropolitan,LOUISIANA,Rapides,300,3,32,14,251,"2,007",613,"1,205",189,9
+Metropolitan,LOUISIANA,St. Bernard,75,0,10,14,51,977,220,703,54,
+Metropolitan,LOUISIANA,St. Charles,193,3,4,30,156,"1,595",449,"1,062",84,21
+Metropolitan,LOUISIANA,St. Helena,58,0,1,3,54,285,119,136,30,0
+Metropolitan,LOUISIANA,St. John the Baptist,113,6,3,42,62,"1,266",329,867,70,
+Metropolitan,LOUISIANA,St. Martin,125,1,7,10,107,783,139,637,7,
+Metropolitan,LOUISIANA,St. Tammany,270,5,18,20,227,"2,527",592,"1,791",144,9
+Metropolitan,LOUISIANA,Terrebonne,295,3,27,45,220,"2,783",575,"2,043",165,15
+Metropolitan,LOUISIANA,West Baton Rouge,50,0,2,8,40,536,65,441,30,0
+Metropolitan,LOUISIANA,West Feliciana,26,0,2,0,24,162,32,120,10,1
+Nonmetropolitan,LOUISIANA,Acadia,102,0,5,4,93,683,182,438,63,0
+Nonmetropolitan,LOUISIANA,Allen,22,0,4,1,17,214,60,151,3,4
+Nonmetropolitan,LOUISIANA,Assumption,86,0,0,6,80,419,114,286,19,0
+Nonmetropolitan,LOUISIANA,Avoyelles,84,3,20,5,56,463,136,307,20,2
+Nonmetropolitan,LOUISIANA,Bienville,42,0,2,3,37,207,53,146,8,1
+Nonmetropolitan,LOUISIANA,Caldwell,22,0,0,1,21,263,78,174,11,
+Nonmetropolitan,LOUISIANA,Concordia,66,1,4,2,59,215,61,144,10,
+Nonmetropolitan,LOUISIANA,East Carroll,25,0,2,1,22,57,19,35,3,0
+Nonmetropolitan,LOUISIANA,Evangeline,50,0,3,6,41,517,103,402,12,0
+Nonmetropolitan,LOUISIANA,Iberia,390,2,18,89,281,"2,126",928,"1,131",67,14
+Nonmetropolitan,LOUISIANA,La Salle,34,0,0,0,34,138,37,96,5,0
+Nonmetropolitan,LOUISIANA,Madison,25,0,0,1,24,129,20,99,10,0
+Nonmetropolitan,LOUISIANA,Morehouse,29,0,0,6,23,253,42,210,1,0
+Nonmetropolitan,LOUISIANA,Natchitoches,118,1,3,4,110,596,185,376,35,0
+Nonmetropolitan,LOUISIANA,St. James,110,0,4,1,105,444,91,323,30,1
+Nonmetropolitan,LOUISIANA,St. Mary,165,2,15,14,134,963,226,697,40,
+Nonmetropolitan,LOUISIANA,Tangipahoa,797,13,48,46,690,"4,222","1,635","2,387",200,0
+Nonmetropolitan,LOUISIANA,Tensas,8,1,0,1,6,34,17,16,1,2
+Nonmetropolitan,LOUISIANA,Vermilion,77,0,10,8,59,722,216,479,27,0
+Nonmetropolitan,LOUISIANA,Vernon,116,3,10,2,101,715,27,640,48,
+Nonmetropolitan,LOUISIANA,Washington,139,2,13,15,109,954,330,587,37,0
+Nonmetropolitan,LOUISIANA,West Carroll,109,0,0,2,107,381,71,279,31,1
+Nonmetropolitan,LOUISIANA,Winn,24,1,1,1,21,177,34,139,4,0
+Metropolitan,MAINE,Androscoggin,20,0,9,3,8,240,97,139,4,1
+Metropolitan,MAINE,Cumberland,28,0,4,3,21,906,392,468,46,5
+Metropolitan,MAINE,Penobscot,8,0,2,5,1,743,265,432,46,0
+Metropolitan,MAINE,Sagadahoc,2,0,0,0,2,207,81,110,16,0
+Metropolitan,MAINE,York,38,0,5,0,33,471,190,246,35,1
+Nonmetropolitan,MAINE,Aroostook,0,0,0,0,0,81,18,60,3,0
+Nonmetropolitan,MAINE,Franklin,2,0,0,0,2,96,36,54,6,0
+Nonmetropolitan,MAINE,Hancock,1,0,0,0,1,189,30,157,2,0
+Nonmetropolitan,MAINE,Kennebec,10,0,4,2,4,460,174,256,30,2
+Nonmetropolitan,MAINE,Knox,9,0,1,3,5,194,54,124,16,0
+Nonmetropolitan,MAINE,Lincoln,26,0,21,0,5,291,100,178,13,1
+Nonmetropolitan,MAINE,Oxford,23,0,8,0,15,313,90,196,27,1
+Nonmetropolitan,MAINE,Piscataquis,6,0,3,0,3,149,78,71,0,0
+Nonmetropolitan,MAINE,Somerset,11,0,5,1,5,419,159,238,22,2
+Nonmetropolitan,MAINE,Waldo,6,0,0,1,5,247,94,144,9,0
+Nonmetropolitan,MAINE,Washington,25,0,3,0,22,187,62,116,9,0
+Metropolitan,MARYLAND,Allegany,27,0,2,4,21,200,48,151,1,0
+Metropolitan,MARYLAND,Anne Arundel,1,0,0,0,1,0,0,0,0,0
+Metropolitan,MARYLAND,Anne Arundel County Police Department,"2,485",13,83,526,"1,863","13,399","2,073","10,569",757,59
+Metropolitan,MARYLAND,Baltimore County,0,0,0,0,0,0,0,0,0,0
+Metropolitan,MARYLAND,Baltimore County Police Department,"4,250",30,142,"1,451","2,627","23,800","4,269","17,840","1,691",235
+Metropolitan,MARYLAND,Calvert,121,0,8,30,83,"1,746",445,"1,246",55,0
+Metropolitan,MARYLAND,Carroll,73,0,26,7,40,619,160,439,20,0
+Metropolitan,MARYLAND,Cecil,137,2,8,38,89,981,348,574,59,0
+Metropolitan,MARYLAND,Charles,539,3,26,170,340,"3,428",732,"2,431",265,0
+Metropolitan,MARYLAND,Frederick,218,1,9,18,190,"1,573",318,"1,181",74,20
+Metropolitan,MARYLAND,Harford,399,4,29,86,280,"2,271",556,"1,577",138,3
+Metropolitan,MARYLAND,Howard,0,0,0,0,0,1,1,0,0,0
+Metropolitan,MARYLAND,Howard County Police Department,597,4,31,211,351,"6,556","1,108","5,082",366,57
+Metropolitan,MARYLAND,Montgomery  ,0,0,0,0,0,0,0,0,0,0
+Metropolitan,MARYLAND,Montgomery County Police Department,"1,618",15,112,840,651,"17,752","3,061","13,505","1,186",200
+Metropolitan,MARYLAND,Prince George's,54,0,0,0,54,0,0,0,0,0
+Metropolitan,MARYLAND,Prince George's County Police Department,"4,075",80,152,"2,048","1,795","25,456","5,499","14,977","4,980",214
+Metropolitan,MARYLAND,Somerset,4,0,0,0,4,52,15,37,0,0
+Metropolitan,MARYLAND,Washington,182,1,7,18,156,"1,406",415,930,61,0
+Metropolitan,MARYLAND,Wicomico,97,0,1,13,83,863,300,536,27,9
+Nonmetropolitan,MARYLAND,Caroline,17,1,0,6,10,453,183,255,15,0
+Nonmetropolitan,MARYLAND,Dorchester,29,1,1,3,24,319,85,221,13,1
+Nonmetropolitan,MARYLAND,Garrett,43,2,2,0,39,314,104,200,10,0
+Nonmetropolitan,MARYLAND,Kent,15,0,0,1,14,153,73,71,9,1
+Nonmetropolitan,MARYLAND,St. Mary's,228,0,17,55,156,"2,403",649,"1,636",118,3
+Nonmetropolitan,MARYLAND,Talbot,12,0,2,1,9,208,68,131,9,0
+Nonmetropolitan,MARYLAND,Worcester,64,1,2,3,58,256,68,185,3,1
+Metropolitan,MICHIGAN,Barry,40,1,13,1,25,397,128,249,20,6
+Metropolitan,MICHIGAN,Bay,46,0,13,5,28,680,165,496,19,0
+Metropolitan,MICHIGAN,Berrien,116,0,19,13,84,668,192,449,27,6
+Metropolitan,MICHIGAN,Calhoun,73,0,3,7,63,567,195,344,28,6
+Metropolitan,MICHIGAN,Cass,27,1,11,1,14,503,153,337,13,4
+Metropolitan,MICHIGAN,Clinton,17,3,3,4,7,208,90,104,14,0
+Metropolitan,MICHIGAN,Eaton,84,3,21,19,41,"1,310",305,945,60,4
+Metropolitan,MICHIGAN,Genesee,30,0,12,6,12,562,152,399,11,0
+Metropolitan,MICHIGAN,Ingham,94,1,14,11,68,713,229,451,33,4
+Metropolitan,MICHIGAN,Ionia,31,1,11,1,18,325,122,187,16,3
+Metropolitan,MICHIGAN,Jackson,134,2,9,4,119,625,190,403,32,4
+Metropolitan,MICHIGAN,Kalamazoo,128,1,26,13,88,"1,589",401,"1,120",68,11
+Metropolitan,MICHIGAN,Lapeer,46,1,6,0,39,466,140,310,16,0
+Metropolitan,MICHIGAN,Livingston,43,0,9,7,27,703,156,520,27,3
+Metropolitan,MICHIGAN,Macomb,305,1,33,48,223,"2,325",522,"1,672",131,16
+Metropolitan,MICHIGAN,Monroe,188,2,40,30,116,"2,303",706,"1,470",127,31
+Metropolitan,MICHIGAN,Muskegon,34,0,7,2,25,768,122,628,18,3
+Metropolitan,MICHIGAN,Oakland,673,10,64,127,472,"4,622","1,382","3,005",235,81
+Metropolitan,MICHIGAN,Ottawa,263,2,86,16,159,"3,332",697,"2,542",93,24
+Metropolitan,MICHIGAN,Saginaw,78,1,9,9,59,563,182,349,32,4
+Metropolitan,MICHIGAN,St. Clair,137,1,17,16,103,"1,647",497,"1,056",94,22
+Metropolitan,MICHIGAN,Van Buren,106,2,30,5,69,603,209,361,33,6
+Metropolitan,MICHIGAN,Washtenaw,430,5,83,73,269,"2,147",812,"1,154",181,18
+Metropolitan,MICHIGAN,Wayne,10,0,0,0,10,16,1,14,1,0
+Nonmetropolitan,MICHIGAN,Alcona,9,0,1,0,8,176,55,119,2,1
+Nonmetropolitan,MICHIGAN,Allegany,108,1,28,3,76,850,239,560,51,9
+Nonmetropolitan,MICHIGAN,Alpena,4,0,2,0,2,71,10,61,0,0
+Nonmetropolitan,MICHIGAN,Antrim,18,0,4,3,11,301,91,205,5,0
+Nonmetropolitan,MICHIGAN,Arenac,19,0,5,1,13,104,55,42,7,2
+Nonmetropolitan,MICHIGAN,Baraga,0,0,0,0,0,25,7,17,1,0
+Nonmetropolitan,MICHIGAN,Branch,6,0,1,1,4,174,23,147,4,1
+Nonmetropolitan,MICHIGAN,Charlevoix,25,1,12,0,12,147,38,108,1,1
+Nonmetropolitan,MICHIGAN,Cheboygan,8,1,2,0,5,100,33,65,2,2
+Nonmetropolitan,MICHIGAN,Chippewa,5,0,1,0,4,120,45,68,7,0
+Nonmetropolitan,MICHIGAN,Clare,33,1,9,3,20,367,202,162,3,1
+Nonmetropolitan,MICHIGAN,Crawford,27,1,4,0,22,200,84,109,7,1
+Nonmetropolitan,MICHIGAN,Delta,3,0,0,0,3,63,12,45,6,0
+Nonmetropolitan,MICHIGAN,Emmet,10,0,2,1,7,230,42,184,4,0
+Nonmetropolitan,MICHIGAN,Gladwin,18,0,2,0,16,135,53,79,3,3
+Nonmetropolitan,MICHIGAN,Grand Traverse,92,0,26,3,63,739,128,594,17,4
+Nonmetropolitan,MICHIGAN,Gratiot,9,0,3,1,5,182,46,127,9,0
+Nonmetropolitan,MICHIGAN,Hillsdale,25,0,2,1,22,196,60,130,6,1
+Nonmetropolitan,MICHIGAN,Houghton,5,0,1,1,3,101,24,75,2,0
+Nonmetropolitan,MICHIGAN,Huron,13,1,3,0,9,141,54,85,2,0
+Nonmetropolitan,MICHIGAN,Iosco,1,0,0,0,1,13,9,3,1,0
+Nonmetropolitan,MICHIGAN,Iron,4,1,2,0,1,42,16,25,1,1
+Nonmetropolitan,MICHIGAN,Isabella,31,2,11,2,16,398,129,251,18,0
+Nonmetropolitan,MICHIGAN,Kalkaska,9,0,5,1,3,261,75,169,17,1
+Nonmetropolitan,MICHIGAN,Lake,23,1,5,2,15,269,147,114,8,0
+Nonmetropolitan,MICHIGAN,Lenawee,52,0,22,1,29,369,120,230,19,2
+Nonmetropolitan,MICHIGAN,Luce,6,0,3,0,3,90,34,54,2,0
+Nonmetropolitan,MICHIGAN,Mackinac,3,0,0,0,3,61,16,43,2,0
+Nonmetropolitan,MICHIGAN,Marquette,5,0,2,0,3,184,16,165,3,1
+Nonmetropolitan,MICHIGAN,Mecosta,192,0,15,2,175,481,114,351,16,1
+Nonmetropolitan,MICHIGAN,Montcalm,57,0,12,1,44,530,171,322,37,2
+Nonmetropolitan,MICHIGAN,Montmorency,2,0,1,0,1,54,37,14,3,0
+Nonmetropolitan,MICHIGAN,Oceana,21,0,7,1,13,287,94,181,12,0
+Nonmetropolitan,MICHIGAN,Ogemaw,19,0,1,2,16,288,131,151,6,0
+Nonmetropolitan,MICHIGAN,Ontonagon,3,0,1,0,2,23,11,11,1,0
+Nonmetropolitan,MICHIGAN,Osceola,25,0,3,0,22,267,83,177,7,2
+Nonmetropolitan,MICHIGAN,Oscoda,21,0,2,2,17,256,96,153,7,1
+Nonmetropolitan,MICHIGAN,Otsego,3,0,1,0,2,33,10,22,1,0
+Nonmetropolitan,MICHIGAN,Presque Isle,7,0,2,0,5,41,18,22,1,0
+Nonmetropolitan,MICHIGAN,Roscommon,14,0,6,2,6,155,40,104,11,2
+Nonmetropolitan,MICHIGAN,Sanilac,29,0,4,0,25,175,84,83,8,2
+Nonmetropolitan,MICHIGAN,Shiawassee,46,0,17,4,25,500,197,289,14,0
+Nonmetropolitan,MICHIGAN,St. Joseph,25,0,5,0,20,306,105,188,13,2
+Nonmetropolitan,MICHIGAN,Tuscola,39,1,6,0,32,332,121,200,11,3
+Nonmetropolitan,MICHIGAN,Wexford,26,0,9,1,16,396,78,310,8,2
+Metropolitan,MINNESOTA,Anoka,,1,,2,47,"1,675",302,"1,297",76,5
+Metropolitan,MINNESOTA,Benton,,0,,0,12,265,51,194,20,3
+Metropolitan,MINNESOTA,Blue Earth,,0,,0,7,177,59,102,16,1
+Metropolitan,MINNESOTA,Carlton,,2,,1,5,323,111,196,16,2
+Metropolitan,MINNESOTA,Carver,,0,,3,25,736,130,592,14,5
+Metropolitan,MINNESOTA,Chisago,,0,,2,10,442,76,345,21,1
+Metropolitan,MINNESOTA,Clay,,0,,0,3,72,18,51,3,4
+Metropolitan,MINNESOTA,Dakota,,0,,1,38,146,45,95,6,3
+Metropolitan,MINNESOTA,Dodge,,0,,0,33,252,43,202,7,0
+Metropolitan,MINNESOTA,Hennepin,,0,,2,14,141,23,114,4,1
+Metropolitan,MINNESOTA,Houston,,0,,0,4,64,23,38,3,0
+Metropolitan,MINNESOTA,Isanti,,0,,0,10,400,116,249,35,7
+Metropolitan,MINNESOTA,Nicollet,,0,,0,5,110,49,55,6,2
+Metropolitan,MINNESOTA,Olmsted,,0,,2,17,448,151,261,36,1
+Metropolitan,MINNESOTA,Polk,,0,,1,15,157,53,99,5,3
+Metropolitan,MINNESOTA,Ramsey,,0,,1,8,146,19,119,8,1
+Metropolitan,MINNESOTA,Scott,,0,,0,4,119,40,76,3,0
+Metropolitan,MINNESOTA,Sherburne,,0,,1,11,516,125,361,30,1
+Metropolitan,MINNESOTA,Stearns,,0,,1,30,439,118,296,25,0
+Metropolitan,MINNESOTA,St. Louis,,0,,2,33,708,273,382,53,5
+Metropolitan,MINNESOTA,Wabasha,,0,,0,1,26,3,19,4,0
+Metropolitan,MINNESOTA,Washington,,0,,3,18,957,179,734,44,2
+Metropolitan,MINNESOTA,Wright,,0,,9,48,"1,716",167,"1,490",59,12
+Nonmetropolitan,MINNESOTA,Aitkin,,0,,0,16,409,141,237,31,4
+Nonmetropolitan,MINNESOTA,Becker,,0,,1,10,117,38,65,14,3
+Nonmetropolitan,MINNESOTA,Beltrami,,0,,1,36,430,138,271,21,3
+Nonmetropolitan,MINNESOTA,Big Stone,,0,,0,5,44,19,25,0,0
+Nonmetropolitan,MINNESOTA,Brown,,0,,0,2,0,0,0,0,0
+Nonmetropolitan,MINNESOTA,Cass,,2,,0,18,849,232,556,61,0
+Nonmetropolitan,MINNESOTA,Chippewa,,0,,0,8,42,5,36,1,0
+Nonmetropolitan,MINNESOTA,Clearwater,,0,,1,10,192,62,123,7,1
+Nonmetropolitan,MINNESOTA,Cook,,0,,0,5,162,25,135,2,0
+Nonmetropolitan,MINNESOTA,Cottonwood,,0,,0,1,40,11,26,3,1
+Nonmetropolitan,MINNESOTA,Crow Wing,,1,,1,14,448,119,305,24,1
+Nonmetropolitan,MINNESOTA,Douglas,,0,,1,20,216,71,131,14,0
+Nonmetropolitan,MINNESOTA,Faribault,,0,,0,3,53,22,26,5,1
+Nonmetropolitan,MINNESOTA,Freeborn,,0,,0,4,123,32,77,14,0
+Nonmetropolitan,MINNESOTA,Goodhue,,0,,0,7,203,58,119,26,0
+Nonmetropolitan,MINNESOTA,Grant,,0,,0,0,94,23,71,0,1
+Nonmetropolitan,MINNESOTA,Hubbard,,0,,0,6,249,93,146,10,0
+Nonmetropolitan,MINNESOTA,Itasca,,0,,1,26,457,100,340,17,1
+Nonmetropolitan,MINNESOTA,Jackson,,0,,2,3,53,2,47,4,0
+Nonmetropolitan,MINNESOTA,Kanabec,,0,,1,30,441,149,262,30,0
+Nonmetropolitan,MINNESOTA,Kandiyohi,,1,,0,12,207,32,153,22,1
+Nonmetropolitan,MINNESOTA,Kittson,,0,,0,0,38,8,28,2,0
+Nonmetropolitan,MINNESOTA,Lac Qui Parle,,0,,0,2,41,7,33,1,0
+Nonmetropolitan,MINNESOTA,Lake,,0,,0,3,28,10,16,2,0
+Nonmetropolitan,MINNESOTA,Lake of the Woods,,0,,0,3,5,0,5,0,0
+Nonmetropolitan,MINNESOTA,Le Sueur,,0,,0,1,116,39,69,8,1
+Nonmetropolitan,MINNESOTA,Lincoln,,0,,0,10,10,4,6,0,0
+Nonmetropolitan,MINNESOTA,Lyon,,0,,0,4,20,7,12,1,0
+Nonmetropolitan,MINNESOTA,Mahnomen,,0,,0,19,122,31,88,3,0
+Nonmetropolitan,MINNESOTA,Marshall,,0,,0,2,109,9,95,5,1
+Nonmetropolitan,MINNESOTA,Martin,,1,,0,1,25,9,15,1,0
+Nonmetropolitan,MINNESOTA,McLeod,,0,,0,3,94,36,51,7,1
+Nonmetropolitan,MINNESOTA,Meeker,,0,,0,6,243,74,157,12,2
+Nonmetropolitan,MINNESOTA,Mille Lacs,,0,,0,17,454,108,301,45,0
+Nonmetropolitan,MINNESOTA,Mower,,0,,1,9,169,54,93,22,0
+Nonmetropolitan,MINNESOTA,Murray,,0,,0,0,47,18,27,2,0
+Nonmetropolitan,MINNESOTA,Nobles,,0,,1,5,48,18,26,4,0
+Nonmetropolitan,MINNESOTA,Otter Tail,,2,,4,17,401,147,240,14,0
+Nonmetropolitan,MINNESOTA,Pennington,,0,,0,3,53,12,37,4,1
+Nonmetropolitan,MINNESOTA,Pine,,0,,2,28,617,157,406,54,7
+Nonmetropolitan,MINNESOTA,Pipestone,,0,,2,4,65,13,48,4,1
+Nonmetropolitan,MINNESOTA,Pope,,0,,0,3,57,10,37,10,0
+Nonmetropolitan,MINNESOTA,Red Lake,,0,,0,3,22,11,11,0,0
+Nonmetropolitan,MINNESOTA,Redwood,,0,,1,4,60,14,42,4,0
+Nonmetropolitan,MINNESOTA,Renville,,0,,0,1,67,15,35,17,0
+Nonmetropolitan,MINNESOTA,Rice,,0,,0,7,153,43,84,26,0
+Nonmetropolitan,MINNESOTA,Rock,,0,,1,,43,7,36,0,0
+Nonmetropolitan,MINNESOTA,Roseau,,0,,0,1,29,6,22,1,0
+Nonmetropolitan,MINNESOTA,Sibley,,0,,0,0,5,5,0,0,0
+Nonmetropolitan,MINNESOTA,Steele,,0,,1,3,115,36,71,8,8
+Nonmetropolitan,MINNESOTA,Stevens,,0,,0,0,25,9,14,2,0
+Nonmetropolitan,MINNESOTA,Swift,,0,,0,1,36,13,23,0,0
+Nonmetropolitan,MINNESOTA,Todd,,1,,0,8,263,107,148,8,4
+Nonmetropolitan,MINNESOTA,Traverse,,0,,0,3,28,4,20,4,0
+Nonmetropolitan,MINNESOTA,Wadena,,0,,0,3,95,42,45,8,3
+Nonmetropolitan,MINNESOTA,Waseca,,0,,0,1,91,40,49,2,0
+Nonmetropolitan,MINNESOTA,Watonwan,,0,,0,3,38,14,21,3,0
+Nonmetropolitan,MINNESOTA,Wilkin,,0,,0,1,46,11,35,0,0
+Nonmetropolitan,MINNESOTA,Winona,,0,,0,3,104,26,67,11,0
+Nonmetropolitan,MINNESOTA,Yellow Medicine,,0,,0,6,38,9,28,1,0
+Metropolitan,MISSISSIPPI,Forrest,24,1,3,3,17,477,173,296,8,1
+Metropolitan,MISSISSIPPI,Harrison,34,0,6,12,16,"1,164",371,686,107,2
+Metropolitan,MISSISSIPPI,Hinds,30,2,6,4,18,448,165,206,77,0
+Metropolitan,MISSISSIPPI,Jackson,140,3,30,15,92,"1,693",551,"1,019",123,28
+Metropolitan,MISSISSIPPI,Lamar,30,4,8,14,4,671,382,277,12,1
+Metropolitan,MISSISSIPPI,Madison,31,1,3,5,22,527,134,344,49,0
+Metropolitan,MISSISSIPPI,Rankin,40,3,4,6,27,618,148,420,50,1
+Metropolitan,MISSISSIPPI,Simpson,39,0,5,3,31,351,121,194,36,3
+Metropolitan,MISSISSIPPI,Tunica,30,0,2,15,13,541,86,409,46,0
+Nonmetropolitan,MISSISSIPPI,Adams,67,2,6,8,51,621,297,318,6,1
+Nonmetropolitan,MISSISSIPPI,Chickasaw,16,1,1,4,10,41,18,20,3,0
+Nonmetropolitan,MISSISSIPPI,Choctaw,11,0,0,0,11,90,31,52,7,0
+Nonmetropolitan,MISSISSIPPI,Claiborne,33,1,0,3,29,84,47,36,1,0
+Nonmetropolitan,MISSISSIPPI,Franklin,11,1,1,4,5,54,30,18,6,0
+Nonmetropolitan,MISSISSIPPI,Grenada,18,0,0,7,11,100,49,46,5,0
+Nonmetropolitan,MISSISSIPPI,Itawamba,26,2,4,0,20,271,85,170,16,4
+Nonmetropolitan,MISSISSIPPI,Jefferson,18,1,3,0,14,43,11,26,6,1
+Nonmetropolitan,MISSISSIPPI,Jones,79,2,25,4,48,"1,000",373,627,0,0
+Nonmetropolitan,MISSISSIPPI,Kemper,2,0,0,0,2,49,27,18,4,5
+Nonmetropolitan,MISSISSIPPI,Lauderdale,35,0,8,4,23,650,342,271,37,2
+Nonmetropolitan,MISSISSIPPI,Lee,47,0,5,5,37,800,297,462,41,12
+Nonmetropolitan,MISSISSIPPI,Leflore,70,1,6,7,56,430,174,236,20,2
+Nonmetropolitan,MISSISSIPPI,Lincoln,32,0,2,0,30,325,105,199,21,9
+Nonmetropolitan,MISSISSIPPI,Lowndes,53,3,5,12,33,608,309,277,22,0
+Nonmetropolitan,MISSISSIPPI,Marion,32,0,9,9,14,561,242,291,28,5
+Nonmetropolitan,MISSISSIPPI,Oktibbeha,42,0,2,5,35,227,105,113,9,6
+Nonmetropolitan,MISSISSIPPI,Panola,70,2,1,9,58,560,282,262,16,1
+Nonmetropolitan,MISSISSIPPI,Pike,36,1,1,5,29,368,236,131,1,
+Nonmetropolitan,MISSISSIPPI,Pontotoc,22,0,1,12,9,72,26,44,2,3
+Nonmetropolitan,MISSISSIPPI,Scott,47,2,2,3,40,376,126,219,31,6
+Nonmetropolitan,MISSISSIPPI,Tippah,5,0,1,0,4,10,4,6,0,0
+Nonmetropolitan,MISSISSIPPI,Union,4,0,0,0,4,234,84,136,14,3
+Nonmetropolitan,MISSISSIPPI,Warren,16,4,5,1,6,408,129,261,18,0
+Nonmetropolitan,MISSISSIPPI,Washington,41,2,2,8,29,556,123,367,66,0
+Nonmetropolitan,MISSISSIPPI,Winston,1,0,0,0,1,20,4,15,1,0
+Metropolitan,MISSOURI,Andrew,2,0,0,0,2,74,28,45,1,0
+Metropolitan,MISSOURI,Bates,31,2,2,0,27,201,83,110,8,3
+Metropolitan,MISSOURI,Bollinger,14,0,2,0,12,105,44,52,9,2
+Metropolitan,MISSOURI,Boone,90,1,2,13,74,736,179,508,49,9
+Metropolitan,MISSOURI,Buchanan,22,0,3,1,18,209,62,139,8,1
+Metropolitan,MISSOURI,Caldwell,17,0,1,1,15,54,32,22,0,0
+Metropolitan,MISSOURI,Callaway,60,3,6,1,50,784,205,538,41,6
+Metropolitan,MISSOURI,Cape Girardeau,13,0,1,2,10,276,116,153,7,0
+Metropolitan,MISSOURI,Cass,48,0,2,4,42,465,125,313,27,0
+Metropolitan,MISSOURI,Christian,66,0,0,2,64,401,174,181,46,6
+Metropolitan,MISSOURI,Clay,25,3,2,2,18,210,93,92,25,3
+Metropolitan,MISSOURI,Clinton,49,0,0,2,47,88,18,62,8,1
+Metropolitan,MISSOURI,Cole,48,1,2,3,42,422,105,289,28,1
+Metropolitan,MISSOURI,Dallas,30,0,3,0,27,209,63,140,6,0
+Metropolitan,MISSOURI,De Kalb,8,0,1,0,7,63,21,37,5,0
+Metropolitan,MISSOURI,Franklin,89,1,4,1,83,468,122,294,52,2
+Metropolitan,MISSOURI,Greene,96,3,9,10,74,"1,716",573,"1,037",106,49
+Metropolitan,MISSOURI,Howard,10,1,1,0,8,39,19,19,1,0
+Metropolitan,MISSOURI,Jackson,42,0,5,6,31,556,190,315,51,1
+Metropolitan,MISSOURI,Jasper,152,0,7,2,143,491,154,282,55,9
+Metropolitan,MISSOURI,Jefferson,384,2,30,19,333,"2,492",404,"1,898",190,18
+Metropolitan,MISSOURI,Lafayette,10,0,0,0,10,144,49,85,10,0
+Metropolitan,MISSOURI,Lincoln,89,2,0,0,87,252,82,149,21,0
+Metropolitan,MISSOURI,McDonald,93,2,1,6,84,314,87,206,21,3
+Metropolitan,MISSOURI,Moniteau,5,1,0,0,4,42,9,31,2,0
+Metropolitan,MISSOURI,Newton,40,1,12,3,24,771,202,495,74,4
+Metropolitan,MISSOURI,Osage,39,0,0,0,39,93,42,44,7,0
+Metropolitan,MISSOURI,Platte,53,1,1,2,49,328,95,224,9,7
+Metropolitan,MISSOURI,Polk,88,0,0,2,86,336,127,192,17,0
+Metropolitan,MISSOURI,Ray,19,0,2,0,17,185,73,98,14,0
+Metropolitan,MISSOURI,St. Charles,141,0,8,10,123,"1,031",272,720,39,13
+Metropolitan,MISSOURI,St. Louis County Police Department,"1,043",17,63,284,679,"9,329","2,318","6,387",624,56
+Metropolitan,MISSOURI,Warren,67,1,5,2,59,240,82,145,13,3
+Metropolitan,MISSOURI,Washington,35,0,6,2,27,360,105,217,38,2
+Metropolitan,MISSOURI,Webster,12,0,0,1,11,315,144,135,36,3
+Nonmetropolitan,MISSOURI,Adair,17,0,2,0,15,159,47,107,5,0
+Nonmetropolitan,MISSOURI,Atchison,0,0,0,0,0,11,3,7,1,0
+Nonmetropolitan,MISSOURI,Audrain,5,0,0,1,4,151,60,81,10,0
+Nonmetropolitan,MISSOURI,Barry,79,0,12,3,64,434,169,239,26,6
+Nonmetropolitan,MISSOURI,Benton,28,0,0,0,28,241,111,109,21,1
+Nonmetropolitan,MISSOURI,Butler,77,0,5,6,66,660,232,395,33,2
+Nonmetropolitan,MISSOURI,Camden,39,0,0,0,39,452,145,284,23,0
+Nonmetropolitan,MISSOURI,Carroll,4,0,0,1,3,41,11,28,2,0
+Nonmetropolitan,MISSOURI,Carter,5,0,0,0,5,62,29,28,5,0
+Nonmetropolitan,MISSOURI,Cedar,12,0,3,0,9,143,48,88,7,0
+Nonmetropolitan,MISSOURI,Chariton,21,0,0,0,21,53,23,28,2,0
+Nonmetropolitan,MISSOURI,Clark,6,0,0,0,6,28,18,5,5,0
+Nonmetropolitan,MISSOURI,Cooper,5,0,2,0,3,132,31,90,11,0
+Nonmetropolitan,MISSOURI,Crawford,32,0,3,0,29,185,73,102,10,0
+Nonmetropolitan,MISSOURI,Dade,4,0,0,0,4,47,37,0,10,0
+Nonmetropolitan,MISSOURI,Daviess,5,0,1,0,4,67,25,33,9,2
+Nonmetropolitan,MISSOURI,Dent,17,4,2,1,10,83,41,32,10,1
+Nonmetropolitan,MISSOURI,Douglas,30,1,1,0,28,94,39,47,8,2
+Nonmetropolitan,MISSOURI,Dunklin,24,0,0,3,21,232,58,159,15,5
+Nonmetropolitan,MISSOURI,Gasconade,19,0,0,1,18,126,48,70,8,2
+Nonmetropolitan,MISSOURI,Gentry,0,0,0,0,0,23,8,15,0,0
+Nonmetropolitan,MISSOURI,Grundy,5,0,1,0,4,57,26,27,4,0
+Nonmetropolitan,MISSOURI,Harrison,8,1,0,2,5,55,9,40,6,3
+Nonmetropolitan,MISSOURI,Henry,43,1,2,0,40,354,115,220,19,7
+Nonmetropolitan,MISSOURI,Hickory,2,0,0,1,1,123,46,59,18,0
+Nonmetropolitan,MISSOURI,Holt,5,0,0,0,5,74,35,32,7,0
+Nonmetropolitan,MISSOURI,Howell,28,1,0,1,26,370,141,203,26,2
+Nonmetropolitan,MISSOURI,Iron,31,0,3,2,26,60,24,29,7,1
+Nonmetropolitan,MISSOURI,Johnson,26,1,1,1,23,416,155,224,37,0
+Nonmetropolitan,MISSOURI,Knox,2,0,0,0,2,46,18,26,2,0
+Nonmetropolitan,MISSOURI,Laclede,138,0,0,0,138,329,81,216,32,2
+Nonmetropolitan,MISSOURI,Lawrence,56,0,4,3,49,415,176,212,27,5
+Nonmetropolitan,MISSOURI,Lewis,0,0,0,0,0,69,24,41,4,0
+Nonmetropolitan,MISSOURI,Linn,16,0,1,0,15,54,29,24,1,2
+Nonmetropolitan,MISSOURI,Livingston,3,0,0,0,3,32,10,17,5,1
+Nonmetropolitan,MISSOURI,Macon,19,0,0,0,19,112,44,64,4,0
+Nonmetropolitan,MISSOURI,Madison,11,0,0,0,11,57,23,29,5,0
+Nonmetropolitan,MISSOURI,Maries,31,0,3,0,28,56,16,36,4,1
+Nonmetropolitan,MISSOURI,Marion,10,0,2,0,8,118,19,96,3,0
+Nonmetropolitan,MISSOURI,Mercer,9,3,0,0,6,14,4,10,0,0
+Nonmetropolitan,MISSOURI,Miller,66,0,8,0,58,229,87,131,11,0
+Nonmetropolitan,MISSOURI,Mississippi,16,0,0,0,16,59,20,37,2,0
+Nonmetropolitan,MISSOURI,Monroe,5,0,0,0,5,51,18,26,7,1
+Nonmetropolitan,MISSOURI,Montgomery,3,1,0,0,2,78,26,48,4,0
+Nonmetropolitan,MISSOURI,Morgan,45,0,3,0,42,274,111,136,27,0
+Nonmetropolitan,MISSOURI,New Madrid,20,0,0,0,20,60,16,38,6,2
+Nonmetropolitan,MISSOURI,Nodaway,36,0,2,1,33,116,35,71,10,0
+Nonmetropolitan,MISSOURI,Oregon,9,0,0,0,9,56,27,25,4,0
+Nonmetropolitan,MISSOURI,Ozark,12,0,0,0,12,141,54,81,6,4
+Nonmetropolitan,MISSOURI,Pemiscot,29,1,3,2,23,120,42,69,9,0
+Nonmetropolitan,MISSOURI,Perry,6,0,0,0,6,63,14,39,10,0
+Nonmetropolitan,MISSOURI,Pettis,9,0,2,0,7,388,130,234,24,0
+Nonmetropolitan,MISSOURI,Phelps,41,1,4,1,35,387,120,234,33,2
+Nonmetropolitan,MISSOURI,Pike,23,0,2,0,21,74,33,35,6,1
+Nonmetropolitan,MISSOURI,Pulaski,91,4,5,4,78,368,186,154,28,3
+Nonmetropolitan,MISSOURI,Putnam,0,0,0,0,0,15,11,1,3,0
+Nonmetropolitan,MISSOURI,Ralls,5,0,0,0,5,152,32,117,3,1
+Nonmetropolitan,MISSOURI,Randolph,6,0,2,0,4,142,37,105,0,1
+Nonmetropolitan,MISSOURI,Reynolds,28,1,0,1,26,78,27,46,5,2
+Nonmetropolitan,MISSOURI,Ripley,29,0,0,0,29,298,94,194,10,0
+Nonmetropolitan,MISSOURI,Saline,23,0,2,2,19,91,44,45,2,0
+Nonmetropolitan,MISSOURI,Schuyler,1,0,0,0,1,42,13,22,7,1
+Nonmetropolitan,MISSOURI,Scott,24,0,0,1,23,96,32,55,9,0
+Nonmetropolitan,MISSOURI,Shannon,3,0,0,0,3,54,15,32,7,1
+Nonmetropolitan,MISSOURI,Shelby,2,0,1,0,1,40,5,33,2,0
+Nonmetropolitan,MISSOURI,St. Clair,6,1,1,1,3,168,48,120,0,0
+Nonmetropolitan,MISSOURI,Ste. Genevieve,59,0,2,0,57,114,23,76,15,5
+Nonmetropolitan,MISSOURI,St. Francois,81,0,6,2,73,460,130,276,54,2
+Nonmetropolitan,MISSOURI,Stoddard,25,0,2,1,22,236,66,158,12,2
+Nonmetropolitan,MISSOURI,Stone,80,2,5,0,73,483,149,310,24,2
+Nonmetropolitan,MISSOURI,Sullivan,10,0,0,0,10,61,31,27,3,0
+Nonmetropolitan,MISSOURI,Taney,117,0,9,4,104,559,164,351,44,0
+Nonmetropolitan,MISSOURI,Texas,6,0,2,0,4,204,87,102,15,4
+Nonmetropolitan,MISSOURI,Vernon,33,1,2,0,30,220,69,132,19,1
+Nonmetropolitan,MISSOURI,Wayne,10,0,1,0,9,84,32,48,4,1
+Nonmetropolitan,MISSOURI,Worth,2,0,0,0,2,37,15,19,3,0
+Nonmetropolitan,MISSOURI,Wright,16,0,5,0,11,85,40,40,5,0
+Metropolitan,MONTANA,Carbon,15,0,0,0,15,43,11,30,2,0
+Metropolitan,MONTANA,Cascade,28,0,3,0,25,248,41,201,6,4
+Metropolitan,MONTANA,Missoula,84,1,12,6,65,404,87,288,29,3
+Metropolitan,MONTANA,Yellowstone,78,0,4,4,70,610,146,402,62,3
+Nonmetropolitan,MONTANA,Beaverhead,7,0,0,0,7,63,15,44,4,1
+Nonmetropolitan,MONTANA,Big Horn,22,3,2,0,17,134,8,118,8,0
+Nonmetropolitan,MONTANA,Blaine,13,0,0,0,13,15,1,12,2,0
+Nonmetropolitan,MONTANA,Broadwater,17,0,2,0,15,56,8,42,6,0
+Nonmetropolitan,MONTANA,Carter,0,0,0,0,0,1,0,1,0,0
+Nonmetropolitan,MONTANA,Chouteau,6,0,0,0,6,20,3,16,1,0
+Nonmetropolitan,MONTANA,Custer,1,0,0,0,1,39,6,30,3,0
+Nonmetropolitan,MONTANA,Daniels,3,0,0,0,3,0,0,0,0,0
+Nonmetropolitan,MONTANA,Dawson,9,0,2,0,7,66,9,54,3,1
+Nonmetropolitan,MONTANA,Deer Lodge,25,0,4,1,20,152,15,130,7,2
+Nonmetropolitan,MONTANA,Fallon,0,0,0,0,0,12,2,9,1,0
+Nonmetropolitan,MONTANA,Fergus,8,0,5,0,3,52,9,41,2,0
+Nonmetropolitan,MONTANA,Gallatin,44,0,17,2,25,335,39,273,23,1
+Nonmetropolitan,MONTANA,Garfield,0,0,0,0,0,0,0,0,0,0
+Nonmetropolitan,MONTANA,Glacier,20,1,0,0,19,35,6,25,4,0
+Nonmetropolitan,MONTANA,Golden Valley,1,0,0,0,1,0,0,0,0,0
+Nonmetropolitan,MONTANA,Granite,1,0,0,0,1,54,4,50,0,0
+Nonmetropolitan,MONTANA,Hill,19,0,2,0,17,131,19,102,10,1
+Nonmetropolitan,MONTANA,Jefferson,13,0,1,0,12,36,6,28,2,1
+Nonmetropolitan,MONTANA,Judith Basin,0,0,0,0,0,1,0,1,0,0
+Nonmetropolitan,MONTANA,Lake,46,0,10,1,35,294,74,176,44,3
+Nonmetropolitan,MONTANA,Lewis and Clark,80,2,18,1,59,342,77,239,26,5
+Nonmetropolitan,MONTANA,Lincoln,25,1,2,1,21,129,24,98,7,0
+Nonmetropolitan,MONTANA,Madison,6,0,0,0,6,38,6,29,3,0
+Nonmetropolitan,MONTANA,McCone,1,0,0,0,1,18,3,14,1,0
+Nonmetropolitan,MONTANA,Meagher,6,0,0,0,6,23,5,17,1,0
+Nonmetropolitan,MONTANA,Mineral,0,0,0,0,0,1,0,1,0,0
+Nonmetropolitan,MONTANA,Musselshell,18,0,1,0,17,77,14,61,2,0
+Nonmetropolitan,MONTANA,Park,20,1,2,1,16,54,18,32,4,3
+Nonmetropolitan,MONTANA,Phillips,7,0,1,0,6,60,10,44,6,0
+Nonmetropolitan,MONTANA,Pondera,0,0,0,0,0,7,1,5,1,0
+Nonmetropolitan,MONTANA,Powell,13,0,0,0,13,87,16,65,6,0
+Nonmetropolitan,MONTANA,Prairie,1,0,1,0,0,6,1,4,1,0
+Nonmetropolitan,MONTANA,Ravalli,46,0,4,0,42,310,34,270,6,2
+Nonmetropolitan,MONTANA,Richland,0,0,0,0,0,32,5,27,0,0
+Nonmetropolitan,MONTANA,Roosevelt,23,0,2,0,21,52,5,36,11,2
+Nonmetropolitan,MONTANA,Rosebud,10,0,1,0,9,44,13,29,2,1
+Nonmetropolitan,MONTANA,Sanders,8,0,5,0,3,67,10,50,7,0
+Nonmetropolitan,MONTANA,Sheridan,7,0,1,0,6,69,7,50,12,0
+Nonmetropolitan,MONTANA,Silver Bow,97,2,10,11,74,"1,020",149,812,59,12
+Nonmetropolitan,MONTANA,Stillwater,13,0,3,0,10,61,19,38,4,0
+Nonmetropolitan,MONTANA,Sweet Grass,5,0,0,0,5,36,4,30,2,0
+Nonmetropolitan,MONTANA,Teton,7,0,0,0,7,53,7,43,3,0
+Nonmetropolitan,MONTANA,Toole,25,0,2,0,23,128,15,105,8,2
+Nonmetropolitan,MONTANA,Valley,8,0,2,0,6,23,5,18,0,0
+Nonmetropolitan,MONTANA,Wheatland,3,0,0,0,3,2,1,1,0,0
+Nonmetropolitan,MONTANA,Wibaux,0,0,0,0,0,3,0,3,0,0
+Nonmetropolitan,NEBRASKA,Cass,11,1,4,1,5,313,63,208,42,2
+Nonmetropolitan,NEBRASKA,Dakota,3,0,0,0,3,61,13,39,9,0
+Nonmetropolitan,NEBRASKA,Dixon,3,0,2,0,1,71,24,43,4,4
+Nonmetropolitan,NEBRASKA,Douglas,123,0,8,7,108,"1,175",298,786,91,0
+Nonmetropolitan,NEBRASKA,Lancaster,9,0,1,0,8,297,78,214,5,2
+Nonmetropolitan,NEBRASKA,Sarpy,25,0,10,6,9,730,115,555,60,0
+Nonmetropolitan,NEBRASKA,Saunders,6,2,0,0,4,119,31,75,13,0
+Nonmetropolitan,NEBRASKA,Adams,4,0,2,0,2,170,49,110,11,0
+Nonmetropolitan,NEBRASKA,Antelope,1,0,0,0,1,20,4,15,1,0
+Nonmetropolitan,NEBRASKA,Arthur,0,0,0,0,0,0,0,0,0,0
+Nonmetropolitan,NEBRASKA,Box Butte,0,0,0,0,0,1,0,1,0,0
+Nonmetropolitan,NEBRASKA,Boyd,0,0,0,0,0,9,7,2,0,0
+Nonmetropolitan,NEBRASKA,Brown,3,1,0,0,2,25,6,18,1,0
+Nonmetropolitan,NEBRASKA,Buffalo,9,0,4,2,3,140,39,97,4,0
+Nonmetropolitan,NEBRASKA,Burt,3,0,0,0,3,46,17,25,4,0
+Nonmetropolitan,NEBRASKA,Butler,2,0,0,0,2,49,12,35,2,0
+Nonmetropolitan,NEBRASKA,Cedar,3,0,0,0,3,12,0,12,0,0
+Nonmetropolitan,NEBRASKA,Chase,1,0,0,0,1,23,8,14,1,0
+Nonmetropolitan,NEBRASKA,Cherry,2,0,0,0,2,9,0,9,0,0
+Nonmetropolitan,NEBRASKA,Cuming,4,0,3,0,1,29,6,17,6,0
+Nonmetropolitan,NEBRASKA,Custer,2,0,1,1,0,51,19,31,1,0
+Nonmetropolitan,NEBRASKA,Dawes,0,0,0,0,0,21,7,13,1,0
+Nonmetropolitan,NEBRASKA,Dawson,10,0,6,1,3,74,17,50,7,0
+Nonmetropolitan,NEBRASKA,Deuel,2,0,0,0,2,16,3,12,1,0
+Nonmetropolitan,NEBRASKA,Dodge,8,0,1,2,5,155,38,112,5,0
+Nonmetropolitan,NEBRASKA,Franklin,1,0,0,0,1,7,2,5,0,0
+Nonmetropolitan,NEBRASKA,Gage,3,0,0,0,3,136,23,101,12,1
+Nonmetropolitan,NEBRASKA,Hall,4,0,1,0,3,228,59,159,10,0
+Nonmetropolitan,NEBRASKA,Hamilton,5,0,3,0,2,67,18,46,3,2
+Nonmetropolitan,NEBRASKA,Hitchcock,5,0,2,1,2,22,12,7,3,0
+Nonmetropolitan,NEBRASKA,Hooker,0,0,0,0,0,0,0,0,0,
+Nonmetropolitan,NEBRASKA,Jefferson,3,0,0,0,3,74,17,52,5,0
+Nonmetropolitan,NEBRASKA,Kearney,3,0,2,0,1,49,8,40,1,0
+Nonmetropolitan,NEBRASKA,Keith,1,0,0,0,1,44,10,28,6,0
+Nonmetropolitan,NEBRASKA,Keya Paha,0,0,0,0,0,1,0,1,0,0
+Nonmetropolitan,NEBRASKA,Lincoln,10,0,5,0,5,107,30,70,7,1
+Nonmetropolitan,NEBRASKA,Madison,4,0,3,0,1,83,10,68,5,0
+Nonmetropolitan,NEBRASKA,Morrill,1,0,0,0,1,23,7,14,2,0
+Nonmetropolitan,NEBRASKA,Nance,1,0,0,0,1,27,8,19,0,0
+Nonmetropolitan,NEBRASKA,Nemaha,0,0,0,0,0,23,5,18,0,0
+Nonmetropolitan,NEBRASKA,Nuckolls,1,0,1,0,0,6,2,2,2,0
+Nonmetropolitan,NEBRASKA,Pawnee,0,0,0,0,0,41,14,27,0,0
+Nonmetropolitan,NEBRASKA,Phelps,1,0,0,0,1,44,9,33,2,0
+Nonmetropolitan,NEBRASKA,Pierce,1,0,0,0,1,36,3,32,1,0
+Nonmetropolitan,NEBRASKA,Platte,8,0,1,2,5,132,29,96,7,1
+Nonmetropolitan,NEBRASKA,Polk,0,0,0,0,0,60,12,45,3,0
+Nonmetropolitan,NEBRASKA,Red Willow,1,0,0,0,1,33,14,17,2,0
+Nonmetropolitan,NEBRASKA,Rock,0,0,0,0,0,12,5,7,0,0
+Nonmetropolitan,NEBRASKA,Saline,1,0,0,0,1,61,27,26,8,0
+Nonmetropolitan,NEBRASKA,Scotts Bluff,9,0,2,0,7,99,33,59,7,1
+Nonmetropolitan,NEBRASKA,Sheridan,5,0,0,0,5,55,9,42,4,2
+Nonmetropolitan,NEBRASKA,Sherman,0,0,0,0,0,20,1,18,1,0
+Nonmetropolitan,NEBRASKA,Stanton,7,0,0,0,7,58,8,48,2,0
+Nonmetropolitan,NEBRASKA,Thayer,3,0,0,0,3,75,20,49,6,0
+Nonmetropolitan,NEBRASKA,Wayne,0,0,0,0,0,21,7,13,1,0
+Nonmetropolitan,NEBRASKA,Webster,2,0,0,0,2,39,9,29,1,0
+Nonmetropolitan,NEBRASKA,York,1,1,0,0,0,52,14,35,3,0
+Nonmetropolitan,NEVADA,Carson City,148,4,0,16,128,"1,275",316,890,69,7
+Nonmetropolitan,NEVADA,Storey,19,0,0,1,18,58,22,36,0,0
+Nonmetropolitan,NEVADA,Washoe,189,3,7,10,169,934,333,537,64,9
+Nonmetropolitan,NEVADA,Churchill,18,0,0,1,17,255,90,152,13,1
+Nonmetropolitan,NEVADA,Douglas,59,1,3,5,50,742,130,588,24,7
+Nonmetropolitan,NEVADA,Elko,36,7,4,3,22,40,17,16,7,1
+Nonmetropolitan,NEVADA,Eureka,13,0,3,0,10,31,10,19,2,0
+Nonmetropolitan,NEVADA,Humboldt,38,0,0,0,38,52,17,29,6,1
+Nonmetropolitan,NEVADA,Lincoln,9,1,0,0,8,66,8,55,3,2
+Nonmetropolitan,NEVADA,Lyon,84,3,3,7,71,753,245,458,50,7
+Nonmetropolitan,NEVADA,White Pine,32,1,3,0,28,143,50,82,11,1
+Nonmetropolitan,NEW HAMPSHIRE,Rockingham,9,0,1,0,8,2,0,2,0,1
+Nonmetropolitan,NEW HAMPSHIRE,Carroll,5,0,1,0,4,56,19,35,2,0
+Nonmetropolitan,NEW HAMPSHIRE,Cheshire,2,0,1,0,1,7,0,6,1,0
+Nonmetropolitan,NEW HAMPSHIRE,Merrimack,5,0,3,0,2,16,0,16,0,0
+Nonmetropolitan,NEW JERSEY,Atlantic,0,0,0,0,0,0,0,0,0,0
+Nonmetropolitan,NEW JERSEY,Bergen,0,0,0,0,0,0,0,0,0,0
+Nonmetropolitan,NEW JERSEY,Bergen County Police Department,0,0,0,0,0,0,0,0,0,0
+Nonmetropolitan,NEW JERSEY,Burlington,0,0,0,0,0,0,0,0,0,0
+Nonmetropolitan,NEW JERSEY,Camden,0,0,0,0,0,0,0,0,0,0
+Nonmetropolitan,NEW JERSEY,Cape May,0,0,0,0,0,0,0,0,0,0
+Nonmetropolitan,NEW JERSEY,Cumberland,0,0,0,0,0,0,0,0,0,0
+Nonmetropolitan,NEW JERSEY,Essex,0,0,0,0,0,0,0,0,0,0
+Nonmetropolitan,NEW JERSEY,Gloucester,0,0,0,0,0,0,0,0,0,0
+Nonmetropolitan,NEW JERSEY,Hudson,0,0,0,0,0,0,0,0,0,0
+Nonmetropolitan,NEW JERSEY,Hunterdon,0,0,0,0,0,0,0,0,0,0
+Nonmetropolitan,NEW JERSEY,Mercer,0,0,0,0,0,0,0,0,0,0
+Nonmetropolitan,NEW JERSEY,Middlesex,0,0,0,0,0,0,0,0,0,0
+Nonmetropolitan,NEW JERSEY,Monmouth,0,0,0,0,0,0,0,0,0,0
+Nonmetropolitan,NEW JERSEY,Morris,0,0,0,0,0,0,0,0,0,0
+Nonmetropolitan,NEW JERSEY,Ocean,0,0,0,0,0,0,0,0,0,0
+Nonmetropolitan,NEW JERSEY,Passaic,0,0,0,0,0,0,0,0,0,0
+Nonmetropolitan,NEW JERSEY,Salem,0,0,0,0,0,0,0,0,0,0
+Nonmetropolitan,NEW JERSEY,Somerset,0,0,0,0,0,0,0,0,0,0
+Nonmetropolitan,NEW JERSEY,Sussex,0,0,0,0,0,0,0,0,0,0
+Nonmetropolitan,NEW JERSEY,Union,0,0,0,0,0,0,0,0,0,0
+Nonmetropolitan,NEW JERSEY,Warren,0,0,0,0,0,0,0,0,0,0
+Nonmetropolitan,NEW MEXICO,Bernalillo,784,4,32,101,647,"2,426",882,"1,317",227,68
+Nonmetropolitan,NEW MEXICO,Dona Ana,312,4,39,18,251,"1,548",608,808,132,6
+Nonmetropolitan,NEW MEXICO,Sandoval,23,0,0,2,21,92,49,43,0,0
+Nonmetropolitan,NEW MEXICO,San Juan,213,2,25,9,177,814,222,540,52,14
+Nonmetropolitan,NEW MEXICO,Santa Fe,147,2,6,12,127,"1,120",693,368,59,7
+Nonmetropolitan,NEW MEXICO,Torrance,15,0,9,2,4,153,76,55,22,2
+Nonmetropolitan,NEW MEXICO,Valencia,153,4,18,15,116,"1,453",692,618,143,7
+Nonmetropolitan,NEW MEXICO,Catron,1,0,0,0,1,22,9,11,2,0
+Nonmetropolitan,NEW MEXICO,Chaves,64,1,11,3,49,309,109,169,31,2
+Nonmetropolitan,NEW MEXICO,Cibola,101,0,5,1,95,108,53,46,9,9
+Nonmetropolitan,NEW MEXICO,Colfax,2,0,0,0,2,2,0,2,0,0
+Nonmetropolitan,NEW MEXICO,Curry,15,4,4,1,6,193,95,91,7,1
+Nonmetropolitan,NEW MEXICO,Eddy,74,1,13,5,55,489,151,317,21,7
+Nonmetropolitan,NEW MEXICO,Guadalupe,11,0,0,1,10,11,5,6,0,0
+Nonmetropolitan,NEW MEXICO,Hidalgo,4,1,0,0,3,11,4,5,2,0
+Nonmetropolitan,NEW MEXICO,Lea,52,4,6,1,41,450,139,288,23,2
+Nonmetropolitan,NEW MEXICO,Lincoln,15,3,1,0,11,116,50,58,8,0
+Nonmetropolitan,NEW MEXICO,Luna,58,1,1,2,54,208,92,95,21,0
+Nonmetropolitan,NEW MEXICO,McKinley,71,1,8,6,56,300,108,148,44,7
+Nonmetropolitan,NEW MEXICO,Otero,65,0,7,0,58,339,147,167,25,0
+Nonmetropolitan,NEW MEXICO,Quay,2,0,0,0,2,22,6,15,1,1
+Nonmetropolitan,NEW MEXICO,Rio Arriba,19,2,2,0,15,76,62,13,1,1
+Nonmetropolitan,NEW MEXICO,Roosevelt,13,0,4,0,9,101,38,58,5,0
+Nonmetropolitan,NEW MEXICO,Sierra,12,0,0,0,12,46,9,32,5,2
+Nonmetropolitan,NEW MEXICO,Taos,106,1,1,2,102,172,127,35,10,0
+Nonmetropolitan,NEW MEXICO,Union,0,0,0,0,0,20,10,9,1,0
+Nonmetropolitan,NEW YORK,Albany,16,0,6,1,9,178,42,130,6,1
+Nonmetropolitan,NEW YORK,Broome,63,1,10,11,41,911,229,660,22,1
+Nonmetropolitan,NEW YORK,Chemung,36,0,3,0,33,458,85,357,16,2
+Nonmetropolitan,NEW YORK,Dutchess,35,0,4,2,29,691,181,486,24,1
+Nonmetropolitan,NEW YORK,Erie,126,0,9,13,104,"1,054",201,819,34,2
+Nonmetropolitan,NEW YORK,Herkimer,0,0,0,0,0,2,0,2,0,0
+Nonmetropolitan,NEW YORK,Livingston,21,0,3,0,18,449,85,350,14,1
+Nonmetropolitan,NEW YORK,Madison,7,0,2,0,5,250,74,165,11,0
+Nonmetropolitan,NEW YORK,Monroe,204,3,16,60,125,"3,638",574,"2,955",109,6
+Nonmetropolitan,NEW YORK,Nassau,"1,420",7,37,696,680,"13,160","2,054","10,293",813,119
+Nonmetropolitan,NEW YORK,Niagara,65,0,9,12,44,"1,244",354,800,90,5
+Nonmetropolitan,NEW YORK,Oneida,20,1,3,4,12,476,143,314,19,6
+Nonmetropolitan,NEW YORK,Onondaga,199,2,37,42,118,"2,308",433,"1,793",82,9
+Nonmetropolitan,NEW YORK,Ontario,68,0,15,12,41,969,212,738,19,2
+Nonmetropolitan,NEW YORK,Orange,6,0,0,0,6,35,0,32,3,0
+Nonmetropolitan,NEW YORK,Orleans,19,1,2,2,14,328,108,205,15,0
+Nonmetropolitan,NEW YORK,Oswego,44,2,6,2,34,583,140,405,38,2
+Nonmetropolitan,NEW YORK,Putnam,25,0,1,3,21,336,81,249,6,1
+Nonmetropolitan,NEW YORK,Rensselaer,29,0,2,3,24,212,55,149,8,2
+Nonmetropolitan,NEW YORK,Rockland,19,0,1,0,18,27,1,26,0,0
+Nonmetropolitan,NEW YORK,Saratoga,21,1,1,4,15,"1,307",258,"1,030",19,2
+Nonmetropolitan,NEW YORK,Schenectady,2,0,0,2,0,13,0,12,1,0
+Nonmetropolitan,NEW YORK,Schoharie,0,0,0,0,0,89,36,51,2,0
+Nonmetropolitan,NEW YORK,Suffolk,85,0,0,0,85,13,1,5,7,0
+Nonmetropolitan,NEW YORK,Suffolk County Police Department,"1,862",32,42,748,"1,040","24,935","4,342","19,424","1,169",169
+Nonmetropolitan,NEW YORK,Tioga,12,0,1,1,10,223,70,147,6,2
+Nonmetropolitan,NEW YORK,Ulster,40,0,4,5,31,347,94,244,9,0
+Nonmetropolitan,NEW YORK,Warren,49,3,14,5,27,750,134,593,23,1
+Nonmetropolitan,NEW YORK,Washington,30,3,4,1,22,245,65,174,6,0
+Nonmetropolitan,NEW YORK,Wayne,41,0,8,4,29,417,116,284,17,1
+Nonmetropolitan,NEW YORK,Westchester Public Safety,25,0,0,2,23,141,10,129,2,
+Nonmetropolitan,NEW YORK,Allegany,0,0,0,0,0,2,0,2,0,0
+Nonmetropolitan,NEW YORK,Cattaraugus,40,0,5,5,30,517,159,335,23,0
+Nonmetropolitan,NEW YORK,Cayuga,21,1,2,0,18,321,77,232,12,1
+Nonmetropolitan,NEW YORK,Chautauqua,20,0,6,7,7,771,239,480,52,2
+Nonmetropolitan,NEW YORK,Chenango,24,0,4,0,20,450,92,352,6,1
+Nonmetropolitan,NEW YORK,Clinton,1,0,0,0,1,15,0,15,0,0
+Nonmetropolitan,NEW YORK,Columbia,23,1,1,2,19,375,100,271,4,0
+Nonmetropolitan,NEW YORK,Cortland,19,0,7,3,9,395,74,301,20,2
+Nonmetropolitan,NEW YORK,Delaware,14,0,7,0,7,127,43,78,6,3
+Nonmetropolitan,NEW YORK,Franklin,0,0,0,0,0,0,0,0,0,0
+Nonmetropolitan,NEW YORK,Fulton,5,0,2,1,2,397,89,298,10,0
+Nonmetropolitan,NEW YORK,Genesee,46,0,8,4,34,655,143,481,31,4
+Nonmetropolitan,NEW YORK,Greene,10,0,2,3,5,69,33,30,6,2
+Nonmetropolitan,NEW YORK,Hamilton,0,0,0,0,0,9,5,4,0,0
+Nonmetropolitan,NEW YORK,Jefferson,27,0,1,2,24,250,23,216,11,0
+Nonmetropolitan,NEW YORK,Lewis,22,1,0,3,18,232,88,116,28,2
+Nonmetropolitan,NEW YORK,Montgomery,14,0,0,2,12,272,22,243,7,0
+Nonmetropolitan,NEW YORK,Otsego,25,1,3,0,21,161,66,87,8,0
+Nonmetropolitan,NEW YORK,Schuyler,7,0,0,0,7,55,17,34,4,1
+Nonmetropolitan,NEW YORK,Seneca,9,1,0,1,7,210,38,165,7,0
+Nonmetropolitan,NEW YORK,Steuben,10,0,4,1,5,212,62,142,8,1
+Nonmetropolitan,NEW YORK,St. Lawrence,27,1,2,0,24,75,15,56,4,0
+Nonmetropolitan,NEW YORK,Sullivan,25,0,2,3,20,529,111,408,10,5
+Nonmetropolitan,NEW YORK,Wyoming,12,0,1,0,11,220,54,161,5,1
+Nonmetropolitan,NEW YORK,Yates,7,0,0,0,7,266,91,173,2,1
+Nonmetropolitan,NORTH CAROLINA,Alamance,94,1,3,4,86,"1,064",409,596,59,1
+Nonmetropolitan,NORTH CAROLINA,Alexander,59,3,6,7,43,845,302,507,36,10
+Nonmetropolitan,NORTH CAROLINA,Anson,34,0,2,4,28,644,311,312,21,3
+Nonmetropolitan,NORTH CAROLINA,Brunswick,140,0,18,31,91,"2,079",871,"1,100",108,6
+Nonmetropolitan,NORTH CAROLINA,Buncombe,155,3,15,33,104,"2,059",891,998,170,10
+Nonmetropolitan,NORTH CAROLINA,Burke,97,0,4,18,75,"1,746",784,893,69,0
+Nonmetropolitan,NORTH CAROLINA,Cabarrus,29,0,2,8,19,"1,043",383,608,52,4
+Nonmetropolitan,NORTH CAROLINA,Caldwell,65,4,5,13,43,"1,627",636,930,61,15
+Nonmetropolitan,NORTH CAROLINA,Catawba,176,8,9,25,134,"2,100",921,"1,099",80,9
+Nonmetropolitan,NORTH CAROLINA,Chatham,70,3,10,4,53,932,472,437,23,2
+Nonmetropolitan,NORTH CAROLINA,Cumberland,538,8,16,112,402,"4,265","1,814","2,216",235,43
+Nonmetropolitan,NORTH CAROLINA,Currituck,53,2,6,2,43,751,202,522,27,6
+Nonmetropolitan,NORTH CAROLINA,Davie,72,1,7,4,60,714,278,404,32,3
+Nonmetropolitan,NORTH CAROLINA,Durham,55,3,5,12,35,765,350,368,47,2
+Nonmetropolitan,NORTH CAROLINA,Edgecombe,37,1,0,11,25,654,315,306,33,11
+Nonmetropolitan,NORTH CAROLINA,Forsyth,275,3,18,24,230,"2,748",905,"1,740",103,11
+Nonmetropolitan,NORTH CAROLINA,Franklin,78,0,9,7,62,"1,148",546,531,71,6
+Nonmetropolitan,NORTH CAROLINA,Gaston,4,0,0,0,4,0,0,0,0,0
+Nonmetropolitan,NORTH CAROLINA,Gaston County Police Department,201,5,6,30,160,"1,300",494,671,135,20
+Nonmetropolitan,NORTH CAROLINA,Greene,48,3,14,9,22,613,297,303,13,1
+Nonmetropolitan,NORTH CAROLINA,Guilford,159,5,13,22,119,"1,807",747,971,89,22
+Nonmetropolitan,NORTH CAROLINA,Haywood,102,0,8,5,89,867,393,433,41,4
+Nonmetropolitan,NORTH CAROLINA,Henderson,90,1,12,21,56,"1,351",556,697,98,1
+Nonmetropolitan,NORTH CAROLINA,Hoke,43,0,2,16,25,962,698,216,48,13
+Nonmetropolitan,NORTH CAROLINA,Johnston,108,3,19,12,74,"2,425",899,"1,356",170,5
+Nonmetropolitan,NORTH CAROLINA,Madison,0,0,0,0,0,238,116,106,16,1
+Nonmetropolitan,NORTH CAROLINA,Nash,60,2,4,14,40,614,295,270,49,5
+Nonmetropolitan,NORTH CAROLINA,New Hanover,160,3,19,37,101,"2,577",603,"1,881",93,9
+Nonmetropolitan,NORTH CAROLINA,Onslow,234,3,37,35,159,"3,192",954,"2,065",173,29
+Nonmetropolitan,NORTH CAROLINA,Orange,31,0,5,8,18,704,417,249,38,4
+Nonmetropolitan,NORTH CAROLINA,Pender,126,2,12,9,103,682,157,481,44,5
+Nonmetropolitan,NORTH CAROLINA,Pitt,198,4,10,16,168,"1,433",552,820,61,7
+Nonmetropolitan,NORTH CAROLINA,Randolph,107,3,12,22,70,"2,531",866,"1,579",86,5
+Nonmetropolitan,NORTH CAROLINA,Rockingham,72,0,0,15,57,"1,421",497,848,76,1
+Nonmetropolitan,NORTH CAROLINA,Stokes,151,2,8,5,136,"1,059",411,592,56,1
+Nonmetropolitan,NORTH CAROLINA,Union,189,2,12,21,154,"2,344",850,"1,391",103,26
+Nonmetropolitan,NORTH CAROLINA,Wake,184,2,21,27,134,"2,893","1,019","1,650",224,7
+Nonmetropolitan,NORTH CAROLINA,Wayne,155,3,1,27,124,"2,091",837,"1,123",131,2
+Nonmetropolitan,NORTH CAROLINA,Yadkin,85,0,7,7,71,779,334,398,47,2
+Nonmetropolitan,NORTH CAROLINA,Ashe,30,0,3,5,22,431,220,198,13,0
+Nonmetropolitan,NORTH CAROLINA,Avery,24,0,2,0,22,176,55,113,8,2
+Nonmetropolitan,NORTH CAROLINA,Beaufort,73,0,1,15,57,744,301,420,23,25
+Nonmetropolitan,NORTH CAROLINA,Bertie,29,2,4,8,15,326,142,166,18,6
+Nonmetropolitan,NORTH CAROLINA,Bladen,80,1,1,17,61,"1,083",481,559,43,11
+Nonmetropolitan,NORTH CAROLINA,Camden,7,0,0,0,7,124,48,75,1,0
+Nonmetropolitan,NORTH CAROLINA,Caswell,52,0,3,4,45,486,173,294,19,5
+Nonmetropolitan,NORTH CAROLINA,Cherokee,31,1,6,0,24,519,202,300,17,4
+Nonmetropolitan,NORTH CAROLINA,Chowan,11,0,0,0,11,180,102,74,4,1
+Nonmetropolitan,NORTH CAROLINA,Clay,16,1,1,0,14,286,103,167,16,2
+Nonmetropolitan,NORTH CAROLINA,Cleveland,39,0,10,25,4,"1,440",578,798,64,3
+Nonmetropolitan,NORTH CAROLINA,Columbus,106,5,7,26,68,"1,630",809,705,116,17
+Nonmetropolitan,NORTH CAROLINA,Craven,136,2,12,11,111,"1,583",818,668,97,5
+Nonmetropolitan,NORTH CAROLINA,Dare,36,0,5,3,28,775,222,547,6,2
+Nonmetropolitan,NORTH CAROLINA,Davidson,124,1,8,23,92,"2,258","1,000","1,116",142,12
+Nonmetropolitan,NORTH CAROLINA,Duplin,175,7,6,10,152,"1,156",616,477,63,5
+Nonmetropolitan,NORTH CAROLINA,Granville,88,1,6,7,74,968,386,535,47,6
+Nonmetropolitan,NORTH CAROLINA,Halifax,125,10,8,20,87,944,475,430,39,12
+Nonmetropolitan,NORTH CAROLINA,Harnett,267,6,15,28,218,"2,485",982,"1,342",161,18
+Nonmetropolitan,NORTH CAROLINA,Hertford,23,0,2,4,17,287,131,141,15,3
+Nonmetropolitan,NORTH CAROLINA,Iredell,165,1,11,20,133,"1,854",752,967,135,11
+Nonmetropolitan,NORTH CAROLINA,Jackson,118,0,18,3,97,785,377,378,30,6
+Nonmetropolitan,NORTH CAROLINA,Lee,37,0,3,8,26,667,150,444,73,2
+Nonmetropolitan,NORTH CAROLINA,Lenoir,113,0,11,11,91,"1,015",379,597,39,10
+Nonmetropolitan,NORTH CAROLINA,Lincoln,87,0,2,14,71,"1,420",537,832,51,9
+Nonmetropolitan,NORTH CAROLINA,Macon,20,0,4,1,15,574,218,325,31,2
+Nonmetropolitan,NORTH CAROLINA,Martin,36,0,3,1,32,348,151,176,21,2
+Nonmetropolitan,NORTH CAROLINA,McDowell,30,1,2,6,21,736,308,389,39,4
+Nonmetropolitan,NORTH CAROLINA,Montgomery,34,2,7,3,22,538,283,240,15,4
+Nonmetropolitan,NORTH CAROLINA,Moore,60,2,3,10,45,918,406,452,60,7
+Nonmetropolitan,NORTH CAROLINA,Northampton,28,0,1,5,22,487,261,203,23,3
+Nonmetropolitan,NORTH CAROLINA,Pamlico,27,0,2,6,19,254,96,148,10,0
+Nonmetropolitan,NORTH CAROLINA,Pasquotank,68,4,3,7,54,385,142,223,20,2
+Nonmetropolitan,NORTH CAROLINA,Perquimans,6,0,2,2,2,138,67,62,9,0
+Nonmetropolitan,NORTH CAROLINA,Polk,10,1,2,0,7,236,52,165,19,3
+Nonmetropolitan,NORTH CAROLINA,Richmond,164,3,8,34,119,"1,383",591,701,91,37
+Nonmetropolitan,NORTH CAROLINA,Robeson,527,2,14,125,386,"4,110","2,180","1,678",252,48
+Nonmetropolitan,NORTH CAROLINA,Rowan,123,3,10,19,91,"1,603",534,990,79,4
+Nonmetropolitan,NORTH CAROLINA,Scotland,37,0,1,7,29,646,307,286,53,17
+Nonmetropolitan,NORTH CAROLINA,Stanly,26,0,6,5,15,547,225,309,13,1
+Nonmetropolitan,NORTH CAROLINA,Surry,93,0,5,4,84,"1,304",579,648,77,10
+Nonmetropolitan,NORTH CAROLINA,Swain,37,0,6,0,31,292,137,153,2,1
+Nonmetropolitan,NORTH CAROLINA,Transylvania,27,1,4,0,22,361,163,180,18,7
+Nonmetropolitan,NORTH CAROLINA,Tyrrell,7,2,0,0,5,64,8,50,6,0
+Nonmetropolitan,NORTH CAROLINA,Vance,119,3,2,22,92,"1,607",811,721,75,7
+Nonmetropolitan,NORTH CAROLINA,Watauga,23,0,0,0,23,377,66,286,25,0
+Nonmetropolitan,NORTH CAROLINA,Wilkes,151,2,2,16,131,"1,553",616,844,93,4
+Nonmetropolitan,NORTH CAROLINA,Wilson,62,1,1,1,59,820,253,519,48,3
+Nonmetropolitan,NORTH CAROLINA,Yancey,9,0,1,2,6,151,73,76,2,1
+Nonmetropolitan,NORTH DAKOTA,Burleigh,14,0,5,0,9,198,61,127,10,0
+Nonmetropolitan,NORTH DAKOTA,Cass,17,0,5,0,12,167,62,95,10,0
+Nonmetropolitan,NORTH DAKOTA,Grand Forks,11,0,0,0,11,87,25,55,7,0
+Nonmetropolitan,NORTH DAKOTA,Morton,14,1,4,1,8,122,50,67,5,0
+Nonmetropolitan,NORTH DAKOTA,Adams,1,0,0,1,0,19,11,7,1,0
+Nonmetropolitan,NORTH DAKOTA,Barnes,1,0,0,0,1,44,9,30,5,0
+Nonmetropolitan,NORTH DAKOTA,Benson,0,0,0,0,0,15,8,4,3,0
+Nonmetropolitan,NORTH DAKOTA,Billings,0,0,0,0,0,4,2,2,0,0
+Nonmetropolitan,NORTH DAKOTA,Bottineau,0,0,0,0,0,22,5,16,1,1
+Nonmetropolitan,NORTH DAKOTA,Burke,3,0,0,0,3,17,3,13,1,0
+Nonmetropolitan,NORTH DAKOTA,Cavalier,2,0,0,0,2,58,11,41,6,1
+Nonmetropolitan,NORTH DAKOTA,Dickey,0,0,0,0,0,8,1,6,1,1
+Nonmetropolitan,NORTH DAKOTA,Eddy,3,0,0,0,3,16,10,5,1,1
+Nonmetropolitan,NORTH DAKOTA,Emmons,0,0,0,0,0,17,9,7,1,0
+Nonmetropolitan,NORTH DAKOTA,Golden Valley,4,0,0,0,4,8,1,6,1,0
+Nonmetropolitan,NORTH DAKOTA,Grant,0,0,0,0,0,6,3,2,1,0
+Nonmetropolitan,NORTH DAKOTA,Griggs,0,0,0,0,0,6,3,1,2,0
+Nonmetropolitan,NORTH DAKOTA,Hettinger,2,0,0,0,2,12,6,5,1,1
+Nonmetropolitan,NORTH DAKOTA,Kidder,1,0,1,0,0,4,0,3,1,0
+Nonmetropolitan,NORTH DAKOTA,Lamoure,0,0,0,0,0,3,0,2,1,0
+Nonmetropolitan,NORTH DAKOTA,Logan,0,0,0,0,0,2,0,1,1,0
+Nonmetropolitan,NORTH DAKOTA,McHenry,5,0,0,0,5,32,7,20,5,0
+Nonmetropolitan,NORTH DAKOTA,McIntosh,3,0,0,1,2,2,0,2,0,0
+Nonmetropolitan,NORTH DAKOTA,McKenzie,8,0,2,0,6,58,1,49,8,0
+Nonmetropolitan,NORTH DAKOTA,McLean,4,0,0,0,4,80,21,53,6,0
+Nonmetropolitan,NORTH DAKOTA,Mercer,5,0,0,0,5,21,11,6,4,0
+Nonmetropolitan,NORTH DAKOTA,Mountrail,6,0,0,0,6,105,28,57,20,0
+Nonmetropolitan,NORTH DAKOTA,Nelson,2,0,1,0,1,23,11,11,1,0
+Nonmetropolitan,NORTH DAKOTA,Oliver,0,0,0,0,0,3,1,2,0,0
+Nonmetropolitan,NORTH DAKOTA,Pembina,3,0,0,0,3,46,17,20,9,0
+Nonmetropolitan,NORTH DAKOTA,Ramsey,1,0,0,1,0,16,1,13,2,0
+Nonmetropolitan,NORTH DAKOTA,Ransom,2,0,1,0,1,6,5,1,0,0
+Nonmetropolitan,NORTH DAKOTA,Renville,0,0,0,0,0,25,9,16,0,1
+Nonmetropolitan,NORTH DAKOTA,Richland,11,0,4,0,7,92,38,45,9,0
+Nonmetropolitan,NORTH DAKOTA,Rolette,3,0,0,0,3,28,13,12,3,0
+Nonmetropolitan,NORTH DAKOTA,Sargent,3,0,0,0,3,24,5,18,1,0
+Nonmetropolitan,NORTH DAKOTA,Sheridan,1,0,0,0,1,16,4,12,0,0
+Nonmetropolitan,NORTH DAKOTA,Stark,4,0,0,0,4,35,5,28,2,0
+Nonmetropolitan,NORTH DAKOTA,Steele,0,0,0,0,0,5,2,2,1,1
+Nonmetropolitan,NORTH DAKOTA,Stutsman,9,1,5,0,3,27,9,16,2,1
+Nonmetropolitan,NORTH DAKOTA,Towner,0,0,0,0,0,10,3,7,0,0
+Nonmetropolitan,NORTH DAKOTA,Traill,2,0,1,0,1,43,8,33,2,0
+Nonmetropolitan,NORTH DAKOTA,Walsh,5,0,1,0,4,72,26,40,6,1
+Nonmetropolitan,NORTH DAKOTA,Ward,30,0,5,0,25,165,49,100,16,2
+Nonmetropolitan,NORTH DAKOTA,Wells,0,0,0,0,0,19,8,10,1,0
+Nonmetropolitan,NORTH DAKOTA,Williams,19,0,1,0,18,154,15,112,27,2
+Nonmetropolitan,OHIO,Allen,79,0,12,14,53,"1,055",235,775,45,5
+Nonmetropolitan,OHIO,Belmont,15,2,0,6,7,604,243,323,38,3
+Nonmetropolitan,OHIO,Brown,3,0,2,1,0,424,129,256,39,1
+Nonmetropolitan,OHIO,Butler,176,1,6,4,165,"1,005",314,689,2,4
+Nonmetropolitan,OHIO,Carroll,5,0,1,1,3,128,53,71,4,4
+Nonmetropolitan,OHIO,Clermont,82,0,16,3,63,"2,161",775,"1,330",56,19
+Nonmetropolitan,OHIO,Delaware,27,1,5,4,17,"1,025",373,639,13,4
+Nonmetropolitan,OHIO,Erie,61,0,1,1,59,478,162,309,7,1
+Nonmetropolitan,OHIO,Fairfield,26,0,6,17,3,"1,138",334,765,39,5
+Nonmetropolitan,OHIO,Franklin,100,3,12,42,43,"1,499",347,"1,084",68,10
+Nonmetropolitan,OHIO,Fulton,14,0,2,1,11,310,100,200,10,1
+Nonmetropolitan,OHIO,Geauga,10,0,1,0,9,196,55,122,19,1
+Nonmetropolitan,OHIO,Greene,23,1,5,7,10,582,160,384,38,1
+Nonmetropolitan,OHIO,Hamilton,318,2,64,121,131,"7,427","1,350","5,815",262,22
+Nonmetropolitan,OHIO,Jefferson,15,0,0,2,13,200,57,132,11,2
+Nonmetropolitan,OHIO,Lake,223,0,20,4,199,595,139,448,8,7
+Nonmetropolitan,OHIO,Lawrence,72,0,1,11,60,"1,065",381,636,48,3
+Nonmetropolitan,OHIO,Licking,363,2,44,10,307,"1,095",408,666,21,6
+Nonmetropolitan,OHIO,Lorain,45,2,14,18,11,995,488,480,27,12
+Nonmetropolitan,OHIO,Lucas,101,2,4,33,62,"1,511",404,"1,025",82,2
+Nonmetropolitan,OHIO,Madison,14,1,2,1,10,465,206,230,29,3
+Nonmetropolitan,OHIO,Mahoning,6,0,2,1,3,172,68,101,3,1
+Nonmetropolitan,OHIO,Medina,1,0,0,0,1,52,46,6,0,1
+Nonmetropolitan,OHIO,Miami,16,0,5,0,11,667,227,408,32,3
+Nonmetropolitan,OHIO,Montgomery,272,6,22,105,139,"1,636",636,865,135,7
+Nonmetropolitan,OHIO,Morrow,5,0,3,0,2,359,105,243,11,0
+Nonmetropolitan,OHIO,Ottawa,10,5,1,1,3,351,73,257,21,0
+Nonmetropolitan,OHIO,Pickaway,36,1,4,9,22,"1,217",565,627,25,5
+Nonmetropolitan,OHIO,Portage,34,0,14,15,5,"1,673",554,"1,044",75,10
+Nonmetropolitan,OHIO,Preble,17,1,4,2,10,448,193,233,22,1
+Nonmetropolitan,OHIO,Richland,33,0,10,15,8,"1,279",452,788,39,3
+Nonmetropolitan,OHIO,Stark,87,0,12,39,36,"2,023",645,"1,252",126,14
+Nonmetropolitan,OHIO,Summit,49,1,10,18,20,"1,130",303,771,56,10
+Nonmetropolitan,OHIO,Trumbull,18,1,2,6,9,653,246,369,38,2
+Nonmetropolitan,OHIO,Warren,58,1,16,9,32,"1,115",309,790,16,3
+Nonmetropolitan,OHIO,Washington,19,0,3,2,14,422,140,263,19,3
+Nonmetropolitan,OHIO,Wood,12,0,2,4,6,471,127,330,14,3
+Nonmetropolitan,OHIO,Adams,1,0,1,0,0,36,10,18,8,0
+Nonmetropolitan,OHIO,Ashland,17,0,3,2,12,352,188,155,9,1
+Nonmetropolitan,OHIO,Athens,10,2,2,2,4,571,147,413,11,2
+Nonmetropolitan,OHIO,Auglaize,2,0,1,1,0,119,71,48,0,0
+Nonmetropolitan,OHIO,Champaign,17,0,5,0,12,449,151,280,18,4
+Nonmetropolitan,OHIO,Clinton,8,0,1,0,7,139,48,80,11,0
+Nonmetropolitan,OHIO,Columbiana,9,1,1,0,7,64,44,14,6,0
+Nonmetropolitan,OHIO,Coshocton,19,0,1,9,9,851,280,549,22,5
+Nonmetropolitan,OHIO,Crawford,12,0,2,2,8,278,115,150,13,0
+Nonmetropolitan,OHIO,Defiance,7,1,4,0,2,190,56,128,6,0
+Nonmetropolitan,OHIO,Fayette,16,0,2,4,10,720,252,452,16,3
+Nonmetropolitan,OHIO,Gallia,18,1,2,6,9,677,248,419,10,3
+Nonmetropolitan,OHIO,Guernsey,12,2,4,4,2,416,212,184,20,6
+Nonmetropolitan,OHIO,Hancock,11,0,1,1,9,343,136,195,12,0
+Nonmetropolitan,OHIO,Hardin,4,0,4,0,0,360,149,199,12,0
+Nonmetropolitan,OHIO,Harrison,8,0,0,2,6,95,41,46,8,1
+Nonmetropolitan,OHIO,Henry,4,0,0,1,3,279,92,186,1,2
+Nonmetropolitan,OHIO,Highland,58,0,0,3,55,668,263,379,26,6
+Nonmetropolitan,OHIO,Hocking,4,0,0,0,4,348,135,202,11,3
+Nonmetropolitan,OHIO,Holmes,20,1,6,3,10,261,84,170,7,3
+Nonmetropolitan,OHIO,Huron,9,0,3,1,5,286,52,214,20,0
+Nonmetropolitan,OHIO,Logan,13,2,4,0,7,747,348,380,19,2
+Nonmetropolitan,OHIO,Marion,21,0,5,6,10,"1,489",327,"1,152",10,4
+Nonmetropolitan,OHIO,Meigs,16,1,2,2,11,300,131,156,13,2
+Nonmetropolitan,OHIO,Mercer,8,0,3,0,5,308,106,192,10,1
+Nonmetropolitan,OHIO,Monroe,7,0,3,1,3,100,31,64,5,0
+Nonmetropolitan,OHIO,Morgan,4,0,2,0,2,160,81,74,5,4
+Nonmetropolitan,OHIO,Muskingum,48,1,24,12,11,"1,228",347,800,81,7
+Nonmetropolitan,OHIO,Paulding,11,0,1,0,10,203,67,136,0,1
+Nonmetropolitan,OHIO,Putnam,4,0,2,2,0,75,24,48,3,0
+Nonmetropolitan,OHIO,Ross,25,0,6,13,6,"1,914",578,"1,239",97,6
+Nonmetropolitan,OHIO,Sandusky,116,1,2,10,103,297,195,99,3,0
+Nonmetropolitan,OHIO,Scioto,17,0,4,4,9,"1,124",456,628,40,20
+Nonmetropolitan,OHIO,Seneca,1,0,1,0,0,429,178,248,3,1
+Nonmetropolitan,OHIO,Shelby,3,0,0,1,2,232,85,143,4,0
+Nonmetropolitan,OHIO,Tuscarawas,10,0,5,1,4,347,149,175,23,2
+Nonmetropolitan,OHIO,Van Wert,4,0,1,2,1,254,131,113,10,1
+Nonmetropolitan,OHIO,Vinton,17,1,1,4,11,312,110,194,8,0
+Nonmetropolitan,OHIO,Wayne,28,2,9,4,13,692,288,375,29,1
+Nonmetropolitan,OHIO,Williams,7,0,4,0,3,264,77,169,18,4
+Nonmetropolitan,OKLAHOMA,Canadian,21,0,3,0,18,185,59,103,23,3
+Nonmetropolitan,OKLAHOMA,Cleveland,47,0,10,6,31,318,115,163,40,5
+Nonmetropolitan,OKLAHOMA,Comanche,43,0,6,4,33,313,118,173,22,2
+Nonmetropolitan,OKLAHOMA,Grady,31,0,3,0,28,266,106,136,24,2
+Nonmetropolitan,OKLAHOMA,Le Flore,32,2,0,3,27,309,146,144,19,3
+Nonmetropolitan,OKLAHOMA,Lincoln,20,3,3,1,13,298,85,193,20,3
+Nonmetropolitan,OKLAHOMA,Logan,21,2,2,1,16,323,101,202,20,5
+Nonmetropolitan,OKLAHOMA,McClain,18,0,5,4,9,274,88,154,32,7
+Nonmetropolitan,OKLAHOMA,Oklahoma,26,0,2,3,21,240,74,130,36,0
+Nonmetropolitan,OKLAHOMA,Pawnee,19,0,2,0,17,145,59,77,9,1
+Nonmetropolitan,OKLAHOMA,Rogers,61,0,16,3,42,473,141,237,95,7
+Nonmetropolitan,OKLAHOMA,Sequoyah,79,1,10,4,64,413,134,263,16,14
+Nonmetropolitan,OKLAHOMA,Tulsa,211,3,6,14,188,708,301,336,71,3
+Nonmetropolitan,OKLAHOMA,Wagoner,43,3,5,1,34,509,158,292,59,11
+Nonmetropolitan,OKLAHOMA,Adair,64,1,3,0,60,259,120,122,17,4
+Nonmetropolitan,OKLAHOMA,Alfalfa,2,0,1,0,1,24,5,17,2,1
+Nonmetropolitan,OKLAHOMA,Atoka,0,0,0,0,0,69,32,28,9,1
+Nonmetropolitan,OKLAHOMA,Beaver,2,0,1,0,1,45,13,27,5,0
+Nonmetropolitan,OKLAHOMA,Beckham,8,0,1,0,7,71,25,39,7,3
+Nonmetropolitan,OKLAHOMA,Blaine,2,0,0,0,2,44,11,33,0,1
+Nonmetropolitan,OKLAHOMA,Bryan,23,2,6,0,15,293,114,140,39,3
+Nonmetropolitan,OKLAHOMA,Caddo,85,0,3,3,79,182,53,116,13,1
+Nonmetropolitan,OKLAHOMA,Carter,128,0,12,1,115,213,87,107,19,3
+Nonmetropolitan,OKLAHOMA,Cherokee,27,0,2,0,25,114,56,43,15,1
+Nonmetropolitan,OKLAHOMA,Choctaw,20,1,1,0,18,143,53,76,14,5
+Nonmetropolitan,OKLAHOMA,Cimarron,0,0,0,0,0,4,0,4,0,0
+Nonmetropolitan,OKLAHOMA,Coal,4,0,1,0,3,58,8,48,2,1
+Nonmetropolitan,OKLAHOMA,Cotton,8,0,0,0,8,24,11,12,1,1
+Nonmetropolitan,OKLAHOMA,Craig,16,1,0,1,14,110,38,65,7,4
+Nonmetropolitan,OKLAHOMA,Custer,7,0,0,2,5,84,39,41,4,4
+Nonmetropolitan,OKLAHOMA,Delaware,54,3,8,2,41,312,119,163,30,4
+Nonmetropolitan,OKLAHOMA,Dewey,2,0,1,0,1,19,6,9,4,0
+Nonmetropolitan,OKLAHOMA,Ellis,9,1,0,0,8,39,15,16,8,1
+Nonmetropolitan,OKLAHOMA,Garfield,6,0,0,1,5,69,26,42,1,2
+Nonmetropolitan,OKLAHOMA,Garvin,30,4,7,1,18,214,56,134,24,4
+Nonmetropolitan,OKLAHOMA,Grant,0,0,0,0,0,51,9,41,1,3
+Nonmetropolitan,OKLAHOMA,Greer,2,0,0,0,2,15,4,11,0,0
+Nonmetropolitan,OKLAHOMA,Harmon,0,0,0,0,0,17,3,14,0,0
+Nonmetropolitan,OKLAHOMA,Harper,0,0,0,0,0,32,15,14,3,0
+Nonmetropolitan,OKLAHOMA,Haskell,48,2,2,0,44,79,25,40,14,1
+Nonmetropolitan,OKLAHOMA,Hughes,12,0,2,0,10,155,62,74,19,1
+Nonmetropolitan,OKLAHOMA,Jackson,6,0,3,0,3,45,13,25,7,0
+Nonmetropolitan,OKLAHOMA,Jefferson,1,0,0,0,1,17,3,13,1,0
+Nonmetropolitan,OKLAHOMA,Johnston,14,0,0,0,14,3,2,0,1,0
+Nonmetropolitan,OKLAHOMA,Kay,23,0,0,1,22,93,38,54,1,0
+Nonmetropolitan,OKLAHOMA,Kingfisher,0,0,0,0,0,59,5,44,10,0
+Nonmetropolitan,OKLAHOMA,Kiowa,3,1,0,0,2,37,18,18,1,1
+Nonmetropolitan,OKLAHOMA,Latimer,7,0,1,0,6,28,11,12,5,0
+Nonmetropolitan,OKLAHOMA,Love,1,0,0,0,1,58,18,35,5,1
+Nonmetropolitan,OKLAHOMA,Major,3,0,1,0,2,41,9,32,0,0
+Nonmetropolitan,OKLAHOMA,Marshall,25,0,1,0,24,48,18,23,7,1
+Nonmetropolitan,OKLAHOMA,Mayes,24,0,0,1,23,263,77,160,26,0
+Nonmetropolitan,OKLAHOMA,McCurtain,53,0,8,2,43,535,171,331,33,12
+Nonmetropolitan,OKLAHOMA,McIntosh,24,0,5,2,17,198,82,103,13,10
+Nonmetropolitan,OKLAHOMA,Murray,7,0,1,0,6,34,13,15,6,1
+Nonmetropolitan,OKLAHOMA,Muskogee,72,1,6,2,63,402,153,197,52,19
+Nonmetropolitan,OKLAHOMA,Noble,2,0,0,0,2,45,13,27,5,0
+Nonmetropolitan,OKLAHOMA,Nowata,10,0,3,0,7,113,49,48,16,5
+Nonmetropolitan,OKLAHOMA,Okfuskee,9,0,0,0,9,100,38,52,10,6
+Nonmetropolitan,OKLAHOMA,Ottawa,8,1,1,0,6,107,54,38,15,0
+Nonmetropolitan,OKLAHOMA,Pittsburg,22,1,6,2,13,404,142,243,19,12
+Nonmetropolitan,OKLAHOMA,Pontotoc,31,2,6,1,22,147,59,75,13,2
+Nonmetropolitan,OKLAHOMA,Pottawatomie,43,2,3,3,35,629,178,354,97,5
+Nonmetropolitan,OKLAHOMA,Pushmataha,15,2,0,1,12,117,48,52,17,0
+Nonmetropolitan,OKLAHOMA,Roger Mills,6,0,1,0,5,53,18,33,2,0
+Nonmetropolitan,OKLAHOMA,Stephens,41,1,6,2,32,233,56,148,29,5
+Nonmetropolitan,OKLAHOMA,Texas,5,0,1,2,2,55,14,38,3,0
+Nonmetropolitan,OKLAHOMA,Tillman,5,0,1,1,3,85,38,43,4,2
+Nonmetropolitan,OKLAHOMA,Washita,4,0,0,0,4,50,22,27,1,1
+Nonmetropolitan,OKLAHOMA,Woods,2,0,1,0,1,10,3,6,1,0
+Nonmetropolitan,OKLAHOMA,Woodward,15,1,3,0,11,68,32,28,8,0
+Nonmetropolitan,OREGON,Benton,20,3,3,0,14,200,56,132,12,2
+Nonmetropolitan,OREGON,Clackamas,202,3,35,96,68,"5,492",891,"4,228",373,22
+Nonmetropolitan,OREGON,Deschutes,240,1,14,6,219,982,203,734,45,8
+Nonmetropolitan,OREGON,Jackson,141,2,21,2,116,"1,127",281,797,49,5
+Nonmetropolitan,OREGON,Lane,241,2,20,17,202,"1,146",484,545,117,8
+Nonmetropolitan,OREGON,Marion,70,1,19,19,31,"1,893",486,"1,216",191,3
+Nonmetropolitan,OREGON,Multnomah,45,0,6,4,35,841,111,657,73,3
+Nonmetropolitan,OREGON,Polk,30,1,2,0,27,378,106,249,23,3
+Nonmetropolitan,OREGON,Washington,266,1,66,44,155,"2,663",566,"1,909",188,22
+Nonmetropolitan,OREGON,Yamhill,31,2,8,4,17,582,168,385,29,5
+Nonmetropolitan,OREGON,Baker,2,0,2,0,0,30,15,14,1,0
+Nonmetropolitan,OREGON,Clatsop,7,0,0,0,7,134,26,98,10,2
+Nonmetropolitan,OREGON,Coos,57,2,1,3,51,589,187,364,38,2
+Nonmetropolitan,OREGON,Crook,22,0,2,2,18,125,47,77,1,3
+Nonmetropolitan,OREGON,Curry,8,0,0,1,7,231,69,145,17,0
+Nonmetropolitan,OREGON,Douglas,35,1,19,2,13,558,160,345,53,15
+Nonmetropolitan,OREGON,Gilliam,0,0,0,0,0,16,4,12,0,0
+Nonmetropolitan,OREGON,Grant,0,0,0,0,0,40,3,36,1,0
+Nonmetropolitan,OREGON,Harney,7,0,0,0,7,27,12,14,1,0
+Nonmetropolitan,OREGON,Hood River,10,1,3,2,4,153,28,115,10,1
+Nonmetropolitan,OREGON,Jefferson,8,0,1,2,5,184,61,108,15,2
+Nonmetropolitan,OREGON,Josephine,64,2,11,10,41,726,237,419,70,3
+Nonmetropolitan,OREGON,Klamath,54,0,9,9,36,451,259,140,52,5
+Nonmetropolitan,OREGON,Lincoln,52,0,10,0,42,344,133,200,11,3
+Nonmetropolitan,OREGON,Linn,19,0,7,4,8,935,246,582,107,4
+Nonmetropolitan,OREGON,Malheur,2,0,0,0,2,203,63,129,11,
+Nonmetropolitan,OREGON,Morrow,15,0,6,1,8,226,39,170,17,3
+Nonmetropolitan,OREGON,Sherman,0,0,0,0,0,34,6,24,4,1
+Nonmetropolitan,OREGON,Tillamook,15,0,1,2,12,289,114,161,14,2
+Nonmetropolitan,OREGON,Umatilla,59,2,8,5,44,564,184,293,87,3
+Nonmetropolitan,OREGON,Union,15,0,0,1,14,310,64,227,19,0
+Nonmetropolitan,OREGON,Wallowa,1,0,0,0,1,37,13,21,3,0
+Nonmetropolitan,OREGON,Wasco,5,1,0,0,4,112,40,67,5,
+Nonmetropolitan,PENNSYLVANIA,Allegheny,5,0,0,1,4,0,0,0,0,0
+Nonmetropolitan,PENNSYLVANIA,Beaver,0,0,0,0,0,0,0,0,0,0
+Nonmetropolitan,PENNSYLVANIA,Blair,2,0,0,0,2,0,0,0,0,0
+Nonmetropolitan,PENNSYLVANIA,Butler,0,0,0,0,0,0,0,0,0,0
+Nonmetropolitan,PENNSYLVANIA,Centre,0,0,0,0,0,0,0,0,0,0
+Nonmetropolitan,PENNSYLVANIA,Cumberland,0,0,0,0,0,0,0,0,0,0
+Nonmetropolitan,PENNSYLVANIA,Lancaster,0,0,0,0,0,0,0,0,0,0
+Nonmetropolitan,PENNSYLVANIA,Mercer,0,0,0,0,0,0,0,0,0,0
+Nonmetropolitan,PENNSYLVANIA,Montgomery,0,0,0,0,0,0,0,0,0,0
+Nonmetropolitan,PENNSYLVANIA,Northampton,1,0,0,0,1,0,0,0,0,0
+Nonmetropolitan,PENNSYLVANIA,Pike,0,0,0,0,0,1,0,1,0,0
+Nonmetropolitan,PENNSYLVANIA,Washington,4,0,0,0,4,0,0,0,0,0
+Nonmetropolitan,PENNSYLVANIA,Westmoreland,0,0,0,0,0,0,0,0,0,0
+Nonmetropolitan,PENNSYLVANIA,York,3,0,0,0,3,0,0,0,0,0
+Nonmetropolitan,PENNSYLVANIA,Bedford,0,0,0,0,0,0,0,0,0,0
+Nonmetropolitan,PENNSYLVANIA,Clarion,0,0,0,0,0,1,0,1,0,0
+Nonmetropolitan,PENNSYLVANIA,Elk,0,0,0,0,0,0,0,0,0,0
+Nonmetropolitan,PENNSYLVANIA,Franklin,0,0,0,0,0,0,0,0,0,0
+Nonmetropolitan,PENNSYLVANIA,Indiana,0,0,0,0,0,0,0,0,0,0
+Nonmetropolitan,PENNSYLVANIA,Lawrence,0,0,0,0,0,0,0,0,0,0
+Nonmetropolitan,PENNSYLVANIA,Schuylkill,0,0,0,0,0,0,0,0,0,0
+Nonmetropolitan,PENNSYLVANIA,Snyder,0,0,0,0,0,0,0,0,0,0
+Nonmetropolitan,PENNSYLVANIA,Tioga,0,0,0,0,0,0,0,0,0,0
+Nonmetropolitan,PENNSYLVANIA,Union,0,0,0,0,0,0,0,0,0,0
+Nonmetropolitan,PENNSYLVANIA,Warren,0,0,0,0,0,0,0,0,0,0
+Nonmetropolitan,PENNSYLVANIA,Wayne,0,0,0,0,0,0,0,0,0,0
+Nonmetropolitan,SOUTH DAKOTA,Aiken,424,11,48,82,283,"3,771","1,329","2,075",367,4
+Nonmetropolitan,SOUTH DAKOTA,Anderson,776,11,46,84,635,"6,900","2,061","4,123",716,37
+Nonmetropolitan,SOUTH DAKOTA,Berkeley,503,5,38,73,387,"3,357",951,"2,076",330,24
+Nonmetropolitan,SOUTH DAKOTA,Calhoun,57,1,2,6,48,471,164,251,56,7
+Nonmetropolitan,SOUTH DAKOTA,Charleston,573,7,24,96,446,"2,304",730,"1,294",280,14
+Nonmetropolitan,SOUTH DAKOTA,Darlington,425,3,16,41,365,"2,325",876,"1,305",144,12
+Nonmetropolitan,SOUTH DAKOTA,Dorchester,372,2,18,63,289,"2,413",771,"1,413",229,9
+Nonmetropolitan,SOUTH DAKOTA,Edgefield,18,2,4,3,9,455,188,240,27,2
+Nonmetropolitan,SOUTH DAKOTA,Fairfield,120,2,7,9,102,720,233,439,48,5
+Nonmetropolitan,SOUTH DAKOTA,Florence,276,6,14,48,208,"2,653",737,"1,731",185,4
+Nonmetropolitan,SOUTH DAKOTA,Greenville,"1,819",21,118,289,"1,391","10,942","3,014","7,042",886,32
+Nonmetropolitan,SOUTH DAKOTA,Horry,0,0,0,0,0,31,0,31,0,0
+Nonmetropolitan,SOUTH DAKOTA,Horry County Police Department,"1,060",16,111,161,772,"7,643","1,997","5,015",631,47
+Nonmetropolitan,SOUTH DAKOTA,Kershaw,214,6,21,18,169,"1,371",396,890,85,21
+Nonmetropolitan,SOUTH DAKOTA,Laurens,295,1,17,22,255,"1,437",499,801,137,12
+Nonmetropolitan,SOUTH DAKOTA,Lexington,578,10,60,108,400,"4,508","1,147","2,953",408,9
+Nonmetropolitan,SOUTH DAKOTA,Pickens,222,7,11,18,186,"2,155",633,"1,326",196,4
+Nonmetropolitan,SOUTH DAKOTA,Richland,"2,366",13,93,406,"1,854","9,954","2,860","5,947","1,147",26
+Nonmetropolitan,SOUTH DAKOTA,Saluda,36,0,1,2,33,349,148,178,23,3
+Nonmetropolitan,SOUTH DAKOTA,Spartanburg,626,7,58,112,449,"6,338","1,854","3,953",531,21
+Nonmetropolitan,SOUTH DAKOTA,York,413,2,28,39,344,"2,559",657,"1,743",159,25
+Nonmetropolitan,SOUTH CAROLINA,Allendale,9,0,0,0,9,130,47,69,14,1
+Nonmetropolitan,SOUTH CAROLINA,Bamberg,41,3,1,4,33,266,76,163,27,7
+Nonmetropolitan,SOUTH CAROLINA,Barnwell,104,1,4,5,94,394,124,249,21,2
+Nonmetropolitan,SOUTH CAROLINA,Beaufort,606,3,20,86,497,"3,849","1,106","2,557",186,16
+Nonmetropolitan,SOUTH CAROLINA,Chester,129,1,8,16,104,848,238,552,58,2
+Nonmetropolitan,SOUTH CAROLINA,Chesterfield,117,2,4,4,107,914,286,581,47,6
+Nonmetropolitan,SOUTH CAROLINA,Clarendon,170,4,11,18,137,927,309,553,65,3
+Nonmetropolitan,SOUTH CAROLINA,Colleton,172,4,17,13,138,"1,297",426,731,140,6
+Nonmetropolitan,SOUTH CAROLINA,Dillon,240,4,9,20,207,"1,014",386,563,65,9
+Nonmetropolitan,SOUTH CAROLINA,Georgetown,254,0,24,22,208,"1,672",504,"1,054",114,19
+Nonmetropolitan,SOUTH CAROLINA,Greenwood,,3,5,14,,"1,583",393,"1,106",84,3
+Nonmetropolitan,SOUTH CAROLINA,Hampton,77,0,3,3,71,426,146,253,27,2
+Nonmetropolitan,SOUTH CAROLINA,Lancaster,230,3,21,36,170,"1,992",591,"1,298",103,10
+Nonmetropolitan,SOUTH CAROLINA,Lee,73,0,7,4,62,429,161,222,46,8
+Nonmetropolitan,SOUTH CAROLINA,Marion,86,2,10,9,65,878,364,449,65,7
+Nonmetropolitan,SOUTH CAROLINA,Marlboro,161,2,8,14,137,845,263,517,65,5
+Nonmetropolitan,SOUTH CAROLINA,McCormick,24,0,2,0,22,61,19,31,11,0
+Nonmetropolitan,SOUTH CAROLINA,Newberry,54,2,6,5,41,501,114,337,50,0
+Nonmetropolitan,SOUTH CAROLINA,Oconee,305,4,42,13,246,"1,560",511,958,91,5
+Nonmetropolitan,SOUTH CAROLINA,Union,64,2,12,8,42,602,167,408,27,4
+Nonmetropolitan,SOUTH CAROLINA,Williamsburg,174,3,9,27,135,780,235,462,83,15
+Nonmetropolitan,SOUTH DAKOTA,Lincoln,10,0,6,0,4,175,56,111,8,0
+Nonmetropolitan,SOUTH DAKOTA,McCook,2,0,0,0,2,46,12,31,3,0
+Nonmetropolitan,SOUTH DAKOTA,Meade,11,0,1,1,9,56,8,40,8,0
+Nonmetropolitan,SOUTH DAKOTA,Minnehaha,30,0,10,1,19,364,101,244,19,8
+Nonmetropolitan,SOUTH DAKOTA,Pennington,44,1,22,0,21,383,108,259,16,2
+Nonmetropolitan,SOUTH DAKOTA,Turner,3,0,0,0,3,32,11,20,1,3
+Nonmetropolitan,SOUTH DAKOTA,Union,2,0,0,0,2,54,7,47,0,0
+Nonmetropolitan,SOUTH DAKOTA,Aurora,0,0,0,0,0,4,1,2,1,0
+Nonmetropolitan,SOUTH DAKOTA,Beadle,0,0,0,0,0,23,8,15,0,1
+Nonmetropolitan,SOUTH DAKOTA,Bennett,5,0,0,0,5,8,3,2,3,0
+Nonmetropolitan,SOUTH DAKOTA,Bon Homme,0,0,0,0,0,0,0,0,0,0
+Nonmetropolitan,SOUTH DAKOTA,Brookings,1,0,1,0,0,64,6,52,6,1
+Nonmetropolitan,SOUTH DAKOTA,Brown,3,0,0,0,3,13,5,6,2,0
+Nonmetropolitan,SOUTH DAKOTA,Butte,1,0,0,0,1,31,11,15,5,0
+Nonmetropolitan,SOUTH DAKOTA,Campbell,0,0,0,0,0,5,0,4,1,0
+Nonmetropolitan,SOUTH DAKOTA,Charles Mix,8,0,2,0,6,50,25,21,4,2
+Nonmetropolitan,SOUTH DAKOTA,Clark,1,0,0,0,1,9,5,4,0,0
+Nonmetropolitan,SOUTH DAKOTA,Clay,2,0,1,0,1,33,4,27,2,0
+Nonmetropolitan,SOUTH DAKOTA,Codington,8,0,5,0,3,56,7,45,4,0
+Nonmetropolitan,SOUTH DAKOTA,Corson,0,0,0,0,0,18,1,16,1,0
+Nonmetropolitan,SOUTH DAKOTA,Custer,4,0,1,0,3,31,6,20,5,0
+Nonmetropolitan,SOUTH DAKOTA,Davison,8,0,0,0,8,8,1,6,1,0
+Nonmetropolitan,SOUTH DAKOTA,Deuel,1,0,0,0,1,21,5,13,3,0
+Nonmetropolitan,SOUTH DAKOTA,Dewey,1,0,0,0,1,5,1,3,1,0
+Nonmetropolitan,SOUTH DAKOTA,Douglas,0,0,0,0,0,3,1,2,0,0
+Nonmetropolitan,SOUTH DAKOTA,Edmunds,0,0,0,0,0,0,0,0,0,0
+Nonmetropolitan,SOUTH DAKOTA,Faulk,0,0,0,0,0,12,2,9,1,0
+Nonmetropolitan,SOUTH DAKOTA,Hamlin,7,0,2,0,5,28,8,17,3,1
+Nonmetropolitan,SOUTH DAKOTA,Hand,0,0,0,0,0,8,4,3,1,0
+Nonmetropolitan,SOUTH DAKOTA,Hanson,0,0,0,0,0,12,4,8,0,0
+Nonmetropolitan,SOUTH DAKOTA,Harding,0,0,0,0,0,1,1,0,0,0
+Nonmetropolitan,SOUTH DAKOTA,Hughes,4,0,0,0,4,26,13,11,2,0
+Nonmetropolitan,SOUTH DAKOTA,Hutchinson,1,0,0,0,1,4,2,2,0,0
+Nonmetropolitan,SOUTH DAKOTA,Jerauld,0,0,0,0,0,7,2,5,0,0
+Nonmetropolitan,SOUTH DAKOTA,Lawrence,1,0,0,0,1,24,4,18,2,0
+Nonmetropolitan,SOUTH DAKOTA,Marshall,6,0,4,1,1,34,19,10,5,0
+Nonmetropolitan,SOUTH DAKOTA,McPherson,2,0,2,0,0,1,1,0,0,0
+Nonmetropolitan,SOUTH DAKOTA,Mellette,7,0,2,0,5,11,4,4,3,0
+Nonmetropolitan,SOUTH DAKOTA,Miner,0,0,0,0,0,19,13,6,0,0
+Nonmetropolitan,SOUTH DAKOTA,Moody,3,0,0,0,3,23,5,15,3,1
+Nonmetropolitan,SOUTH DAKOTA,Perkins,0,0,0,0,0,8,2,6,0,0
+Nonmetropolitan,SOUTH DAKOTA,Potter,1,0,1,0,0,1,0,1,0,0
+Nonmetropolitan,SOUTH DAKOTA,Roberts,5,0,0,0,5,34,13,10,11,0
+Nonmetropolitan,SOUTH DAKOTA,Spink,11,0,4,0,7,48,18,28,2,6
+Nonmetropolitan,SOUTH DAKOTA,Stanley,5,0,4,0,1,31,11,19,1,0
+Nonmetropolitan,SOUTH DAKOTA,Sully,2,0,0,0,2,7,2,5,0,0
+Nonmetropolitan,SOUTH DAKOTA,Tripp,0,0,0,0,0,9,1,8,0,0
+Nonmetropolitan,SOUTH DAKOTA,Walworth,0,0,0,0,0,2,0,0,2,0
+Nonmetropolitan,SOUTH DAKOTA,Yankton,8,0,1,0,7,77,23,45,9,1
+Nonmetropolitan,SOUTH DAKOTA,Ziebach,0,0,0,0,0,1,1,0,0,0
+Nonmetropolitan,TENNESSEE,Anderson,120,0,8,14,98,"1,015",443,515,57,4
+Nonmetropolitan,TENNESSEE,Blount,271,2,24,21,224,"1,840",658,"1,054",128,6
+Nonmetropolitan,TENNESSEE,Cannon,19,0,2,0,17,132,47,63,22,3
+Nonmetropolitan,TENNESSEE,Carter,81,0,0,4,77,704,280,357,67,12
+Nonmetropolitan,TENNESSEE,Cheatham,109,1,5,6,97,739,227,427,85,4
+Nonmetropolitan,TENNESSEE,Chester,28,1,4,0,23,106,30,66,10,0
+Nonmetropolitan,TENNESSEE,Dickson,102,0,14,4,84,591,232,327,32,4
+Nonmetropolitan,TENNESSEE,Fayette,81,1,2,6,72,468,139,276,53,1
+Nonmetropolitan,TENNESSEE,Hamblen,144,0,4,15,125,697,257,408,32,4
+Nonmetropolitan,TENNESSEE,Hamilton,266,4,13,14,235,"1,771",642,"1,011",118,11
+Nonmetropolitan,TENNESSEE,Hartsville/Trousdale,42,0,8,5,29,255,71,175,9,1
+Nonmetropolitan,TENNESSEE,Hawkins,52,0,1,6,45,"1,077",420,603,54,4
+Nonmetropolitan,TENNESSEE,Hickman,47,0,7,0,40,279,120,131,28,1
+Nonmetropolitan,TENNESSEE,Jefferson,80,1,6,10,63,960,343,541,76,3
+Nonmetropolitan,TENNESSEE,Knox,625,8,23,118,476,"5,778","1,458","3,932",388,35
+Nonmetropolitan,TENNESSEE,Loudon,56,1,2,11,42,542,214,292,36,3
+Nonmetropolitan,TENNESSEE,Macon,71,0,3,0,68,186,38,129,19,2
+Nonmetropolitan,TENNESSEE,Madison,136,1,14,12,109,688,242,382,64,1
+Nonmetropolitan,TENNESSEE,Marion,62,1,1,0,60,333,97,198,38,1
+Nonmetropolitan,TENNESSEE,Montgomery,104,1,8,3,92,882,190,629,63,2
+Nonmetropolitan,TENNESSEE,Polk,37,0,1,2,34,350,106,205,39,2
+Nonmetropolitan,TENNESSEE,Robertson,59,0,4,3,52,495,160,302,33,2
+Nonmetropolitan,TENNESSEE,Rutherford,234,1,15,22,196,"1,456",490,872,94,3
+Nonmetropolitan,TENNESSEE,Sequatchie,36,1,3,0,32,219,78,114,27,4
+Nonmetropolitan,TENNESSEE,Shelby,500,4,35,55,406,"3,327","1,123","1,979",225,8
+Nonmetropolitan,TENNESSEE,Smith,63,1,5,4,53,267,89,147,31,6
+Nonmetropolitan,TENNESSEE,Sullivan,340,3,28,19,290,"1,586",499,981,106,18
+Nonmetropolitan,TENNESSEE,Sumner,101,3,5,8,85,828,238,551,39,4
+Nonmetropolitan,TENNESSEE,Tipton,189,0,14,2,173,671,203,377,91,2
+Nonmetropolitan,TENNESSEE,Unicoi,20,0,0,0,20,197,25,170,2,0
+Nonmetropolitan,TENNESSEE,Union,48,1,6,6,35,494,208,235,51,2
+Nonmetropolitan,TENNESSEE,Washington,200,2,10,11,177,"1,009",328,621,60,10
+Nonmetropolitan,TENNESSEE,Williamson,41,0,4,3,34,452,166,266,20,5
+Nonmetropolitan,TENNESSEE,Wilson,186,0,12,8,166,"1,104",422,613,69,1
+Nonmetropolitan,TENNESSEE,Bedford,42,0,1,0,41,354,132,209,13,1
+Nonmetropolitan,TENNESSEE,Benton,27,0,2,1,24,230,55,152,23,0
+Nonmetropolitan,TENNESSEE,Bledsoe,11,1,0,2,8,94,22,50,22,0
+Nonmetropolitan,TENNESSEE,Campbell,61,1,13,6,41,872,469,355,48,12
+Nonmetropolitan,TENNESSEE,Carroll,28,1,1,1,25,329,144,144,41,0
+Nonmetropolitan,TENNESSEE,Claiborne,87,1,6,10,70,723,333,350,40,7
+Nonmetropolitan,TENNESSEE,Clay,0,0,0,0,0,83,35,42,6,1
+Nonmetropolitan,TENNESSEE,Cocke,199,4,8,15,172,"1,097",518,505,74,30
+Nonmetropolitan,TENNESSEE,Coffee,69,0,1,0,68,390,128,229,33,0
+Nonmetropolitan,TENNESSEE,Crockett,13,1,1,0,11,118,50,57,11,2
+Nonmetropolitan,TENNESSEE,Cumberland,102,1,3,5,93,985,391,519,75,15
+Nonmetropolitan,TENNESSEE,Decatur,8,0,0,0,8,194,71,115,8,1
+Nonmetropolitan,TENNESSEE,DeKalb,24,2,2,2,18,287,91,175,21,1
+Nonmetropolitan,TENNESSEE,Dyer,44,0,0,2,42,327,112,180,35,2
+Nonmetropolitan,TENNESSEE,Fentress,37,1,3,1,32,444,43,388,13,5
+Nonmetropolitan,TENNESSEE,Franklin,42,0,5,0,37,336,52,264,20,5
+Nonmetropolitan,TENNESSEE,Gibson,63,0,5,3,55,323,139,154,30,1
+Nonmetropolitan,TENNESSEE,Giles,37,0,3,3,31,280,96,167,17,1
+Nonmetropolitan,TENNESSEE,Greene,177,1,13,16,147,"1,324",548,678,98,10
+Nonmetropolitan,TENNESSEE,Grundy,60,0,2,2,56,260,63,156,41,4
+Nonmetropolitan,TENNESSEE,Hancock,26,0,1,0,25,159,34,118,7,0
+Nonmetropolitan,TENNESSEE,Hardeman,67,0,7,4,56,404,195,159,50,5
+Nonmetropolitan,TENNESSEE,Hardin,52,0,6,2,44,444,161,234,49,1
+Nonmetropolitan,TENNESSEE,Haywood,47,0,3,4,40,233,100,118,15,0
+Nonmetropolitan,TENNESSEE,Henderson,62,1,4,3,54,399,135,234,30,4
+Nonmetropolitan,TENNESSEE,Henry,40,0,0,0,40,472,155,297,20,0
+Nonmetropolitan,TENNESSEE,Houston,22,0,0,1,21,149,62,77,10,12
+Nonmetropolitan,TENNESSEE,Humphreys,20,1,0,1,18,162,56,97,9,0
+Nonmetropolitan,TENNESSEE,Jackson,18,1,2,3,12,207,78,112,17,0
+Nonmetropolitan,TENNESSEE,Johnson,93,0,2,3,88,251,120,110,21,4
+Nonmetropolitan,TENNESSEE,Lake,5,2,0,0,3,21,5,14,2,0
+Nonmetropolitan,TENNESSEE,Lauderdale,56,2,3,0,51,428,215,184,29,4
+Nonmetropolitan,TENNESSEE,Lawrence,123,0,5,3,115,676,253,395,28,9
+Nonmetropolitan,TENNESSEE,Lewis,24,0,0,1,23,179,53,108,18,0
+Nonmetropolitan,TENNESSEE,Lincoln,81,0,0,4,77,524,193,302,29,4
+Nonmetropolitan,TENNESSEE,Marshall,18,0,1,0,17,173,55,109,9,1
+Nonmetropolitan,TENNESSEE,Maury,144,1,15,8,120,709,188,461,60,8
+Nonmetropolitan,TENNESSEE,McMinn,75,1,7,8,59,630,266,281,83,5
+Nonmetropolitan,TENNESSEE,McNairy,80,0,4,0,76,335,113,191,31,4
+Nonmetropolitan,TENNESSEE,Meigs,45,0,4,0,41,289,104,141,44,2
+Nonmetropolitan,TENNESSEE,Monroe,100,2,0,3,95,710,218,441,51,3
+Nonmetropolitan,TENNESSEE,Moore,2,0,2,0,0,106,23,78,5,1
+Nonmetropolitan,TENNESSEE,Morgan,39,1,3,1,34,563,238,295,30,1
+Nonmetropolitan,TENNESSEE,Obion,27,0,1,0,26,245,57,161,27,2
+Nonmetropolitan,TENNESSEE,Overton,40,0,0,1,39,235,106,119,10,1
+Nonmetropolitan,TENNESSEE,Perry,20,0,3,1,16,120,50,66,4,2
+Nonmetropolitan,TENNESSEE,Pickett,3,0,0,1,2,61,7,54,0,0
+Nonmetropolitan,TENNESSEE,Putnam,90,0,1,4,85,"1,028",314,664,50,5
+Nonmetropolitan,TENNESSEE,Rhea,74,0,2,3,69,373,103,234,36,0
+Nonmetropolitan,TENNESSEE,Roane,36,0,1,3,32,424,155,239,30,0
+Nonmetropolitan,TENNESSEE,Scott,27,1,3,1,22,497,221,256,20,0
+Nonmetropolitan,TENNESSEE,Sevier,162,3,21,22,116,"1,884",830,964,90,2
+Nonmetropolitan,TENNESSEE,Van Buren,10,0,1,0,9,53,14,35,4,3
+Nonmetropolitan,TENNESSEE,Warren,43,1,5,4,33,443,161,237,45,2
+Nonmetropolitan,TENNESSEE,Wayne,21,2,0,0,19,80,38,36,6,3
+Nonmetropolitan,TENNESSEE,Weakley,43,1,2,3,37,214,98,101,15,0
+Nonmetropolitan,TENNESSEE,White,59,1,5,2,51,458,91,333,34,3
+Nonmetropolitan,TEXAS,Aransas,21,0,3,1,17,331,119,201,11,0
+Nonmetropolitan,TEXAS,Archer,3,0,0,0,3,39,10,27,2,0
+Nonmetropolitan,TEXAS,Armstrong,0,0,0,0,0,15,12,2,1,0
+Nonmetropolitan,TEXAS,Atascosa,18,0,0,3,15,421,179,230,12,0
+Nonmetropolitan,TEXAS,Austin,27,1,2,3,21,203,101,98,4,0
+Nonmetropolitan,TEXAS,Bandera,20,0,1,3,16,180,79,99,2,0
+Nonmetropolitan,TEXAS,Bastrop,155,2,49,13,91,862,337,467,58,7
+Nonmetropolitan,TEXAS,Bell,29,2,11,3,13,761,262,463,36,15
+Nonmetropolitan,TEXAS,Bexar,496,12,61,90,333,"6,668","2,013","4,182",473,94
+Nonmetropolitan,TEXAS,Bowie,140,5,21,3,111,883,332,472,79,12
+Nonmetropolitan,TEXAS,Brazoria,98,1,13,23,61,"1,744",620,"1,028",96,1
+Nonmetropolitan,TEXAS,Brazos,53,2,4,0,47,357,115,222,20,1
+Nonmetropolitan,TEXAS,Burleson,20,0,7,2,11,123,51,57,15,1
+Nonmetropolitan,TEXAS,Caldwell,23,1,3,1,18,195,73,105,17,0
+Nonmetropolitan,TEXAS,Calhoun,11,0,0,0,11,170,55,101,14,0
+Nonmetropolitan,TEXAS,Callahan,3,0,0,0,3,40,12,25,3,0
+Nonmetropolitan,TEXAS,Cameron,159,3,9,24,123,"1,745",615,"1,029",101,10
+Nonmetropolitan,TEXAS,Carson,13,2,2,0,9,46,15,29,2,0
+Nonmetropolitan,TEXAS,Chambers,54,1,2,7,44,536,134,364,38,4
+Nonmetropolitan,TEXAS,Clay,4,0,2,0,2,140,68,66,6,0
+Nonmetropolitan,TEXAS,Collin,89,2,9,7,71,725,300,355,70,0
+Nonmetropolitan,TEXAS,Comal,182,0,20,12,150,909,326,553,30,4
+Nonmetropolitan,TEXAS,Coryell,12,0,0,2,10,140,67,65,8,1
+Nonmetropolitan,TEXAS,Crosby,3,0,0,0,3,17,9,6,2,0
+Nonmetropolitan,TEXAS,Dallas,28,0,3,3,22,256,89,148,19,20
+Nonmetropolitan,TEXAS,Delta,4,0,0,0,4,145,62,73,10,1
+Nonmetropolitan,TEXAS,Denton,137,1,23,13,100,"1,010",342,632,36,1
+Nonmetropolitan,TEXAS,Ector,182,5,1,22,154,"1,009",275,670,64,2
+Nonmetropolitan,TEXAS,Ellis,51,1,4,5,41,672,228,375,69,2
+Nonmetropolitan,TEXAS,El Paso,237,2,18,21,196,"1,333",357,843,133,19
+Nonmetropolitan,TEXAS,Fort Bend,902,8,56,117,721,"4,155","1,509","2,399",247,10
+Nonmetropolitan,TEXAS,Galveston,81,2,14,16,49,847,288,478,81,16
+Nonmetropolitan,TEXAS,Goliad,14,0,0,2,12,69,27,36,6,0
+Nonmetropolitan,TEXAS,Grayson,56,2,9,1,44,802,294,468,40,17
+Nonmetropolitan,TEXAS,Gregg,81,3,14,7,57,595,160,361,74,8
+Nonmetropolitan,TEXAS,Guadalupe,78,0,14,4,60,659,277,348,34,12
+Nonmetropolitan,TEXAS,Hardin,50,3,4,4,39,408,104,259,45,5
+Nonmetropolitan,TEXAS,Hays,77,2,2,8,65,774,288,468,18,0
+Nonmetropolitan,TEXAS,Hidalgo,525,20,66,116,323,"6,688","2,498","3,779",411,188
+Nonmetropolitan,TEXAS,Hunt,76,3,0,11,62,"1,222",524,604,94,1
+Nonmetropolitan,TEXAS,Irion,0,0,0,0,0,22,3,19,0,0
+Nonmetropolitan,TEXAS,Jefferson,25,0,2,1,22,500,176,276,48,3
+Nonmetropolitan,TEXAS,Johnson,128,3,4,2,119,"1,095",340,708,47,17
+Nonmetropolitan,TEXAS,Jones,1,0,0,0,1,87,23,63,1,0
+Nonmetropolitan,TEXAS,Kaufman,140,0,18,9,113,"1,254",526,605,123,1
+Nonmetropolitan,TEXAS,Kendall,16,2,8,0,6,232,74,148,10,0
+Nonmetropolitan,TEXAS,Lampasas,1,0,0,0,1,106,31,72,3,3
+Nonmetropolitan,TEXAS,Liberty,165,1,0,8,156,"1,226",440,655,131,14
+Nonmetropolitan,TEXAS,Lubbock,111,3,18,5,85,820,361,405,54,1
+Nonmetropolitan,TEXAS,McLennan,86,1,32,2,51,826,353,435,38,6
+Nonmetropolitan,TEXAS,Medina,33,1,4,0,28,203,106,89,8,0
+Nonmetropolitan,TEXAS,Midland,52,2,0,3,47,442,121,290,31,2
+Nonmetropolitan,TEXAS,Montgomery,648,7,49,119,473,"6,328","1,837","4,088",403,12
+Nonmetropolitan,TEXAS,Nueces,48,1,5,2,40,256,113,138,5,4
+Nonmetropolitan,TEXAS,Orange,107,0,6,16,85,817,284,470,63,2
+Nonmetropolitan,TEXAS,Parker,121,1,7,5,108,"1,061",408,601,52,0
+Nonmetropolitan,TEXAS,Potter,26,0,2,3,21,251,75,159,17,5
+Nonmetropolitan,TEXAS,Randall,36,0,1,2,33,373,127,215,31,8
+Nonmetropolitan,TEXAS,Robertson,5,0,2,0,3,187,59,112,16,2
+Nonmetropolitan,TEXAS,Rockwall,30,0,3,1,26,215,69,137,9,0
+Nonmetropolitan,TEXAS,Rusk,73,0,10,2,61,665,249,356,60,1
+Nonmetropolitan,TEXAS,San Jacinto,117,0,3,15,99,738,315,349,74,4
+Nonmetropolitan,TEXAS,San Patricio,32,1,13,2,16,272,85,172,15,0
+Nonmetropolitan,TEXAS,Smith,238,5,47,23,163,"2,043",680,"1,224",139,18
+Nonmetropolitan,TEXAS,Tarrant,124,3,16,12,93,"1,256",413,774,69,5
+Nonmetropolitan,TEXAS,Taylor,21,0,3,1,17,152,78,60,14,1
+Nonmetropolitan,TEXAS,Tom Green,36,0,16,3,17,237,77,150,10,6
+Nonmetropolitan,TEXAS,Travis,367,6,11,23,327,"3,461","1,039","2,279",143,48
+Nonmetropolitan,TEXAS,Upshur,57,2,12,4,39,624,250,339,35,5
+Nonmetropolitan,TEXAS,Victoria,83,1,15,3,64,521,172,320,29,0
+Nonmetropolitan,TEXAS,Waller,20,0,1,1,18,292,119,154,19,0
+Nonmetropolitan,TEXAS,Wichita,36,0,1,1,34,107,33,70,4,5
+Nonmetropolitan,TEXAS,Williamson,106,5,14,14,73,"1,288",315,933,40,12
+Nonmetropolitan,TEXAS,Wilson,33,1,3,0,29,255,81,153,21,0
+Nonmetropolitan,TEXAS,Wise,30,2,0,3,25,291,96,170,25,15
+Nonmetropolitan,TEXAS,Anderson,66,2,3,4,57,495,206,232,57,6
+Nonmetropolitan,TEXAS,Andrews,8,0,1,1,6,71,13,48,10,1
+Nonmetropolitan,TEXAS,Angelina,86,0,8,9,69,665,255,381,29,0
+Nonmetropolitan,TEXAS,Bailey,7,0,0,0,7,51,28,21,2,2
+Nonmetropolitan,TEXAS,Baylor,1,0,0,0,1,11,3,6,2,0
+Nonmetropolitan,TEXAS,Bee,32,2,4,0,26,148,57,79,12,0
+Nonmetropolitan,TEXAS,Blanco,5,0,0,0,5,85,35,44,6,2
+Nonmetropolitan,TEXAS,Borden,0,0,0,0,0,7,1,6,0,0
+Nonmetropolitan,TEXAS,Bosque,15,0,2,1,12,172,82,84,6,4
+Nonmetropolitan,TEXAS,Brewster,4,0,0,0,4,28,20,6,2,0
+Nonmetropolitan,TEXAS,Briscoe,0,0,0,0,0,0,0,0,0,0
+Nonmetropolitan,TEXAS,Brooks,11,0,1,0,10,15,6,6,3,0
+Nonmetropolitan,TEXAS,Brown,18,0,0,0,18,176,68,99,9,2
+Nonmetropolitan,TEXAS,Burnet,27,0,6,2,19,236,93,129,14,1
+Nonmetropolitan,TEXAS,Camp,7,1,1,1,4,196,92,99,5,0
+Nonmetropolitan,TEXAS,Cass,30,0,2,0,28,399,160,211,28,0
+Nonmetropolitan,TEXAS,Castro,3,0,0,0,3,87,32,49,6,2
+Nonmetropolitan,TEXAS,Cherokee,79,0,11,6,62,641,194,369,78,6
+Nonmetropolitan,TEXAS,Childress,3,0,0,0,3,21,11,8,2,0
+Nonmetropolitan,TEXAS,Cochran,2,0,1,0,1,85,18,61,6,1
+Nonmetropolitan,TEXAS,Coke,1,0,0,0,1,8,2,6,0,0
+Nonmetropolitan,TEXAS,Coleman,1,0,0,0,1,84,34,46,4,1
+Nonmetropolitan,TEXAS,Collingsworth,1,1,0,0,0,0,0,0,0,0
+Nonmetropolitan,TEXAS,Colorado,10,1,1,2,6,218,72,134,12,0
+Nonmetropolitan,TEXAS,Comanche,7,0,0,0,7,100,30,68,2,0
+Nonmetropolitan,TEXAS,Concho,2,0,0,0,2,9,6,3,0,0
+Nonmetropolitan,TEXAS,Cottle,0,0,0,0,0,1,1,0,0,0
+Nonmetropolitan,TEXAS,Crane,0,0,0,0,0,25,10,15,0,0
+Nonmetropolitan,TEXAS,Culberson,3,0,1,0,2,7,1,6,0,0
+Nonmetropolitan,TEXAS,Dallam,1,0,0,0,1,25,9,14,2,0
+Nonmetropolitan,TEXAS,Dawson,2,0,0,1,1,46,10,34,2,1
+Nonmetropolitan,TEXAS,Deaf Smith,17,0,2,0,15,105,31,65,9,1
+Nonmetropolitan,TEXAS,DeWitt,8,0,0,0,8,107,45,55,7,0
+Nonmetropolitan,TEXAS,Dickens,0,0,0,0,0,0,0,0,0,0
+Nonmetropolitan,TEXAS,Dimmit,45,0,1,5,39,218,71,126,21,0
+Nonmetropolitan,TEXAS,Donley,3,0,0,0,3,27,13,14,0,1
+Nonmetropolitan,TEXAS,Duval,47,0,4,1,42,142,54,63,25,4
+Nonmetropolitan,TEXAS,Eastland,5,0,1,0,4,41,25,13,3,0
+Nonmetropolitan,TEXAS,Edwards,6,0,0,0,6,38,10,25,3,0
+Nonmetropolitan,TEXAS,Erath,9,2,1,1,5,111,31,73,7,0
+Nonmetropolitan,TEXAS,Falls,2,0,0,0,2,73,36,27,10,3
+Nonmetropolitan,TEXAS,Fannin,27,1,1,2,23,206,79,106,21,0
+Nonmetropolitan,TEXAS,Fayette,12,0,4,0,8,190,75,105,10,1
+Nonmetropolitan,TEXAS,Fisher,4,0,0,0,4,49,20,28,1,0
+Nonmetropolitan,TEXAS,Floyd,3,0,0,0,3,12,4,7,1,0
+Nonmetropolitan,TEXAS,Foard,0,0,0,0,0,5,0,5,0,0
+Nonmetropolitan,TEXAS,Franklin,20,0,10,1,9,109,38,64,7,2
+Nonmetropolitan,TEXAS,Freestone,16,1,1,0,14,183,85,87,11,2
+Nonmetropolitan,TEXAS,Frio,7,0,0,1,6,60,20,37,3,0
+Nonmetropolitan,TEXAS,Gaines,3,0,0,1,2,59,17,38,4,0
+Nonmetropolitan,TEXAS,Garza,2,0,0,0,2,38,10,25,3,0
+Nonmetropolitan,TEXAS,Gillespie,15,0,8,0,7,112,29,80,3,0
+Nonmetropolitan,TEXAS,Glasscock,2,0,0,1,1,4,1,2,1,0
+Nonmetropolitan,TEXAS,Gonzales,19,1,0,0,18,135,52,62,21,1
+Nonmetropolitan,TEXAS,Gray,3,0,0,0,3,113,31,76,6,0
+Nonmetropolitan,TEXAS,Grimes,13,0,0,0,13,308,102,186,20,2
+Nonmetropolitan,TEXAS,Hale,7,0,0,0,7,121,39,74,8,0
+Nonmetropolitan,TEXAS,Hall,0,0,0,0,0,5,4,1,0,0
+Nonmetropolitan,TEXAS,Hamilton,16,0,2,0,14,135,69,60,6,1
+Nonmetropolitan,TEXAS,Hansford,0,0,0,0,0,15,1,13,1,0
+Nonmetropolitan,TEXAS,Hardeman,0,0,0,0,0,81,36,42,3,0
+Nonmetropolitan,TEXAS,Harrison,97,1,1,4,91,624,266,337,21,0
+Nonmetropolitan,TEXAS,Hartley,1,0,0,0,1,29,13,12,4,0
+Nonmetropolitan,TEXAS,Haskell,1,0,0,0,1,7,1,6,0,0
+Nonmetropolitan,TEXAS,Hemphill,17,0,3,0,14,71,22,48,1,0
+Nonmetropolitan,TEXAS,Henderson,192,2,39,8,143,"1,228",496,613,119,8
+Nonmetropolitan,TEXAS,Hill,13,3,1,5,4,323,110,193,20,2
+Nonmetropolitan,TEXAS,Hockley,27,0,6,2,19,103,26,74,3,1
+Nonmetropolitan,TEXAS,Hood,68,1,9,0,58,559,165,363,31,1
+Nonmetropolitan,TEXAS,Hopkins,38,1,11,2,24,135,62,70,3,0
+Nonmetropolitan,TEXAS,Houston,16,3,0,0,13,189,65,111,13,1
+Nonmetropolitan,TEXAS,Howard,15,0,1,0,14,117,25,82,10,0
+Nonmetropolitan,TEXAS,Hudspeth,1,0,0,0,1,22,5,16,1,0
+Nonmetropolitan,TEXAS,Hutchinson,7,1,2,0,4,121,34,80,7,0
+Nonmetropolitan,TEXAS,Jack,3,0,0,0,3,53,12,35,6,0
+Nonmetropolitan,TEXAS,Jackson,16,0,0,1,15,76,32,44,0,0
+Nonmetropolitan,TEXAS,Jasper,61,2,4,3,52,248,112,122,14,0
+Nonmetropolitan,TEXAS,Jeff Davis,3,0,0,0,3,14,5,7,2,0
+Nonmetropolitan,TEXAS,Jim Hogg,12,0,1,0,11,21,10,11,0,0
+Nonmetropolitan,TEXAS,Jim Wells,55,0,10,0,45,392,177,194,21,3
+Nonmetropolitan,TEXAS,Karnes,11,0,2,1,8,96,29,57,10,0
+Nonmetropolitan,TEXAS,Kenedy,5,0,1,0,4,4,1,2,1,0
+Nonmetropolitan,TEXAS,Kent,6,0,0,0,6,27,14,11,2,0
+Nonmetropolitan,TEXAS,Kerr,33,1,7,2,23,317,93,213,11,6
+Nonmetropolitan,TEXAS,Kimble,7,0,0,1,6,17,11,6,0,0
+Nonmetropolitan,TEXAS,King,0,0,0,0,0,1,0,1,0,0
+Nonmetropolitan,TEXAS,Kinney,0,0,0,0,0,2,0,1,1,0
+Nonmetropolitan,TEXAS,Kleberg,14,1,6,0,7,239,37,197,5,3
+Nonmetropolitan,TEXAS,Knox,3,0,0,0,3,20,12,8,0,0
+Nonmetropolitan,TEXAS,Lamar,32,1,2,3,26,372,143,218,11,0
+Nonmetropolitan,TEXAS,Lamb,6,0,0,0,6,120,34,81,5,1
+Nonmetropolitan,TEXAS,La Salle,13,1,0,2,10,28,10,18,0,1
+Nonmetropolitan,TEXAS,Lavaca,6,0,1,0,5,89,51,31,7,0
+Nonmetropolitan,TEXAS,Lee,5,0,0,0,5,115,29,78,8,0
+Nonmetropolitan,TEXAS,Leon,23,0,1,3,19,178,53,110,15,0
+Nonmetropolitan,TEXAS,Limestone,73,3,8,3,59,355,125,205,25,7
+Nonmetropolitan,TEXAS,Lipscomb,0,0,0,0,0,18,1,13,4,3
+Nonmetropolitan,TEXAS,Live Oak,7,0,0,1,6,99,45,43,11,0
+Nonmetropolitan,TEXAS,Llano,8,0,0,1,7,290,97,190,3,1
+Nonmetropolitan,TEXAS,Loving,0,0,0,0,0,0,0,0,0,0
+Nonmetropolitan,TEXAS,Lynn,6,1,1,0,4,64,14,45,5,1
+Nonmetropolitan,TEXAS,Madison,6,0,1,0,5,85,33,38,14,1
+Nonmetropolitan,TEXAS,Marion,33,1,7,0,25,214,96,108,10,2
+Nonmetropolitan,TEXAS,Martin,6,1,0,0,5,51,15,35,1,0
+Nonmetropolitan,TEXAS,Mason,3,0,1,0,2,30,6,23,1,0
+Nonmetropolitan,TEXAS,Matagorda,53,1,1,0,51,261,87,161,13,0
+Nonmetropolitan,TEXAS,Maverick,130,1,11,7,111,587,229,332,26,3
+Nonmetropolitan,TEXAS,McCulloch,5,0,1,0,4,23,7,15,1,0
+Nonmetropolitan,TEXAS,McMullen,1,0,0,0,1,9,2,4,3,0
+Nonmetropolitan,TEXAS,Menard,6,0,0,0,6,2,1,1,0,0
+Nonmetropolitan,TEXAS,Milam,20,1,2,0,17,189,66,117,6,1
+Nonmetropolitan,TEXAS,Mills,14,0,2,1,11,65,28,32,5,1
+Nonmetropolitan,TEXAS,Mitchell,2,0,0,0,2,31,10,20,1,0
+Nonmetropolitan,TEXAS,Montague,17,0,0,0,17,184,50,124,10,0
+Nonmetropolitan,TEXAS,Moore,3,1,2,0,0,83,27,52,4,0
+Nonmetropolitan,TEXAS,Morris,13,0,2,0,11,142,68,68,6,0
+Nonmetropolitan,TEXAS,Motley,1,0,0,0,1,14,4,9,1,0
+Nonmetropolitan,TEXAS,Nacogdoches,85,0,3,4,78,465,184,247,34,4
+Nonmetropolitan,TEXAS,Navarro,48,1,11,1,35,595,242,339,14,1
+Nonmetropolitan,TEXAS,Newton,8,0,0,3,5,91,28,60,3,2
+Nonmetropolitan,TEXAS,Nolan,7,0,0,0,7,52,27,24,1,0
+Nonmetropolitan,TEXAS,Ochiltree,4,0,0,0,4,35,6,23,6,0
+Nonmetropolitan,TEXAS,Oldham,1,0,0,0,1,26,4,20,2,0
+Nonmetropolitan,TEXAS,Palo Pinto,22,2,1,0,19,148,71,67,10,1
+Nonmetropolitan,TEXAS,Panola,23,0,3,0,20,329,89,199,41,1
+Nonmetropolitan,TEXAS,Parmer,1,0,1,0,0,60,25,33,2,0
+Nonmetropolitan,TEXAS,Pecos,3,0,1,0,2,70,21,46,3,0
+Nonmetropolitan,TEXAS,Polk,65,2,14,6,43,618,227,347,44,4
+Nonmetropolitan,TEXAS,Presidio,3,0,0,0,3,13,9,4,0,0
+Nonmetropolitan,TEXAS,Rains,17,0,7,0,10,187,44,138,5,0
+Nonmetropolitan,TEXAS,Reagan,1,0,0,0,1,4,4,0,0,1
+Nonmetropolitan,TEXAS,Real,0,0,0,0,0,13,2,11,0,0
+Nonmetropolitan,TEXAS,Red River,19,1,2,2,14,170,75,79,16,5
+Nonmetropolitan,TEXAS,Reeves,18,0,0,0,18,76,16,59,1,0
+Nonmetropolitan,TEXAS,Refugio,10,0,2,0,8,44,15,28,1,0
+Nonmetropolitan,TEXAS,Roberts,0,0,0,0,0,18,5,11,2,0
+Nonmetropolitan,TEXAS,Runnels,0,0,0,0,0,20,1,19,0,0
+Nonmetropolitan,TEXAS,Sabine,19,0,0,3,16,93,43,48,2,0
+Nonmetropolitan,TEXAS,San Augustine,22,0,1,0,21,86,39,46,1,3
+Nonmetropolitan,TEXAS,San Saba,4,0,1,0,3,27,6,17,4,0
+Nonmetropolitan,TEXAS,Schleicher,0,0,0,0,0,13,6,7,0,0
+Nonmetropolitan,TEXAS,Scurry,8,0,2,1,5,75,22,50,3,1
+Nonmetropolitan,TEXAS,Shackelford,1,0,1,0,0,49,5,38,6,0
+Nonmetropolitan,TEXAS,Shelby,38,2,7,0,29,263,93,152,18,1
+Nonmetropolitan,TEXAS,Sherman,0,0,0,0,0,1,1,0,0,0
+Nonmetropolitan,TEXAS,Somervell,5,0,0,0,5,88,39,48,1,0
+Nonmetropolitan,TEXAS,Starr,71,2,7,2,60,336,151,152,33,3
+Nonmetropolitan,TEXAS,Stephens,5,0,0,0,5,41,8,29,4,0
+Nonmetropolitan,TEXAS,Sterling,1,0,0,0,1,4,0,1,3,3
+Nonmetropolitan,TEXAS,Stonewall,0,0,0,0,0,26,16,10,0,0
+Nonmetropolitan,TEXAS,Sutton,0,0,0,0,0,1,0,1,0,1
+Nonmetropolitan,TEXAS,Swisher,4,0,0,0,4,36,9,22,5,0
+Nonmetropolitan,TEXAS,Terrell,4,0,0,0,4,9,6,3,0,0
+Nonmetropolitan,TEXAS,Terry,1,0,0,0,1,38,15,20,3,0
+Nonmetropolitan,TEXAS,Throckmorton,1,0,0,0,1,0,0,0,0,0
+Nonmetropolitan,TEXAS,Titus,24,0,2,1,21,293,159,124,10,1
+Nonmetropolitan,TEXAS,Trinity,30,0,7,2,21,196,82,100,14,5
+Nonmetropolitan,TEXAS,Tyler,77,1,5,4,67,388,187,176,25,4
+Nonmetropolitan,TEXAS,Upton,1,0,0,0,1,25,2,21,2,0
+Nonmetropolitan,TEXAS,Uvalde,22,1,0,1,20,129,44,75,10,0
+Nonmetropolitan,TEXAS,Val Verde,10,0,0,0,10,146,70,67,9,0
+Nonmetropolitan,TEXAS,Van Zandt,78,0,0,3,75,813,352,397,64,1
+Nonmetropolitan,TEXAS,Walker,92,3,9,5,75,418,173,204,41,0
+Nonmetropolitan,TEXAS,Ward,4,0,1,1,2,77,28,45,4,0
+Nonmetropolitan,TEXAS,Washington,24,0,4,0,20,184,75,97,12,2
+Nonmetropolitan,TEXAS,Wharton,71,0,0,5,66,479,199,266,14,7
+Nonmetropolitan,TEXAS,Wheeler,6,0,1,0,5,45,12,31,2,0
+Nonmetropolitan,TEXAS,Wilbarger,3,0,1,1,1,39,7,27,5,1
+Nonmetropolitan,TEXAS,Willacy,64,0,9,1,54,195,64,123,8,8
+Nonmetropolitan,TEXAS,Winkler,3,0,0,1,2,32,7,24,1,0
+Nonmetropolitan,TEXAS,Wood,46,2,2,1,41,539,204,304,31,1
+Nonmetropolitan,TEXAS,Yoakum,8,0,1,1,6,25,5,20,0,0
+Nonmetropolitan,TEXAS,Young,15,0,1,0,14,89,29,58,2,3
+Nonmetropolitan,TEXAS,Zapata,21,0,1,1,19,264,143,106,15,0
+Nonmetropolitan,TEXAS,Zavala,27,0,1,2,24,85,39,45,1,3
+Nonmetropolitan,UTAH,Cache,21,0,6,2,13,460,71,371,18,0
+Nonmetropolitan,UTAH,Davis,17,0,5,1,11,203,42,148,13,1
+Nonmetropolitan,UTAH,Juab,3,0,1,0,2,70,12,52,6,0
+Nonmetropolitan,UTAH,Morgan,5,2,1,0,2,62,21,41,0,0
+Nonmetropolitan,UTAH,Salt Lake County Unified Police Department ,495,6,65,116,308,"7,922","1,338","5,853",731,37
+Nonmetropolitan,UTAH,Summit,25,0,2,4,19,480,57,393,30,1
+Nonmetropolitan,UTAH,Tooele,19,0,3,1,15,162,51,93,18,1
+Nonmetropolitan,UTAH,Utah,36,0,5,0,31,312,80,219,13,1
+Nonmetropolitan,UTAH,Washington,17,0,3,0,14,159,48,97,14,3
+Nonmetropolitan,UTAH,Weber,40,1,11,4,24,"1,115",275,788,52,0
+Nonmetropolitan,UTAH,Beaver,4,0,1,0,3,36,11,18,7,0
+Nonmetropolitan,UTAH,Box Elder,4,0,0,1,3,227,48,167,12,0
+Nonmetropolitan,UTAH,Carbon,8,1,0,1,6,162,34,125,3,1
+Nonmetropolitan,UTAH,Daggett,0,0,0,0,0,18,9,9,0,0
+Nonmetropolitan,UTAH,Duchesne,36,1,5,0,30,181,40,133,8,1
+Nonmetropolitan,UTAH,Emery,1,0,0,1,0,115,39,71,5,0
+Nonmetropolitan,UTAH,Grand,5,0,2,0,3,97,44,46,7,0
+Nonmetropolitan,UTAH,Iron,38,0,4,1,33,233,84,117,32,0
+Nonmetropolitan,UTAH,Millard,18,0,3,0,15,233,42,184,7,1
+Nonmetropolitan,UTAH,Rich,3,0,0,0,3,40,7,31,2,0
+Nonmetropolitan,UTAH,Sevier,12,1,4,0,7,177,30,141,6,0
+Nonmetropolitan,UTAH,Uintah,43,1,1,1,40,265,90,162,13,1
+Nonmetropolitan,UTAH,Wasatch,12,0,1,0,11,165,39,119,7,0
+Nonmetropolitan,UTAH,Wayne,0,0,0,0,0,33,4,29,0,0
+Nonmetropolitan,VERMONT,Franklin,6,0,1,0,5,127,29,89,9,0
+Nonmetropolitan,VERMONT,Grand Isle,4,0,0,0,4,48,20,25,3,0
+Nonmetropolitan,VERMONT,Addison,0,0,0,0,0,0,0,0,0,0
+Nonmetropolitan,VERMONT,Bennington,0,0,0,0,0,17,10,6,1,0
+Nonmetropolitan,VERMONT,Caledonia,0,0,0,0,0,0,0,0,0,0
+Nonmetropolitan,VERMONT,Lamoille,9,0,2,0,7,136,29,102,5,0
+Nonmetropolitan,VERMONT,Orange,4,0,3,0,1,47,20,24,3,0
+Nonmetropolitan,VERMONT,Orleans,0,0,0,0,0,57,24,32,1,0
+Nonmetropolitan,VERMONT,Rutland,3,0,0,0,3,140,17,122,1,0
+Nonmetropolitan,VERMONT,Washington,0,0,0,0,0,0,0,0,0,0
+Nonmetropolitan,VIRGINIA,Albemarle County Police Department,106,1,21,22,62,"1,653",227,"1,375",51,12
+Nonmetropolitan,VIRGINIA,Amelia,17,0,1,1,15,133,35,81,17,2
+Nonmetropolitan,VIRGINIA,Amherst,28,0,7,2,19,525,63,441,21,2
+Nonmetropolitan,VIRGINIA,Appomattox,13,1,2,1,9,127,27,94,6,1
+Nonmetropolitan,VIRGINIA,Arlington County Police Department,325,0,23,135,167,"3,739",251,"3,310",178,7
+Nonmetropolitan,VIRGINIA,Bedford,43,1,8,4,30,834,278,520,36,2
+Nonmetropolitan,VIRGINIA,Botetourt,23,0,2,3,18,286,60,213,13,4
+Nonmetropolitan,VIRGINIA,Campbell,49,1,6,7,35,797,147,607,43,2
+Nonmetropolitan,VIRGINIA,Caroline,37,0,8,10,19,497,75,403,19,4
+Nonmetropolitan,VIRGINIA,Charles City,5,0,1,0,4,17,9,6,2,0
+Nonmetropolitan,VIRGINIA,Chesterfield County Police Department,385,8,36,145,196,"6,697","1,535","4,925",237,59
+Nonmetropolitan,VIRGINIA,Clarke,9,0,4,2,3,141,34,100,7,1
+Nonmetropolitan,VIRGINIA,Craig,5,0,0,0,5,10,0,8,2,0
+Nonmetropolitan,VIRGINIA,Cumberland,9,0,1,0,8,34,12,19,3,0
+Nonmetropolitan,VIRGINIA,Dinwiddie,43,1,7,6,29,431,131,268,32,1
+Nonmetropolitan,VIRGINIA,Fairfax County Police Department,909,11,94,421,383,"14,775","1,007","12,898",870,73
+Nonmetropolitan,VIRGINIA,Fauquier,38,1,11,7,19,684,114,535,35,4
+Nonmetropolitan,VIRGINIA,Fluvanna,13,0,2,2,9,214,38,156,20,2
+Nonmetropolitan,VIRGINIA,Franklin,39,2,4,5,28,632,118,466,48,1
+Nonmetropolitan,VIRGINIA,Frederick,76,2,33,13,28,"1,513",337,"1,088",88,5
+Nonmetropolitan,VIRGINIA,Giles,24,1,1,0,22,176,42,126,8,1
+Nonmetropolitan,VIRGINIA,Gloucester,35,8,3,7,17,522,76,421,25,4
+Nonmetropolitan,VIRGINIA,Goochland,32,0,0,3,29,206,46,147,13,0
+Nonmetropolitan,VIRGINIA,Greene,26,3,2,2,19,252,24,216,12,2
+Nonmetropolitan,VIRGINIA,Hanover,53,2,2,6,43,"1,112",124,925,63,2
+Nonmetropolitan,VIRGINIA,Henrico County Police Department,428,10,31,232,155,"7,634","1,276","5,986",372,94
+Nonmetropolitan,VIRGINIA,Isle of Wight,30,0,4,6,20,382,97,264,21,2
+Nonmetropolitan,VIRGINIA,James City County Police Department,80,2,19,16,43,971,161,786,24,17
+Nonmetropolitan,VIRGINIA,King and Queen,10,0,0,0,10,65,27,33,5,0
+Nonmetropolitan,VIRGINIA,King William,7,0,2,3,2,102,48,52,2,0
+Nonmetropolitan,VIRGINIA,Loudoun,237,1,45,36,155,"2,800",269,"2,377",154,27
+Nonmetropolitan,VIRGINIA,Louisa,28,0,10,0,18,324,63,261,0,0
+Nonmetropolitan,VIRGINIA,Mathews,6,0,2,0,4,117,27,80,10,0
+Nonmetropolitan,VIRGINIA,Montgomery,32,0,11,1,20,508,144,349,15,6
+Nonmetropolitan,VIRGINIA,Nelson,6,1,1,0,4,191,45,133,13,0
+Nonmetropolitan,VIRGINIA,New Kent,30,0,5,1,24,253,54,185,14,0
+Nonmetropolitan,VIRGINIA,Pittsylvania,44,4,10,8,22,663,242,390,31,4
+Nonmetropolitan,VIRGINIA,Powhatan,13,3,3,1,6,240,79,147,14,2
+Nonmetropolitan,VIRGINIA,Prince George County Police Department,37,0,6,4,27,450,93,336,21,0
+Nonmetropolitan,VIRGINIA,Prince William County Police Department,537,3,45,181,308,"6,965",967,"5,603",395,27
+Nonmetropolitan,VIRGINIA,Pulaski,33,0,5,2,26,733,117,593,23,2
+Nonmetropolitan,VIRGINIA,Roanoke County Police Department,98,0,20,12,66,"1,252",297,918,37,4
+Nonmetropolitan,VIRGINIA,Rockingham,42,1,17,1,23,276,73,196,7,4
+Nonmetropolitan,VIRGINIA,Scott,22,1,6,3,12,444,125,297,22,1
+Nonmetropolitan,VIRGINIA,Spotsylvania,270,3,42,64,161,"2,580",268,"2,216",96,10
+Nonmetropolitan,VIRGINIA,Stafford,171,2,34,29,106,"1,950",205,"1,639",106,12
+Nonmetropolitan,VIRGINIA,Surry,14,0,1,0,13,53,22,26,5,0
+Nonmetropolitan,VIRGINIA,Sussex,9,0,0,3,6,168,40,114,14,1
+Nonmetropolitan,VIRGINIA,Warren,19,0,8,2,9,311,37,256,18,2
+Nonmetropolitan,VIRGINIA,Washington,32,1,11,3,17,995,217,749,29,7
+Nonmetropolitan,VIRGINIA,York,75,3,4,24,44,"1,223",149,"1,042",32,16
+Nonmetropolitan,VIRGINIA,Accomack,58,6,11,16,25,563,145,391,27,1
+Nonmetropolitan,VIRGINIA,Alleghany,15,1,4,1,9,158,47,103,8,3
+Nonmetropolitan,VIRGINIA,Augusta,86,2,13,7,64,817,124,653,40,1
+Nonmetropolitan,VIRGINIA,Bland,5,0,1,1,3,49,15,32,2,2
+Nonmetropolitan,VIRGINIA,Brunswick,12,1,0,3,8,145,60,65,20,1
+Nonmetropolitan,VIRGINIA,Buchanan,27,3,6,1,17,488,131,325,32,0
+Nonmetropolitan,VIRGINIA,Buckingham,23,0,5,5,13,238,57,158,23,12
+Nonmetropolitan,VIRGINIA,Carroll,28,0,4,2,22,552,165,349,38,6
+Nonmetropolitan,VIRGINIA,Charlotte,21,1,1,3,16,121,28,89,4,1
+Nonmetropolitan,VIRGINIA,Culpeper,35,2,6,3,24,295,65,199,31,1
+Nonmetropolitan,VIRGINIA,Dickenson,16,2,3,2,9,193,37,150,6,8
+Nonmetropolitan,VIRGINIA,Essex,13,1,2,1,9,77,34,36,7,1
+Nonmetropolitan,VIRGINIA,Floyd,10,0,2,0,8,185,38,139,8,0
+Nonmetropolitan,VIRGINIA,Grayson,18,0,5,0,13,171,35,128,8,2
+Nonmetropolitan,VIRGINIA,Greensville,16,1,5,3,7,167,53,107,7,0
+Nonmetropolitan,VIRGINIA,Halifax,32,1,7,4,20,430,127,272,31,4
+Nonmetropolitan,VIRGINIA,Henry,168,7,9,21,131,"1,538",423,"1,039",76,7
+Nonmetropolitan,VIRGINIA,King George,22,0,8,4,10,335,65,247,23,2
+Nonmetropolitan,VIRGINIA,Lancaster,11,1,5,0,5,120,33,84,3,1
+Nonmetropolitan,VIRGINIA,Lee,32,1,4,1,26,198,37,156,5,0
+Nonmetropolitan,VIRGINIA,Lunenburg,9,0,3,1,5,118,40,66,12,1
+Nonmetropolitan,VIRGINIA,Madison,15,3,1,2,9,119,19,93,7,1
+Nonmetropolitan,VIRGINIA,Mecklenburg,25,0,4,3,18,367,101,250,16,7
+Nonmetropolitan,VIRGINIA,Middlesex,12,1,1,4,6,161,36,116,9,0
+Nonmetropolitan,VIRGINIA,Northampton,15,0,1,3,11,187,59,121,7,0
+Nonmetropolitan,VIRGINIA,Northumberland,9,0,2,2,5,146,39,99,8,2
+Nonmetropolitan,VIRGINIA,Nottoway,7,0,0,1,6,88,20,63,5,3
+Nonmetropolitan,VIRGINIA,Orange,15,0,3,2,10,232,39,183,10,1
+Nonmetropolitan,VIRGINIA,Page,12,0,5,1,6,199,58,138,3,7
+Nonmetropolitan,VIRGINIA,Patrick,22,0,2,0,20,361,84,247,30,2
+Nonmetropolitan,VIRGINIA,Prince Edward,12,0,2,2,8,62,18,37,7,1
+Nonmetropolitan,VIRGINIA,Rappahannock,4,0,0,0,4,76,18,52,6,2
+Nonmetropolitan,VIRGINIA,Richmond,10,0,2,0,8,35,10,20,5,0
+Nonmetropolitan,VIRGINIA,Rockbridge,23,0,2,3,18,268,49,209,10,2
+Nonmetropolitan,VIRGINIA,Russell,21,3,1,2,15,352,136,205,11,7
+Nonmetropolitan,VIRGINIA,Shenandoah,28,0,4,3,21,418,106,308,4,0
+Nonmetropolitan,VIRGINIA,Smyth,40,3,5,0,32,352,62,271,19,5
+Nonmetropolitan,VIRGINIA,Southampton,19,0,2,1,16,282,81,176,25,4
+Nonmetropolitan,VIRGINIA,Tazewell,26,0,6,1,19,575,177,359,39,5
+Nonmetropolitan,VIRGINIA,Westmoreland,10,0,1,1,8,74,14,53,7,0
+Nonmetropolitan,VIRGINIA,Wise,37,0,8,2,27,446,121,293,32,3
+Nonmetropolitan,VIRGINIA,Wythe,19,0,4,2,13,174,30,134,10,2
+Nonmetropolitan,WASHINGTON,Asotin,18,0,0,0,18,215,45,160,10,0
+Nonmetropolitan,WASHINGTON,Benton,64,0,10,8,46,645,231,350,64,6
+Nonmetropolitan,WASHINGTON,Chelan,36,3,8,3,22,667,189,432,46,2
+Nonmetropolitan,WASHINGTON,Clark,248,2,48,65,133,"3,853",924,"2,525",404,27
+Nonmetropolitan,WASHINGTON,Cowlitz,78,1,36,4,37,501,189,275,37,11
+Nonmetropolitan,WASHINGTON,Douglas,22,1,7,1,13,399,131,239,29,0
+Nonmetropolitan,WASHINGTON,Franklin,24,0,4,2,18,168,53,102,13,3
+Nonmetropolitan,WASHINGTON,King,430,5,85,127,213,"5,573","2,200","2,749",624,82
+Nonmetropolitan,WASHINGTON,Kitsap,441,2,64,52,323,"4,000","1,312","2,387",301,13
+Nonmetropolitan,WASHINGTON,Pierce,919,10,88,218,603,"9,585","3,132","5,341","1,112",48
+Nonmetropolitan,WASHINGTON,Skamania,10,0,2,0,8,214,52,151,11,0
+Nonmetropolitan,WASHINGTON,Spokane,132,3,16,30,83,"3,912","1,189","2,439",284,16
+Nonmetropolitan,WASHINGTON,Thurston,294,3,32,24,235,"2,726","1,086","1,502",138,18
+Nonmetropolitan,WASHINGTON,Whatcom,132,0,38,7,87,"1,339",485,789,65,12
+Nonmetropolitan,WASHINGTON,Yakima,133,7,27,25,74,"2,290",999,995,296,31
+Nonmetropolitan,WASHINGTON,Clallam,59,0,8,3,48,850,255,534,61,7
+Nonmetropolitan,WASHINGTON,Columbia,7,0,1,0,6,179,42,132,5,0
+Nonmetropolitan,WASHINGTON,Ferry,2,0,0,0,2,25,12,12,1,0
+Nonmetropolitan,WASHINGTON,Garfield,4,0,1,0,3,62,13,47,2,1
+Nonmetropolitan,WASHINGTON,Grant,111,3,7,10,91,"1,472",484,868,120,6
+Nonmetropolitan,WASHINGTON,Grays Harbor,24,2,3,2,17,434,158,240,36,2
+Nonmetropolitan,WASHINGTON,Island,43,1,13,3,26,773,331,426,16,5
+Nonmetropolitan,WASHINGTON,Jefferson,22,0,12,1,9,360,109,236,15,1
+Nonmetropolitan,WASHINGTON,Kittitas,20,1,5,2,12,448,158,266,24,1
+Nonmetropolitan,WASHINGTON,Lewis,58,0,7,1,50,631,237,351,43,2
+Nonmetropolitan,WASHINGTON,Lincoln,8,0,1,1,6,135,43,85,7,2
+Nonmetropolitan,WASHINGTON,Mason,101,0,17,5,79,"1,734",665,900,169,4
+Nonmetropolitan,WASHINGTON,Okanogan,55,2,4,4,45,308,103,181,24,0
+Nonmetropolitan,WASHINGTON,Pacific,13,1,6,1,5,333,163,154,16,1
+Nonmetropolitan,WASHINGTON,Pend Oreille,17,0,1,0,16,411,133,252,26,0
+Nonmetropolitan,WASHINGTON,San Juan,19,1,1,0,17,177,51,112,14,4
+Nonmetropolitan,WASHINGTON,Stevens,26,2,5,2,17,575,226,294,55,0
+Nonmetropolitan,WASHINGTON,Wahkiakum,6,0,0,0,6,12,3,9,0,1
+Nonmetropolitan,WASHINGTON,Walla Walla,25,0,8,2,15,365,90,251,24,3
+Nonmetropolitan,WASHINGTON,Whitman,8,0,0,0,8,58,28,28,2,0
+Nonmetropolitan,WEST VIRGINIA,Berkeley,68,4,13,13,38,877,283,554,40,7
+Nonmetropolitan,WEST VIRGINIA,Boone,21,0,1,1,19,47,18,20,9,0
+Nonmetropolitan,WEST VIRGINIA,Brooke,18,0,4,2,12,83,36,41,6,3
+Nonmetropolitan,WEST VIRGINIA,Hampshire,73,1,0,0,72,74,43,27,4,2
+Nonmetropolitan,WEST VIRGINIA,Mineral,49,1,1,2,45,38,14,23,1,0
+Nonmetropolitan,WEST VIRGINIA,Morgan,10,2,1,2,5,119,51,60,8,1
+Nonmetropolitan,WEST VIRGINIA,Preston,54,0,3,1,50,247,127,110,10,1
+Nonmetropolitan,WEST VIRGINIA,Putnam,49,1,5,2,41,210,57,143,10,0
+Nonmetropolitan,WEST VIRGINIA,Barbour,3,0,0,0,3,10,5,5,0,0
+Nonmetropolitan,WEST VIRGINIA,Braxton,13,0,0,1,12,54,12,38,4,1
+Nonmetropolitan,WEST VIRGINIA,Grant,4,0,0,0,4,16,7,9,0,2
+Nonmetropolitan,WEST VIRGINIA,Hardy,7,0,0,0,7,35,15,15,5,0
+Nonmetropolitan,WEST VIRGINIA,Harrison,35,3,0,3,29,347,140,190,17,2
+Nonmetropolitan,WEST VIRGINIA,Jackson,5,0,0,0,5,36,3,27,6,0
+Nonmetropolitan,WEST VIRGINIA,Lewis,5,0,0,0,5,3,2,1,0,0
+Nonmetropolitan,WEST VIRGINIA,Logan,54,0,1,0,53,23,10,10,3,1
+Nonmetropolitan,WEST VIRGINIA,Mason,4,0,1,0,3,164,0,144,20,0
+Nonmetropolitan,WEST VIRGINIA,McDowell,24,1,2,2,19,113,43,63,7,4
+Nonmetropolitan,WEST VIRGINIA,Mingo,7,0,0,0,7,7,2,4,1,0
+Nonmetropolitan,WEST VIRGINIA,Monroe,7,0,0,1,6,68,16,49,3,0
+Nonmetropolitan,WEST VIRGINIA,Nicholas,167,0,3,2,162,209,46,153,10,5
+Nonmetropolitan,WEST VIRGINIA,Randolph,44,1,0,0,43,43,15,28,0,1
+Nonmetropolitan,WEST VIRGINIA,Ritchie,5,3,0,0,2,65,30,31,4,2
+Nonmetropolitan,WEST VIRGINIA,Roane,8,0,0,0,8,49,1,41,7,0
+Nonmetropolitan,WEST VIRGINIA,Tyler,16,0,0,0,16,53,21,30,2,1
+Nonmetropolitan,WEST VIRGINIA,Upshur,2,1,0,0,1,50,16,34,0,3
+Nonmetropolitan,WEST VIRGINIA,Wetzel,2,0,0,0,2,15,8,7,0,0
+Nonmetropolitan,WISCONSIN,Calumet,12,1,1,0,10,156,46,100,10,0
+Nonmetropolitan,WISCONSIN,Chippewa,27,0,5,2,20,382,154,219,9,0
+Nonmetropolitan,WISCONSIN,Columbia,41,1,7,0,33,426,138,269,19,1
+Nonmetropolitan,WISCONSIN,Dane,64,0,6,10,48,"1,031",222,760,49,5
+Nonmetropolitan,WISCONSIN,Douglas,12,0,6,1,5,381,194,159,28,1
+Nonmetropolitan,WISCONSIN,Eau Claire,22,0,7,1,14,257,87,162,8,1
+Nonmetropolitan,WISCONSIN,Fond du Lac,18,0,4,2,12,314,96,197,21,2
+Nonmetropolitan,WISCONSIN,Kenosha,23,0,7,2,14,805,205,569,31,2
+Nonmetropolitan,WISCONSIN,Kewaunee,1,0,0,0,1,65,11,47,7,0
+Nonmetropolitan,WISCONSIN,La Crosse,19,0,0,1,18,222,79,136,7,0
+Nonmetropolitan,WISCONSIN,Marathon,19,0,4,3,12,481,107,361,13,1
+Nonmetropolitan,WISCONSIN,Oconto,3,0,1,2,0,453,154,269,30,0
+Nonmetropolitan,WISCONSIN,Outagamie,20,1,5,1,13,422,122,286,14,2
+Nonmetropolitan,WISCONSIN,Pierce,38,0,0,0,38,212,62,138,12,0
+Nonmetropolitan,WISCONSIN,Racine,14,2,3,2,7,569,86,459,24,0
+Nonmetropolitan,WISCONSIN,Rock,24,1,5,3,15,609,250,342,17,6
+Nonmetropolitan,WISCONSIN,Sheboygan,11,0,0,2,9,538,108,406,24,3
+Nonmetropolitan,WISCONSIN,St. Croix,19,1,0,2,16,474,72,360,42,0
+Nonmetropolitan,WISCONSIN,Washington,88,0,7,5,76,507,123,367,17,3
+Nonmetropolitan,WISCONSIN,Waukesha,30,1,6,1,22,732,134,557,41,2
+Nonmetropolitan,WISCONSIN,Winnebago,28,1,0,0,27,343,99,229,15,4
+Nonmetropolitan,WISCONSIN,Adams,15,0,5,1,9,470,207,259,4,0
+Nonmetropolitan,WISCONSIN,Ashland,8,0,0,0,8,80,25,51,4,0
+Nonmetropolitan,WISCONSIN,Barron,1,0,0,0,1,199,83,110,6,0
+Nonmetropolitan,WISCONSIN,Bayfield,11,0,1,3,7,185,61,120,4,0
+Nonmetropolitan,WISCONSIN,Buffalo,0,0,0,0,0,22,10,12,0,0
+Nonmetropolitan,WISCONSIN,Burnett,25,0,5,0,20,243,116,113,14,2
+Nonmetropolitan,WISCONSIN,Clark,77,0,0,2,75,201,72,111,18,3
+Nonmetropolitan,WISCONSIN,Crawford,6,0,2,0,4,200,46,145,9,0
+Nonmetropolitan,WISCONSIN,Dodge,14,0,1,0,13,223,67,148,8,2
+Nonmetropolitan,WISCONSIN,Door,2,0,0,0,2,113,23,89,1,0
+Nonmetropolitan,WISCONSIN,Dunn,25,0,2,1,22,171,51,115,5,0
+Nonmetropolitan,WISCONSIN,Florence,7,0,1,0,6,88,34,51,3,1
+Nonmetropolitan,WISCONSIN,Forest,7,1,1,1,4,217,74,127,16,0
+Nonmetropolitan,WISCONSIN,Grant,24,0,0,0,24,331,103,214,14,6
+Nonmetropolitan,WISCONSIN,Green,7,0,0,0,7,169,46,120,3,0
+Nonmetropolitan,WISCONSIN,Green Lake,1,0,1,0,0,98,40,53,5,0
+Nonmetropolitan,WISCONSIN,Iron,3,0,0,0,3,70,20,47,3,0
+Nonmetropolitan,WISCONSIN,Jackson,8,0,5,0,3,201,67,104,30,2
+Nonmetropolitan,WISCONSIN,Jefferson,36,2,7,7,20,415,109,298,8,8
+Nonmetropolitan,WISCONSIN,Juneau,23,0,1,0,22,332,101,214,17,1
+Nonmetropolitan,WISCONSIN,Lafayette,1,0,1,0,0,177,31,140,6,0
+Nonmetropolitan,WISCONSIN,Langlade,3,0,0,0,3,230,86,137,7,0
+Nonmetropolitan,WISCONSIN,Lincoln,11,0,1,0,10,157,51,100,6,0
+Nonmetropolitan,WISCONSIN,Manitowoc,21,0,5,0,16,193,47,133,13,0
+Nonmetropolitan,WISCONSIN,Marinette,13,0,8,1,4,479,297,172,10,1
+Nonmetropolitan,WISCONSIN,Marquette,4,0,3,0,1,164,34,122,8,0
+Nonmetropolitan,WISCONSIN,Menominee,1,0,0,0,1,41,21,19,1,0
+Nonmetropolitan,WISCONSIN,Monroe,9,0,0,1,8,220,80,127,13,1
+Nonmetropolitan,WISCONSIN,Oneida,20,0,3,1,16,225,99,121,5,1
+Nonmetropolitan,WISCONSIN,Pepin,4,0,0,0,4,20,11,7,2,0
+Nonmetropolitan,WISCONSIN,Polk,85,0,5,4,76,366,128,207,31,1
+Nonmetropolitan,WISCONSIN,Portage,14,1,1,0,12,305,77,202,26,1
+Nonmetropolitan,WISCONSIN,Price,11,0,0,0,11,105,32,65,8,0
+Nonmetropolitan,WISCONSIN,Richland,2,0,0,0,2,61,29,23,9,0
+Nonmetropolitan,WISCONSIN,Rusk,23,0,0,1,22,112,31,75,6,2
+Nonmetropolitan,WISCONSIN,Sauk,21,0,3,1,17,507,70,423,14,0
+Nonmetropolitan,WISCONSIN,Sawyer,39,1,3,0,35,410,154,227,29,1
+Nonmetropolitan,WISCONSIN,Shawano,16,0,3,1,12,423,187,219,17,0
+Nonmetropolitan,WISCONSIN,Taylor,7,0,3,0,4,142,41,94,7,4
+Nonmetropolitan,WISCONSIN,Trempealeau,2,0,1,0,1,155,51,97,7,0
+Nonmetropolitan,WISCONSIN,Vernon,6,2,1,0,3,182,71,103,8,1
+Nonmetropolitan,WISCONSIN,Vilas,13,0,3,0,10,199,65,123,11,0
+Nonmetropolitan,WISCONSIN,Walworth,12,0,3,4,5,314,102,202,10,1
+Nonmetropolitan,WISCONSIN,Washburn,9,1,0,0,8,215,68,140,7,1
+Nonmetropolitan,WISCONSIN,Waupaca,21,0,8,0,13,547,137,380,30,0
+Nonmetropolitan,WISCONSIN,Waushara,23,0,6,0,17,290,78,200,12,1
+Nonmetropolitan,WISCONSIN,Wood,4,0,1,0,3,182,55,118,9,2
+Nonmetropolitan,WYOMING,Laramie,69,0,13,5,51,471,132,307,32,2
+Nonmetropolitan,WYOMING,Natrona,43,0,6,1,36,223,51,156,16,3
+Nonmetropolitan,WYOMING,Albany,4,0,0,0,4,43,12,30,1,0
+Nonmetropolitan,WYOMING,Big Horn,4,0,2,0,2,15,12,3,0,0
+Nonmetropolitan,WYOMING,Campbell,28,0,2,0,26,179,47,119,13,0
+Nonmetropolitan,WYOMING,Carbon,8,0,0,0,8,76,7,64,5,0
+Nonmetropolitan,WYOMING,Converse,12,0,1,0,11,46,9,30,7,0
+Nonmetropolitan,WYOMING,Crook,1,0,0,0,1,28,3,24,1,0
+Nonmetropolitan,WYOMING,Fremont,17,2,2,0,13,151,42,94,15,1
+Nonmetropolitan,WYOMING,Goshen,8,0,1,1,6,59,16,41,2,1
+Nonmetropolitan,WYOMING,Hot Springs,1,0,0,0,1,28,3,24,1,0
+Nonmetropolitan,WYOMING,Johnson,3,0,0,0,3,30,8,22,0,0
+Nonmetropolitan,WYOMING,Lincoln,13,0,3,0,10,84,15,66,3,0
+Nonmetropolitan,WYOMING,Niobrara,1,0,0,0,1,7,0,7,0,0
+Nonmetropolitan,WYOMING,Park,29,0,2,0,27,68,20,45,3,0
+Nonmetropolitan,WYOMING,Platte,2,0,0,0,2,32,13,19,0,0
+Nonmetropolitan,WYOMING,Sheridan,1,0,0,0,1,61,10,47,4,3
+Nonmetropolitan,WYOMING,Sublette,10,0,1,0,9,151,29,116,6,0
+Nonmetropolitan,WYOMING,Sweetwater,14,0,0,1,13,166,33,118,15,0
+Nonmetropolitan,WYOMING,Uinta,0,0,0,0,0,88,6,78,4,0
+Nonmetropolitan,WYOMING,Washakie,2,0,0,0,2,3,0,3,0,0
+Nonmetropolitan,WYOMING,Weston,2,0,0,0,2,6,2,4,0,0

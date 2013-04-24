@@ -1,0 +1,2559 @@
+county_type,state,county,violent_crime,murder_and_nonnegligent_manslaughter,forcible_rape,robbery,aggravated_assault,property_crime,burglary,larceny_theft,motor_vehicle_theft,arson,county_state
+Metropolitan,alabama,autauga,77,1,7,13,56,469,161,271,37,6,autauga_alabama
+Nonmetropolitan,alabama,baldwin,91,0,10,13,68,982,374,556,52,7,baldwin_alabama
+Nonmetropolitan,alabama,barbour,3,0,0,0,3,54,24,26,4,3,barbour_alabama
+Metropolitan,alabama,blount,71,3,9,3,56,964,333,551,80,3,blount_alabama
+Nonmetropolitan,alabama,bullock,12,0,2,2,8,70,66,3,1,8,bullock_alabama
+Nonmetropolitan,alabama,butler,43,1,5,2,35,277,90,177,10,4,butler_alabama
+Metropolitan,alabama,calhoun,21,0,11,1,9,675,237,437,1,0,calhoun_alabama
+Nonmetropolitan,alabama,chambers,0,0,0,0,0,0,0,0,0,0,chambers_alabama
+Nonmetropolitan,alabama,cherokee,48,1,2,1,44,535,216,296,23,8,cherokee_alabama
+Metropolitan,alabama,chilton,88,1,16,3,68,772,302,414,56,0,chilton_alabama
+Nonmetropolitan,alabama,choctaw,7,1,0,0,6,29,14,11,4,0,choctaw_alabama
+Nonmetropolitan,alabama,clay,12,0,0,0,12,52,13,34,5,0,clay_alabama
+Nonmetropolitan,alabama,coffee,29,0,1,3,25,239,101,121,17,5,coffee_alabama
+Metropolitan,alabama,colbert,31,0,1,1,29,125,33,89,3,0,colbert_alabama
+Nonmetropolitan,alabama,conecuh,43,0,3,5,35,190,60,117,13,1,conecuh_alabama
+Nonmetropolitan,alabama,coosa,33,0,1,2,30,245,110,128,7,4,coosa_alabama
+Nonmetropolitan,alabama,crenshaw,57,2,0,2,53,198,92,94,12,1,crenshaw_alabama
+Nonmetropolitan,alabama,cullman,113,1,16,3,93,1235,383,800,52,0,cullman_alabama
+Nonmetropolitan,alabama,dale,65,0,9,3,53,205,51,146,8,3,dale_alabama
+Nonmetropolitan,alabama,dallas,73,0,6,11,56,614,207,381,26,3,dallas_alabama
+Nonmetropolitan,alabama,de kalb,179,4,21,2,152,908,320,515,73,0,de kalb_alabama
+Metropolitan,alabama,elmore,56,2,10,9,35,768,269,454,45,0,elmore_alabama
+Nonmetropolitan,alabama,escambia,42,0,3,4,35,396,126,228,42,0,escambia_alabama
+Metropolitan,alabama,etowah,156,0,12,3,141,669,277,327,65,6,etowah_alabama
+Nonmetropolitan,alabama,fayette,6,0,0,0,6,90,34,50,6,2,fayette_alabama
+Nonmetropolitan,alabama,franklin,34,2,4,1,27,319,102,195,22,0,franklin_alabama
+Metropolitan,alabama,geneva,30,0,3,1,26,249,82,144,23,1,geneva_alabama
+Metropolitan,alabama,greene,50,1,2,2,45,144,62,68,14,1,greene_alabama
+Metropolitan,alabama,henry,33,2,1,1,29,126,44,73,9,1,henry_alabama
+Metropolitan,alabama,houston,83,1,9,7,66,606,193,355,58,1,houston_alabama
+Nonmetropolitan,alabama,jackson,78,1,4,1,72,621,232,329,60,4,jackson_alabama
+Metropolitan,alabama,jefferson,569,9,55,153,352,4125,2348,1678,99,20,jefferson_alabama
+Nonmetropolitan,alabama,lamar,2,0,2,0,0,4,1,3,0,0,lamar_alabama
+Metropolitan,alabama,lauderdale,10,0,1,0,9,143,50,85,8,5,lauderdale_alabama
+Metropolitan,alabama,lawrence,61,0,4,5,52,490,161,293,36,9,lawrence_alabama
+Metropolitan,alabama,lee,0,0,0,0,0,124,19,105,0,7,lee_alabama
+Metropolitan,alabama,limestone,26,0,1,2,23,200,56,123,21,0,limestone_alabama
+Metropolitan,alabama,lowndes,37,0,1,6,30,277,143,115,19,79,lowndes_alabama
+Nonmetropolitan,alabama,macon,0,0,0,0,0,1,1,0,0,0,macon_alabama
+Nonmetropolitan,alabama,marengo,23,0,4,1,18,180,68,103,9,3,marengo_alabama
+Nonmetropolitan,alabama,marion,28,0,1,1,26,247,91,133,23,1,marion_alabama
+Nonmetropolitan,alabama,marshall,55,0,9,1,45,817,312,461,44,3,marshall_alabama
+Metropolitan,alabama,mobile,241,6,19,43,173,2517,844,1437,236,4,mobile_alabama
+Nonmetropolitan,alabama,monroe,33,0,1,1,31,100,53,44,3,1,monroe_alabama
+Metropolitan,alabama,montgomery,80,3,1,10,66,613,248,307,58,4,montgomery_alabama
+Metropolitan,alabama,morgan,38,0,9,3,26,524,269,236,19,0,morgan_alabama
+Nonmetropolitan,alabama,pickens,4,0,1,0,3,17,6,10,1,0,pickens_alabama
+Nonmetropolitan,alabama,pike,4,0,0,0,4,33,11,22,0,0,pike_alabama
+Nonmetropolitan,alabama,randolph,44,0,4,2,38,319,124,176,19,1,randolph_alabama
+Metropolitan,alabama,russell,29,0,3,2,24,531,185,319,27,0,russell_alabama
+Metropolitan,alabama,shelby,118,1,24,13,80,1309,409,810,90,3,shelby_alabama
+Metropolitan,alabama,st. clair,42,1,16,1,24,669,245,409,15,0,st. clair_alabama
+Nonmetropolitan,alabama,sumter,12,0,1,2,9,22,12,7,3,0,sumter_alabama
+Nonmetropolitan,alabama,talladega,56,1,4,4,47,957,335,545,77,5,talladega_alabama
+Nonmetropolitan,alabama,tallapoosa,17,1,2,1,13,233,109,112,12,0,tallapoosa_alabama
+Metropolitan,alabama,tuscaloosa,228,2,8,21,197,1525,427,970,128,5,tuscaloosa_alabama
+Nonmetropolitan,alabama,washington,26,1,0,0,25,177,44,114,19,2,washington_alabama
+Nonmetropolitan,alabama,winston,13,0,0,0,13,185,76,100,9,0,winston_alabama
+Nonmetropolitan,arizona,apache,45,1,0,1,43,176,95,74,7,20,apache_arizona
+Nonmetropolitan,arizona,cochise,367,3,15,12,337,797,334,400,63,16,cochise_arizona
+Metropolitan,arizona,coconino,141,5,10,7,119,531,181,335,15,28,coconino_arizona
+Nonmetropolitan,arizona,gila,34,1,1,3,29,347,55,261,31,3,gila_arizona
+Nonmetropolitan,arizona,graham,-1,0,0,1,-1,227,62,152,13,10,graham_arizona
+Nonmetropolitan,arizona,la paz,41,0,2,0,39,390,113,253,24,0,la paz_arizona
+Metropolitan,arizona,maricopa,884,6,45,72,761,4955,1371,3143,441,102,maricopa_arizona
+Metropolitan,arizona,mohave,145,6,11,15,113,2144,762,1245,137,11,mohave_arizona
+Nonmetropolitan,arizona,navajo,59,2,1,2,54,610,383,181,46,7,navajo_arizona
+Metropolitan,arizona,pima,607,16,62,163,366,11711,2857,8007,847,96,pima_arizona
+Metropolitan,arizona,pinal,227,5,47,22,153,3789,710,2654,425,17,pinal_arizona
+Nonmetropolitan,arizona,santa cruz,7,1,2,2,2,276,103,131,42,9,santa cruz_arizona
+Metropolitan,arizona,yavapai,312,9,13,5,285,1320,465,764,91,12,yavapai_arizona
+Nonmetropolitan,arkansas,arkansas,5,0,0,0,5,98,32,57,9,0,arkansas_arkansas
+Nonmetropolitan,arkansas,ashley,22,1,1,3,17,218,88,116,14,2,ashley_arkansas
+Nonmetropolitan,arkansas,baxter,30,2,3,0,25,653,114,502,37,0,baxter_arkansas
+Metropolitan,arkansas,benton,158,1,21,1,135,459,227,216,16,2,benton_arkansas
+Nonmetropolitan,arkansas,boone,21,1,8,0,12,366,114,205,47,5,boone_arkansas
+Nonmetropolitan,arkansas,carroll,29,0,0,0,29,208,53,145,10,4,carroll_arkansas
+Nonmetropolitan,arkansas,chicot,0,0,0,0,0,39,14,25,0,0,chicot_arkansas
+Nonmetropolitan,arkansas,clark,12,0,1,1,10,142,44,88,10,1,clark_arkansas
+Nonmetropolitan,arkansas,clay,8,0,2,0,6,76,26,48,2,0,clay_arkansas
+Nonmetropolitan,arkansas,cleburne,41,1,6,0,34,495,253,195,47,5,cleburne_arkansas
+Metropolitan,arkansas,cleveland,5,0,0,0,5,113,68,37,8,0,cleveland_arkansas
+Nonmetropolitan,arkansas,columbia,41,0,0,2,39,212,55,139,18,0,columbia_arkansas
+Nonmetropolitan,arkansas,conway,25,1,1,3,20,322,74,229,19,5,conway_arkansas
+Metropolitan,arkansas,craighead,12,1,0,3,8,296,120,163,13,2,craighead_arkansas
+Metropolitan,arkansas,crawford,139,1,18,1,119,334,67,237,30,1,crawford_arkansas
+Metropolitan,arkansas,crittenden,181,1,7,15,158,454,130,286,38,7,crittenden_arkansas
+Nonmetropolitan,arkansas,cross,27,0,4,0,23,28,19,6,3,2,cross_arkansas
+Nonmetropolitan,arkansas,dallas,1,0,0,0,1,26,7,19,0,1,dallas_arkansas
+Nonmetropolitan,arkansas,drew,30,0,6,1,23,122,38,69,15,2,drew_arkansas
+Metropolitan,arkansas,faulkner,46,0,8,0,38,921,291,554,76,6,faulkner_arkansas
+Metropolitan,arkansas,franklin,39,0,4,0,35,191,69,109,13,4,franklin_arkansas
+Nonmetropolitan,arkansas,fulton,16,0,0,0,16,153,67,79,7,6,fulton_arkansas
+Nonmetropolitan,arkansas,greene,21,0,2,0,19,266,96,154,16,0,greene_arkansas
+Nonmetropolitan,arkansas,hempstead,42,0,4,0,38,195,47,126,22,6,hempstead_arkansas
+Nonmetropolitan,arkansas,howard,14,0,4,0,10,85,36,46,3,0,howard_arkansas
+Nonmetropolitan,arkansas,independence,136,0,10,12,114,1546,691,758,97,14,independence_arkansas
+Nonmetropolitan,arkansas,izard,2,0,1,0,1,186,69,117,0,1,izard_arkansas
+Nonmetropolitan,arkansas,jackson,23,0,0,2,21,164,49,102,13,2,jackson_arkansas
+Metropolitan,arkansas,jefferson,69,2,5,7,55,531,238,200,93,5,jefferson_arkansas
+Nonmetropolitan,arkansas,johnson,21,0,1,0,20,225,189,36,0,8,johnson_arkansas
+Nonmetropolitan,arkansas,lafayette,4,0,0,0,4,71,17,54,0,0,lafayette_arkansas
+Nonmetropolitan,arkansas,lawrence,8,0,1,0,7,129,38,91,0,3,lawrence_arkansas
+Nonmetropolitan,arkansas,lee,7,2,0,0,5,66,18,44,4,0,lee_arkansas
+Metropolitan,arkansas,lincoln,3,1,0,1,1,99,52,43,4,3,lincoln_arkansas
+Nonmetropolitan,arkansas,little river,6,0,0,0,6,72,22,47,3,4,little river_arkansas
+Nonmetropolitan,arkansas,logan,20,0,9,2,9,311,120,164,27,1,logan_arkansas
+Metropolitan,arkansas,lonoke,116,3,9,3,101,787,308,403,76,7,lonoke_arkansas
+Metropolitan,arkansas,madison,21,0,5,0,16,122,49,56,17,0,madison_arkansas
+Nonmetropolitan,arkansas,marion,35,0,2,1,32,219,85,132,2,6,marion_arkansas
+Metropolitan,arkansas,miller,14,0,4,1,9,279,84,158,37,3,miller_arkansas
+Nonmetropolitan,arkansas,mississippi,35,0,6,2,27,343,81,226,36,2,mississippi_arkansas
+Nonmetropolitan,arkansas,monroe,1,0,0,0,1,51,7,44,0,0,monroe_arkansas
+Nonmetropolitan,arkansas,montgomery,4,0,0,0,4,19,7,12,0,0,montgomery_arkansas
+Nonmetropolitan,arkansas,nevada,6,0,0,0,6,45,19,24,2,1,nevada_arkansas
+Nonmetropolitan,arkansas,newton,10,0,2,0,8,79,25,51,3,1,newton_arkansas
+Nonmetropolitan,arkansas,ouachita,2,0,0,0,2,22,13,9,0,1,ouachita_arkansas
+Nonmetropolitan,arkansas,pike,7,1,3,0,3,30,13,13,4,1,pike_arkansas
+Metropolitan,arkansas,poinsett,21,0,5,0,16,35,14,16,5,3,poinsett_arkansas
+Nonmetropolitan,arkansas,polk,39,0,3,0,36,204,87,103,14,14,polk_arkansas
+Nonmetropolitan,arkansas,pope,60,0,10,2,48,460,165,256,39,2,pope_arkansas
+Nonmetropolitan,arkansas,prairie,0,0,0,0,0,50,10,38,2,0,prairie_arkansas
+Metropolitan,arkansas,pulaski,409,6,25,31,347,2244,896,1144,204,13,pulaski_arkansas
+Nonmetropolitan,arkansas,scott,8,0,4,0,4,66,20,43,3,2,scott_arkansas
+Nonmetropolitan,arkansas,searcy,10,0,0,0,10,28,16,10,2,0,searcy_arkansas
+Metropolitan,arkansas,sebastian,83,0,11,3,69,356,183,151,22,3,sebastian_arkansas
+Nonmetropolitan,arkansas,sevier,19,1,0,2,16,168,45,101,22,2,sevier_arkansas
+Nonmetropolitan,arkansas,st. francis,23,1,3,5,14,379,105,274,0,2,st. francis_arkansas
+Nonmetropolitan,arkansas,stone,18,0,4,0,14,119,56,61,2,3,stone_arkansas
+Nonmetropolitan,arkansas,union,34,0,0,11,23,436,127,268,41,0,union_arkansas
+Nonmetropolitan,arkansas,van buren,46,0,2,0,44,219,51,140,28,5,van buren_arkansas
+Metropolitan,arkansas,washington,148,2,12,4,130,547,199,305,43,7,washington_arkansas
+Nonmetropolitan,arkansas,white,56,3,10,4,39,907,373,438,96,3,white_arkansas
+Nonmetropolitan,arkansas,yell,18,0,4,2,12,164,70,82,12,2,yell_arkansas
+Metropolitan,california,alameda,725,3,26,218,478,2192,650,991,551,19,alameda_california
+Nonmetropolitan,california,alpine,7,0,0,0,7,105,20,84,1,0,alpine_california
+Nonmetropolitan,california,amador,54,1,5,4,44,598,187,401,10,4,amador_california
+Metropolitan,california,butte,106,2,13,23,68,1310,560,744,6,3,butte_california
+Nonmetropolitan,california,calaveras,102,1,14,8,79,974,314,655,5,0,calaveras_california
+Nonmetropolitan,california,colusa,28,1,2,1,24,281,91,186,4,2,colusa_california
+Metropolitan,california,contra costa,456,13,30,109,304,2475,1033,1423,19,18,contra costa_california
+Nonmetropolitan,california,del norte,99,2,18,7,72,427,242,180,5,6,del norte_california
+Metropolitan,california,el dorado,192,2,21,21,148,2273,1020,1241,12,10,el dorado_california
+Metropolitan,california,fresno,740,6,23,125,586,4781,1618,2331,832,-1,fresno_california
+Nonmetropolitan,california,glenn,11,2,0,2,7,169,61,105,3,2,glenn_california
+Nonmetropolitan,california,humboldt,203,2,21,46,134,1109,436,646,27,14,humboldt_california
+Metropolitan,california,imperial,110,0,4,6,100,676,255,399,22,7,imperial_california
+Nonmetropolitan,california,inyo,52,1,7,3,41,141,54,85,2,5,inyo_california
+Metropolitan,california,kern,1822,22,108,358,1334,10198,3301,5378,1519,282,kern_california
+Metropolitan,california,kings,137,2,13,15,107,683,242,386,55,7,kings_california
+Nonmetropolitan,california,lake,169,1,18,20,130,704,315,383,6,10,lake_california
+Nonmetropolitan,california,lassen,39,1,5,2,31,143,56,86,1,3,lassen_california
+Metropolitan,california,los angeles,5595,88,165,1484,3858,16010,4624,7730,3656,222,los angeles_california
+Metropolitan,california,madera,311,4,10,20,277,1634,836,778,20,11,madera_california
+Metropolitan,california,marin,122,0,8,22,92,739,263,473,3,5,marin_california
+Nonmetropolitan,california,mariposa,55,0,5,1,49,342,128,214,0,1,mariposa_california
+Nonmetropolitan,california,mendocino,295,7,13,23,252,544,247,297,0,10,mendocino_california
+Metropolitan,california,merced,459,2,22,41,394,2319,767,1538,14,6,merced_california
+Nonmetropolitan,california,modoc,24,0,7,1,16,93,36,53,4,3,modoc_california
+Nonmetropolitan,california,mono,11,0,1,0,10,67,21,46,0,0,mono_california
+Metropolitan,california,monterey,197,8,19,44,126,1290,504,781,5,18,monterey_california
+Metropolitan,california,napa,52,2,2,1,47,371,125,243,3,4,napa_california
+Nonmetropolitan,california,nevada,166,2,10,6,148,533,226,301,6,1,nevada_california
+Metropolitan,california,orange,251,1,11,42,197,1301,277,935,89,3,orange_california
+Metropolitan,california,placer,301,4,25,28,244,1946,622,1293,31,3,placer_california
+Nonmetropolitan,california,plumas,104,1,14,3,86,356,124,231,1,7,plumas_california
+Metropolitan,california,riverside,903,13,47,188,655,8872,2673,4884,1315,18,riverside_california
+Metropolitan,california,sacramento,2719,33,144,959,1583,11797,4150,7539,108,77,sacramento_california
+Metropolitan,california,san benito,38,1,6,0,31,268,93,161,14,1,san benito_california
+Metropolitan,california,san bernardino,1081,18,57,178,828,6207,2202,2879,1126,94,san bernardino_california
+Metropolitan,california,san diego,1397,18,84,218,1077,5851,1725,3202,924,27,san diego_california
+Metropolitan,california,san joaquin,820,23,20,164,613,4767,1802,2831,134,22,san joaquin_california
+Metropolitan,california,san luis obispo,208,1,26,13,168,1356,481,872,3,3,san luis obispo_california
+Metropolitan,california,san mateo,219,0,18,32,169,1976,312,1464,200,9,san mateo_california
+Metropolitan,california,santa barbara,255,1,34,30,190,1539,487,1045,7,12,santa barbara_california
+Metropolitan,california,santa clara,186,4,30,39,113,1487,316,1025,146,2,santa clara_california
+Metropolitan,california,santa cruz,362,3,34,36,289,2301,913,1382,6,10,santa cruz_california
+Metropolitan,california,shasta,524,2,32,22,468,970,512,430,28,1,shasta_california
+Nonmetropolitan,california,sierra,5,0,0,0,5,55,17,38,0,2,sierra_california
+Nonmetropolitan,california,siskiyou,71,2,10,4,55,228,102,124,2,1,siskiyou_california
+Metropolitan,california,solano,95,3,4,18,70,423,195,207,21,8,solano_california
+Metropolitan,california,sonoma,511,5,36,48,422,1306,490,802,14,13,sonoma_california
+Metropolitan,california,stanislaus,323,16,15,77,215,2404,1135,1222,47,61,stanislaus_california
+Metropolitan,california,sutter,132,3,8,4,117,847,210,589,48,6,sutter_california
+Nonmetropolitan,california,tehama,184,1,5,8,170,316,134,182,0,6,tehama_california
+Nonmetropolitan,california,trinity,34,3,5,1,25,100,63,37,0,0,trinity_california
+Metropolitan,california,tulare,517,20,31,68,398,-1,1200,2191,-1,31,tulare_california
+Nonmetropolitan,california,tuolumne,75,1,13,13,48,731,354,371,6,18,tuolumne_california
+Metropolitan,california,ventura,155,2,10,23,120,1124,273,795,56,17,ventura_california
+Metropolitan,california,yolo,82,0,9,4,69,408,125,273,10,7,yolo_california
+Metropolitan,california,yuba,230,3,18,29,180,1323,457,858,8,5,yuba_california
+Metropolitan,colorado,adams,385,2,57,59,267,2413,622,1431,360,20,adams_colorado
+Nonmetropolitan,colorado,alamosa,1,0,0,0,1,37,10,27,0,0,alamosa_colorado
+Metropolitan,colorado,arapahoe,236,0,29,45,162,1313,350,856,107,19,arapahoe_colorado
+Nonmetropolitan,colorado,archuleta,15,3,2,0,10,10,4,5,1,0,archuleta_colorado
+Nonmetropolitan,colorado,bent,2,0,0,1,1,26,7,19,0,1,bent_colorado
+Metropolitan,colorado,boulder,65,1,11,1,52,554,164,360,30,16,boulder_colorado
+Nonmetropolitan,colorado,chaffee,8,0,2,0,6,89,16,68,5,1,chaffee_colorado
+Nonmetropolitan,colorado,cheyenne,0,0,0,0,0,3,0,3,0,0,cheyenne_colorado
+Metropolitan,colorado,clear creek,17,0,4,0,13,68,30,33,5,1,clear creek_colorado
+Nonmetropolitan,colorado,crowley,4,0,0,0,4,0,0,0,0,0,crowley_colorado
+Nonmetropolitan,colorado,custer,7,0,0,0,7,33,8,23,2,0,custer_colorado
+Nonmetropolitan,colorado,delta,19,0,7,0,12,120,25,86,9,2,delta_colorado
+Nonmetropolitan,colorado,dolores,3,0,1,0,2,22,13,7,2,0,dolores_colorado
+Metropolitan,colorado,douglas,312,2,197,15,98,1812,406,1317,89,21,douglas_colorado
+Nonmetropolitan,colorado,eagle,25,0,4,0,21,386,90,296,0,4,eagle_colorado
+Metropolitan,colorado,el paso,486,2,62,15,407,2097,604,1314,179,27,el paso_colorado
+Nonmetropolitan,colorado,fremont,36,0,0,1,35,237,96,131,10,2,fremont_colorado
+Metropolitan,colorado,gilpin,2,0,1,0,1,25,5,19,1,0,gilpin_colorado
+Nonmetropolitan,colorado,grand,10,0,0,0,10,89,10,79,0,0,grand_colorado
+Nonmetropolitan,colorado,gunnison,8,0,0,0,8,32,7,23,2,0,gunnison_colorado
+Nonmetropolitan,colorado,hinsdale,1,0,0,0,1,12,4,8,0,0,hinsdale_colorado
+Nonmetropolitan,colorado,huerfano,3,0,0,0,3,8,4,4,0,0,huerfano_colorado
+Metropolitan,colorado,jefferson,127,0,20,18,89,2323,437,1779,107,15,jefferson_colorado
+Nonmetropolitan,colorado,kit carson,2,0,0,0,2,16,2,11,3,0,kit carson_colorado
+Metropolitan,colorado,larimer,107,0,18,3,86,973,252,669,52,21,larimer_colorado
+Nonmetropolitan,colorado,las animas,0,0,0,0,0,0,0,0,0,0,las animas_colorado
+Nonmetropolitan,colorado,lincoln,4,2,0,0,2,0,0,0,0,0,lincoln_colorado
+Nonmetropolitan,colorado,logan,10,0,2,1,7,110,45,57,8,0,logan_colorado
+Metropolitan,colorado,mesa,181,1,15,12,153,1201,292,842,67,6,mesa_colorado
+Nonmetropolitan,colorado,moffat,4,0,1,0,3,20,8,7,5,1,moffat_colorado
+Nonmetropolitan,colorado,montezuma,31,0,2,0,29,163,60,93,10,1,montezuma_colorado
+Nonmetropolitan,colorado,montrose,36,2,5,0,29,155,36,102,17,0,montrose_colorado
+Nonmetropolitan,colorado,morgan,2,0,0,1,1,40,8,30,2,0,morgan_colorado
+Nonmetropolitan,colorado,otero,5,0,0,1,4,62,26,36,0,2,otero_colorado
+Nonmetropolitan,colorado,ouray,3,0,0,0,3,12,3,8,1,0,ouray_colorado
+Metropolitan,colorado,park,7,0,0,0,7,110,37,61,12,1,park_colorado
+Nonmetropolitan,colorado,phillips,0,0,0,0,0,3,1,2,0,0,phillips_colorado
+Nonmetropolitan,colorado,pitkin,14,0,0,0,14,50,5,44,1,0,pitkin_colorado
+Nonmetropolitan,colorado,prowers,8,0,1,0,7,20,8,12,0,0,prowers_colorado
+Metropolitan,colorado,pueblo,28,1,0,6,21,1545,331,1157,57,0,pueblo_colorado
+Nonmetropolitan,colorado,rio grande,4,0,1,1,2,53,11,38,4,2,rio grande_colorado
+Nonmetropolitan,colorado,routt,12,0,0,0,12,77,21,54,2,1,routt_colorado
+Nonmetropolitan,colorado,san juan,2,0,0,0,2,25,1,19,5,1,san juan_colorado
+Nonmetropolitan,colorado,san miguel,0,0,0,0,0,20,7,12,1,1,san miguel_colorado
+Nonmetropolitan,colorado,sedgwick,7,0,0,0,7,19,5,13,1,0,sedgwick_colorado
+Metropolitan,colorado,teller,23,1,1,0,21,78,34,43,1,1,teller_colorado
+Nonmetropolitan,colorado,washington,14,0,3,0,11,82,21,57,4,0,washington_colorado
+Metropolitan,colorado,weld,185,5,17,8,155,772,252,435,85,9,weld_colorado
+Metropolitan,delaware,new castle,1122,5,55,341,721,6117,1983,3711,423,5,new castle_delaware
+Metropolitan,florida,alachua,581,4,35,84,458,2495,794,1592,109,12,alachua_florida
+Metropolitan,florida,baker,46,0,4,6,36,312,43,258,11,1,baker_florida
+Metropolitan,florida,bay,344,4,38,53,249,2728,716,1848,164,5,bay_florida
+Nonmetropolitan,florida,bradford,77,0,1,1,75,329,138,172,19,1,bradford_florida
+Metropolitan,florida,brevard,991,6,66,132,787,5845,1458,4170,217,19,brevard_florida
+Metropolitan,florida,broward,291,2,15,73,201,1043,260,731,52,8,broward_florida
+Nonmetropolitan,florida,calhoun,9,1,0,0,8,76,33,38,5,0,calhoun_florida
+Metropolitan,florida,charlotte,381,2,31,50,298,3710,1089,2521,100,14,charlotte_florida
+Nonmetropolitan,florida,citrus,398,5,17,60,316,2868,806,1934,128,30,citrus_florida
+Metropolitan,florida,clay,665,5,32,94,534,4269,883,3245,141,28,clay_florida
+Metropolitan,florida,collier,956,9,42,208,697,5250,1373,3683,194,14,collier_florida
+Nonmetropolitan,florida,columbia,233,3,5,11,214,1406,532,840,34,0,columbia_florida
+Nonmetropolitan,florida,desoto,107,1,5,18,83,623,284,318,21,1,desoto_florida
+Nonmetropolitan,florida,dixie,62,0,14,4,44,415,163,227,25,5,dixie_florida
+Metropolitan,florida,escambia,1782,14,140,463,1165,10728,2600,7543,585,29,escambia_florida
+Metropolitan,florida,flagler,227,1,13,26,187,1751,408,1287,56,6,flagler_florida
+Nonmetropolitan,florida,franklin,92,0,9,1,82,185,55,122,8,2,franklin_florida
+Metropolitan,florida,gadsden,88,1,6,12,69,340,150,184,6,0,gadsden_florida
+Metropolitan,florida,gilchrist,31,1,1,1,28,221,84,131,6,0,gilchrist_florida
+Nonmetropolitan,florida,glades,41,1,1,6,33,270,77,172,21,0,glades_florida
+Nonmetropolitan,florida,gulf,48,1,0,0,47,169,62,103,4,1,gulf_florida
+Nonmetropolitan,florida,hamilton,34,0,1,1,32,223,94,108,21,0,hamilton_florida
+Nonmetropolitan,florida,hardee,44,1,10,8,25,532,197,312,23,0,hardee_florida
+Nonmetropolitan,florida,hendry,223,7,9,24,183,1080,471,562,47,9,hendry_florida
+Metropolitan,florida,hernando,495,8,33,69,385,4724,1321,3241,162,17,hernando_florida
+Nonmetropolitan,florida,highlands,191,2,10,24,155,1828,630,1128,70,0,highlands_florida
+Metropolitan,florida,hillsborough,2130,28,133,530,1439,19487,5104,13190,1193,41,hillsborough_florida
+Nonmetropolitan,florida,holmes,58,1,4,1,52,240,55,168,17,0,holmes_florida
+Metropolitan,florida,indian river,351,3,25,62,261,2728,778,1869,81,5,indian river_florida
+Nonmetropolitan,florida,jackson,124,0,17,4,103,715,170,525,20,0,jackson_florida
+Metropolitan,florida,jefferson,79,0,5,1,73,171,91,65,15,3,jefferson_florida
+Nonmetropolitan,florida,lafayette,12,0,0,0,12,64,15,47,2,0,lafayette_florida
+Metropolitan,florida,lake,562,6,27,48,481,3488,1159,2090,239,10,lake_florida
+Metropolitan,florida,lee,1198,15,59,373,751,10134,3593,6064,477,48,lee_florida
+Metropolitan,florida,leon,323,4,18,48,253,1629,699,837,93,16,leon_florida
+Nonmetropolitan,florida,levy,126,1,11,10,104,918,326,545,47,6,levy_florida
+Nonmetropolitan,florida,liberty,7,0,0,0,7,38,17,21,0,0,liberty_florida
+Nonmetropolitan,florida,madison,92,0,2,8,82,250,91,149,10,1,madison_florida
+Metropolitan,florida,manatee,1518,12,88,348,1070,9911,2532,7029,350,2,manatee_florida
+Metropolitan,florida,marion,1292,9,135,79,1069,4952,1733,3000,219,7,marion_florida
+Metropolitan,florida,martin,300,1,16,84,199,2922,690,2140,92,8,martin_florida
+Metropolitan,florida,miami-dade,6913,90,311,1848,4664,44395,9324,30843,4228,12,miami-dade_florida
+Nonmetropolitan,florida,monroe,164,1,12,14,137,1847,327,1468,52,0,monroe_florida
+Metropolitan,florida,nassau,85,0,0,8,77,1153,325,764,64,2,nassau_florida
+Metropolitan,florida,okaloosa,557,1,38,69,449,3346,637,2569,140,2,okaloosa_florida
+Nonmetropolitan,florida,okeechobee,183,0,27,17,139,1042,433,578,31,1,okeechobee_florida
+Metropolitan,florida,orange,5325,56,284,1345,3640,27348,8705,16344,2299,2,orange_florida
+Metropolitan,florida,osceola,866,2,36,91,737,5408,1691,3469,248,1,osceola_florida
+Metropolitan,florida,palm beach,2122,14,120,590,1398,15418,4269,10031,1118,84,palm beach_florida
+Metropolitan,florida,pasco,1190,11,79,261,839,12380,3436,8373,571,80,pasco_florida
+Metropolitan,florida,pinellas,1018,8,121,164,725,7019,1817,4887,315,27,pinellas_florida
+Metropolitan,florida,polk,1288,12,70,185,1021,9473,3274,5779,420,7,polk_florida
+Nonmetropolitan,florida,putnam,433,1,33,57,342,2453,1120,1258,75,8,putnam_florida
+Metropolitan,florida,santa rosa,199,1,24,13,161,1913,602,1219,92,4,santa rosa_florida
+Metropolitan,florida,sarasota,769,8,39,165,557,7912,2224,5420,268,10,sarasota_florida
+Metropolitan,florida,seminole,621,6,43,79,493,3369,907,2276,186,0,seminole_florida
+Metropolitan,florida,st. johns,517,4,10,56,447,3789,841,2768,180,3,st. johns_florida
+Metropolitan,florida,st. lucie,268,2,20,50,196,1920,637,1191,92,3,st. lucie_florida
+Nonmetropolitan,florida,sumter,120,1,14,12,93,656,208,419,29,4,sumter_florida
+Nonmetropolitan,florida,suwannee,110,1,4,2,103,528,174,325,29,0,suwannee_florida
+Nonmetropolitan,florida,taylor,62,3,1,2,56,170,125,39,6,0,taylor_florida
+Nonmetropolitan,florida,union,35,0,2,5,28,170,80,85,5,0,union_florida
+Metropolitan,florida,volusia,714,10,51,104,549,5528,1878,3362,288,22,volusia_florida
+Metropolitan,florida,wakulla,90,2,12,7,69,748,167,567,14,7,wakulla_florida
+Nonmetropolitan,florida,walton,153,3,6,1,143,1198,376,759,63,3,walton_florida
+Nonmetropolitan,florida,washington,52,2,0,3,47,239,77,149,13,0,washington_florida
+Nonmetropolitan,georgia,appling,23,1,2,0,20,455,74,359,22,0,appling_georgia
+Nonmetropolitan,georgia,atkinson,4,0,0,0,4,64,32,29,3,-1,atkinson_georgia
+Metropolitan,georgia,augusta-richmond,990,26,104,550,310,13336,3817,8108,1411,74,augusta-richmond_georgia
+Nonmetropolitan,georgia,baldwin,72,1,6,9,56,868,263,582,23,1,baldwin_georgia
+Nonmetropolitan,georgia,banks,16,0,2,0,14,670,134,500,36,0,banks_georgia
+Metropolitan,georgia,barrow,173,0,8,7,158,943,267,614,62,-1,barrow_georgia
+Metropolitan,georgia,bartow,241,2,7,37,195,2841,805,1845,191,0,bartow_georgia
+Nonmetropolitan,georgia,ben hill,14,1,4,2,7,216,74,131,11,0,ben hill_georgia
+Nonmetropolitan,georgia,berrien,12,1,1,0,10,257,57,191,9,0,berrien_georgia
+Metropolitan,georgia,bibb,218,3,11,35,169,2762,672,1855,235,9,bibb_georgia
+Nonmetropolitan,georgia,bleckley,14,0,2,1,11,150,51,90,9,2,bleckley_georgia
+Metropolitan,georgia,brantley,45,0,7,2,36,293,201,92,0,3,brantley_georgia
+Metropolitan,georgia,brooks,28,0,0,1,27,227,68,132,27,-1,brooks_georgia
+Metropolitan,georgia,bryan,32,0,1,2,29,424,120,298,6,1,bryan_georgia
+Nonmetropolitan,georgia,bulloch,27,1,1,7,18,728,259,414,55,-1,bulloch_georgia
+Metropolitan,georgia,burke,148,2,0,0,146,494,147,344,3,0,burke_georgia
+Metropolitan,georgia,butts,42,3,6,18,15,511,147,313,51,1,butts_georgia
+Nonmetropolitan,georgia,calhoun,2,0,0,0,2,31,9,21,1,0,calhoun_georgia
+Nonmetropolitan,georgia,camden,50,2,2,0,46,471,112,339,20,-1,camden_georgia
+Metropolitan,georgia,carroll,107,2,8,10,87,1583,503,938,142,10,carroll_georgia
+Metropolitan,georgia,catoosa,76,0,9,8,59,1040,265,666,109,1,catoosa_georgia
+Nonmetropolitan,georgia,charlton,9,0,1,3,5,157,63,89,5,1,charlton_georgia
+Metropolitan,georgia,chatham,0,0,0,0,0,0,0,0,0,0,chatham_georgia
+Metropolitan,georgia,chattahoochee,18,2,2,3,11,55,24,27,4,2,chattahoochee_georgia
+Metropolitan,georgia,cherokee,107,0,13,19,75,2114,665,1348,101,4,cherokee_georgia
+Metropolitan,georgia,clarke,2,0,0,0,2,0,0,0,0,0,clarke_georgia
+Nonmetropolitan,georgia,clay,10,2,0,0,8,6,6,0,0,-1,clay_georgia
+Metropolitan,georgia,clayton,1064,28,74,492,470,10172,3770,4996,1406,32,clayton_georgia
+Nonmetropolitan,georgia,clinch,6,0,0,1,5,69,26,35,8,1,clinch_georgia
+Metropolitan,georgia,cobb,934,18,92,388,436,11112,3376,6836,900,32,cobb_georgia
+Nonmetropolitan,georgia,coffee,59,1,6,4,48,856,233,577,46,2,coffee_georgia
+Metropolitan,georgia,columbia,94,4,19,20,51,2438,452,1900,86,10,columbia_georgia
+Nonmetropolitan,georgia,cook,17,0,0,1,16,133,60,66,7,-1,cook_georgia
+Metropolitan,georgia,coweta,102,2,15,18,67,1651,453,1086,112,5,coweta_georgia
+Metropolitan,georgia,crawford,28,0,3,1,24,523,158,335,30,1,crawford_georgia
+Nonmetropolitan,georgia,crisp,18,0,0,0,18,429,97,318,14,0,crisp_georgia
+Metropolitan,georgia,dade,62,1,3,0,58,272,90,153,29,1,dade_georgia
+Metropolitan,georgia,dawson,15,0,0,0,15,551,112,411,28,0,dawson_georgia
+Nonmetropolitan,georgia,decatur,33,2,1,5,25,238,74,158,6,1,decatur_georgia
+Metropolitan,georgia,dekalb,3159,65,139,1735,1220,30194,10338,15599,4257,139,dekalb_georgia
+Nonmetropolitan,georgia,dodge,25,1,2,1,21,418,143,265,10,0,dodge_georgia
+Nonmetropolitan,georgia,dooly,19,0,0,3,16,106,17,84,5,-1,dooly_georgia
+Metropolitan,georgia,dougherty,38,0,7,9,22,624,166,429,29,2,dougherty_georgia
+Metropolitan,georgia,douglas,176,2,13,68,93,2191,608,1394,189,4,douglas_georgia
+Nonmetropolitan,georgia,early,22,0,0,0,22,138,47,85,6,0,early_georgia
+Metropolitan,georgia,echols,2,0,0,0,2,37,11,23,3,0,echols_georgia
+Metropolitan,georgia,effingham,56,0,14,8,34,348,265,58,25,3,effingham_georgia
+Nonmetropolitan,georgia,elbert,25,0,1,2,22,582,174,374,34,0,elbert_georgia
+Nonmetropolitan,georgia,emanuel,19,0,1,6,12,366,177,165,24,-1,emanuel_georgia
+Nonmetropolitan,georgia,evans,13,0,1,1,11,86,46,35,5,-1,evans_georgia
+Nonmetropolitan,georgia,fannin,95,0,1,2,92,440,150,275,15,0,fannin_georgia
+Metropolitan,georgia,fayette,33,1,3,7,22,626,201,383,42,6,fayette_georgia
+Metropolitan,georgia,floyd,257,1,9,14,233,1462,390,979,93,15,floyd_georgia
+Metropolitan,georgia,forsyth,363,1,22,14,326,1837,438,1333,66,2,forsyth_georgia
+Nonmetropolitan,georgia,franklin,10,1,2,5,2,396,124,255,17,-1,franklin_georgia
+Metropolitan,georgia,fulton,749,13,25,362,349,5851,1713,3250,888,10,fulton_georgia
+Nonmetropolitan,georgia,gilmer,25,1,3,0,21,427,169,236,22,0,gilmer_georgia
+Metropolitan,georgia,glynn,243,3,17,73,150,3108,697,2318,93,2,glynn_georgia
+Nonmetropolitan,georgia,gordon,148,2,3,2,141,795,233,512,50,0,gordon_georgia
+Nonmetropolitan,georgia,grady,28,0,0,1,27,142,70,62,10,-1,grady_georgia
+Nonmetropolitan,georgia,greene,9,0,0,2,7,247,62,175,10,0,greene_georgia
+Metropolitan,georgia,gwinnett,1495,24,145,630,696,15736,5095,9451,1190,75,gwinnett_georgia
+Nonmetropolitan,georgia,habersham,38,0,8,1,29,468,168,286,14,0,habersham_georgia
+Metropolitan,georgia,hall,154,2,20,33,99,2553,722,1624,207,15,hall_georgia
+Nonmetropolitan,georgia,hancock,1,0,1,0,0,84,38,44,2,0,hancock_georgia
+Metropolitan,georgia,haralson,134,2,2,6,124,532,271,201,60,5,haralson_georgia
+Metropolitan,georgia,harris,15,0,2,0,13,271,86,173,12,-1,harris_georgia
+Nonmetropolitan,georgia,hart,64,0,1,3,60,604,172,403,29,-1,hart_georgia
+Metropolitan,georgia,heard,18,0,0,1,17,152,45,79,28,0,heard_georgia
+Metropolitan,georgia,henry,281,5,30,106,140,4615,1360,2901,354,19,henry_georgia
+Metropolitan,georgia,houston,71,0,6,13,52,1195,290,853,52,-1,houston_georgia
+Nonmetropolitan,georgia,irwin,6,0,0,1,5,158,51,99,8,0,irwin_georgia
+Nonmetropolitan,georgia,jackson,25,0,1,5,19,1087,296,737,54,8,jackson_georgia
+Metropolitan,georgia,jasper,15,0,2,1,12,345,132,203,10,0,jasper_georgia
+Nonmetropolitan,georgia,jeff davis,52,1,0,2,49,306,68,206,32,1,jeff davis_georgia
+Nonmetropolitan,georgia,jefferson,16,0,0,4,12,178,94,67,17,-1,jefferson_georgia
+Metropolitan,georgia,jones,14,1,1,1,11,541,149,344,48,4,jones_georgia
+Metropolitan,georgia,lamar,40,0,0,1,39,269,72,182,15,0,lamar_georgia
+Metropolitan,georgia,lanier,9,0,0,0,9,145,51,89,5,0,lanier_georgia
+Nonmetropolitan,georgia,laurens,27,0,5,5,17,869,239,536,94,1,laurens_georgia
+Metropolitan,georgia,lee,79,0,0,1,78,613,161,422,30,1,lee_georgia
+Metropolitan,georgia,liberty,61,1,1,4,55,429,166,232,31,-1,liberty_georgia
+Metropolitan,georgia,lowndes,74,2,6,10,56,746,180,523,43,-1,lowndes_georgia
+Nonmetropolitan,georgia,lumpkin,102,0,8,1,93,528,132,373,23,2,lumpkin_georgia
+Metropolitan,georgia,madison,194,0,4,5,185,743,204,488,51,-1,madison_georgia
+Metropolitan,georgia,mcduffie,31,1,1,7,22,303,103,171,29,0,mcduffie_georgia
+Metropolitan,georgia,mcintosh,22,2,1,2,17,400,118,256,26,6,mcintosh_georgia
+Metropolitan,georgia,meriwether,24,1,2,0,21,438,159,248,31,0,meriwether_georgia
+Nonmetropolitan,georgia,miller,2,0,0,0,2,31,5,26,0,-1,miller_georgia
+Nonmetropolitan,georgia,mitchell,33,0,4,1,28,250,72,156,22,-1,mitchell_georgia
+Metropolitan,georgia,monroe,24,0,1,9,14,482,156,295,31,1,monroe_georgia
+Nonmetropolitan,georgia,morgan,7,0,1,0,6,209,47,142,20,5,morgan_georgia
+Metropolitan,georgia,murray,51,1,5,1,44,856,176,611,69,-1,murray_georgia
+Metropolitan,georgia,muscogee,0,0,0,0,0,0,0,0,0,0,muscogee_georgia
+Metropolitan,georgia,newton,330,1,18,45,266,2201,813,1193,195,-1,newton_georgia
+Metropolitan,georgia,oconee,44,0,1,2,41,485,105,339,41,1,oconee_georgia
+Metropolitan,georgia,oglethorpe,62,0,4,6,52,650,152,485,13,0,oglethorpe_georgia
+Metropolitan,georgia,paulding,141,0,18,14,109,2571,664,1723,184,13,paulding_georgia
+Nonmetropolitan,georgia,peach,19,0,0,7,12,377,139,210,28,0,peach_georgia
+Metropolitan,georgia,pickens,26,2,0,0,24,427,95,317,15,-1,pickens_georgia
+Nonmetropolitan,georgia,pierce,7,0,0,1,6,-1,4,-1,5,-1,pierce_georgia
+Metropolitan,georgia,pike,2,0,1,0,1,93,30,59,4,-1,pike_georgia
+Nonmetropolitan,georgia,polk,63,0,6,3,54,775,280,433,62,7,polk_georgia
+Nonmetropolitan,georgia,pulaski,34,1,0,2,31,263,80,179,4,0,pulaski_georgia
+Nonmetropolitan,georgia,putnam,66,1,1,1,63,384,127,249,8,0,putnam_georgia
+Nonmetropolitan,georgia,rabun,3,0,0,0,3,209,45,157,7,0,rabun_georgia
+Nonmetropolitan,georgia,randolph,8,0,1,1,6,92,33,56,3,-1,randolph_georgia
+Metropolitan,georgia,rockdale,272,1,15,42,214,2413,677,1568,168,-1,rockdale_georgia
+Nonmetropolitan,georgia,schley,5,0,0,0,5,34,7,27,0,-1,schley_georgia
+Nonmetropolitan,georgia,screven,12,0,0,3,9,223,80,123,20,1,screven_georgia
+Nonmetropolitan,georgia,seminole,10,3,0,3,4,87,32,51,4,1,seminole_georgia
+Metropolitan,georgia,spalding,127,4,15,18,90,1668,507,1032,129,0,spalding_georgia
+Nonmetropolitan,georgia,stephens,25,1,9,4,11,492,136,327,29,0,stephens_georgia
+Nonmetropolitan,georgia,stewart,2,0,0,0,2,24,12,10,2,0,stewart_georgia
+Nonmetropolitan,georgia,taliaferro,8,0,2,1,5,68,27,36,5,0,taliaferro_georgia
+Nonmetropolitan,georgia,taylor,3,1,1,1,0,83,20,49,14,-1,taylor_georgia
+Nonmetropolitan,georgia,telfair,6,0,0,1,5,66,30,34,2,0,telfair_georgia
+Metropolitan,georgia,terrell,16,2,1,0,13,105,38,60,7,-1,terrell_georgia
+Nonmetropolitan,georgia,thomas,40,1,2,3,34,580,198,339,43,8,thomas_georgia
+Nonmetropolitan,georgia,tift,136,3,8,31,94,860,220,592,48,1,tift_georgia
+Nonmetropolitan,georgia,toombs,18,1,5,3,9,284,91,167,26,0,toombs_georgia
+Nonmetropolitan,georgia,towns,3,0,0,1,2,135,65,65,5,0,towns_georgia
+Nonmetropolitan,georgia,treutlen,4,0,0,0,4,84,35,47,2,0,treutlen_georgia
+Nonmetropolitan,georgia,turner,8,0,0,1,7,104,26,70,8,1,turner_georgia
+Metropolitan,georgia,twiggs,8,1,0,0,7,175,75,89,11,0,twiggs_georgia
+Nonmetropolitan,georgia,union,15,1,0,1,13,138,56,70,12,0,union_georgia
+Nonmetropolitan,georgia,upson,21,1,0,3,17,463,116,314,33,-1,upson_georgia
+Metropolitan,georgia,walton,113,2,4,13,94,1215,287,813,115,0,walton_georgia
+Nonmetropolitan,georgia,ware,57,2,5,4,46,757,199,538,20,0,ware_georgia
+Nonmetropolitan,georgia,warren,21,0,0,0,21,61,29,22,10,0,warren_georgia
+Nonmetropolitan,georgia,washington,21,0,2,3,16,231,52,175,4,0,washington_georgia
+Nonmetropolitan,georgia,wayne,160,1,3,16,140,1003,233,766,4,0,wayne_georgia
+Nonmetropolitan,georgia,webster,1,0,0,1,0,31,20,8,3,1,webster_georgia
+Nonmetropolitan,georgia,white,11,0,0,0,11,375,137,202,36,0,white_georgia
+Metropolitan,georgia,whitfield,166,1,16,7,142,1823,492,1205,126,7,whitfield_georgia
+Nonmetropolitan,georgia,wilcox,8,1,1,0,6,79,25,49,5,0,wilcox_georgia
+Nonmetropolitan,georgia,wilkes,6,0,0,0,6,36,7,27,2,0,wilkes_georgia
+Nonmetropolitan,georgia,wilkinson,11,1,0,1,9,124,36,76,12,3,wilkinson_georgia
+Metropolitan,georgia,worth,4,0,0,3,1,181,46,120,15,1,worth_georgia
+Metropolitan,idaho,ada,122,2,14,3,103,801,165,597,39,20,ada_idaho
+Metropolitan,idaho,bannock,6,0,1,0,5,76,13,59,4,0,bannock_idaho
+Nonmetropolitan,idaho,bear lake,0,0,0,0,0,26,11,15,0,0,bear lake_idaho
+Nonmetropolitan,idaho,benewah,15,3,0,0,12,26,9,14,3,1,benewah_idaho
+Nonmetropolitan,idaho,bingham,10,0,3,0,7,309,80,206,23,1,bingham_idaho
+Nonmetropolitan,idaho,blaine,5,0,0,0,5,39,14,20,5,4,blaine_idaho
+Metropolitan,idaho,boise,11,0,1,0,10,121,33,87,1,0,boise_idaho
+Nonmetropolitan,idaho,bonner,33,0,5,1,27,454,156,268,30,0,bonner_idaho
+Metropolitan,idaho,bonneville,81,5,10,3,63,904,213,656,35,5,bonneville_idaho
+Nonmetropolitan,idaho,boundary,9,1,0,0,8,94,47,42,5,0,boundary_idaho
+Nonmetropolitan,idaho,butte,3,0,0,0,3,4,0,2,2,0,butte_idaho
+Nonmetropolitan,idaho,camas,1,0,0,1,0,13,7,6,0,0,camas_idaho
+Metropolitan,idaho,canyon,74,0,8,1,65,727,316,364,47,4,canyon_idaho
+Nonmetropolitan,idaho,caribou,3,0,1,0,2,24,7,17,0,0,caribou_idaho
+Nonmetropolitan,idaho,cassia,32,0,4,1,27,317,38,261,18,0,cassia_idaho
+Nonmetropolitan,idaho,clark,0,0,0,0,0,12,3,9,0,0,clark_idaho
+Nonmetropolitan,idaho,clearwater,10,0,0,0,10,101,20,75,6,0,clearwater_idaho
+Nonmetropolitan,idaho,custer,1,0,0,0,1,18,3,12,3,0,custer_idaho
+Nonmetropolitan,idaho,elmore,15,0,1,0,14,65,18,46,1,1,elmore_idaho
+Metropolitan,idaho,franklin,0,0,0,0,0,57,6,49,2,0,franklin_idaho
+Nonmetropolitan,idaho,fremont,4,0,0,0,4,68,9,55,4,2,fremont_idaho
+Metropolitan,idaho,gem,13,0,1,0,12,41,22,16,3,0,gem_idaho
+Nonmetropolitan,idaho,gooding,13,1,2,0,10,68,26,36,6,1,gooding_idaho
+Nonmetropolitan,idaho,idaho,12,0,0,0,12,111,30,78,3,1,idaho_idaho
+Metropolitan,idaho,jefferson,24,0,0,0,24,131,53,68,10,1,jefferson_idaho
+Nonmetropolitan,idaho,jerome,11,0,1,0,10,128,41,77,10,0,jerome_idaho
+Metropolitan,idaho,kootenai,121,1,26,7,87,1328,478,794,56,13,kootenai_idaho
+Nonmetropolitan,idaho,latah,20,0,5,0,15,195,87,102,6,0,latah_idaho
+Nonmetropolitan,idaho,lemhi,5,0,0,0,5,37,11,23,3,0,lemhi_idaho
+Nonmetropolitan,idaho,lewis,5,0,0,0,5,26,7,17,2,0,lewis_idaho
+Nonmetropolitan,idaho,lincoln,2,0,2,0,0,9,2,7,0,0,lincoln_idaho
+Nonmetropolitan,idaho,madison,12,0,4,0,8,80,28,49,3,0,madison_idaho
+Nonmetropolitan,idaho,minidoka,15,0,3,1,11,168,32,126,10,1,minidoka_idaho
+Metropolitan,idaho,nez perce,3,0,0,1,2,123,29,87,7,0,nez perce_idaho
+Nonmetropolitan,idaho,oneida,0,0,0,0,0,29,7,21,1,0,oneida_idaho
+Metropolitan,idaho,owyhee,9,0,1,0,8,122,24,93,5,0,owyhee_idaho
+Nonmetropolitan,idaho,payette,20,0,1,1,18,119,45,63,11,0,payette_idaho
+Metropolitan,idaho,power,2,0,0,0,2,50,13,35,2,0,power_idaho
+Nonmetropolitan,idaho,shoshone,25,0,7,1,17,125,31,84,10,2,shoshone_idaho
+Nonmetropolitan,idaho,teton,7,0,0,0,7,45,10,35,0,0,teton_idaho
+Nonmetropolitan,idaho,twin falls,34,1,4,0,29,280,150,110,20,0,twin falls_idaho
+Nonmetropolitan,idaho,valley,12,0,4,0,8,69,27,40,2,1,valley_idaho
+Nonmetropolitan,idaho,washington,9,0,0,0,9,29,21,8,0,0,washington_idaho
+Nonmetropolitan,illinois,adams,25,0,7,0,18,275,63,200,12,2,adams_illinois
+Metropolitan,illinois,alexander,8,0,3,0,5,84,23,52,9,1,alexander_illinois
+Metropolitan,illinois,bond,2,0,0,0,2,139,42,93,4,0,bond_illinois
+Nonmetropolitan,illinois,bureau,14,0,2,2,10,159,40,116,3,1,bureau_illinois
+Nonmetropolitan,illinois,carroll,0,0,0,0,0,69,12,57,0,0,carroll_illinois
+Nonmetropolitan,illinois,cass,6,0,1,0,5,49,9,40,0,0,cass_illinois
+Metropolitan,illinois,champaign,126,3,11,15,97,618,216,382,20,5,champaign_illinois
+Nonmetropolitan,illinois,clay,6,1,1,0,4,59,20,35,4,2,clay_illinois
+Metropolitan,illinois,clinton,10,0,1,2,7,110,11,97,2,0,clinton_illinois
+Nonmetropolitan,illinois,coles,13,0,2,1,10,91,29,58,4,0,coles_illinois
+Metropolitan,illinois,cook,313,2,36,33,242,1279,395,776,108,16,cook_illinois
+Nonmetropolitan,illinois,crawford,2,0,1,0,1,58,18,37,3,0,crawford_illinois
+Nonmetropolitan,illinois,cumberland,7,1,0,0,6,52,20,31,1,0,cumberland_illinois
+Metropolitan,illinois,de kalb,28,0,6,2,20,310,69,228,13,2,de kalb_illinois
+Nonmetropolitan,illinois,de witt,20,0,6,3,11,84,23,59,2,0,de witt_illinois
+Nonmetropolitan,illinois,douglas,5,0,2,0,3,45,13,29,3,0,douglas_illinois
+Nonmetropolitan,illinois,edgar,21,0,2,0,19,74,40,31,3,2,edgar_illinois
+Nonmetropolitan,illinois,effingham,15,0,0,0,15,122,25,93,4,0,effingham_illinois
+Nonmetropolitan,illinois,fayette,4,0,0,1,3,107,24,77,6,0,fayette_illinois
+Metropolitan,illinois,ford,25,0,3,0,22,129,42,84,3,0,ford_illinois
+Nonmetropolitan,illinois,franklin,5,0,0,0,5,345,148,180,17,2,franklin_illinois
+Nonmetropolitan,illinois,fulton,10,0,0,0,10,170,43,121,6,0,fulton_illinois
+Nonmetropolitan,illinois,greene,1,0,0,0,1,46,19,25,2,1,greene_illinois
+Metropolitan,illinois,grundy,13,0,2,2,9,232,78,141,13,3,grundy_illinois
+Nonmetropolitan,illinois,hamilton,3,0,0,0,3,83,31,50,2,0,hamilton_illinois
+Metropolitan,illinois,henry,5,0,1,0,4,120,40,77,3,0,henry_illinois
+Nonmetropolitan,illinois,iroquois,10,0,4,0,6,223,92,126,5,0,iroquois_illinois
+Nonmetropolitan,illinois,jackson,36,0,5,7,24,319,146,161,12,1,jackson_illinois
+Nonmetropolitan,illinois,jefferson,40,0,6,2,32,255,109,139,7,4,jefferson_illinois
+Metropolitan,illinois,jersey,42,0,8,2,32,149,49,95,5,1,jersey_illinois
+Nonmetropolitan,illinois,jo daviess,3,0,3,0,0,131,21,107,3,0,jo daviess_illinois
+Nonmetropolitan,illinois,johnson,28,0,0,0,28,112,30,76,6,1,johnson_illinois
+Metropolitan,illinois,kane,75,1,12,2,60,692,241,420,31,7,kane_illinois
+Metropolitan,illinois,kankakee,56,0,10,8,38,522,154,348,20,9,kankakee_illinois
+Metropolitan,illinois,kendall,44,0,9,3,32,311,88,216,7,5,kendall_illinois
+Nonmetropolitan,illinois,knox,13,0,4,0,9,212,58,143,11,0,knox_illinois
+Nonmetropolitan,illinois,la salle,31,0,16,1,14,472,163,292,17,4,la salle_illinois
+Metropolitan,illinois,lake,61,1,9,16,35,1795,569,1154,72,5,lake_illinois
+Nonmetropolitan,illinois,lee,6,0,1,1,4,187,80,105,2,2,lee_illinois
+Nonmetropolitan,illinois,livingston,16,4,3,0,9,164,30,130,4,68,livingston_illinois
+Nonmetropolitan,illinois,logan,20,0,5,1,14,195,89,101,5,1,logan_illinois
+Metropolitan,illinois,macon,69,0,17,3,49,376,118,247,11,4,macon_illinois
+Metropolitan,illinois,macoupin,7,0,0,0,7,233,73,154,6,1,macoupin_illinois
+Metropolitan,illinois,madison,79,3,5,4,67,882,313,548,21,2,madison_illinois
+Nonmetropolitan,illinois,marion,17,1,6,2,8,266,82,165,19,1,marion_illinois
+Metropolitan,illinois,marshall,2,0,0,0,2,80,41,31,8,1,marshall_illinois
+Nonmetropolitan,illinois,mason,23,2,5,0,16,118,29,86,3,1,mason_illinois
+Nonmetropolitan,illinois,massac,13,0,4,0,9,111,36,73,2,0,massac_illinois
+Nonmetropolitan,illinois,mcdonough,4,0,1,0,3,71,20,50,1,1,mcdonough_illinois
+Metropolitan,illinois,mchenry,83,4,12,3,64,616,165,425,26,2,mchenry_illinois
+Metropolitan,illinois,mclean,40,1,7,3,29,260,96,153,11,0,mclean_illinois
+Metropolitan,illinois,menard,1,0,1,0,0,41,14,23,4,0,menard_illinois
+Metropolitan,illinois,monroe,4,0,1,0,3,65,28,33,4,1,monroe_illinois
+Nonmetropolitan,illinois,montgomery,86,0,1,2,83,137,59,78,0,3,montgomery_illinois
+Nonmetropolitan,illinois,morgan,13,0,6,0,7,92,47,44,1,3,morgan_illinois
+Nonmetropolitan,illinois,moultrie,4,0,0,0,4,42,17,25,0,0,moultrie_illinois
+Nonmetropolitan,illinois,ogle,15,0,3,0,12,222,64,149,9,1,ogle_illinois
+Metropolitan,illinois,peoria,142,3,20,12,107,825,225,566,34,3,peoria_illinois
+Nonmetropolitan,illinois,perry,8,0,3,0,5,74,27,47,0,1,perry_illinois
+Metropolitan,illinois,piatt,19,1,5,0,13,108,44,60,4,0,piatt_illinois
+Nonmetropolitan,illinois,pike,5,0,1,0,4,9,1,7,1,0,pike_illinois
+Nonmetropolitan,illinois,pulaski,44,0,4,1,39,74,31,38,5,0,pulaski_illinois
+Nonmetropolitan,illinois,putnam,2,0,0,0,2,45,15,29,1,0,putnam_illinois
+Metropolitan,illinois,rock island,57,0,14,2,41,390,117,254,19,1,rock island_illinois
+Metropolitan,illinois,sangamon,119,0,24,19,76,823,292,499,32,4,sangamon_illinois
+Nonmetropolitan,illinois,schuyler,3,0,0,0,3,3,0,3,0,0,schuyler_illinois
+Nonmetropolitan,illinois,scott,2,0,1,0,1,29,13,15,1,0,scott_illinois
+Nonmetropolitan,illinois,shelby,16,0,0,0,16,104,44,60,0,1,shelby_illinois
+Metropolitan,illinois,stark,2,0,0,0,2,102,28,68,6,0,stark_illinois
+Nonmetropolitan,illinois,stephenson,11,0,2,0,9,181,46,130,5,1,stephenson_illinois
+Metropolitan,illinois,tazewell,3,0,0,1,2,221,69,146,6,0,tazewell_illinois
+Nonmetropolitan,illinois,union,7,0,1,0,6,96,15,74,7,0,union_illinois
+Metropolitan,illinois,vermilion,69,0,13,5,51,627,229,363,35,0,vermilion_illinois
+Nonmetropolitan,illinois,wabash,3,0,1,0,2,65,35,25,5,2,wabash_illinois
+Nonmetropolitan,illinois,warren,7,0,1,0,6,95,39,51,5,1,warren_illinois
+Nonmetropolitan,illinois,washington,25,0,0,0,25,33,10,23,0,1,washington_illinois
+Nonmetropolitan,illinois,wayne,25,0,0,0,25,141,57,78,6,0,wayne_illinois
+Nonmetropolitan,illinois,white,14,0,1,0,13,187,55,125,7,0,white_illinois
+Nonmetropolitan,illinois,whiteside,15,0,0,2,13,234,78,152,4,0,whiteside_illinois
+Metropolitan,illinois,will,134,6,13,14,101,1362,527,730,105,16,will_illinois
+Nonmetropolitan,illinois,williamson,28,1,7,1,19,366,145,202,19,2,williamson_illinois
+Metropolitan,illinois,winnebago,93,4,20,13,56,1039,367,606,66,6,winnebago_illinois
+Metropolitan,illinois,woodford,7,0,2,0,5,181,68,105,8,1,woodford_illinois
+Metropolitan,indiana,allen,71,2,9,15,45,938,169,711,58,1,allen_indiana
+Metropolitan,indiana,bartholomew,40,0,6,4,30,587,114,414,59,0,bartholomew_indiana
+Nonmetropolitan,indiana,blackford,11,0,0,2,9,42,12,25,5,1,blackford_indiana
+Metropolitan,indiana,boone,0,0,0,0,0,171,39,132,0,2,boone_indiana
+Metropolitan,indiana,brown,2,0,0,0,2,128,43,73,12,1,brown_indiana
+Metropolitan,indiana,carroll,10,0,0,0,10,221,86,114,21,1,carroll_indiana
+Nonmetropolitan,indiana,cass,5,1,1,1,2,296,64,231,1,1,cass_indiana
+Metropolitan,indiana,clark,57,1,5,1,50,651,270,355,26,1,clark_indiana
+Nonmetropolitan,indiana,clark,57,1,5,1,50,651,270,355,26,1,clark_indiana
+Nonmetropolitan,indiana,clinton,21,0,2,8,11,428,118,286,24,0,clinton_indiana
+Nonmetropolitan,indiana,crawford,6,0,0,0,6,128,106,19,3,0,crawford_indiana
+Nonmetropolitan,indiana,daviess,2,1,0,0,1,133,33,76,24,3,daviess_indiana
+Metropolitan,indiana,dearborn,0,0,0,0,0,19,17,2,0,0,dearborn_indiana
+Metropolitan,indiana,delaware,53,1,8,6,38,525,149,336,40,2,delaware_indiana
+Metropolitan,indiana,elkhart,37,1,16,13,7,1479,532,828,119,9,elkhart_indiana
+Metropolitan,indiana,floyd,0,0,0,0,0,726,183,500,43,0,floyd_indiana
+Metropolitan,indiana,franklin,6,0,0,0,6,189,110,79,0,2,franklin_indiana
+Nonmetropolitan,indiana,fulton,11,1,2,0,8,146,56,80,10,1,fulton_indiana
+Metropolitan,indiana,gibson,12,0,1,0,11,184,28,152,4,2,gibson_indiana
+Nonmetropolitan,indiana,grant,6,0,2,1,3,322,105,194,23,2,grant_indiana
+Metropolitan,indiana,greene,2,1,0,0,1,155,25,114,16,1,greene_indiana
+Metropolitan,indiana,hancock,9,0,3,1,5,324,112,201,11,3,hancock_indiana
+Metropolitan,indiana,harrison,9,0,0,4,5,-1,157,-1,33,1,harrison_indiana
+Nonmetropolitan,indiana,henry,5,0,3,2,0,602,223,355,24,0,henry_indiana
+Metropolitan,indiana,howard,43,0,1,3,39,492,233,246,13,0,howard_indiana
+Nonmetropolitan,indiana,huntington,4,0,0,0,4,144,38,96,10,0,huntington_indiana
+Nonmetropolitan,indiana,jackson,18,0,3,2,13,491,98,373,20,1,jackson_indiana
+Nonmetropolitan,indiana,jay,6,0,0,0,6,115,27,78,10,0,jay_indiana
+Nonmetropolitan,indiana,jennings,42,0,4,0,38,477,235,234,8,0,jennings_indiana
+Metropolitan,indiana,johnson,57,0,3,6,48,871,183,672,16,0,johnson_indiana
+Nonmetropolitan,indiana,knox,0,0,0,0,0,0,0,0,0,0,knox_indiana
+Nonmetropolitan,indiana,kosciusko,33,0,6,2,25,702,138,536,28,6,kosciusko_indiana
+Metropolitan,indiana,la porte,23,0,6,7,10,811,271,493,47,1,la porte_indiana
+Nonmetropolitan,indiana,lagrange,9,0,4,0,5,251,66,174,11,0,lagrange_indiana
+Metropolitan,indiana,lake,51,1,8,21,21,1002,178,713,111,1,lake_indiana
+Nonmetropolitan,indiana,lawrence,60,0,1,1,58,350,136,195,19,3,lawrence_indiana
+Nonmetropolitan,indiana,marshall,21,1,3,0,17,377,117,237,23,1,marshall_indiana
+Nonmetropolitan,indiana,martin,2,0,0,1,1,72,20,43,9,0,martin_indiana
+Metropolitan,indiana,monroe,37,0,6,7,24,805,248,484,73,0,monroe_indiana
+Nonmetropolitan,indiana,montgomery,36,0,6,0,30,450,153,266,31,0,montgomery_indiana
+Metropolitan,indiana,newton,29,0,2,1,26,216,72,132,12,0,newton_indiana
+Nonmetropolitan,indiana,noble,14,0,1,0,13,233,94,122,17,1,noble_indiana
+Nonmetropolitan,indiana,parke,15,1,2,4,8,85,33,50,2,5,parke_indiana
+Nonmetropolitan,indiana,pike,32,0,2,2,28,293,90,194,9,1,pike_indiana
+Metropolitan,indiana,porter,44,2,5,3,34,965,176,721,68,0,porter_indiana
+Nonmetropolitan,indiana,pulaski,18,0,2,0,16,231,57,148,26,3,pulaski_indiana
+Metropolitan,indiana,putnam,16,0,0,3,13,201,89,90,22,0,putnam_indiana
+Nonmetropolitan,indiana,randolph,0,0,0,0,0,281,94,179,8,3,randolph_indiana
+Nonmetropolitan,indiana,ripley,2,0,0,0,2,298,83,201,14,0,ripley_indiana
+Nonmetropolitan,indiana,rush,2,0,1,1,0,247,77,162,8,3,rush_indiana
+Nonmetropolitan,indiana,scott,14,0,1,0,13,346,50,289,7,0,scott_indiana
+Metropolitan,indiana,shelby,25,0,2,4,19,379,149,199,31,1,shelby_indiana
+Metropolitan,indiana,st. joseph,131,3,10,22,96,1823,529,1230,64,3,st. joseph_indiana
+Nonmetropolitan,indiana,starke,22,0,3,1,18,206,61,132,13,1,starke_indiana
+Nonmetropolitan,indiana,steuben,16,0,3,2,11,484,136,334,14,0,steuben_indiana
+Metropolitan,indiana,sullivan,10,0,1,3,6,194,70,114,10,5,sullivan_indiana
+Metropolitan,indiana,tippecanoe,38,0,9,5,24,907,266,593,48,8,tippecanoe_indiana
+Metropolitan,indiana,tipton,17,1,0,0,16,65,27,33,5,0,tipton_indiana
+Metropolitan,indiana,vermillion,28,0,4,1,23,65,14,42,9,0,vermillion_indiana
+Metropolitan,indiana,vigo,34,2,6,7,19,1279,385,801,93,5,vigo_indiana
+Metropolitan,indiana,warrick,120,0,4,1,115,679,121,541,17,1,warrick_indiana
+Nonmetropolitan,indiana,wayne,1,1,0,0,0,87,33,53,1,1,wayne_indiana
+Metropolitan,indiana,wells,4,0,1,0,3,187,67,116,4,0,wells_indiana
+Nonmetropolitan,indiana,white,6,0,1,1,4,62,16,41,5,0,white_indiana
+Nonmetropolitan,iowa,adair,5,0,0,0,5,54,14,37,3,0,adair_iowa
+Nonmetropolitan,iowa,appanoose,12,0,1,0,11,102,48,48,6,2,appanoose_iowa
+Metropolitan,iowa,black hawk,37,0,7,0,30,143,48,80,15,1,black hawk_iowa
+Nonmetropolitan,iowa,boone,7,0,1,0,6,48,11,24,13,0,boone_iowa
+Metropolitan,iowa,bremer,6,0,2,0,4,42,10,30,2,3,bremer_iowa
+Nonmetropolitan,iowa,buena vista,6,0,1,0,5,89,25,55,9,0,buena vista_iowa
+Nonmetropolitan,iowa,butler,1,1,0,0,0,25,9,8,8,0,butler_iowa
+Nonmetropolitan,iowa,calhoun,12,0,0,0,12,87,37,46,4,0,calhoun_iowa
+Nonmetropolitan,iowa,cass,4,0,0,0,4,76,25,45,6,0,cass_iowa
+Nonmetropolitan,iowa,cedar,10,0,2,1,7,85,1,82,2,1,cedar_iowa
+Nonmetropolitan,iowa,cerro gordo,3,0,0,0,3,131,39,81,11,1,cerro gordo_iowa
+Nonmetropolitan,iowa,clarke,3,0,0,0,3,49,16,29,4,0,clarke_iowa
+Nonmetropolitan,iowa,clay,6,0,1,0,5,53,37,12,4,0,clay_iowa
+Nonmetropolitan,iowa,clinton,14,1,0,0,13,132,54,74,4,5,clinton_iowa
+Nonmetropolitan,iowa,crawford,4,0,0,0,4,8,0,7,1,0,crawford_iowa
+Metropolitan,iowa,dallas,13,0,0,0,13,133,39,86,8,1,dallas_iowa
+Nonmetropolitan,iowa,davis,7,0,0,0,7,19,15,3,1,0,davis_iowa
+Nonmetropolitan,iowa,delaware,8,0,0,0,8,36,13,23,0,0,delaware_iowa
+Nonmetropolitan,iowa,des moines,37,0,0,0,37,153,42,95,16,1,des moines_iowa
+Nonmetropolitan,iowa,dickinson,7,0,0,0,7,50,27,22,1,1,dickinson_iowa
+Metropolitan,iowa,dubuque,11,0,1,1,9,189,73,104,12,5,dubuque_iowa
+Nonmetropolitan,iowa,emmet,17,0,0,0,17,32,9,23,0,0,emmet_iowa
+Nonmetropolitan,iowa,fayette,10,0,2,0,8,31,7,19,5,0,fayette_iowa
+Nonmetropolitan,iowa,floyd,1,0,1,0,0,22,10,12,0,0,floyd_iowa
+Metropolitan,iowa,guthrie,3,0,0,0,3,47,19,24,4,1,guthrie_iowa
+Nonmetropolitan,iowa,hancock,9,0,0,1,8,41,19,19,3,0,hancock_iowa
+Nonmetropolitan,iowa,hardin,7,1,0,0,6,116,47,62,7,1,hardin_iowa
+Metropolitan,iowa,harrison,5,0,3,0,2,105,24,70,11,1,harrison_iowa
+Nonmetropolitan,iowa,henry,12,0,0,0,12,122,54,61,7,0,henry_iowa
+Nonmetropolitan,iowa,howard,5,0,1,3,1,55,14,38,3,1,howard_iowa
+Nonmetropolitan,iowa,humboldt,1,0,0,0,1,37,13,20,4,0,humboldt_iowa
+Nonmetropolitan,iowa,ida,2,0,1,0,1,37,13,22,2,0,ida_iowa
+Nonmetropolitan,iowa,iowa,15,0,0,0,15,75,25,44,6,0,iowa_iowa
+Nonmetropolitan,iowa,jefferson,1,0,0,0,1,59,13,40,6,0,jefferson_iowa
+Metropolitan,iowa,johnson,65,0,5,1,59,220,56,144,20,6,johnson_iowa
+Metropolitan,iowa,jones,0,0,0,0,0,79,18,54,7,0,jones_iowa
+Nonmetropolitan,iowa,kossuth,7,0,0,0,7,73,48,22,3,2,kossuth_iowa
+Nonmetropolitan,iowa,lee,20,1,0,0,19,217,120,89,8,0,lee_iowa
+Metropolitan,iowa,linn,40,0,13,0,27,285,108,155,22,7,linn_iowa
+Nonmetropolitan,iowa,louisa,10,0,1,0,9,68,27,35,6,2,louisa_iowa
+Nonmetropolitan,iowa,lucas,5,0,0,0,5,74,29,43,2,3,lucas_iowa
+Nonmetropolitan,iowa,lyon,17,0,6,0,11,66,24,39,3,2,lyon_iowa
+Metropolitan,iowa,madison,3,0,0,1,2,58,27,25,6,0,madison_iowa
+Nonmetropolitan,iowa,marion,24,1,7,1,15,119,59,50,10,3,marion_iowa
+Nonmetropolitan,iowa,marshall,9,0,0,1,8,92,42,44,6,2,marshall_iowa
+Metropolitan,iowa,mills,22,0,2,2,18,215,81,115,19,2,mills_iowa
+Nonmetropolitan,iowa,mitchell,0,0,0,0,0,23,4,18,1,0,mitchell_iowa
+Nonmetropolitan,iowa,monona,1,0,0,0,1,18,6,9,3,1,monona_iowa
+Nonmetropolitan,iowa,monroe,4,1,1,0,2,27,2,19,6,0,monroe_iowa
+Nonmetropolitan,iowa,muscatine,24,0,6,0,18,116,57,48,11,4,muscatine_iowa
+Nonmetropolitan,iowa,o'brien,10,0,0,0,10,46,19,21,6,0,o'brien_iowa
+Nonmetropolitan,iowa,osceola,1,0,0,0,1,8,2,5,1,2,osceola_iowa
+Nonmetropolitan,iowa,page,5,1,0,0,4,36,9,24,3,0,page_iowa
+Nonmetropolitan,iowa,palo alto,14,0,0,0,14,71,26,42,3,0,palo alto_iowa
+Nonmetropolitan,iowa,plymouth,12,0,0,1,11,77,29,47,1,0,plymouth_iowa
+Nonmetropolitan,iowa,pocahontas,8,0,2,0,6,76,24,50,2,0,pocahontas_iowa
+Metropolitan,iowa,polk,87,0,7,4,76,779,234,483,62,4,polk_iowa
+Metropolitan,iowa,pottawattamie,50,0,4,1,45,570,215,287,68,3,pottawattamie_iowa
+Metropolitan,iowa,scott,40,0,4,1,35,153,45,99,9,2,scott_iowa
+Nonmetropolitan,iowa,sioux,10,0,1,0,9,44,20,22,2,1,sioux_iowa
+Metropolitan,iowa,story,9,0,3,0,6,143,54,78,11,3,story_iowa
+Nonmetropolitan,iowa,story,9,0,3,0,6,143,54,78,11,3,story_iowa
+Nonmetropolitan,iowa,tama,22,0,1,0,21,83,44,35,4,1,tama_iowa
+Nonmetropolitan,iowa,van buren,14,0,1,0,13,58,27,26,5,0,van buren_iowa
+Nonmetropolitan,iowa,wapello,13,0,0,0,13,96,44,45,7,1,wapello_iowa
+Metropolitan,iowa,warren,22,0,3,0,19,275,109,144,22,4,warren_iowa
+Metropolitan,iowa,washington,25,1,4,0,20,130,69,57,4,0,washington_iowa
+Nonmetropolitan,iowa,wayne,4,0,0,0,4,26,10,16,0,0,wayne_iowa
+Nonmetropolitan,iowa,webster,16,0,1,0,15,211,71,128,12,3,webster_iowa
+Nonmetropolitan,iowa,winnebago,2,0,0,0,2,14,5,8,1,0,winnebago_iowa
+Nonmetropolitan,iowa,winneshiek,0,0,0,0,0,16,4,11,1,0,winneshiek_iowa
+Metropolitan,iowa,woodbury,34,0,4,1,29,129,46,71,12,2,woodbury_iowa
+Nonmetropolitan,iowa,worth,3,0,0,0,3,96,29,63,4,0,worth_iowa
+Nonmetropolitan,iowa,wright,1,0,0,0,1,46,23,21,2,0,wright_iowa
+Nonmetropolitan,kansas,allen,10,0,1,0,9,85,27,55,3,5,allen_kansas
+Nonmetropolitan,kansas,anderson,7,0,0,1,6,60,27,30,3,1,anderson_kansas
+Nonmetropolitan,kansas,atchison,15,1,3,1,10,12,8,4,0,1,atchison_kansas
+Nonmetropolitan,kansas,barber,3,0,1,0,2,30,6,21,3,0,barber_kansas
+Nonmetropolitan,kansas,barton,9,1,1,0,7,157,61,92,4,3,barton_kansas
+Nonmetropolitan,kansas,bourbon,20,2,1,0,17,129,50,62,17,8,bourbon_kansas
+Nonmetropolitan,kansas,brown,14,0,4,0,10,44,14,25,5,0,brown_kansas
+Metropolitan,kansas,butler,40,1,3,0,36,440,123,298,19,6,butler_kansas
+Nonmetropolitan,kansas,chase,1,0,0,0,1,14,8,4,2,0,chase_kansas
+Nonmetropolitan,kansas,chautauqua,0,0,0,0,0,19,4,11,4,1,chautauqua_kansas
+Nonmetropolitan,kansas,cherokee,25,0,2,2,21,253,96,146,11,24,cherokee_kansas
+Nonmetropolitan,kansas,cheyenne,4,0,1,0,3,33,15,16,2,0,cheyenne_kansas
+Nonmetropolitan,kansas,clark,3,0,0,0,3,16,2,14,0,0,clark_kansas
+Nonmetropolitan,kansas,clay,1,0,1,0,0,42,11,24,7,0,clay_kansas
+Nonmetropolitan,kansas,cloud,22,0,7,0,15,62,25,33,4,0,cloud_kansas
+Nonmetropolitan,kansas,coffey,4,0,1,0,3,37,10,24,3,0,coffey_kansas
+Nonmetropolitan,kansas,cowley,19,0,2,1,16,142,51,84,7,1,cowley_kansas
+Nonmetropolitan,kansas,crawford,26,0,3,0,23,229,74,138,17,6,crawford_kansas
+Nonmetropolitan,kansas,dickinson,13,0,1,0,12,123,43,71,9,2,dickinson_kansas
+Metropolitan,kansas,doniphan,2,0,1,0,1,37,7,26,4,0,doniphan_kansas
+Metropolitan,kansas,douglas,25,0,2,0,23,179,64,104,11,1,douglas_kansas
+Nonmetropolitan,kansas,edwards,5,0,1,0,4,24,11,12,1,2,edwards_kansas
+Nonmetropolitan,kansas,elk,3,0,0,0,3,23,10,11,2,0,elk_kansas
+Nonmetropolitan,kansas,ellis,8,0,2,0,6,59,23,34,2,0,ellis_kansas
+Nonmetropolitan,kansas,ellsworth,7,0,1,1,5,38,17,20,1,2,ellsworth_kansas
+Nonmetropolitan,kansas,finney,25,0,5,2,18,170,47,114,9,4,finney_kansas
+Nonmetropolitan,kansas,ford,7,0,0,0,7,113,33,75,5,0,ford_kansas
+Metropolitan,kansas,franklin,25,0,1,0,24,196,63,120,13,2,franklin_kansas
+Metropolitan,kansas,geary,6,0,1,0,5,34,13,19,2,1,geary_kansas
+Nonmetropolitan,kansas,graham,0,0,0,0,0,26,3,20,3,1,graham_kansas
+Nonmetropolitan,kansas,grant,6,0,0,0,6,9,2,5,2,0,grant_kansas
+Nonmetropolitan,kansas,gray,4,0,1,0,3,41,9,29,3,0,gray_kansas
+Nonmetropolitan,kansas,greenwood,12,0,2,1,9,94,45,44,5,1,greenwood_kansas
+Nonmetropolitan,kansas,harper,3,0,1,0,2,16,10,5,1,1,harper_kansas
+Metropolitan,kansas,harvey,18,1,0,0,17,86,39,45,2,1,harvey_kansas
+Nonmetropolitan,kansas,hodgeman,7,0,0,0,7,44,14,21,9,0,hodgeman_kansas
+Metropolitan,kansas,jackson,18,0,2,0,16,110,33,65,12,5,jackson_kansas
+Metropolitan,kansas,jefferson,29,0,3,0,26,330,122,188,20,2,jefferson_kansas
+Metropolitan,kansas,johnson,38,0,7,0,31,278,73,187,18,7,johnson_kansas
+Nonmetropolitan,kansas,kingman,2,0,0,0,2,77,24,51,2,2,kingman_kansas
+Nonmetropolitan,kansas,kiowa,1,0,0,1,0,43,15,24,4,0,kiowa_kansas
+Nonmetropolitan,kansas,labette,8,0,2,0,6,109,42,60,7,5,labette_kansas
+Nonmetropolitan,kansas,lane,2,0,1,0,1,14,7,6,1,0,lane_kansas
+Metropolitan,kansas,leavenworth,48,0,3,1,44,233,85,121,27,15,leavenworth_kansas
+Nonmetropolitan,kansas,lincoln,1,0,0,0,1,56,18,34,4,0,lincoln_kansas
+Metropolitan,kansas,linn,15,0,0,0,15,107,51,45,11,3,linn_kansas
+Nonmetropolitan,kansas,logan,2,0,0,0,2,18,2,16,0,0,logan_kansas
+Nonmetropolitan,kansas,lyon,9,0,0,0,9,102,18,84,0,2,lyon_kansas
+Nonmetropolitan,kansas,marion,9,0,0,0,9,5,1,3,1,1,marion_kansas
+Nonmetropolitan,kansas,marshall,3,0,0,0,3,56,14,41,1,0,marshall_kansas
+Nonmetropolitan,kansas,mcpherson,11,0,3,2,6,106,59,39,8,0,mcpherson_kansas
+Metropolitan,kansas,miami,18,0,3,0,15,189,70,110,9,6,miami_kansas
+Nonmetropolitan,kansas,montgomery,30,0,4,1,25,175,65,102,8,6,montgomery_kansas
+Nonmetropolitan,kansas,morris,9,0,0,0,9,58,23,32,3,0,morris_kansas
+Nonmetropolitan,kansas,morton,4,0,0,0,4,21,4,16,1,1,morton_kansas
+Nonmetropolitan,kansas,nemaha,2,0,0,0,2,30,7,20,3,1,nemaha_kansas
+Nonmetropolitan,kansas,neosho,3,0,2,0,1,159,69,74,16,7,neosho_kansas
+Nonmetropolitan,kansas,ness,4,0,0,0,4,19,2,14,3,0,ness_kansas
+Metropolitan,kansas,osage,13,0,0,1,12,111,45,56,10,2,osage_kansas
+Nonmetropolitan,kansas,pawnee,1,0,0,0,1,31,11,18,2,0,pawnee_kansas
+Nonmetropolitan,kansas,phillips,2,0,0,0,2,19,11,8,0,0,phillips_kansas
+Metropolitan,kansas,pottawatomie,38,0,5,1,32,224,72,140,12,6,pottawatomie_kansas
+Nonmetropolitan,kansas,pratt,4,0,0,0,4,66,12,47,7,1,pratt_kansas
+Nonmetropolitan,kansas,republic,0,0,0,0,0,19,9,9,1,0,republic_kansas
+Nonmetropolitan,kansas,rice,3,0,2,0,1,43,18,19,6,0,rice_kansas
+Metropolitan,kansas,riley,173,5,28,20,120,1467,372,1062,33,9,riley_kansas
+Nonmetropolitan,kansas,rush,3,0,2,0,1,28,10,17,1,0,rush_kansas
+Nonmetropolitan,kansas,russell,5,0,1,0,4,46,14,30,2,0,russell_kansas
+Nonmetropolitan,kansas,saline,27,1,2,0,24,149,68,77,4,4,saline_kansas
+Nonmetropolitan,kansas,seward,16,0,2,0,14,42,9,31,2,1,seward_kansas
+Metropolitan,kansas,shawnee,65,0,1,4,60,1281,359,871,51,13,shawnee_kansas
+Nonmetropolitan,kansas,sherman,1,0,0,0,1,17,6,9,2,0,sherman_kansas
+Nonmetropolitan,kansas,stafford,1,0,0,0,1,29,6,21,2,0,stafford_kansas
+Metropolitan,kansas,sumner,17,0,2,2,13,161,71,72,18,2,sumner_kansas
+Metropolitan,kansas,wabaunsee,10,0,2,0,8,95,37,53,5,4,wabaunsee_kansas
+Nonmetropolitan,kansas,washington,11,0,1,0,10,23,11,9,3,3,washington_kansas
+Nonmetropolitan,kansas,wichita,3,0,0,0,3,36,9,24,3,0,wichita_kansas
+Nonmetropolitan,kansas,wilson,8,0,0,0,8,68,24,43,1,0,wilson_kansas
+Nonmetropolitan,kansas,woodson,8,0,1,0,7,79,32,44,3,0,woodson_kansas
+Metropolitan,kansas,wyandotte,12,0,1,0,11,37,4,27,6,1,wyandotte_kansas
+Nonmetropolitan,kentucky,adair,2,0,0,0,2,23,7,12,4,0,adair_kentucky
+Nonmetropolitan,kentucky,allen,3,0,2,0,1,107,53,41,13,1,allen_kentucky
+Nonmetropolitan,kentucky,anderson,2,0,0,2,0,87,41,39,7,0,anderson_kentucky
+Nonmetropolitan,kentucky,ballard,4,0,0,0,4,149,47,96,6,2,ballard_kentucky
+Nonmetropolitan,kentucky,barren,3,0,0,1,2,111,57,43,11,0,barren_kentucky
+Nonmetropolitan,kentucky,bell,15,0,2,3,10,165,55,99,11,2,bell_kentucky
+Metropolitan,kentucky,boone,71,4,21,17,29,1483,359,1067,57,3,boone_kentucky
+Metropolitan,kentucky,bourbon,0,0,0,0,0,88,23,63,2,0,bourbon_kentucky
+Metropolitan,kentucky,boyd,25,0,1,10,14,179,43,122,14,0,boyd_kentucky
+Nonmetropolitan,kentucky,boyle,4,0,0,0,4,78,37,39,2,1,boyle_kentucky
+Metropolitan,kentucky,bracken,8,0,1,2,5,145,65,79,1,0,bracken_kentucky
+Nonmetropolitan,kentucky,breckinridge,3,1,0,0,2,13,9,4,0,0,breckinridge_kentucky
+Metropolitan,kentucky,bullitt,18,0,7,6,5,737,383,314,40,1,bullitt_kentucky
+Nonmetropolitan,kentucky,butler,6,0,1,0,5,43,22,18,3,0,butler_kentucky
+Nonmetropolitan,kentucky,caldwell,4,0,1,0,3,61,37,23,1,0,caldwell_kentucky
+Nonmetropolitan,kentucky,calloway,12,0,1,1,10,368,159,198,11,2,calloway_kentucky
+Metropolitan,kentucky,campbell,11,1,3,2,5,263,78,167,18,1,campbell_kentucky
+Nonmetropolitan,kentucky,carlisle,4,0,1,0,3,43,13,28,2,0,carlisle_kentucky
+Nonmetropolitan,kentucky,carroll,1,0,0,0,1,59,18,34,7,2,carroll_kentucky
+Nonmetropolitan,kentucky,carter,5,0,1,0,4,41,20,19,2,0,carter_kentucky
+Nonmetropolitan,kentucky,casey,1,0,0,0,1,41,22,13,6,1,casey_kentucky
+Metropolitan,kentucky,christian,17,1,4,2,10,438,173,239,26,3,christian_kentucky
+Metropolitan,kentucky,clark,4,0,2,1,1,270,108,151,11,1,clark_kentucky
+Nonmetropolitan,kentucky,clay,5,0,1,2,2,126,42,74,10,2,clay_kentucky
+Nonmetropolitan,kentucky,crittenden,0,0,0,0,0,41,12,24,5,1,crittenden_kentucky
+Nonmetropolitan,kentucky,cumberland,2,0,0,0,2,14,10,4,0,0,cumberland_kentucky
+Metropolitan,kentucky,daviess,21,0,10,5,6,628,159,451,18,3,daviess_kentucky
+Metropolitan,kentucky,edmonson,5,0,0,0,5,55,25,24,6,3,edmonson_kentucky
+Nonmetropolitan,kentucky,estill,7,0,0,2,5,114,69,44,1,0,estill_kentucky
+Nonmetropolitan,kentucky,fleming,1,0,0,0,1,8,4,3,1,0,fleming_kentucky
+Nonmetropolitan,kentucky,floyd,3,0,0,0,3,92,18,62,12,1,floyd_kentucky
+Nonmetropolitan,kentucky,franklin,15,0,5,3,7,411,140,254,17,0,franklin_kentucky
+Nonmetropolitan,kentucky,fulton,2,0,0,0,2,32,13,17,2,0,fulton_kentucky
+Metropolitan,kentucky,gallatin,2,0,0,0,2,100,45,48,7,0,gallatin_kentucky
+Nonmetropolitan,kentucky,garrard,2,0,0,1,1,52,16,30,6,0,garrard_kentucky
+Metropolitan,kentucky,grant,3,0,0,2,1,159,49,98,12,1,grant_kentucky
+Nonmetropolitan,kentucky,graves,16,0,3,3,10,219,94,107,18,4,graves_kentucky
+Nonmetropolitan,kentucky,grayson,4,0,1,0,3,102,45,48,9,0,grayson_kentucky
+Nonmetropolitan,kentucky,green,4,0,1,0,3,8,3,5,0,0,green_kentucky
+Metropolitan,kentucky,greenup,9,1,4,1,3,58,30,19,9,0,greenup_kentucky
+Metropolitan,kentucky,hancock,0,0,0,0,0,19,9,8,2,1,hancock_kentucky
+Metropolitan,kentucky,hardin,4,0,1,0,3,107,34,66,7,3,hardin_kentucky
+Nonmetropolitan,kentucky,harlan,7,0,0,0,7,87,36,43,8,0,harlan_kentucky
+Nonmetropolitan,kentucky,harrison,5,0,0,0,5,209,88,114,7,0,harrison_kentucky
+Nonmetropolitan,kentucky,hart,3,0,2,0,1,18,6,9,3,0,hart_kentucky
+Metropolitan,kentucky,henderson,10,0,4,2,4,172,72,90,10,2,henderson_kentucky
+Metropolitan,kentucky,henry,1,0,0,1,0,25,14,11,0,0,henry_kentucky
+Nonmetropolitan,kentucky,hickman,0,0,0,0,0,8,5,0,3,0,hickman_kentucky
+Nonmetropolitan,kentucky,hopkins,17,1,5,3,8,332,128,167,37,1,hopkins_kentucky
+Nonmetropolitan,kentucky,jackson,0,0,0,0,0,93,39,50,4,1,jackson_kentucky
+Metropolitan,kentucky,jessamine,16,0,1,7,8,378,179,185,14,0,jessamine_kentucky
+Nonmetropolitan,kentucky,johnson,7,0,1,1,5,135,45,76,14,3,johnson_kentucky
+Metropolitan,kentucky,kenton,18,0,6,1,11,206,80,117,9,2,kenton_kentucky
+Nonmetropolitan,kentucky,knott,0,0,0,0,0,2,0,2,0,0,knott_kentucky
+Nonmetropolitan,kentucky,knox,14,0,2,5,7,321,196,103,22,0,knox_kentucky
+Metropolitan,kentucky,larue,6,0,2,0,4,72,31,34,7,0,larue_kentucky
+Nonmetropolitan,kentucky,laurel,18,1,0,11,6,538,207,271,60,0,laurel_kentucky
+Nonmetropolitan,kentucky,lawrence,4,0,1,1,2,58,21,25,12,0,lawrence_kentucky
+Nonmetropolitan,kentucky,letcher,2,0,0,1,1,49,22,19,8,0,letcher_kentucky
+Nonmetropolitan,kentucky,lewis,8,1,1,2,4,32,16,12,4,0,lewis_kentucky
+Nonmetropolitan,kentucky,lincoln,7,0,0,4,3,89,36,37,16,0,lincoln_kentucky
+Nonmetropolitan,kentucky,livingston,5,0,2,0,3,75,30,37,8,0,livingston_kentucky
+Nonmetropolitan,kentucky,logan,3,0,1,0,2,195,82,102,11,1,logan_kentucky
+Nonmetropolitan,kentucky,lyon,0,0,0,0,0,94,45,48,1,0,lyon_kentucky
+Nonmetropolitan,kentucky,madison,8,1,3,0,4,483,174,294,15,0,madison_kentucky
+Nonmetropolitan,kentucky,magoffin,1,0,0,0,1,24,10,12,2,0,magoffin_kentucky
+Nonmetropolitan,kentucky,marion,2,0,1,0,1,90,37,45,8,0,marion_kentucky
+Nonmetropolitan,kentucky,marshall,20,1,4,5,10,300,136,147,17,0,marshall_kentucky
+Nonmetropolitan,kentucky,martin,6,0,1,1,4,70,28,32,10,0,martin_kentucky
+Nonmetropolitan,kentucky,mason,4,0,0,2,2,193,90,100,3,0,mason_kentucky
+Nonmetropolitan,kentucky,mccracken,46,0,8,15,23,578,178,356,44,1,mccracken_kentucky
+Nonmetropolitan,kentucky,mccreary,6,0,0,4,2,142,76,60,6,1,mccreary_kentucky
+Metropolitan,kentucky,mclean,0,0,0,0,0,66,28,33,5,0,mclean_kentucky
+Metropolitan,kentucky,meade,7,0,1,2,4,112,69,38,5,0,meade_kentucky
+Nonmetropolitan,kentucky,menifee,0,0,0,0,0,50,28,20,2,2,menifee_kentucky
+Nonmetropolitan,kentucky,mercer,5,1,1,0,3,89,48,35,6,0,mercer_kentucky
+Nonmetropolitan,kentucky,metcalfe,1,0,0,0,1,58,20,36,2,0,metcalfe_kentucky
+Nonmetropolitan,kentucky,montgomery,22,2,2,10,8,574,268,287,19,1,montgomery_kentucky
+Nonmetropolitan,kentucky,muhlenberg,7,0,1,3,3,63,30,20,13,0,muhlenberg_kentucky
+Metropolitan,kentucky,nelson,14,0,4,2,8,303,154,139,10,0,nelson_kentucky
+Nonmetropolitan,kentucky,ohio,17,0,1,0,16,172,62,81,29,3,ohio_kentucky
+Metropolitan,kentucky,oldham,19,0,6,8,5,495,187,297,11,2,oldham_kentucky
+Nonmetropolitan,kentucky,owen,1,0,0,1,0,57,33,19,5,0,owen_kentucky
+Metropolitan,kentucky,pendleton,3,0,1,1,1,109,33,74,2,1,pendleton_kentucky
+Nonmetropolitan,kentucky,perry,6,0,0,1,5,12,7,2,3,0,perry_kentucky
+Nonmetropolitan,kentucky,pike,0,0,0,0,0,24,13,9,2,0,pike_kentucky
+Nonmetropolitan,kentucky,powell,2,0,1,1,0,93,46,45,2,0,powell_kentucky
+Nonmetropolitan,kentucky,pulaski,12,0,2,5,5,797,447,331,19,4,pulaski_kentucky
+Nonmetropolitan,kentucky,rockcastle,3,1,0,1,1,90,57,18,15,0,rockcastle_kentucky
+Nonmetropolitan,kentucky,rowan,4,0,1,1,2,44,13,28,3,0,rowan_kentucky
+Nonmetropolitan,kentucky,russell,2,0,0,0,2,43,25,13,5,0,russell_kentucky
+Metropolitan,kentucky,scott,9,0,3,3,3,262,106,140,16,0,scott_kentucky
+Metropolitan,kentucky,shelby,17,0,4,4,9,465,131,311,23,0,shelby_kentucky
+Nonmetropolitan,kentucky,simpson,4,0,1,0,3,142,50,78,14,0,simpson_kentucky
+Metropolitan,kentucky,spencer,0,0,0,0,0,159,96,52,11,1,spencer_kentucky
+Nonmetropolitan,kentucky,taylor,15,1,6,0,8,236,127,102,7,2,taylor_kentucky
+Nonmetropolitan,kentucky,todd,3,0,0,1,2,101,43,52,6,0,todd_kentucky
+Metropolitan,kentucky,trigg,7,0,1,0,6,149,56,85,8,0,trigg_kentucky
+Metropolitan,kentucky,trimble,0,0,0,0,0,9,3,4,2,0,trimble_kentucky
+Nonmetropolitan,kentucky,union,4,0,1,1,2,48,15,26,7,0,union_kentucky
+Metropolitan,kentucky,warren,26,0,2,4,20,408,130,260,18,1,warren_kentucky
+Nonmetropolitan,kentucky,washington,1,0,0,0,1,38,18,19,1,0,washington_kentucky
+Nonmetropolitan,kentucky,wayne,0,0,0,0,0,30,14,14,2,3,wayne_kentucky
+Metropolitan,kentucky,webster,0,0,0,0,0,11,6,4,1,0,webster_kentucky
+Nonmetropolitan,kentucky,whitley,8,0,0,1,7,200,118,64,18,0,whitley_kentucky
+Nonmetropolitan,kentucky,wolfe,0,0,0,0,0,26,10,14,2,0,wolfe_kentucky
+Metropolitan,kentucky,woodford,0,0,0,0,0,20,5,13,2,0,woodford_kentucky
+Nonmetropolitan,louisiana,acadia,102,0,5,4,93,683,182,438,63,0,acadia_louisiana
+Nonmetropolitan,louisiana,allen,22,0,4,1,17,214,60,151,3,4,allen_louisiana
+Metropolitan,louisiana,ascension,373,8,33,41,291,2837,800,1887,150,0,ascension_louisiana
+Nonmetropolitan,louisiana,assumption,86,0,0,6,80,419,114,286,19,0,assumption_louisiana
+Nonmetropolitan,louisiana,avoyelles,84,3,20,5,56,463,136,307,20,2,avoyelles_louisiana
+Nonmetropolitan,louisiana,bienville,42,0,2,3,37,207,53,146,8,1,bienville_louisiana
+Metropolitan,louisiana,bossier,66,0,0,6,60,487,71,386,30,1,bossier_louisiana
+Metropolitan,louisiana,caddo,113,0,4,8,101,841,211,578,52,3,caddo_louisiana
+Metropolitan,louisiana,calcasieu,375,5,66,41,263,3893,1314,2392,187,24,calcasieu_louisiana
+Nonmetropolitan,louisiana,caldwell,22,0,0,1,21,263,78,174,11,-1,caldwell_louisiana
+Metropolitan,louisiana,cameron,15,0,0,0,15,152,28,117,7,2,cameron_louisiana
+Nonmetropolitan,louisiana,concordia,66,1,4,2,59,215,61,144,10,-1,concordia_louisiana
+Metropolitan,louisiana,east baton rouge,536,14,6,193,323,8008,1710,6157,141,25,east baton rouge_louisiana
+Nonmetropolitan,louisiana,east carroll,25,0,2,1,22,57,19,35,3,0,east carroll_louisiana
+Metropolitan,louisiana,east feliciana,1,0,1,0,0,67,25,38,4,0,east feliciana_louisiana
+Nonmetropolitan,louisiana,evangeline,50,0,3,6,41,517,103,402,12,0,evangeline_louisiana
+Metropolitan,louisiana,grant,10,0,1,0,9,288,77,196,15,0,grant_louisiana
+Nonmetropolitan,louisiana,iberia,390,2,18,89,281,2126,928,1131,67,14,iberia_louisiana
+Metropolitan,louisiana,iberville,276,0,5,20,251,580,151,408,21,-1,iberville_louisiana
+Metropolitan,louisiana,jefferson,1809,49,67,464,1229,13028,2950,9193,885,94,jefferson_louisiana
+Nonmetropolitan,louisiana,la salle,34,0,0,0,34,138,37,96,5,0,la salle_louisiana
+Metropolitan,louisiana,lafayette,336,4,19,41,272,1504,418,1021,65,21,lafayette_louisiana
+Metropolitan,louisiana,lafourche,77,1,0,18,58,1975,755,1140,80,2,lafourche_louisiana
+Metropolitan,louisiana,livingston,270,2,22,24,222,2677,796,1784,97,1,livingston_louisiana
+Nonmetropolitan,louisiana,madison,25,0,0,1,24,129,20,99,10,0,madison_louisiana
+Nonmetropolitan,louisiana,morehouse,29,0,0,6,23,253,42,210,1,0,morehouse_louisiana
+Nonmetropolitan,louisiana,natchitoches,118,1,3,4,110,596,185,376,35,0,natchitoches_louisiana
+Metropolitan,louisiana,ouachita,134,2,8,23,101,2727,950,1689,88,4,ouachita_louisiana
+Metropolitan,louisiana,plaquemines,41,0,1,1,39,387,100,278,9,8,plaquemines_louisiana
+Metropolitan,louisiana,pointe coupee,122,1,3,8,110,432,106,305,21,0,pointe coupee_louisiana
+Metropolitan,louisiana,rapides,300,3,32,14,251,2007,613,1205,189,9,rapides_louisiana
+Metropolitan,louisiana,st. bernard,75,0,10,14,51,977,220,703,54,-1,st. bernard_louisiana
+Metropolitan,louisiana,st. charles,193,3,4,30,156,1595,449,1062,84,21,st. charles_louisiana
+Metropolitan,louisiana,st. helena,58,0,1,3,54,285,119,136,30,0,st. helena_louisiana
+Nonmetropolitan,louisiana,st. james,110,0,4,1,105,444,91,323,30,1,st. james_louisiana
+Metropolitan,louisiana,st. john the baptist,113,6,3,42,62,1266,329,867,70,-1,st. john the baptist_louisiana
+Metropolitan,louisiana,st. martin,125,1,7,10,107,783,139,637,7,-1,st. martin_louisiana
+Nonmetropolitan,louisiana,st. mary,165,2,15,14,134,963,226,697,40,-1,st. mary_louisiana
+Metropolitan,louisiana,st. tammany,270,5,18,20,227,2527,592,1791,144,9,st. tammany_louisiana
+Nonmetropolitan,louisiana,tangipahoa,797,13,48,46,690,4222,1635,2387,200,0,tangipahoa_louisiana
+Nonmetropolitan,louisiana,tensas,8,1,0,1,6,34,17,16,1,2,tensas_louisiana
+Metropolitan,louisiana,terrebonne,295,3,27,45,220,2783,575,2043,165,15,terrebonne_louisiana
+Nonmetropolitan,louisiana,vermilion,77,0,10,8,59,722,216,479,27,0,vermilion_louisiana
+Nonmetropolitan,louisiana,vernon,116,3,10,2,101,715,27,640,48,-1,vernon_louisiana
+Nonmetropolitan,louisiana,washington,139,2,13,15,109,954,330,587,37,0,washington_louisiana
+Metropolitan,louisiana,west baton rouge,50,0,2,8,40,536,65,441,30,0,west baton rouge_louisiana
+Nonmetropolitan,louisiana,west carroll,109,0,0,2,107,381,71,279,31,1,west carroll_louisiana
+Metropolitan,louisiana,west feliciana,26,0,2,0,24,162,32,120,10,1,west feliciana_louisiana
+Nonmetropolitan,louisiana,winn,24,1,1,1,21,177,34,139,4,0,winn_louisiana
+Metropolitan,maine,androscoggin,20,0,9,3,8,240,97,139,4,1,androscoggin_maine
+Nonmetropolitan,maine,aroostook,0,0,0,0,0,81,18,60,3,0,aroostook_maine
+Metropolitan,maine,cumberland,28,0,4,3,21,906,392,468,46,5,cumberland_maine
+Nonmetropolitan,maine,franklin,2,0,0,0,2,96,36,54,6,0,franklin_maine
+Nonmetropolitan,maine,hancock,1,0,0,0,1,189,30,157,2,0,hancock_maine
+Nonmetropolitan,maine,kennebec,10,0,4,2,4,460,174,256,30,2,kennebec_maine
+Nonmetropolitan,maine,knox,9,0,1,3,5,194,54,124,16,0,knox_maine
+Nonmetropolitan,maine,lincoln,26,0,21,0,5,291,100,178,13,1,lincoln_maine
+Nonmetropolitan,maine,oxford,23,0,8,0,15,313,90,196,27,1,oxford_maine
+Metropolitan,maine,penobscot,8,0,2,5,1,743,265,432,46,0,penobscot_maine
+Nonmetropolitan,maine,piscataquis,6,0,3,0,3,149,78,71,0,0,piscataquis_maine
+Metropolitan,maine,sagadahoc,2,0,0,0,2,207,81,110,16,0,sagadahoc_maine
+Nonmetropolitan,maine,somerset,11,0,5,1,5,419,159,238,22,2,somerset_maine
+Nonmetropolitan,maine,waldo,6,0,0,1,5,247,94,144,9,0,waldo_maine
+Nonmetropolitan,maine,washington,25,0,3,0,22,187,62,116,9,0,washington_maine
+Metropolitan,maine,york,38,0,5,0,33,471,190,246,35,1,york_maine
+Metropolitan,maryland,allegany,27,0,2,4,21,200,48,151,1,0,allegany_maryland
+Metropolitan,maryland,anne arundel,2486,13,83,526,1864,13399,2073,10569,757,59,anne arundel_maryland
+Metropolitan,maryland,baltimore,4250,30,142,1451,2627,23800,4269,17840,1691,235,baltimore_maryland
+Metropolitan,maryland,calvert,121,0,8,30,83,1746,445,1246,55,0,calvert_maryland
+Nonmetropolitan,maryland,caroline,17,1,0,6,10,453,183,255,15,0,caroline_maryland
+Metropolitan,maryland,carroll,73,0,26,7,40,619,160,439,20,0,carroll_maryland
+Metropolitan,maryland,cecil,137,2,8,38,89,981,348,574,59,0,cecil_maryland
+Metropolitan,maryland,charles,539,3,26,170,340,3428,732,2431,265,0,charles_maryland
+Nonmetropolitan,maryland,dorchester,29,1,1,3,24,319,85,221,13,1,dorchester_maryland
+Metropolitan,maryland,frederick,218,1,9,18,190,1573,318,1181,74,20,frederick_maryland
+Nonmetropolitan,maryland,garrett,43,2,2,0,39,314,104,200,10,0,garrett_maryland
+Metropolitan,maryland,harford,399,4,29,86,280,2271,556,1577,138,3,harford_maryland
+Metropolitan,maryland,howard,597,4,31,211,351,6557,1109,5082,366,57,howard_maryland
+Nonmetropolitan,maryland,kent,15,0,0,1,14,153,73,71,9,1,kent_maryland
+Metropolitan,maryland,montgomery  ,1618,15,112,840,651,17752,3061,13505,1186,200,montgomery  _maryland
+Metropolitan,maryland,prince george's,4129,80,152,2048,1849,25456,5499,14977,4980,214,prince george's_maryland
+Metropolitan,maryland,somerset,4,0,0,0,4,52,15,37,0,0,somerset_maryland
+Nonmetropolitan,maryland,st. mary's,228,0,17,55,156,2403,649,1636,118,3,st. mary's_maryland
+Nonmetropolitan,maryland,talbot,12,0,2,1,9,208,68,131,9,0,talbot_maryland
+Metropolitan,maryland,washington,182,1,7,18,156,1406,415,930,61,0,washington_maryland
+Metropolitan,maryland,wicomico,97,0,1,13,83,863,300,536,27,9,wicomico_maryland
+Nonmetropolitan,maryland,worcester,64,1,2,3,58,256,68,185,3,1,worcester_maryland
+Nonmetropolitan,michigan,alcona,9,0,1,0,8,176,55,119,2,1,alcona_michigan
+Nonmetropolitan,michigan,allegany,108,1,28,3,76,850,239,560,51,9,allegany_michigan
+Nonmetropolitan,michigan,alpena,4,0,2,0,2,71,10,61,0,0,alpena_michigan
+Nonmetropolitan,michigan,antrim,18,0,4,3,11,301,91,205,5,0,antrim_michigan
+Nonmetropolitan,michigan,arenac,19,0,5,1,13,104,55,42,7,2,arenac_michigan
+Nonmetropolitan,michigan,baraga,0,0,0,0,0,25,7,17,1,0,baraga_michigan
+Metropolitan,michigan,barry,40,1,13,1,25,397,128,249,20,6,barry_michigan
+Metropolitan,michigan,bay,46,0,13,5,28,680,165,496,19,0,bay_michigan
+Metropolitan,michigan,berrien,116,0,19,13,84,668,192,449,27,6,berrien_michigan
+Nonmetropolitan,michigan,branch,6,0,1,1,4,174,23,147,4,1,branch_michigan
+Metropolitan,michigan,calhoun,73,0,3,7,63,567,195,344,28,6,calhoun_michigan
+Metropolitan,michigan,cass,27,1,11,1,14,503,153,337,13,4,cass_michigan
+Nonmetropolitan,michigan,charlevoix,25,1,12,0,12,147,38,108,1,1,charlevoix_michigan
+Nonmetropolitan,michigan,cheboygan,8,1,2,0,5,100,33,65,2,2,cheboygan_michigan
+Nonmetropolitan,michigan,chippewa,5,0,1,0,4,120,45,68,7,0,chippewa_michigan
+Nonmetropolitan,michigan,clare,33,1,9,3,20,367,202,162,3,1,clare_michigan
+Metropolitan,michigan,clinton,17,3,3,4,7,208,90,104,14,0,clinton_michigan
+Nonmetropolitan,michigan,crawford,27,1,4,0,22,200,84,109,7,1,crawford_michigan
+Nonmetropolitan,michigan,delta,3,0,0,0,3,63,12,45,6,0,delta_michigan
+Metropolitan,michigan,eaton,84,3,21,19,41,1310,305,945,60,4,eaton_michigan
+Nonmetropolitan,michigan,emmet,10,0,2,1,7,230,42,184,4,0,emmet_michigan
+Metropolitan,michigan,genesee,30,0,12,6,12,562,152,399,11,0,genesee_michigan
+Nonmetropolitan,michigan,gladwin,18,0,2,0,16,135,53,79,3,3,gladwin_michigan
+Nonmetropolitan,michigan,grand traverse,92,0,26,3,63,739,128,594,17,4,grand traverse_michigan
+Nonmetropolitan,michigan,gratiot,9,0,3,1,5,182,46,127,9,0,gratiot_michigan
+Nonmetropolitan,michigan,hillsdale,25,0,2,1,22,196,60,130,6,1,hillsdale_michigan
+Nonmetropolitan,michigan,houghton,5,0,1,1,3,101,24,75,2,0,houghton_michigan
+Nonmetropolitan,michigan,huron,13,1,3,0,9,141,54,85,2,0,huron_michigan
+Metropolitan,michigan,ingham,94,1,14,11,68,713,229,451,33,4,ingham_michigan
+Metropolitan,michigan,ionia,31,1,11,1,18,325,122,187,16,3,ionia_michigan
+Nonmetropolitan,michigan,iosco,1,0,0,0,1,13,9,3,1,0,iosco_michigan
+Nonmetropolitan,michigan,iron,4,1,2,0,1,42,16,25,1,1,iron_michigan
+Nonmetropolitan,michigan,isabella,31,2,11,2,16,398,129,251,18,0,isabella_michigan
+Metropolitan,michigan,jackson,134,2,9,4,119,625,190,403,32,4,jackson_michigan
+Metropolitan,michigan,kalamazoo,128,1,26,13,88,1589,401,1120,68,11,kalamazoo_michigan
+Nonmetropolitan,michigan,kalkaska,9,0,5,1,3,261,75,169,17,1,kalkaska_michigan
+Nonmetropolitan,michigan,lake,23,1,5,2,15,269,147,114,8,0,lake_michigan
+Metropolitan,michigan,lapeer,46,1,6,0,39,466,140,310,16,0,lapeer_michigan
+Nonmetropolitan,michigan,lenawee,52,0,22,1,29,369,120,230,19,2,lenawee_michigan
+Metropolitan,michigan,livingston,43,0,9,7,27,703,156,520,27,3,livingston_michigan
+Nonmetropolitan,michigan,luce,6,0,3,0,3,90,34,54,2,0,luce_michigan
+Nonmetropolitan,michigan,mackinac,3,0,0,0,3,61,16,43,2,0,mackinac_michigan
+Metropolitan,michigan,macomb,305,1,33,48,223,2325,522,1672,131,16,macomb_michigan
+Nonmetropolitan,michigan,marquette,5,0,2,0,3,184,16,165,3,1,marquette_michigan
+Nonmetropolitan,michigan,mecosta,192,0,15,2,175,481,114,351,16,1,mecosta_michigan
+Metropolitan,michigan,monroe,188,2,40,30,116,2303,706,1470,127,31,monroe_michigan
+Nonmetropolitan,michigan,montcalm,57,0,12,1,44,530,171,322,37,2,montcalm_michigan
+Nonmetropolitan,michigan,montmorency,2,0,1,0,1,54,37,14,3,0,montmorency_michigan
+Metropolitan,michigan,muskegon,34,0,7,2,25,768,122,628,18,3,muskegon_michigan
+Metropolitan,michigan,oakland,673,10,64,127,472,4622,1382,3005,235,81,oakland_michigan
+Nonmetropolitan,michigan,oceana,21,0,7,1,13,287,94,181,12,0,oceana_michigan
+Nonmetropolitan,michigan,ogemaw,19,0,1,2,16,288,131,151,6,0,ogemaw_michigan
+Nonmetropolitan,michigan,ontonagon,3,0,1,0,2,23,11,11,1,0,ontonagon_michigan
+Nonmetropolitan,michigan,osceola,25,0,3,0,22,267,83,177,7,2,osceola_michigan
+Nonmetropolitan,michigan,oscoda,21,0,2,2,17,256,96,153,7,1,oscoda_michigan
+Nonmetropolitan,michigan,otsego,3,0,1,0,2,33,10,22,1,0,otsego_michigan
+Metropolitan,michigan,ottawa,263,2,86,16,159,3332,697,2542,93,24,ottawa_michigan
+Nonmetropolitan,michigan,presque isle,7,0,2,0,5,41,18,22,1,0,presque isle_michigan
+Nonmetropolitan,michigan,roscommon,14,0,6,2,6,155,40,104,11,2,roscommon_michigan
+Metropolitan,michigan,saginaw,78,1,9,9,59,563,182,349,32,4,saginaw_michigan
+Nonmetropolitan,michigan,sanilac,29,0,4,0,25,175,84,83,8,2,sanilac_michigan
+Nonmetropolitan,michigan,shiawassee,46,0,17,4,25,500,197,289,14,0,shiawassee_michigan
+Metropolitan,michigan,st. clair,137,1,17,16,103,1647,497,1056,94,22,st. clair_michigan
+Nonmetropolitan,michigan,st. joseph,25,0,5,0,20,306,105,188,13,2,st. joseph_michigan
+Nonmetropolitan,michigan,tuscola,39,1,6,0,32,332,121,200,11,3,tuscola_michigan
+Metropolitan,michigan,van buren,106,2,30,5,69,603,209,361,33,6,van buren_michigan
+Metropolitan,michigan,washtenaw,430,5,83,73,269,2147,812,1154,181,18,washtenaw_michigan
+Metropolitan,michigan,wayne,10,0,0,0,10,16,1,14,1,0,wayne_michigan
+Nonmetropolitan,michigan,wexford,26,0,9,1,16,396,78,310,8,2,wexford_michigan
+Nonmetropolitan,minnesota,aitkin,-1,0,-1,0,16,409,141,237,31,4,aitkin_minnesota
+Metropolitan,minnesota,anoka,-1,1,-1,2,47,1675,302,1297,76,5,anoka_minnesota
+Nonmetropolitan,minnesota,becker,-1,0,-1,1,10,117,38,65,14,3,becker_minnesota
+Nonmetropolitan,minnesota,beltrami,-1,0,-1,1,36,430,138,271,21,3,beltrami_minnesota
+Metropolitan,minnesota,benton,-1,0,-1,0,12,265,51,194,20,3,benton_minnesota
+Nonmetropolitan,minnesota,big stone,-1,0,-1,0,5,44,19,25,0,0,big stone_minnesota
+Metropolitan,minnesota,blue earth,-1,0,-1,0,7,177,59,102,16,1,blue earth_minnesota
+Nonmetropolitan,minnesota,brown,-1,0,-1,0,2,0,0,0,0,0,brown_minnesota
+Metropolitan,minnesota,carlton,-1,2,-1,1,5,323,111,196,16,2,carlton_minnesota
+Metropolitan,minnesota,carver,-1,0,-1,3,25,736,130,592,14,5,carver_minnesota
+Nonmetropolitan,minnesota,cass,-1,2,-1,0,18,849,232,556,61,0,cass_minnesota
+Nonmetropolitan,minnesota,chippewa,-1,0,-1,0,8,42,5,36,1,0,chippewa_minnesota
+Metropolitan,minnesota,chisago,-1,0,-1,2,10,442,76,345,21,1,chisago_minnesota
+Metropolitan,minnesota,clay,-1,0,-1,0,3,72,18,51,3,4,clay_minnesota
+Nonmetropolitan,minnesota,clearwater,-1,0,-1,1,10,192,62,123,7,1,clearwater_minnesota
+Nonmetropolitan,minnesota,cook,-1,0,-1,0,5,162,25,135,2,0,cook_minnesota
+Nonmetropolitan,minnesota,cottonwood,-1,0,-1,0,1,40,11,26,3,1,cottonwood_minnesota
+Nonmetropolitan,minnesota,crow wing,-1,1,-1,1,14,448,119,305,24,1,crow wing_minnesota
+Metropolitan,minnesota,dakota,-1,0,-1,1,38,146,45,95,6,3,dakota_minnesota
+Metropolitan,minnesota,dodge,-1,0,-1,0,33,252,43,202,7,0,dodge_minnesota
+Nonmetropolitan,minnesota,douglas,-1,0,-1,1,20,216,71,131,14,0,douglas_minnesota
+Nonmetropolitan,minnesota,faribault,-1,0,-1,0,3,53,22,26,5,1,faribault_minnesota
+Nonmetropolitan,minnesota,freeborn,-1,0,-1,0,4,123,32,77,14,0,freeborn_minnesota
+Nonmetropolitan,minnesota,goodhue,-1,0,-1,0,7,203,58,119,26,0,goodhue_minnesota
+Nonmetropolitan,minnesota,grant,-1,0,-1,0,0,94,23,71,0,1,grant_minnesota
+Metropolitan,minnesota,hennepin,-1,0,-1,2,14,141,23,114,4,1,hennepin_minnesota
+Metropolitan,minnesota,houston,-1,0,-1,0,4,64,23,38,3,0,houston_minnesota
+Nonmetropolitan,minnesota,hubbard,-1,0,-1,0,6,249,93,146,10,0,hubbard_minnesota
+Metropolitan,minnesota,isanti,-1,0,-1,0,10,400,116,249,35,7,isanti_minnesota
+Nonmetropolitan,minnesota,itasca,-1,0,-1,1,26,457,100,340,17,1,itasca_minnesota
+Nonmetropolitan,minnesota,jackson,-1,0,-1,2,3,53,2,47,4,0,jackson_minnesota
+Nonmetropolitan,minnesota,kanabec,-1,0,-1,1,30,441,149,262,30,0,kanabec_minnesota
+Nonmetropolitan,minnesota,kandiyohi,-1,1,-1,0,12,207,32,153,22,1,kandiyohi_minnesota
+Nonmetropolitan,minnesota,kittson,-1,0,-1,0,0,38,8,28,2,0,kittson_minnesota
+Nonmetropolitan,minnesota,lac qui parle,-1,0,-1,0,2,41,7,33,1,0,lac qui parle_minnesota
+Nonmetropolitan,minnesota,lake,-1,0,-1,0,3,28,10,16,2,0,lake_minnesota
+Nonmetropolitan,minnesota,lake of the woods,-1,0,-1,0,3,5,0,5,0,0,lake of the woods_minnesota
+Nonmetropolitan,minnesota,le sueur,-1,0,-1,0,1,116,39,69,8,1,le sueur_minnesota
+Nonmetropolitan,minnesota,lincoln,-1,0,-1,0,10,10,4,6,0,0,lincoln_minnesota
+Nonmetropolitan,minnesota,lyon,-1,0,-1,0,4,20,7,12,1,0,lyon_minnesota
+Nonmetropolitan,minnesota,mahnomen,-1,0,-1,0,19,122,31,88,3,0,mahnomen_minnesota
+Nonmetropolitan,minnesota,marshall,-1,0,-1,0,2,109,9,95,5,1,marshall_minnesota
+Nonmetropolitan,minnesota,martin,-1,1,-1,0,1,25,9,15,1,0,martin_minnesota
+Nonmetropolitan,minnesota,mcleod,-1,0,-1,0,3,94,36,51,7,1,mcleod_minnesota
+Nonmetropolitan,minnesota,meeker,-1,0,-1,0,6,243,74,157,12,2,meeker_minnesota
+Nonmetropolitan,minnesota,mille lacs,-1,0,-1,0,17,454,108,301,45,0,mille lacs_minnesota
+Nonmetropolitan,minnesota,mower,-1,0,-1,1,9,169,54,93,22,0,mower_minnesota
+Nonmetropolitan,minnesota,murray,-1,0,-1,0,0,47,18,27,2,0,murray_minnesota
+Metropolitan,minnesota,nicollet,-1,0,-1,0,5,110,49,55,6,2,nicollet_minnesota
+Nonmetropolitan,minnesota,nobles,-1,0,-1,1,5,48,18,26,4,0,nobles_minnesota
+Metropolitan,minnesota,olmsted,-1,0,-1,2,17,448,151,261,36,1,olmsted_minnesota
+Nonmetropolitan,minnesota,otter tail,-1,2,-1,4,17,401,147,240,14,0,otter tail_minnesota
+Nonmetropolitan,minnesota,pennington,-1,0,-1,0,3,53,12,37,4,1,pennington_minnesota
+Nonmetropolitan,minnesota,pine,-1,0,-1,2,28,617,157,406,54,7,pine_minnesota
+Nonmetropolitan,minnesota,pipestone,-1,0,-1,2,4,65,13,48,4,1,pipestone_minnesota
+Metropolitan,minnesota,polk,-1,0,-1,1,15,157,53,99,5,3,polk_minnesota
+Nonmetropolitan,minnesota,pope,-1,0,-1,0,3,57,10,37,10,0,pope_minnesota
+Metropolitan,minnesota,ramsey,-1,0,-1,1,8,146,19,119,8,1,ramsey_minnesota
+Nonmetropolitan,minnesota,red lake,-1,0,-1,0,3,22,11,11,0,0,red lake_minnesota
+Nonmetropolitan,minnesota,redwood,-1,0,-1,1,4,60,14,42,4,0,redwood_minnesota
+Nonmetropolitan,minnesota,renville,-1,0,-1,0,1,67,15,35,17,0,renville_minnesota
+Nonmetropolitan,minnesota,rice,-1,0,-1,0,7,153,43,84,26,0,rice_minnesota
+Nonmetropolitan,minnesota,rock,-1,0,-1,1,-1,43,7,36,0,0,rock_minnesota
+Nonmetropolitan,minnesota,roseau,-1,0,-1,0,1,29,6,22,1,0,roseau_minnesota
+Metropolitan,minnesota,scott,-1,0,-1,0,4,119,40,76,3,0,scott_minnesota
+Metropolitan,minnesota,sherburne,-1,0,-1,1,11,516,125,361,30,1,sherburne_minnesota
+Nonmetropolitan,minnesota,sibley,-1,0,-1,0,0,5,5,0,0,0,sibley_minnesota
+Metropolitan,minnesota,st. louis,-1,0,-1,2,33,708,273,382,53,5,st. louis_minnesota
+Metropolitan,minnesota,stearns,-1,0,-1,1,30,439,118,296,25,0,stearns_minnesota
+Nonmetropolitan,minnesota,steele,-1,0,-1,1,3,115,36,71,8,8,steele_minnesota
+Nonmetropolitan,minnesota,stevens,-1,0,-1,0,0,25,9,14,2,0,stevens_minnesota
+Nonmetropolitan,minnesota,swift,-1,0,-1,0,1,36,13,23,0,0,swift_minnesota
+Nonmetropolitan,minnesota,todd,-1,1,-1,0,8,263,107,148,8,4,todd_minnesota
+Nonmetropolitan,minnesota,traverse,-1,0,-1,0,3,28,4,20,4,0,traverse_minnesota
+Metropolitan,minnesota,wabasha,-1,0,-1,0,1,26,3,19,4,0,wabasha_minnesota
+Nonmetropolitan,minnesota,wadena,-1,0,-1,0,3,95,42,45,8,3,wadena_minnesota
+Nonmetropolitan,minnesota,waseca,-1,0,-1,0,1,91,40,49,2,0,waseca_minnesota
+Metropolitan,minnesota,washington,-1,0,-1,3,18,957,179,734,44,2,washington_minnesota
+Nonmetropolitan,minnesota,watonwan,-1,0,-1,0,3,38,14,21,3,0,watonwan_minnesota
+Nonmetropolitan,minnesota,wilkin,-1,0,-1,0,1,46,11,35,0,0,wilkin_minnesota
+Nonmetropolitan,minnesota,winona,-1,0,-1,0,3,104,26,67,11,0,winona_minnesota
+Metropolitan,minnesota,wright,-1,0,-1,9,48,1716,167,1490,59,12,wright_minnesota
+Nonmetropolitan,minnesota,yellow medicine,-1,0,-1,0,6,38,9,28,1,0,yellow medicine_minnesota
+Nonmetropolitan,mississippi,adams,67,2,6,8,51,621,297,318,6,1,adams_mississippi
+Nonmetropolitan,mississippi,chickasaw,16,1,1,4,10,41,18,20,3,0,chickasaw_mississippi
+Nonmetropolitan,mississippi,choctaw,11,0,0,0,11,90,31,52,7,0,choctaw_mississippi
+Nonmetropolitan,mississippi,claiborne,33,1,0,3,29,84,47,36,1,0,claiborne_mississippi
+Metropolitan,mississippi,forrest,24,1,3,3,17,477,173,296,8,1,forrest_mississippi
+Nonmetropolitan,mississippi,franklin,11,1,1,4,5,54,30,18,6,0,franklin_mississippi
+Nonmetropolitan,mississippi,grenada,18,0,0,7,11,100,49,46,5,0,grenada_mississippi
+Metropolitan,mississippi,harrison,34,0,6,12,16,1164,371,686,107,2,harrison_mississippi
+Metropolitan,mississippi,hinds,30,2,6,4,18,448,165,206,77,0,hinds_mississippi
+Nonmetropolitan,mississippi,itawamba,26,2,4,0,20,271,85,170,16,4,itawamba_mississippi
+Metropolitan,mississippi,jackson,140,3,30,15,92,1693,551,1019,123,28,jackson_mississippi
+Nonmetropolitan,mississippi,jefferson,18,1,3,0,14,43,11,26,6,1,jefferson_mississippi
+Nonmetropolitan,mississippi,jones,79,2,25,4,48,1000,373,627,0,0,jones_mississippi
+Nonmetropolitan,mississippi,kemper,2,0,0,0,2,49,27,18,4,5,kemper_mississippi
+Metropolitan,mississippi,lamar,30,4,8,14,4,671,382,277,12,1,lamar_mississippi
+Nonmetropolitan,mississippi,lauderdale,35,0,8,4,23,650,342,271,37,2,lauderdale_mississippi
+Nonmetropolitan,mississippi,lee,47,0,5,5,37,800,297,462,41,12,lee_mississippi
+Nonmetropolitan,mississippi,leflore,70,1,6,7,56,430,174,236,20,2,leflore_mississippi
+Nonmetropolitan,mississippi,lincoln,32,0,2,0,30,325,105,199,21,9,lincoln_mississippi
+Nonmetropolitan,mississippi,lowndes,53,3,5,12,33,608,309,277,22,0,lowndes_mississippi
+Metropolitan,mississippi,madison,31,1,3,5,22,527,134,344,49,0,madison_mississippi
+Nonmetropolitan,mississippi,marion,32,0,9,9,14,561,242,291,28,5,marion_mississippi
+Nonmetropolitan,mississippi,oktibbeha,42,0,2,5,35,227,105,113,9,6,oktibbeha_mississippi
+Nonmetropolitan,mississippi,panola,70,2,1,9,58,560,282,262,16,1,panola_mississippi
+Nonmetropolitan,mississippi,pike,36,1,1,5,29,368,236,131,1,-1,pike_mississippi
+Nonmetropolitan,mississippi,pontotoc,22,0,1,12,9,72,26,44,2,3,pontotoc_mississippi
+Metropolitan,mississippi,rankin,40,3,4,6,27,618,148,420,50,1,rankin_mississippi
+Nonmetropolitan,mississippi,scott,47,2,2,3,40,376,126,219,31,6,scott_mississippi
+Metropolitan,mississippi,simpson,39,0,5,3,31,351,121,194,36,3,simpson_mississippi
+Nonmetropolitan,mississippi,tippah,5,0,1,0,4,10,4,6,0,0,tippah_mississippi
+Metropolitan,mississippi,tunica,30,0,2,15,13,541,86,409,46,0,tunica_mississippi
+Nonmetropolitan,mississippi,union,4,0,0,0,4,234,84,136,14,3,union_mississippi
+Nonmetropolitan,mississippi,warren,16,4,5,1,6,408,129,261,18,0,warren_mississippi
+Nonmetropolitan,mississippi,washington,41,2,2,8,29,556,123,367,66,0,washington_mississippi
+Nonmetropolitan,mississippi,winston,1,0,0,0,1,20,4,15,1,0,winston_mississippi
+Nonmetropolitan,missouri,adair,17,0,2,0,15,159,47,107,5,0,adair_missouri
+Metropolitan,missouri,andrew,2,0,0,0,2,74,28,45,1,0,andrew_missouri
+Nonmetropolitan,missouri,atchison,0,0,0,0,0,11,3,7,1,0,atchison_missouri
+Nonmetropolitan,missouri,audrain,5,0,0,1,4,151,60,81,10,0,audrain_missouri
+Nonmetropolitan,missouri,barry,79,0,12,3,64,434,169,239,26,6,barry_missouri
+Metropolitan,missouri,bates,31,2,2,0,27,201,83,110,8,3,bates_missouri
+Nonmetropolitan,missouri,benton,28,0,0,0,28,241,111,109,21,1,benton_missouri
+Metropolitan,missouri,bollinger,14,0,2,0,12,105,44,52,9,2,bollinger_missouri
+Metropolitan,missouri,boone,90,1,2,13,74,736,179,508,49,9,boone_missouri
+Metropolitan,missouri,buchanan,22,0,3,1,18,209,62,139,8,1,buchanan_missouri
+Nonmetropolitan,missouri,butler,77,0,5,6,66,660,232,395,33,2,butler_missouri
+Metropolitan,missouri,caldwell,17,0,1,1,15,54,32,22,0,0,caldwell_missouri
+Metropolitan,missouri,callaway,60,3,6,1,50,784,205,538,41,6,callaway_missouri
+Nonmetropolitan,missouri,camden,39,0,0,0,39,452,145,284,23,0,camden_missouri
+Metropolitan,missouri,cape girardeau,13,0,1,2,10,276,116,153,7,0,cape girardeau_missouri
+Nonmetropolitan,missouri,carroll,4,0,0,1,3,41,11,28,2,0,carroll_missouri
+Nonmetropolitan,missouri,carter,5,0,0,0,5,62,29,28,5,0,carter_missouri
+Metropolitan,missouri,cass,48,0,2,4,42,465,125,313,27,0,cass_missouri
+Nonmetropolitan,missouri,cedar,12,0,3,0,9,143,48,88,7,0,cedar_missouri
+Nonmetropolitan,missouri,chariton,21,0,0,0,21,53,23,28,2,0,chariton_missouri
+Metropolitan,missouri,christian,66,0,0,2,64,401,174,181,46,6,christian_missouri
+Nonmetropolitan,missouri,clark,6,0,0,0,6,28,18,5,5,0,clark_missouri
+Metropolitan,missouri,clay,25,3,2,2,18,210,93,92,25,3,clay_missouri
+Metropolitan,missouri,clinton,49,0,0,2,47,88,18,62,8,1,clinton_missouri
+Metropolitan,missouri,cole,48,1,2,3,42,422,105,289,28,1,cole_missouri
+Nonmetropolitan,missouri,cooper,5,0,2,0,3,132,31,90,11,0,cooper_missouri
+Nonmetropolitan,missouri,crawford,32,0,3,0,29,185,73,102,10,0,crawford_missouri
+Nonmetropolitan,missouri,dade,4,0,0,0,4,47,37,0,10,0,dade_missouri
+Metropolitan,missouri,dallas,30,0,3,0,27,209,63,140,6,0,dallas_missouri
+Nonmetropolitan,missouri,daviess,5,0,1,0,4,67,25,33,9,2,daviess_missouri
+Metropolitan,missouri,de kalb,8,0,1,0,7,63,21,37,5,0,de kalb_missouri
+Nonmetropolitan,missouri,dent,17,4,2,1,10,83,41,32,10,1,dent_missouri
+Nonmetropolitan,missouri,douglas,30,1,1,0,28,94,39,47,8,2,douglas_missouri
+Nonmetropolitan,missouri,dunklin,24,0,0,3,21,232,58,159,15,5,dunklin_missouri
+Metropolitan,missouri,franklin,89,1,4,1,83,468,122,294,52,2,franklin_missouri
+Nonmetropolitan,missouri,gasconade,19,0,0,1,18,126,48,70,8,2,gasconade_missouri
+Nonmetropolitan,missouri,gentry,0,0,0,0,0,23,8,15,0,0,gentry_missouri
+Metropolitan,missouri,greene,96,3,9,10,74,1716,573,1037,106,49,greene_missouri
+Nonmetropolitan,missouri,grundy,5,0,1,0,4,57,26,27,4,0,grundy_missouri
+Nonmetropolitan,missouri,harrison,8,1,0,2,5,55,9,40,6,3,harrison_missouri
+Nonmetropolitan,missouri,henry,43,1,2,0,40,354,115,220,19,7,henry_missouri
+Nonmetropolitan,missouri,hickory,2,0,0,1,1,123,46,59,18,0,hickory_missouri
+Nonmetropolitan,missouri,holt,5,0,0,0,5,74,35,32,7,0,holt_missouri
+Metropolitan,missouri,howard,10,1,1,0,8,39,19,19,1,0,howard_missouri
+Nonmetropolitan,missouri,howell,28,1,0,1,26,370,141,203,26,2,howell_missouri
+Nonmetropolitan,missouri,iron,31,0,3,2,26,60,24,29,7,1,iron_missouri
+Metropolitan,missouri,jackson,42,0,5,6,31,556,190,315,51,1,jackson_missouri
+Metropolitan,missouri,jasper,152,0,7,2,143,491,154,282,55,9,jasper_missouri
+Metropolitan,missouri,jefferson,384,2,30,19,333,2492,404,1898,190,18,jefferson_missouri
+Nonmetropolitan,missouri,johnson,26,1,1,1,23,416,155,224,37,0,johnson_missouri
+Nonmetropolitan,missouri,knox,2,0,0,0,2,46,18,26,2,0,knox_missouri
+Nonmetropolitan,missouri,laclede,138,0,0,0,138,329,81,216,32,2,laclede_missouri
+Metropolitan,missouri,lafayette,10,0,0,0,10,144,49,85,10,0,lafayette_missouri
+Nonmetropolitan,missouri,lawrence,56,0,4,3,49,415,176,212,27,5,lawrence_missouri
+Nonmetropolitan,missouri,lewis,0,0,0,0,0,69,24,41,4,0,lewis_missouri
+Metropolitan,missouri,lincoln,89,2,0,0,87,252,82,149,21,0,lincoln_missouri
+Nonmetropolitan,missouri,linn,16,0,1,0,15,54,29,24,1,2,linn_missouri
+Nonmetropolitan,missouri,livingston,3,0,0,0,3,32,10,17,5,1,livingston_missouri
+Nonmetropolitan,missouri,macon,19,0,0,0,19,112,44,64,4,0,macon_missouri
+Nonmetropolitan,missouri,madison,11,0,0,0,11,57,23,29,5,0,madison_missouri
+Nonmetropolitan,missouri,maries,31,0,3,0,28,56,16,36,4,1,maries_missouri
+Nonmetropolitan,missouri,marion,10,0,2,0,8,118,19,96,3,0,marion_missouri
+Metropolitan,missouri,mcdonald,93,2,1,6,84,314,87,206,21,3,mcdonald_missouri
+Nonmetropolitan,missouri,mercer,9,3,0,0,6,14,4,10,0,0,mercer_missouri
+Nonmetropolitan,missouri,miller,66,0,8,0,58,229,87,131,11,0,miller_missouri
+Nonmetropolitan,missouri,mississippi,16,0,0,0,16,59,20,37,2,0,mississippi_missouri
+Metropolitan,missouri,moniteau,5,1,0,0,4,42,9,31,2,0,moniteau_missouri
+Nonmetropolitan,missouri,monroe,5,0,0,0,5,51,18,26,7,1,monroe_missouri
+Nonmetropolitan,missouri,montgomery,3,1,0,0,2,78,26,48,4,0,montgomery_missouri
+Nonmetropolitan,missouri,morgan,45,0,3,0,42,274,111,136,27,0,morgan_missouri
+Nonmetropolitan,missouri,new madrid,20,0,0,0,20,60,16,38,6,2,new madrid_missouri
+Metropolitan,missouri,newton,40,1,12,3,24,771,202,495,74,4,newton_missouri
+Nonmetropolitan,missouri,nodaway,36,0,2,1,33,116,35,71,10,0,nodaway_missouri
+Nonmetropolitan,missouri,oregon,9,0,0,0,9,56,27,25,4,0,oregon_missouri
+Metropolitan,missouri,osage,39,0,0,0,39,93,42,44,7,0,osage_missouri
+Nonmetropolitan,missouri,ozark,12,0,0,0,12,141,54,81,6,4,ozark_missouri
+Nonmetropolitan,missouri,pemiscot,29,1,3,2,23,120,42,69,9,0,pemiscot_missouri
+Nonmetropolitan,missouri,perry,6,0,0,0,6,63,14,39,10,0,perry_missouri
+Nonmetropolitan,missouri,pettis,9,0,2,0,7,388,130,234,24,0,pettis_missouri
+Nonmetropolitan,missouri,phelps,41,1,4,1,35,387,120,234,33,2,phelps_missouri
+Nonmetropolitan,missouri,pike,23,0,2,0,21,74,33,35,6,1,pike_missouri
+Metropolitan,missouri,platte,53,1,1,2,49,328,95,224,9,7,platte_missouri
+Metropolitan,missouri,polk,88,0,0,2,86,336,127,192,17,0,polk_missouri
+Nonmetropolitan,missouri,pulaski,91,4,5,4,78,368,186,154,28,3,pulaski_missouri
+Nonmetropolitan,missouri,putnam,0,0,0,0,0,15,11,1,3,0,putnam_missouri
+Nonmetropolitan,missouri,ralls,5,0,0,0,5,152,32,117,3,1,ralls_missouri
+Nonmetropolitan,missouri,randolph,6,0,2,0,4,142,37,105,0,1,randolph_missouri
+Metropolitan,missouri,ray,19,0,2,0,17,185,73,98,14,0,ray_missouri
+Nonmetropolitan,missouri,reynolds,28,1,0,1,26,78,27,46,5,2,reynolds_missouri
+Nonmetropolitan,missouri,ripley,29,0,0,0,29,298,94,194,10,0,ripley_missouri
+Nonmetropolitan,missouri,saline,23,0,2,2,19,91,44,45,2,0,saline_missouri
+Nonmetropolitan,missouri,schuyler,1,0,0,0,1,42,13,22,7,1,schuyler_missouri
+Nonmetropolitan,missouri,scott,24,0,0,1,23,96,32,55,9,0,scott_missouri
+Nonmetropolitan,missouri,shannon,3,0,0,0,3,54,15,32,7,1,shannon_missouri
+Nonmetropolitan,missouri,shelby,2,0,1,0,1,40,5,33,2,0,shelby_missouri
+Metropolitan,missouri,st. charles,141,0,8,10,123,1031,272,720,39,13,st. charles_missouri
+Nonmetropolitan,missouri,st. clair,6,1,1,1,3,168,48,120,0,0,st. clair_missouri
+Nonmetropolitan,missouri,st. francois,81,0,6,2,73,460,130,276,54,2,st. francois_missouri
+Metropolitan,missouri,st. louis,1043,17,63,284,679,9329,2318,6387,624,56,st. louis_missouri
+Nonmetropolitan,missouri,ste. genevieve,59,0,2,0,57,114,23,76,15,5,ste. genevieve_missouri
+Nonmetropolitan,missouri,stoddard,25,0,2,1,22,236,66,158,12,2,stoddard_missouri
+Nonmetropolitan,missouri,stone,80,2,5,0,73,483,149,310,24,2,stone_missouri
+Nonmetropolitan,missouri,sullivan,10,0,0,0,10,61,31,27,3,0,sullivan_missouri
+Nonmetropolitan,missouri,taney,117,0,9,4,104,559,164,351,44,0,taney_missouri
+Nonmetropolitan,missouri,texas,6,0,2,0,4,204,87,102,15,4,texas_missouri
+Nonmetropolitan,missouri,vernon,33,1,2,0,30,220,69,132,19,1,vernon_missouri
+Metropolitan,missouri,warren,67,1,5,2,59,240,82,145,13,3,warren_missouri
+Metropolitan,missouri,washington,35,0,6,2,27,360,105,217,38,2,washington_missouri
+Nonmetropolitan,missouri,wayne,10,0,1,0,9,84,32,48,4,1,wayne_missouri
+Metropolitan,missouri,webster,12,0,0,1,11,315,144,135,36,3,webster_missouri
+Nonmetropolitan,missouri,worth,2,0,0,0,2,37,15,19,3,0,worth_missouri
+Nonmetropolitan,missouri,wright,16,0,5,0,11,85,40,40,5,0,wright_missouri
+Nonmetropolitan,montana,beaverhead,7,0,0,0,7,63,15,44,4,1,beaverhead_montana
+Nonmetropolitan,montana,big horn,22,3,2,0,17,134,8,118,8,0,big horn_montana
+Nonmetropolitan,montana,blaine,13,0,0,0,13,15,1,12,2,0,blaine_montana
+Nonmetropolitan,montana,broadwater,17,0,2,0,15,56,8,42,6,0,broadwater_montana
+Metropolitan,montana,carbon,15,0,0,0,15,43,11,30,2,0,carbon_montana
+Nonmetropolitan,montana,carter,0,0,0,0,0,1,0,1,0,0,carter_montana
+Metropolitan,montana,cascade,28,0,3,0,25,248,41,201,6,4,cascade_montana
+Nonmetropolitan,montana,chouteau,6,0,0,0,6,20,3,16,1,0,chouteau_montana
+Nonmetropolitan,montana,custer,1,0,0,0,1,39,6,30,3,0,custer_montana
+Nonmetropolitan,montana,daniels,3,0,0,0,3,0,0,0,0,0,daniels_montana
+Nonmetropolitan,montana,dawson,9,0,2,0,7,66,9,54,3,1,dawson_montana
+Nonmetropolitan,montana,deer lodge,25,0,4,1,20,152,15,130,7,2,deer lodge_montana
+Nonmetropolitan,montana,fallon,0,0,0,0,0,12,2,9,1,0,fallon_montana
+Nonmetropolitan,montana,fergus,8,0,5,0,3,52,9,41,2,0,fergus_montana
+Nonmetropolitan,montana,gallatin,44,0,17,2,25,335,39,273,23,1,gallatin_montana
+Nonmetropolitan,montana,garfield,0,0,0,0,0,0,0,0,0,0,garfield_montana
+Nonmetropolitan,montana,glacier,20,1,0,0,19,35,6,25,4,0,glacier_montana
+Nonmetropolitan,montana,golden valley,1,0,0,0,1,0,0,0,0,0,golden valley_montana
+Nonmetropolitan,montana,granite,1,0,0,0,1,54,4,50,0,0,granite_montana
+Nonmetropolitan,montana,hill,19,0,2,0,17,131,19,102,10,1,hill_montana
+Nonmetropolitan,montana,jefferson,13,0,1,0,12,36,6,28,2,1,jefferson_montana
+Nonmetropolitan,montana,judith basin,0,0,0,0,0,1,0,1,0,0,judith basin_montana
+Nonmetropolitan,montana,lake,46,0,10,1,35,294,74,176,44,3,lake_montana
+Nonmetropolitan,montana,lewis and clark,80,2,18,1,59,342,77,239,26,5,lewis and clark_montana
+Nonmetropolitan,montana,lincoln,25,1,2,1,21,129,24,98,7,0,lincoln_montana
+Nonmetropolitan,montana,madison,6,0,0,0,6,38,6,29,3,0,madison_montana
+Nonmetropolitan,montana,mccone,1,0,0,0,1,18,3,14,1,0,mccone_montana
+Nonmetropolitan,montana,meagher,6,0,0,0,6,23,5,17,1,0,meagher_montana
+Nonmetropolitan,montana,mineral,0,0,0,0,0,1,0,1,0,0,mineral_montana
+Metropolitan,montana,missoula,84,1,12,6,65,404,87,288,29,3,missoula_montana
+Nonmetropolitan,montana,musselshell,18,0,1,0,17,77,14,61,2,0,musselshell_montana
+Nonmetropolitan,montana,park,20,1,2,1,16,54,18,32,4,3,park_montana
+Nonmetropolitan,montana,phillips,7,0,1,0,6,60,10,44,6,0,phillips_montana
+Nonmetropolitan,montana,pondera,0,0,0,0,0,7,1,5,1,0,pondera_montana
+Nonmetropolitan,montana,powell,13,0,0,0,13,87,16,65,6,0,powell_montana
+Nonmetropolitan,montana,prairie,1,0,1,0,0,6,1,4,1,0,prairie_montana
+Nonmetropolitan,montana,ravalli,46,0,4,0,42,310,34,270,6,2,ravalli_montana
+Nonmetropolitan,montana,richland,0,0,0,0,0,32,5,27,0,0,richland_montana
+Nonmetropolitan,montana,roosevelt,23,0,2,0,21,52,5,36,11,2,roosevelt_montana
+Nonmetropolitan,montana,rosebud,10,0,1,0,9,44,13,29,2,1,rosebud_montana
+Nonmetropolitan,montana,sanders,8,0,5,0,3,67,10,50,7,0,sanders_montana
+Nonmetropolitan,montana,sheridan,7,0,1,0,6,69,7,50,12,0,sheridan_montana
+Nonmetropolitan,montana,silver bow,97,2,10,11,74,1020,149,812,59,12,silver bow_montana
+Nonmetropolitan,montana,stillwater,13,0,3,0,10,61,19,38,4,0,stillwater_montana
+Nonmetropolitan,montana,sweet grass,5,0,0,0,5,36,4,30,2,0,sweet grass_montana
+Nonmetropolitan,montana,teton,7,0,0,0,7,53,7,43,3,0,teton_montana
+Nonmetropolitan,montana,toole,25,0,2,0,23,128,15,105,8,2,toole_montana
+Nonmetropolitan,montana,valley,8,0,2,0,6,23,5,18,0,0,valley_montana
+Nonmetropolitan,montana,wheatland,3,0,0,0,3,2,1,1,0,0,wheatland_montana
+Nonmetropolitan,montana,wibaux,0,0,0,0,0,3,0,3,0,0,wibaux_montana
+Metropolitan,montana,yellowstone,78,0,4,4,70,610,146,402,62,3,yellowstone_montana
+Nonmetropolitan,nebraska,adams,4,0,2,0,2,170,49,110,11,0,adams_nebraska
+Nonmetropolitan,nebraska,antelope,1,0,0,0,1,20,4,15,1,0,antelope_nebraska
+Nonmetropolitan,nebraska,arthur,0,0,0,0,0,0,0,0,0,0,arthur_nebraska
+Nonmetropolitan,nebraska,box butte,0,0,0,0,0,1,0,1,0,0,box butte_nebraska
+Nonmetropolitan,nebraska,boyd,0,0,0,0,0,9,7,2,0,0,boyd_nebraska
+Nonmetropolitan,nebraska,brown,3,1,0,0,2,25,6,18,1,0,brown_nebraska
+Nonmetropolitan,nebraska,buffalo,9,0,4,2,3,140,39,97,4,0,buffalo_nebraska
+Nonmetropolitan,nebraska,burt,3,0,0,0,3,46,17,25,4,0,burt_nebraska
+Nonmetropolitan,nebraska,butler,2,0,0,0,2,49,12,35,2,0,butler_nebraska
+Nonmetropolitan,nebraska,cass,11,1,4,1,5,313,63,208,42,2,cass_nebraska
+Nonmetropolitan,nebraska,cedar,3,0,0,0,3,12,0,12,0,0,cedar_nebraska
+Nonmetropolitan,nebraska,chase,1,0,0,0,1,23,8,14,1,0,chase_nebraska
+Nonmetropolitan,nebraska,cherry,2,0,0,0,2,9,0,9,0,0,cherry_nebraska
+Nonmetropolitan,nebraska,cuming,4,0,3,0,1,29,6,17,6,0,cuming_nebraska
+Nonmetropolitan,nebraska,custer,2,0,1,1,0,51,19,31,1,0,custer_nebraska
+Nonmetropolitan,nebraska,dakota,3,0,0,0,3,61,13,39,9,0,dakota_nebraska
+Nonmetropolitan,nebraska,dawes,0,0,0,0,0,21,7,13,1,0,dawes_nebraska
+Nonmetropolitan,nebraska,dawson,10,0,6,1,3,74,17,50,7,0,dawson_nebraska
+Nonmetropolitan,nebraska,deuel,2,0,0,0,2,16,3,12,1,0,deuel_nebraska
+Nonmetropolitan,nebraska,dixon,3,0,2,0,1,71,24,43,4,4,dixon_nebraska
+Nonmetropolitan,nebraska,dodge,8,0,1,2,5,155,38,112,5,0,dodge_nebraska
+Nonmetropolitan,nebraska,douglas,123,0,8,7,108,1175,298,786,91,0,douglas_nebraska
+Nonmetropolitan,nebraska,franklin,1,0,0,0,1,7,2,5,0,0,franklin_nebraska
+Nonmetropolitan,nebraska,gage,3,0,0,0,3,136,23,101,12,1,gage_nebraska
+Nonmetropolitan,nebraska,hall,4,0,1,0,3,228,59,159,10,0,hall_nebraska
+Nonmetropolitan,nebraska,hamilton,5,0,3,0,2,67,18,46,3,2,hamilton_nebraska
+Nonmetropolitan,nebraska,hitchcock,5,0,2,1,2,22,12,7,3,0,hitchcock_nebraska
+Nonmetropolitan,nebraska,hooker,0,0,0,0,0,0,0,0,0,-1,hooker_nebraska
+Nonmetropolitan,nebraska,jefferson,3,0,0,0,3,74,17,52,5,0,jefferson_nebraska
+Nonmetropolitan,nebraska,kearney,3,0,2,0,1,49,8,40,1,0,kearney_nebraska
+Nonmetropolitan,nebraska,keith,1,0,0,0,1,44,10,28,6,0,keith_nebraska
+Nonmetropolitan,nebraska,keya paha,0,0,0,0,0,1,0,1,0,0,keya paha_nebraska
+Nonmetropolitan,nebraska,lancaster,9,0,1,0,8,297,78,214,5,2,lancaster_nebraska
+Nonmetropolitan,nebraska,lincoln,10,0,5,0,5,107,30,70,7,1,lincoln_nebraska
+Nonmetropolitan,nebraska,madison,4,0,3,0,1,83,10,68,5,0,madison_nebraska
+Nonmetropolitan,nebraska,morrill,1,0,0,0,1,23,7,14,2,0,morrill_nebraska
+Nonmetropolitan,nebraska,nance,1,0,0,0,1,27,8,19,0,0,nance_nebraska
+Nonmetropolitan,nebraska,nemaha,0,0,0,0,0,23,5,18,0,0,nemaha_nebraska
+Nonmetropolitan,nebraska,nuckolls,1,0,1,0,0,6,2,2,2,0,nuckolls_nebraska
+Nonmetropolitan,nebraska,pawnee,0,0,0,0,0,41,14,27,0,0,pawnee_nebraska
+Nonmetropolitan,nebraska,phelps,1,0,0,0,1,44,9,33,2,0,phelps_nebraska
+Nonmetropolitan,nebraska,pierce,1,0,0,0,1,36,3,32,1,0,pierce_nebraska
+Nonmetropolitan,nebraska,platte,8,0,1,2,5,132,29,96,7,1,platte_nebraska
+Nonmetropolitan,nebraska,polk,0,0,0,0,0,60,12,45,3,0,polk_nebraska
+Nonmetropolitan,nebraska,red willow,1,0,0,0,1,33,14,17,2,0,red willow_nebraska
+Nonmetropolitan,nebraska,rock,0,0,0,0,0,12,5,7,0,0,rock_nebraska
+Nonmetropolitan,nebraska,saline,1,0,0,0,1,61,27,26,8,0,saline_nebraska
+Nonmetropolitan,nebraska,sarpy,25,0,10,6,9,730,115,555,60,0,sarpy_nebraska
+Nonmetropolitan,nebraska,saunders,6,2,0,0,4,119,31,75,13,0,saunders_nebraska
+Nonmetropolitan,nebraska,scotts bluff,9,0,2,0,7,99,33,59,7,1,scotts bluff_nebraska
+Nonmetropolitan,nebraska,sheridan,5,0,0,0,5,55,9,42,4,2,sheridan_nebraska
+Nonmetropolitan,nebraska,sherman,0,0,0,0,0,20,1,18,1,0,sherman_nebraska
+Nonmetropolitan,nebraska,stanton,7,0,0,0,7,58,8,48,2,0,stanton_nebraska
+Nonmetropolitan,nebraska,thayer,3,0,0,0,3,75,20,49,6,0,thayer_nebraska
+Nonmetropolitan,nebraska,wayne,0,0,0,0,0,21,7,13,1,0,wayne_nebraska
+Nonmetropolitan,nebraska,webster,2,0,0,0,2,39,9,29,1,0,webster_nebraska
+Nonmetropolitan,nebraska,york,1,1,0,0,0,52,14,35,3,0,york_nebraska
+Nonmetropolitan,nevada,carson city,148,4,0,16,128,1275,316,890,69,7,carson city_nevada
+Nonmetropolitan,nevada,churchill,18,0,0,1,17,255,90,152,13,1,churchill_nevada
+Nonmetropolitan,nevada,douglas,59,1,3,5,50,742,130,588,24,7,douglas_nevada
+Nonmetropolitan,nevada,elko,36,7,4,3,22,40,17,16,7,1,elko_nevada
+Nonmetropolitan,nevada,eureka,13,0,3,0,10,31,10,19,2,0,eureka_nevada
+Nonmetropolitan,nevada,humboldt,38,0,0,0,38,52,17,29,6,1,humboldt_nevada
+Nonmetropolitan,nevada,lincoln,9,1,0,0,8,66,8,55,3,2,lincoln_nevada
+Nonmetropolitan,nevada,lyon,84,3,3,7,71,753,245,458,50,7,lyon_nevada
+Nonmetropolitan,nevada,storey,19,0,0,1,18,58,22,36,0,0,storey_nevada
+Nonmetropolitan,nevada,washoe,189,3,7,10,169,934,333,537,64,9,washoe_nevada
+Nonmetropolitan,nevada,white pine,32,1,3,0,28,143,50,82,11,1,white pine_nevada
+Nonmetropolitan,new hampshire,carroll,5,0,1,0,4,56,19,35,2,0,carroll_new hampshire
+Nonmetropolitan,new hampshire,cheshire,2,0,1,0,1,7,0,6,1,0,cheshire_new hampshire
+Nonmetropolitan,new hampshire,merrimack,5,0,3,0,2,16,0,16,0,0,merrimack_new hampshire
+Nonmetropolitan,new hampshire,rockingham,9,0,1,0,8,2,0,2,0,1,rockingham_new hampshire
+Nonmetropolitan,new jersey,atlantic,0,0,0,0,0,0,0,0,0,0,atlantic_new jersey
+Nonmetropolitan,new jersey,bergen,0,0,0,0,0,0,0,0,0,0,bergen_new jersey
+Nonmetropolitan,new jersey,burlington,0,0,0,0,0,0,0,0,0,0,burlington_new jersey
+Nonmetropolitan,new jersey,camden,0,0,0,0,0,0,0,0,0,0,camden_new jersey
+Nonmetropolitan,new jersey,cape may,0,0,0,0,0,0,0,0,0,0,cape may_new jersey
+Nonmetropolitan,new jersey,cumberland,0,0,0,0,0,0,0,0,0,0,cumberland_new jersey
+Nonmetropolitan,new jersey,essex,0,0,0,0,0,0,0,0,0,0,essex_new jersey
+Nonmetropolitan,new jersey,gloucester,0,0,0,0,0,0,0,0,0,0,gloucester_new jersey
+Nonmetropolitan,new jersey,hudson,0,0,0,0,0,0,0,0,0,0,hudson_new jersey
+Nonmetropolitan,new jersey,hunterdon,0,0,0,0,0,0,0,0,0,0,hunterdon_new jersey
+Nonmetropolitan,new jersey,mercer,0,0,0,0,0,0,0,0,0,0,mercer_new jersey
+Nonmetropolitan,new jersey,middlesex,0,0,0,0,0,0,0,0,0,0,middlesex_new jersey
+Nonmetropolitan,new jersey,monmouth,0,0,0,0,0,0,0,0,0,0,monmouth_new jersey
+Nonmetropolitan,new jersey,morris,0,0,0,0,0,0,0,0,0,0,morris_new jersey
+Nonmetropolitan,new jersey,ocean,0,0,0,0,0,0,0,0,0,0,ocean_new jersey
+Nonmetropolitan,new jersey,passaic,0,0,0,0,0,0,0,0,0,0,passaic_new jersey
+Nonmetropolitan,new jersey,salem,0,0,0,0,0,0,0,0,0,0,salem_new jersey
+Nonmetropolitan,new jersey,somerset,0,0,0,0,0,0,0,0,0,0,somerset_new jersey
+Nonmetropolitan,new jersey,sussex,0,0,0,0,0,0,0,0,0,0,sussex_new jersey
+Nonmetropolitan,new jersey,union,0,0,0,0,0,0,0,0,0,0,union_new jersey
+Nonmetropolitan,new jersey,warren,0,0,0,0,0,0,0,0,0,0,warren_new jersey
+Nonmetropolitan,new mexico,bernalillo,784,4,32,101,647,2426,882,1317,227,68,bernalillo_new mexico
+Nonmetropolitan,new mexico,catron,1,0,0,0,1,22,9,11,2,0,catron_new mexico
+Nonmetropolitan,new mexico,chaves,64,1,11,3,49,309,109,169,31,2,chaves_new mexico
+Nonmetropolitan,new mexico,cibola,101,0,5,1,95,108,53,46,9,9,cibola_new mexico
+Nonmetropolitan,new mexico,colfax,2,0,0,0,2,2,0,2,0,0,colfax_new mexico
+Nonmetropolitan,new mexico,curry,15,4,4,1,6,193,95,91,7,1,curry_new mexico
+Nonmetropolitan,new mexico,dona ana,312,4,39,18,251,1548,608,808,132,6,dona ana_new mexico
+Nonmetropolitan,new mexico,eddy,74,1,13,5,55,489,151,317,21,7,eddy_new mexico
+Nonmetropolitan,new mexico,guadalupe,11,0,0,1,10,11,5,6,0,0,guadalupe_new mexico
+Nonmetropolitan,new mexico,hidalgo,4,1,0,0,3,11,4,5,2,0,hidalgo_new mexico
+Nonmetropolitan,new mexico,lea,52,4,6,1,41,450,139,288,23,2,lea_new mexico
+Nonmetropolitan,new mexico,lincoln,15,3,1,0,11,116,50,58,8,0,lincoln_new mexico
+Nonmetropolitan,new mexico,luna,58,1,1,2,54,208,92,95,21,0,luna_new mexico
+Nonmetropolitan,new mexico,mckinley,71,1,8,6,56,300,108,148,44,7,mckinley_new mexico
+Nonmetropolitan,new mexico,otero,65,0,7,0,58,339,147,167,25,0,otero_new mexico
+Nonmetropolitan,new mexico,quay,2,0,0,0,2,22,6,15,1,1,quay_new mexico
+Nonmetropolitan,new mexico,rio arriba,19,2,2,0,15,76,62,13,1,1,rio arriba_new mexico
+Nonmetropolitan,new mexico,roosevelt,13,0,4,0,9,101,38,58,5,0,roosevelt_new mexico
+Nonmetropolitan,new mexico,san juan,213,2,25,9,177,814,222,540,52,14,san juan_new mexico
+Nonmetropolitan,new mexico,sandoval,23,0,0,2,21,92,49,43,0,0,sandoval_new mexico
+Nonmetropolitan,new mexico,santa fe,147,2,6,12,127,1120,693,368,59,7,santa fe_new mexico
+Nonmetropolitan,new mexico,sierra,12,0,0,0,12,46,9,32,5,2,sierra_new mexico
+Nonmetropolitan,new mexico,taos,106,1,1,2,102,172,127,35,10,0,taos_new mexico
+Nonmetropolitan,new mexico,torrance,15,0,9,2,4,153,76,55,22,2,torrance_new mexico
+Nonmetropolitan,new mexico,union,0,0,0,0,0,20,10,9,1,0,union_new mexico
+Nonmetropolitan,new mexico,valencia,153,4,18,15,116,1453,692,618,143,7,valencia_new mexico
+Nonmetropolitan,new york,albany,16,0,6,1,9,178,42,130,6,1,albany_new york
+Nonmetropolitan,new york,allegany,0,0,0,0,0,2,0,2,0,0,allegany_new york
+Nonmetropolitan,new york,broome,63,1,10,11,41,911,229,660,22,1,broome_new york
+Nonmetropolitan,new york,cattaraugus,40,0,5,5,30,517,159,335,23,0,cattaraugus_new york
+Nonmetropolitan,new york,cayuga,21,1,2,0,18,321,77,232,12,1,cayuga_new york
+Nonmetropolitan,new york,chautauqua,20,0,6,7,7,771,239,480,52,2,chautauqua_new york
+Nonmetropolitan,new york,chemung,36,0,3,0,33,458,85,357,16,2,chemung_new york
+Nonmetropolitan,new york,chenango,24,0,4,0,20,450,92,352,6,1,chenango_new york
+Nonmetropolitan,new york,clinton,1,0,0,0,1,15,0,15,0,0,clinton_new york
+Nonmetropolitan,new york,columbia,23,1,1,2,19,375,100,271,4,0,columbia_new york
+Nonmetropolitan,new york,cortland,19,0,7,3,9,395,74,301,20,2,cortland_new york
+Nonmetropolitan,new york,delaware,14,0,7,0,7,127,43,78,6,3,delaware_new york
+Nonmetropolitan,new york,dutchess,35,0,4,2,29,691,181,486,24,1,dutchess_new york
+Nonmetropolitan,new york,erie,126,0,9,13,104,1054,201,819,34,2,erie_new york
+Nonmetropolitan,new york,franklin,0,0,0,0,0,0,0,0,0,0,franklin_new york
+Nonmetropolitan,new york,fulton,5,0,2,1,2,397,89,298,10,0,fulton_new york
+Nonmetropolitan,new york,genesee,46,0,8,4,34,655,143,481,31,4,genesee_new york
+Nonmetropolitan,new york,greene,10,0,2,3,5,69,33,30,6,2,greene_new york
+Nonmetropolitan,new york,hamilton,0,0,0,0,0,9,5,4,0,0,hamilton_new york
+Nonmetropolitan,new york,herkimer,0,0,0,0,0,2,0,2,0,0,herkimer_new york
+Nonmetropolitan,new york,jefferson,27,0,1,2,24,250,23,216,11,0,jefferson_new york
+Nonmetropolitan,new york,lewis,22,1,0,3,18,232,88,116,28,2,lewis_new york
+Nonmetropolitan,new york,livingston,21,0,3,0,18,449,85,350,14,1,livingston_new york
+Nonmetropolitan,new york,madison,7,0,2,0,5,250,74,165,11,0,madison_new york
+Nonmetropolitan,new york,monroe,204,3,16,60,125,3638,574,2955,109,6,monroe_new york
+Nonmetropolitan,new york,montgomery,14,0,0,2,12,272,22,243,7,0,montgomery_new york
+Nonmetropolitan,new york,nassau,1420,7,37,696,680,13160,2054,10293,813,119,nassau_new york
+Nonmetropolitan,new york,niagara,65,0,9,12,44,1244,354,800,90,5,niagara_new york
+Nonmetropolitan,new york,oneida,20,1,3,4,12,476,143,314,19,6,oneida_new york
+Nonmetropolitan,new york,onondaga,199,2,37,42,118,2308,433,1793,82,9,onondaga_new york
+Nonmetropolitan,new york,ontario,68,0,15,12,41,969,212,738,19,2,ontario_new york
+Nonmetropolitan,new york,orange,6,0,0,0,6,35,0,32,3,0,orange_new york
+Nonmetropolitan,new york,orleans,19,1,2,2,14,328,108,205,15,0,orleans_new york
+Nonmetropolitan,new york,oswego,44,2,6,2,34,583,140,405,38,2,oswego_new york
+Nonmetropolitan,new york,otsego,25,1,3,0,21,161,66,87,8,0,otsego_new york
+Nonmetropolitan,new york,putnam,25,0,1,3,21,336,81,249,6,1,putnam_new york
+Nonmetropolitan,new york,rensselaer,29,0,2,3,24,212,55,149,8,2,rensselaer_new york
+Nonmetropolitan,new york,rockland,19,0,1,0,18,27,1,26,0,0,rockland_new york
+Nonmetropolitan,new york,saratoga,21,1,1,4,15,1307,258,1030,19,2,saratoga_new york
+Nonmetropolitan,new york,schenectady,2,0,0,2,0,13,0,12,1,0,schenectady_new york
+Nonmetropolitan,new york,schoharie,0,0,0,0,0,89,36,51,2,0,schoharie_new york
+Nonmetropolitan,new york,schuyler,7,0,0,0,7,55,17,34,4,1,schuyler_new york
+Nonmetropolitan,new york,seneca,9,1,0,1,7,210,38,165,7,0,seneca_new york
+Nonmetropolitan,new york,st. lawrence,27,1,2,0,24,75,15,56,4,0,st. lawrence_new york
+Nonmetropolitan,new york,steuben,10,0,4,1,5,212,62,142,8,1,steuben_new york
+Nonmetropolitan,new york,suffolk,1947,32,42,748,1125,24948,4343,19429,1176,169,suffolk_new york
+Nonmetropolitan,new york,sullivan,25,0,2,3,20,529,111,408,10,5,sullivan_new york
+Nonmetropolitan,new york,tioga,12,0,1,1,10,223,70,147,6,2,tioga_new york
+Nonmetropolitan,new york,ulster,40,0,4,5,31,347,94,244,9,0,ulster_new york
+Nonmetropolitan,new york,warren,49,3,14,5,27,750,134,593,23,1,warren_new york
+Nonmetropolitan,new york,washington,30,3,4,1,22,245,65,174,6,0,washington_new york
+Nonmetropolitan,new york,wayne,41,0,8,4,29,417,116,284,17,1,wayne_new york
+Nonmetropolitan,new york,westchester,25,0,0,2,23,141,10,129,2,-1,westchester_new york
+Nonmetropolitan,new york,wyoming,12,0,1,0,11,220,54,161,5,1,wyoming_new york
+Nonmetropolitan,new york,yates,7,0,0,0,7,266,91,173,2,1,yates_new york
+Nonmetropolitan,north carolina,alamance,94,1,3,4,86,1064,409,596,59,1,alamance_north carolina
+Nonmetropolitan,north carolina,alexander,59,3,6,7,43,845,302,507,36,10,alexander_north carolina
+Nonmetropolitan,north carolina,anson,34,0,2,4,28,644,311,312,21,3,anson_north carolina
+Nonmetropolitan,north carolina,ashe,30,0,3,5,22,431,220,198,13,0,ashe_north carolina
+Nonmetropolitan,north carolina,avery,24,0,2,0,22,176,55,113,8,2,avery_north carolina
+Nonmetropolitan,north carolina,beaufort,73,0,1,15,57,744,301,420,23,25,beaufort_north carolina
+Nonmetropolitan,north carolina,bertie,29,2,4,8,15,326,142,166,18,6,bertie_north carolina
+Nonmetropolitan,north carolina,bladen,80,1,1,17,61,1083,481,559,43,11,bladen_north carolina
+Nonmetropolitan,north carolina,brunswick,140,0,18,31,91,2079,871,1100,108,6,brunswick_north carolina
+Nonmetropolitan,north carolina,buncombe,155,3,15,33,104,2059,891,998,170,10,buncombe_north carolina
+Nonmetropolitan,north carolina,burke,97,0,4,18,75,1746,784,893,69,0,burke_north carolina
+Nonmetropolitan,north carolina,cabarrus,29,0,2,8,19,1043,383,608,52,4,cabarrus_north carolina
+Nonmetropolitan,north carolina,caldwell,65,4,5,13,43,1627,636,930,61,15,caldwell_north carolina
+Nonmetropolitan,north carolina,camden,7,0,0,0,7,124,48,75,1,0,camden_north carolina
+Nonmetropolitan,north carolina,caswell,52,0,3,4,45,486,173,294,19,5,caswell_north carolina
+Nonmetropolitan,north carolina,catawba,176,8,9,25,134,2100,921,1099,80,9,catawba_north carolina
+Nonmetropolitan,north carolina,chatham,70,3,10,4,53,932,472,437,23,2,chatham_north carolina
+Nonmetropolitan,north carolina,cherokee,31,1,6,0,24,519,202,300,17,4,cherokee_north carolina
+Nonmetropolitan,north carolina,chowan,11,0,0,0,11,180,102,74,4,1,chowan_north carolina
+Nonmetropolitan,north carolina,clay,16,1,1,0,14,286,103,167,16,2,clay_north carolina
+Nonmetropolitan,north carolina,cleveland,39,0,10,25,4,1440,578,798,64,3,cleveland_north carolina
+Nonmetropolitan,north carolina,columbus,106,5,7,26,68,1630,809,705,116,17,columbus_north carolina
+Nonmetropolitan,north carolina,craven,136,2,12,11,111,1583,818,668,97,5,craven_north carolina
+Nonmetropolitan,north carolina,cumberland,538,8,16,112,402,4265,1814,2216,235,43,cumberland_north carolina
+Nonmetropolitan,north carolina,currituck,53,2,6,2,43,751,202,522,27,6,currituck_north carolina
+Nonmetropolitan,north carolina,dare,36,0,5,3,28,775,222,547,6,2,dare_north carolina
+Nonmetropolitan,north carolina,davidson,124,1,8,23,92,2258,1000,1116,142,12,davidson_north carolina
+Nonmetropolitan,north carolina,davie,72,1,7,4,60,714,278,404,32,3,davie_north carolina
+Nonmetropolitan,north carolina,duplin,175,7,6,10,152,1156,616,477,63,5,duplin_north carolina
+Nonmetropolitan,north carolina,durham,55,3,5,12,35,765,350,368,47,2,durham_north carolina
+Nonmetropolitan,north carolina,edgecombe,37,1,0,11,25,654,315,306,33,11,edgecombe_north carolina
+Nonmetropolitan,north carolina,forsyth,275,3,18,24,230,2748,905,1740,103,11,forsyth_north carolina
+Nonmetropolitan,north carolina,franklin,78,0,9,7,62,1148,546,531,71,6,franklin_north carolina
+Nonmetropolitan,north carolina,gaston,205,5,6,30,164,1300,494,671,135,20,gaston_north carolina
+Nonmetropolitan,north carolina,granville,88,1,6,7,74,968,386,535,47,6,granville_north carolina
+Nonmetropolitan,north carolina,greene,48,3,14,9,22,613,297,303,13,1,greene_north carolina
+Nonmetropolitan,north carolina,guilford,159,5,13,22,119,1807,747,971,89,22,guilford_north carolina
+Nonmetropolitan,north carolina,halifax,125,10,8,20,87,944,475,430,39,12,halifax_north carolina
+Nonmetropolitan,north carolina,harnett,267,6,15,28,218,2485,982,1342,161,18,harnett_north carolina
+Nonmetropolitan,north carolina,haywood,102,0,8,5,89,867,393,433,41,4,haywood_north carolina
+Nonmetropolitan,north carolina,henderson,90,1,12,21,56,1351,556,697,98,1,henderson_north carolina
+Nonmetropolitan,north carolina,hertford,23,0,2,4,17,287,131,141,15,3,hertford_north carolina
+Nonmetropolitan,north carolina,hoke,43,0,2,16,25,962,698,216,48,13,hoke_north carolina
+Nonmetropolitan,north carolina,iredell,165,1,11,20,133,1854,752,967,135,11,iredell_north carolina
+Nonmetropolitan,north carolina,jackson,118,0,18,3,97,785,377,378,30,6,jackson_north carolina
+Nonmetropolitan,north carolina,johnston,108,3,19,12,74,2425,899,1356,170,5,johnston_north carolina
+Nonmetropolitan,north carolina,lee,37,0,3,8,26,667,150,444,73,2,lee_north carolina
+Nonmetropolitan,north carolina,lenoir,113,0,11,11,91,1015,379,597,39,10,lenoir_north carolina
+Nonmetropolitan,north carolina,lincoln,87,0,2,14,71,1420,537,832,51,9,lincoln_north carolina
+Nonmetropolitan,north carolina,macon,20,0,4,1,15,574,218,325,31,2,macon_north carolina
+Nonmetropolitan,north carolina,madison,0,0,0,0,0,238,116,106,16,1,madison_north carolina
+Nonmetropolitan,north carolina,martin,36,0,3,1,32,348,151,176,21,2,martin_north carolina
+Nonmetropolitan,north carolina,mcdowell,30,1,2,6,21,736,308,389,39,4,mcdowell_north carolina
+Nonmetropolitan,north carolina,montgomery,34,2,7,3,22,538,283,240,15,4,montgomery_north carolina
+Nonmetropolitan,north carolina,moore,60,2,3,10,45,918,406,452,60,7,moore_north carolina
+Nonmetropolitan,north carolina,nash,60,2,4,14,40,614,295,270,49,5,nash_north carolina
+Nonmetropolitan,north carolina,new hanover,160,3,19,37,101,2577,603,1881,93,9,new hanover_north carolina
+Nonmetropolitan,north carolina,northampton,28,0,1,5,22,487,261,203,23,3,northampton_north carolina
+Nonmetropolitan,north carolina,onslow,234,3,37,35,159,3192,954,2065,173,29,onslow_north carolina
+Nonmetropolitan,north carolina,orange,31,0,5,8,18,704,417,249,38,4,orange_north carolina
+Nonmetropolitan,north carolina,pamlico,27,0,2,6,19,254,96,148,10,0,pamlico_north carolina
+Nonmetropolitan,north carolina,pasquotank,68,4,3,7,54,385,142,223,20,2,pasquotank_north carolina
+Nonmetropolitan,north carolina,pender,126,2,12,9,103,682,157,481,44,5,pender_north carolina
+Nonmetropolitan,north carolina,perquimans,6,0,2,2,2,138,67,62,9,0,perquimans_north carolina
+Nonmetropolitan,north carolina,pitt,198,4,10,16,168,1433,552,820,61,7,pitt_north carolina
+Nonmetropolitan,north carolina,polk,10,1,2,0,7,236,52,165,19,3,polk_north carolina
+Nonmetropolitan,north carolina,randolph,107,3,12,22,70,2531,866,1579,86,5,randolph_north carolina
+Nonmetropolitan,north carolina,richmond,164,3,8,34,119,1383,591,701,91,37,richmond_north carolina
+Nonmetropolitan,north carolina,robeson,527,2,14,125,386,4110,2180,1678,252,48,robeson_north carolina
+Nonmetropolitan,north carolina,rockingham,72,0,0,15,57,1421,497,848,76,1,rockingham_north carolina
+Nonmetropolitan,north carolina,rowan,123,3,10,19,91,1603,534,990,79,4,rowan_north carolina
+Nonmetropolitan,north carolina,scotland,37,0,1,7,29,646,307,286,53,17,scotland_north carolina
+Nonmetropolitan,north carolina,stanly,26,0,6,5,15,547,225,309,13,1,stanly_north carolina
+Nonmetropolitan,north carolina,stokes,151,2,8,5,136,1059,411,592,56,1,stokes_north carolina
+Nonmetropolitan,north carolina,surry,93,0,5,4,84,1304,579,648,77,10,surry_north carolina
+Nonmetropolitan,north carolina,swain,37,0,6,0,31,292,137,153,2,1,swain_north carolina
+Nonmetropolitan,north carolina,transylvania,27,1,4,0,22,361,163,180,18,7,transylvania_north carolina
+Nonmetropolitan,north carolina,tyrrell,7,2,0,0,5,64,8,50,6,0,tyrrell_north carolina
+Nonmetropolitan,north carolina,union,189,2,12,21,154,2344,850,1391,103,26,union_north carolina
+Nonmetropolitan,north carolina,vance,119,3,2,22,92,1607,811,721,75,7,vance_north carolina
+Nonmetropolitan,north carolina,wake,184,2,21,27,134,2893,1019,1650,224,7,wake_north carolina
+Nonmetropolitan,north carolina,watauga,23,0,0,0,23,377,66,286,25,0,watauga_north carolina
+Nonmetropolitan,north carolina,wayne,155,3,1,27,124,2091,837,1123,131,2,wayne_north carolina
+Nonmetropolitan,north carolina,wilkes,151,2,2,16,131,1553,616,844,93,4,wilkes_north carolina
+Nonmetropolitan,north carolina,wilson,62,1,1,1,59,820,253,519,48,3,wilson_north carolina
+Nonmetropolitan,north carolina,yadkin,85,0,7,7,71,779,334,398,47,2,yadkin_north carolina
+Nonmetropolitan,north carolina,yancey,9,0,1,2,6,151,73,76,2,1,yancey_north carolina
+Nonmetropolitan,north dakota,adams,1,0,0,1,0,19,11,7,1,0,adams_north dakota
+Nonmetropolitan,north dakota,barnes,1,0,0,0,1,44,9,30,5,0,barnes_north dakota
+Nonmetropolitan,north dakota,benson,0,0,0,0,0,15,8,4,3,0,benson_north dakota
+Nonmetropolitan,north dakota,billings,0,0,0,0,0,4,2,2,0,0,billings_north dakota
+Nonmetropolitan,north dakota,bottineau,0,0,0,0,0,22,5,16,1,1,bottineau_north dakota
+Nonmetropolitan,north dakota,burke,3,0,0,0,3,17,3,13,1,0,burke_north dakota
+Nonmetropolitan,north dakota,burleigh,14,0,5,0,9,198,61,127,10,0,burleigh_north dakota
+Nonmetropolitan,north dakota,cass,17,0,5,0,12,167,62,95,10,0,cass_north dakota
+Nonmetropolitan,north dakota,cavalier,2,0,0,0,2,58,11,41,6,1,cavalier_north dakota
+Nonmetropolitan,north dakota,dickey,0,0,0,0,0,8,1,6,1,1,dickey_north dakota
+Nonmetropolitan,north dakota,eddy,3,0,0,0,3,16,10,5,1,1,eddy_north dakota
+Nonmetropolitan,north dakota,emmons,0,0,0,0,0,17,9,7,1,0,emmons_north dakota
+Nonmetropolitan,north dakota,golden valley,4,0,0,0,4,8,1,6,1,0,golden valley_north dakota
+Nonmetropolitan,north dakota,grand forks,11,0,0,0,11,87,25,55,7,0,grand forks_north dakota
+Nonmetropolitan,north dakota,grant,0,0,0,0,0,6,3,2,1,0,grant_north dakota
+Nonmetropolitan,north dakota,griggs,0,0,0,0,0,6,3,1,2,0,griggs_north dakota
+Nonmetropolitan,north dakota,hettinger,2,0,0,0,2,12,6,5,1,1,hettinger_north dakota
+Nonmetropolitan,north dakota,kidder,1,0,1,0,0,4,0,3,1,0,kidder_north dakota
+Nonmetropolitan,north dakota,lamoure,0,0,0,0,0,3,0,2,1,0,lamoure_north dakota
+Nonmetropolitan,north dakota,logan,0,0,0,0,0,2,0,1,1,0,logan_north dakota
+Nonmetropolitan,north dakota,mchenry,5,0,0,0,5,32,7,20,5,0,mchenry_north dakota
+Nonmetropolitan,north dakota,mcintosh,3,0,0,1,2,2,0,2,0,0,mcintosh_north dakota
+Nonmetropolitan,north dakota,mckenzie,8,0,2,0,6,58,1,49,8,0,mckenzie_north dakota
+Nonmetropolitan,north dakota,mclean,4,0,0,0,4,80,21,53,6,0,mclean_north dakota
+Nonmetropolitan,north dakota,mercer,5,0,0,0,5,21,11,6,4,0,mercer_north dakota
+Nonmetropolitan,north dakota,morton,14,1,4,1,8,122,50,67,5,0,morton_north dakota
+Nonmetropolitan,north dakota,mountrail,6,0,0,0,6,105,28,57,20,0,mountrail_north dakota
+Nonmetropolitan,north dakota,nelson,2,0,1,0,1,23,11,11,1,0,nelson_north dakota
+Nonmetropolitan,north dakota,oliver,0,0,0,0,0,3,1,2,0,0,oliver_north dakota
+Nonmetropolitan,north dakota,pembina,3,0,0,0,3,46,17,20,9,0,pembina_north dakota
+Nonmetropolitan,north dakota,ramsey,1,0,0,1,0,16,1,13,2,0,ramsey_north dakota
+Nonmetropolitan,north dakota,ransom,2,0,1,0,1,6,5,1,0,0,ransom_north dakota
+Nonmetropolitan,north dakota,renville,0,0,0,0,0,25,9,16,0,1,renville_north dakota
+Nonmetropolitan,north dakota,richland,11,0,4,0,7,92,38,45,9,0,richland_north dakota
+Nonmetropolitan,north dakota,rolette,3,0,0,0,3,28,13,12,3,0,rolette_north dakota
+Nonmetropolitan,north dakota,sargent,3,0,0,0,3,24,5,18,1,0,sargent_north dakota
+Nonmetropolitan,north dakota,sheridan,1,0,0,0,1,16,4,12,0,0,sheridan_north dakota
+Nonmetropolitan,north dakota,stark,4,0,0,0,4,35,5,28,2,0,stark_north dakota
+Nonmetropolitan,north dakota,steele,0,0,0,0,0,5,2,2,1,1,steele_north dakota
+Nonmetropolitan,north dakota,stutsman,9,1,5,0,3,27,9,16,2,1,stutsman_north dakota
+Nonmetropolitan,north dakota,towner,0,0,0,0,0,10,3,7,0,0,towner_north dakota
+Nonmetropolitan,north dakota,traill,2,0,1,0,1,43,8,33,2,0,traill_north dakota
+Nonmetropolitan,north dakota,walsh,5,0,1,0,4,72,26,40,6,1,walsh_north dakota
+Nonmetropolitan,north dakota,ward,30,0,5,0,25,165,49,100,16,2,ward_north dakota
+Nonmetropolitan,north dakota,wells,0,0,0,0,0,19,8,10,1,0,wells_north dakota
+Nonmetropolitan,north dakota,williams,19,0,1,0,18,154,15,112,27,2,williams_north dakota
+Nonmetropolitan,ohio,adams,1,0,1,0,0,36,10,18,8,0,adams_ohio
+Nonmetropolitan,ohio,allen,79,0,12,14,53,1055,235,775,45,5,allen_ohio
+Nonmetropolitan,ohio,ashland,17,0,3,2,12,352,188,155,9,1,ashland_ohio
+Nonmetropolitan,ohio,athens,10,2,2,2,4,571,147,413,11,2,athens_ohio
+Nonmetropolitan,ohio,auglaize,2,0,1,1,0,119,71,48,0,0,auglaize_ohio
+Nonmetropolitan,ohio,belmont,15,2,0,6,7,604,243,323,38,3,belmont_ohio
+Nonmetropolitan,ohio,brown,3,0,2,1,0,424,129,256,39,1,brown_ohio
+Nonmetropolitan,ohio,butler,176,1,6,4,165,1005,314,689,2,4,butler_ohio
+Nonmetropolitan,ohio,carroll,5,0,1,1,3,128,53,71,4,4,carroll_ohio
+Nonmetropolitan,ohio,champaign,17,0,5,0,12,449,151,280,18,4,champaign_ohio
+Nonmetropolitan,ohio,clermont,82,0,16,3,63,2161,775,1330,56,19,clermont_ohio
+Nonmetropolitan,ohio,clinton,8,0,1,0,7,139,48,80,11,0,clinton_ohio
+Nonmetropolitan,ohio,columbiana,9,1,1,0,7,64,44,14,6,0,columbiana_ohio
+Nonmetropolitan,ohio,coshocton,19,0,1,9,9,851,280,549,22,5,coshocton_ohio
+Nonmetropolitan,ohio,crawford,12,0,2,2,8,278,115,150,13,0,crawford_ohio
+Nonmetropolitan,ohio,defiance,7,1,4,0,2,190,56,128,6,0,defiance_ohio
+Nonmetropolitan,ohio,delaware,27,1,5,4,17,1025,373,639,13,4,delaware_ohio
+Nonmetropolitan,ohio,erie,61,0,1,1,59,478,162,309,7,1,erie_ohio
+Nonmetropolitan,ohio,fairfield,26,0,6,17,3,1138,334,765,39,5,fairfield_ohio
+Nonmetropolitan,ohio,fayette,16,0,2,4,10,720,252,452,16,3,fayette_ohio
+Nonmetropolitan,ohio,franklin,100,3,12,42,43,1499,347,1084,68,10,franklin_ohio
+Nonmetropolitan,ohio,fulton,14,0,2,1,11,310,100,200,10,1,fulton_ohio
+Nonmetropolitan,ohio,gallia,18,1,2,6,9,677,248,419,10,3,gallia_ohio
+Nonmetropolitan,ohio,geauga,10,0,1,0,9,196,55,122,19,1,geauga_ohio
+Nonmetropolitan,ohio,greene,23,1,5,7,10,582,160,384,38,1,greene_ohio
+Nonmetropolitan,ohio,guernsey,12,2,4,4,2,416,212,184,20,6,guernsey_ohio
+Nonmetropolitan,ohio,hamilton,318,2,64,121,131,7427,1350,5815,262,22,hamilton_ohio
+Nonmetropolitan,ohio,hancock,11,0,1,1,9,343,136,195,12,0,hancock_ohio
+Nonmetropolitan,ohio,hardin,4,0,4,0,0,360,149,199,12,0,hardin_ohio
+Nonmetropolitan,ohio,harrison,8,0,0,2,6,95,41,46,8,1,harrison_ohio
+Nonmetropolitan,ohio,henry,4,0,0,1,3,279,92,186,1,2,henry_ohio
+Nonmetropolitan,ohio,highland,58,0,0,3,55,668,263,379,26,6,highland_ohio
+Nonmetropolitan,ohio,hocking,4,0,0,0,4,348,135,202,11,3,hocking_ohio
+Nonmetropolitan,ohio,holmes,20,1,6,3,10,261,84,170,7,3,holmes_ohio
+Nonmetropolitan,ohio,huron,9,0,3,1,5,286,52,214,20,0,huron_ohio
+Nonmetropolitan,ohio,jefferson,15,0,0,2,13,200,57,132,11,2,jefferson_ohio
+Nonmetropolitan,ohio,lake,223,0,20,4,199,595,139,448,8,7,lake_ohio
+Nonmetropolitan,ohio,lawrence,72,0,1,11,60,1065,381,636,48,3,lawrence_ohio
+Nonmetropolitan,ohio,licking,363,2,44,10,307,1095,408,666,21,6,licking_ohio
+Nonmetropolitan,ohio,logan,13,2,4,0,7,747,348,380,19,2,logan_ohio
+Nonmetropolitan,ohio,lorain,45,2,14,18,11,995,488,480,27,12,lorain_ohio
+Nonmetropolitan,ohio,lucas,101,2,4,33,62,1511,404,1025,82,2,lucas_ohio
+Nonmetropolitan,ohio,madison,14,1,2,1,10,465,206,230,29,3,madison_ohio
+Nonmetropolitan,ohio,mahoning,6,0,2,1,3,172,68,101,3,1,mahoning_ohio
+Nonmetropolitan,ohio,marion,21,0,5,6,10,1489,327,1152,10,4,marion_ohio
+Nonmetropolitan,ohio,medina,1,0,0,0,1,52,46,6,0,1,medina_ohio
+Nonmetropolitan,ohio,meigs,16,1,2,2,11,300,131,156,13,2,meigs_ohio
+Nonmetropolitan,ohio,mercer,8,0,3,0,5,308,106,192,10,1,mercer_ohio
+Nonmetropolitan,ohio,miami,16,0,5,0,11,667,227,408,32,3,miami_ohio
+Nonmetropolitan,ohio,monroe,7,0,3,1,3,100,31,64,5,0,monroe_ohio
+Nonmetropolitan,ohio,montgomery,272,6,22,105,139,1636,636,865,135,7,montgomery_ohio
+Nonmetropolitan,ohio,morgan,4,0,2,0,2,160,81,74,5,4,morgan_ohio
+Nonmetropolitan,ohio,morrow,5,0,3,0,2,359,105,243,11,0,morrow_ohio
+Nonmetropolitan,ohio,muskingum,48,1,24,12,11,1228,347,800,81,7,muskingum_ohio
+Nonmetropolitan,ohio,ottawa,10,5,1,1,3,351,73,257,21,0,ottawa_ohio
+Nonmetropolitan,ohio,paulding,11,0,1,0,10,203,67,136,0,1,paulding_ohio
+Nonmetropolitan,ohio,pickaway,36,1,4,9,22,1217,565,627,25,5,pickaway_ohio
+Nonmetropolitan,ohio,portage,34,0,14,15,5,1673,554,1044,75,10,portage_ohio
+Nonmetropolitan,ohio,preble,17,1,4,2,10,448,193,233,22,1,preble_ohio
+Nonmetropolitan,ohio,putnam,4,0,2,2,0,75,24,48,3,0,putnam_ohio
+Nonmetropolitan,ohio,richland,33,0,10,15,8,1279,452,788,39,3,richland_ohio
+Nonmetropolitan,ohio,ross,25,0,6,13,6,1914,578,1239,97,6,ross_ohio
+Nonmetropolitan,ohio,sandusky,116,1,2,10,103,297,195,99,3,0,sandusky_ohio
+Nonmetropolitan,ohio,scioto,17,0,4,4,9,1124,456,628,40,20,scioto_ohio
+Nonmetropolitan,ohio,seneca,1,0,1,0,0,429,178,248,3,1,seneca_ohio
+Nonmetropolitan,ohio,shelby,3,0,0,1,2,232,85,143,4,0,shelby_ohio
+Nonmetropolitan,ohio,stark,87,0,12,39,36,2023,645,1252,126,14,stark_ohio
+Nonmetropolitan,ohio,summit,49,1,10,18,20,1130,303,771,56,10,summit_ohio
+Nonmetropolitan,ohio,trumbull,18,1,2,6,9,653,246,369,38,2,trumbull_ohio
+Nonmetropolitan,ohio,tuscarawas,10,0,5,1,4,347,149,175,23,2,tuscarawas_ohio
+Nonmetropolitan,ohio,van wert,4,0,1,2,1,254,131,113,10,1,van wert_ohio
+Nonmetropolitan,ohio,vinton,17,1,1,4,11,312,110,194,8,0,vinton_ohio
+Nonmetropolitan,ohio,warren,58,1,16,9,32,1115,309,790,16,3,warren_ohio
+Nonmetropolitan,ohio,washington,19,0,3,2,14,422,140,263,19,3,washington_ohio
+Nonmetropolitan,ohio,wayne,28,2,9,4,13,692,288,375,29,1,wayne_ohio
+Nonmetropolitan,ohio,williams,7,0,4,0,3,264,77,169,18,4,williams_ohio
+Nonmetropolitan,ohio,wood,12,0,2,4,6,471,127,330,14,3,wood_ohio
+Nonmetropolitan,oklahoma,adair,64,1,3,0,60,259,120,122,17,4,adair_oklahoma
+Nonmetropolitan,oklahoma,alfalfa,2,0,1,0,1,24,5,17,2,1,alfalfa_oklahoma
+Nonmetropolitan,oklahoma,atoka,0,0,0,0,0,69,32,28,9,1,atoka_oklahoma
+Nonmetropolitan,oklahoma,beaver,2,0,1,0,1,45,13,27,5,0,beaver_oklahoma
+Nonmetropolitan,oklahoma,beckham,8,0,1,0,7,71,25,39,7,3,beckham_oklahoma
+Nonmetropolitan,oklahoma,blaine,2,0,0,0,2,44,11,33,0,1,blaine_oklahoma
+Nonmetropolitan,oklahoma,bryan,23,2,6,0,15,293,114,140,39,3,bryan_oklahoma
+Nonmetropolitan,oklahoma,caddo,85,0,3,3,79,182,53,116,13,1,caddo_oklahoma
+Nonmetropolitan,oklahoma,canadian,21,0,3,0,18,185,59,103,23,3,canadian_oklahoma
+Nonmetropolitan,oklahoma,carter,128,0,12,1,115,213,87,107,19,3,carter_oklahoma
+Nonmetropolitan,oklahoma,cherokee,27,0,2,0,25,114,56,43,15,1,cherokee_oklahoma
+Nonmetropolitan,oklahoma,choctaw,20,1,1,0,18,143,53,76,14,5,choctaw_oklahoma
+Nonmetropolitan,oklahoma,cimarron,0,0,0,0,0,4,0,4,0,0,cimarron_oklahoma
+Nonmetropolitan,oklahoma,cleveland,47,0,10,6,31,318,115,163,40,5,cleveland_oklahoma
+Nonmetropolitan,oklahoma,coal,4,0,1,0,3,58,8,48,2,1,coal_oklahoma
+Nonmetropolitan,oklahoma,comanche,43,0,6,4,33,313,118,173,22,2,comanche_oklahoma
+Nonmetropolitan,oklahoma,cotton,8,0,0,0,8,24,11,12,1,1,cotton_oklahoma
+Nonmetropolitan,oklahoma,craig,16,1,0,1,14,110,38,65,7,4,craig_oklahoma
+Nonmetropolitan,oklahoma,custer,7,0,0,2,5,84,39,41,4,4,custer_oklahoma
+Nonmetropolitan,oklahoma,delaware,54,3,8,2,41,312,119,163,30,4,delaware_oklahoma
+Nonmetropolitan,oklahoma,dewey,2,0,1,0,1,19,6,9,4,0,dewey_oklahoma
+Nonmetropolitan,oklahoma,ellis,9,1,0,0,8,39,15,16,8,1,ellis_oklahoma
+Nonmetropolitan,oklahoma,garfield,6,0,0,1,5,69,26,42,1,2,garfield_oklahoma
+Nonmetropolitan,oklahoma,garvin,30,4,7,1,18,214,56,134,24,4,garvin_oklahoma
+Nonmetropolitan,oklahoma,grady,31,0,3,0,28,266,106,136,24,2,grady_oklahoma
+Nonmetropolitan,oklahoma,grant,0,0,0,0,0,51,9,41,1,3,grant_oklahoma
+Nonmetropolitan,oklahoma,greer,2,0,0,0,2,15,4,11,0,0,greer_oklahoma
+Nonmetropolitan,oklahoma,harmon,0,0,0,0,0,17,3,14,0,0,harmon_oklahoma
+Nonmetropolitan,oklahoma,harper,0,0,0,0,0,32,15,14,3,0,harper_oklahoma
+Nonmetropolitan,oklahoma,haskell,48,2,2,0,44,79,25,40,14,1,haskell_oklahoma
+Nonmetropolitan,oklahoma,hughes,12,0,2,0,10,155,62,74,19,1,hughes_oklahoma
+Nonmetropolitan,oklahoma,jackson,6,0,3,0,3,45,13,25,7,0,jackson_oklahoma
+Nonmetropolitan,oklahoma,jefferson,1,0,0,0,1,17,3,13,1,0,jefferson_oklahoma
+Nonmetropolitan,oklahoma,johnston,14,0,0,0,14,3,2,0,1,0,johnston_oklahoma
+Nonmetropolitan,oklahoma,kay,23,0,0,1,22,93,38,54,1,0,kay_oklahoma
+Nonmetropolitan,oklahoma,kingfisher,0,0,0,0,0,59,5,44,10,0,kingfisher_oklahoma
+Nonmetropolitan,oklahoma,kiowa,3,1,0,0,2,37,18,18,1,1,kiowa_oklahoma
+Nonmetropolitan,oklahoma,latimer,7,0,1,0,6,28,11,12,5,0,latimer_oklahoma
+Nonmetropolitan,oklahoma,le flore,32,2,0,3,27,309,146,144,19,3,le flore_oklahoma
+Nonmetropolitan,oklahoma,lincoln,20,3,3,1,13,298,85,193,20,3,lincoln_oklahoma
+Nonmetropolitan,oklahoma,logan,21,2,2,1,16,323,101,202,20,5,logan_oklahoma
+Nonmetropolitan,oklahoma,love,1,0,0,0,1,58,18,35,5,1,love_oklahoma
+Nonmetropolitan,oklahoma,major,3,0,1,0,2,41,9,32,0,0,major_oklahoma
+Nonmetropolitan,oklahoma,marshall,25,0,1,0,24,48,18,23,7,1,marshall_oklahoma
+Nonmetropolitan,oklahoma,mayes,24,0,0,1,23,263,77,160,26,0,mayes_oklahoma
+Nonmetropolitan,oklahoma,mcclain,18,0,5,4,9,274,88,154,32,7,mcclain_oklahoma
+Nonmetropolitan,oklahoma,mccurtain,53,0,8,2,43,535,171,331,33,12,mccurtain_oklahoma
+Nonmetropolitan,oklahoma,mcintosh,24,0,5,2,17,198,82,103,13,10,mcintosh_oklahoma
+Nonmetropolitan,oklahoma,murray,7,0,1,0,6,34,13,15,6,1,murray_oklahoma
+Nonmetropolitan,oklahoma,muskogee,72,1,6,2,63,402,153,197,52,19,muskogee_oklahoma
+Nonmetropolitan,oklahoma,noble,2,0,0,0,2,45,13,27,5,0,noble_oklahoma
+Nonmetropolitan,oklahoma,nowata,10,0,3,0,7,113,49,48,16,5,nowata_oklahoma
+Nonmetropolitan,oklahoma,okfuskee,9,0,0,0,9,100,38,52,10,6,okfuskee_oklahoma
+Nonmetropolitan,oklahoma,oklahoma,26,0,2,3,21,240,74,130,36,0,oklahoma_oklahoma
+Nonmetropolitan,oklahoma,ottawa,8,1,1,0,6,107,54,38,15,0,ottawa_oklahoma
+Nonmetropolitan,oklahoma,pawnee,19,0,2,0,17,145,59,77,9,1,pawnee_oklahoma
+Nonmetropolitan,oklahoma,pittsburg,22,1,6,2,13,404,142,243,19,12,pittsburg_oklahoma
+Nonmetropolitan,oklahoma,pontotoc,31,2,6,1,22,147,59,75,13,2,pontotoc_oklahoma
+Nonmetropolitan,oklahoma,pottawatomie,43,2,3,3,35,629,178,354,97,5,pottawatomie_oklahoma
+Nonmetropolitan,oklahoma,pushmataha,15,2,0,1,12,117,48,52,17,0,pushmataha_oklahoma
+Nonmetropolitan,oklahoma,roger mills,6,0,1,0,5,53,18,33,2,0,roger mills_oklahoma
+Nonmetropolitan,oklahoma,rogers,61,0,16,3,42,473,141,237,95,7,rogers_oklahoma
+Nonmetropolitan,oklahoma,sequoyah,79,1,10,4,64,413,134,263,16,14,sequoyah_oklahoma
+Nonmetropolitan,oklahoma,stephens,41,1,6,2,32,233,56,148,29,5,stephens_oklahoma
+Nonmetropolitan,oklahoma,texas,5,0,1,2,2,55,14,38,3,0,texas_oklahoma
+Nonmetropolitan,oklahoma,tillman,5,0,1,1,3,85,38,43,4,2,tillman_oklahoma
+Nonmetropolitan,oklahoma,tulsa,211,3,6,14,188,708,301,336,71,3,tulsa_oklahoma
+Nonmetropolitan,oklahoma,wagoner,43,3,5,1,34,509,158,292,59,11,wagoner_oklahoma
+Nonmetropolitan,oklahoma,washita,4,0,0,0,4,50,22,27,1,1,washita_oklahoma
+Nonmetropolitan,oklahoma,woods,2,0,1,0,1,10,3,6,1,0,woods_oklahoma
+Nonmetropolitan,oklahoma,woodward,15,1,3,0,11,68,32,28,8,0,woodward_oklahoma
+Nonmetropolitan,oregon,baker,2,0,2,0,0,30,15,14,1,0,baker_oregon
+Nonmetropolitan,oregon,benton,20,3,3,0,14,200,56,132,12,2,benton_oregon
+Nonmetropolitan,oregon,clackamas,202,3,35,96,68,5492,891,4228,373,22,clackamas_oregon
+Nonmetropolitan,oregon,clatsop,7,0,0,0,7,134,26,98,10,2,clatsop_oregon
+Nonmetropolitan,oregon,coos,57,2,1,3,51,589,187,364,38,2,coos_oregon
+Nonmetropolitan,oregon,crook,22,0,2,2,18,125,47,77,1,3,crook_oregon
+Nonmetropolitan,oregon,curry,8,0,0,1,7,231,69,145,17,0,curry_oregon
+Nonmetropolitan,oregon,deschutes,240,1,14,6,219,982,203,734,45,8,deschutes_oregon
+Nonmetropolitan,oregon,douglas,35,1,19,2,13,558,160,345,53,15,douglas_oregon
+Nonmetropolitan,oregon,gilliam,0,0,0,0,0,16,4,12,0,0,gilliam_oregon
+Nonmetropolitan,oregon,grant,0,0,0,0,0,40,3,36,1,0,grant_oregon
+Nonmetropolitan,oregon,harney,7,0,0,0,7,27,12,14,1,0,harney_oregon
+Nonmetropolitan,oregon,hood river,10,1,3,2,4,153,28,115,10,1,hood river_oregon
+Nonmetropolitan,oregon,jackson,141,2,21,2,116,1127,281,797,49,5,jackson_oregon
+Nonmetropolitan,oregon,jefferson,8,0,1,2,5,184,61,108,15,2,jefferson_oregon
+Nonmetropolitan,oregon,josephine,64,2,11,10,41,726,237,419,70,3,josephine_oregon
+Nonmetropolitan,oregon,klamath,54,0,9,9,36,451,259,140,52,5,klamath_oregon
+Nonmetropolitan,oregon,lane,241,2,20,17,202,1146,484,545,117,8,lane_oregon
+Nonmetropolitan,oregon,lincoln,52,0,10,0,42,344,133,200,11,3,lincoln_oregon
+Nonmetropolitan,oregon,linn,19,0,7,4,8,935,246,582,107,4,linn_oregon
+Nonmetropolitan,oregon,malheur,2,0,0,0,2,203,63,129,11,-1,malheur_oregon
+Nonmetropolitan,oregon,marion,70,1,19,19,31,1893,486,1216,191,3,marion_oregon
+Nonmetropolitan,oregon,morrow,15,0,6,1,8,226,39,170,17,3,morrow_oregon
+Nonmetropolitan,oregon,multnomah,45,0,6,4,35,841,111,657,73,3,multnomah_oregon
+Nonmetropolitan,oregon,polk,30,1,2,0,27,378,106,249,23,3,polk_oregon
+Nonmetropolitan,oregon,sherman,0,0,0,0,0,34,6,24,4,1,sherman_oregon
+Nonmetropolitan,oregon,tillamook,15,0,1,2,12,289,114,161,14,2,tillamook_oregon
+Nonmetropolitan,oregon,umatilla,59,2,8,5,44,564,184,293,87,3,umatilla_oregon
+Nonmetropolitan,oregon,union,15,0,0,1,14,310,64,227,19,0,union_oregon
+Nonmetropolitan,oregon,wallowa,1,0,0,0,1,37,13,21,3,0,wallowa_oregon
+Nonmetropolitan,oregon,wasco,5,1,0,0,4,112,40,67,5,-1,wasco_oregon
+Nonmetropolitan,oregon,washington,266,1,66,44,155,2663,566,1909,188,22,washington_oregon
+Nonmetropolitan,oregon,yamhill,31,2,8,4,17,582,168,385,29,5,yamhill_oregon
+Nonmetropolitan,pennsylvania,allegheny,5,0,0,1,4,0,0,0,0,0,allegheny_pennsylvania
+Nonmetropolitan,pennsylvania,beaver,0,0,0,0,0,0,0,0,0,0,beaver_pennsylvania
+Nonmetropolitan,pennsylvania,bedford,0,0,0,0,0,0,0,0,0,0,bedford_pennsylvania
+Nonmetropolitan,pennsylvania,blair,2,0,0,0,2,0,0,0,0,0,blair_pennsylvania
+Nonmetropolitan,pennsylvania,butler,0,0,0,0,0,0,0,0,0,0,butler_pennsylvania
+Nonmetropolitan,pennsylvania,centre,0,0,0,0,0,0,0,0,0,0,centre_pennsylvania
+Nonmetropolitan,pennsylvania,clarion,0,0,0,0,0,1,0,1,0,0,clarion_pennsylvania
+Nonmetropolitan,pennsylvania,cumberland,0,0,0,0,0,0,0,0,0,0,cumberland_pennsylvania
+Nonmetropolitan,pennsylvania,elk,0,0,0,0,0,0,0,0,0,0,elk_pennsylvania
+Nonmetropolitan,pennsylvania,franklin,0,0,0,0,0,0,0,0,0,0,franklin_pennsylvania
+Nonmetropolitan,pennsylvania,indiana,0,0,0,0,0,0,0,0,0,0,indiana_pennsylvania
+Nonmetropolitan,pennsylvania,lancaster,0,0,0,0,0,0,0,0,0,0,lancaster_pennsylvania
+Nonmetropolitan,pennsylvania,lawrence,0,0,0,0,0,0,0,0,0,0,lawrence_pennsylvania
+Nonmetropolitan,pennsylvania,mercer,0,0,0,0,0,0,0,0,0,0,mercer_pennsylvania
+Nonmetropolitan,pennsylvania,montgomery,0,0,0,0,0,0,0,0,0,0,montgomery_pennsylvania
+Nonmetropolitan,pennsylvania,northampton,1,0,0,0,1,0,0,0,0,0,northampton_pennsylvania
+Nonmetropolitan,pennsylvania,pike,0,0,0,0,0,1,0,1,0,0,pike_pennsylvania
+Nonmetropolitan,pennsylvania,schuylkill,0,0,0,0,0,0,0,0,0,0,schuylkill_pennsylvania
+Nonmetropolitan,pennsylvania,snyder,0,0,0,0,0,0,0,0,0,0,snyder_pennsylvania
+Nonmetropolitan,pennsylvania,tioga,0,0,0,0,0,0,0,0,0,0,tioga_pennsylvania
+Nonmetropolitan,pennsylvania,union,0,0,0,0,0,0,0,0,0,0,union_pennsylvania
+Nonmetropolitan,pennsylvania,warren,0,0,0,0,0,0,0,0,0,0,warren_pennsylvania
+Nonmetropolitan,pennsylvania,washington,4,0,0,0,4,0,0,0,0,0,washington_pennsylvania
+Nonmetropolitan,pennsylvania,wayne,0,0,0,0,0,0,0,0,0,0,wayne_pennsylvania
+Nonmetropolitan,pennsylvania,westmoreland,0,0,0,0,0,0,0,0,0,0,westmoreland_pennsylvania
+Nonmetropolitan,pennsylvania,york,3,0,0,0,3,0,0,0,0,0,york_pennsylvania
+Nonmetropolitan,south carolina,allendale,9,0,0,0,9,130,47,69,14,1,allendale_south carolina
+Nonmetropolitan,south carolina,bamberg,41,3,1,4,33,266,76,163,27,7,bamberg_south carolina
+Nonmetropolitan,south carolina,barnwell,104,1,4,5,94,394,124,249,21,2,barnwell_south carolina
+Nonmetropolitan,south carolina,beaufort,606,3,20,86,497,3849,1106,2557,186,16,beaufort_south carolina
+Nonmetropolitan,south carolina,chester,129,1,8,16,104,848,238,552,58,2,chester_south carolina
+Nonmetropolitan,south carolina,chesterfield,117,2,4,4,107,914,286,581,47,6,chesterfield_south carolina
+Nonmetropolitan,south carolina,clarendon,170,4,11,18,137,927,309,553,65,3,clarendon_south carolina
+Nonmetropolitan,south carolina,colleton,172,4,17,13,138,1297,426,731,140,6,colleton_south carolina
+Nonmetropolitan,south carolina,dillon,240,4,9,20,207,1014,386,563,65,9,dillon_south carolina
+Nonmetropolitan,south carolina,georgetown,254,0,24,22,208,1672,504,1054,114,19,georgetown_south carolina
+Nonmetropolitan,south carolina,greenwood,-1,3,5,14,-1,1583,393,1106,84,3,greenwood_south carolina
+Nonmetropolitan,south carolina,hampton,77,0,3,3,71,426,146,253,27,2,hampton_south carolina
+Nonmetropolitan,south carolina,lancaster,230,3,21,36,170,1992,591,1298,103,10,lancaster_south carolina
+Nonmetropolitan,south carolina,lee,73,0,7,4,62,429,161,222,46,8,lee_south carolina
+Nonmetropolitan,south carolina,marion,86,2,10,9,65,878,364,449,65,7,marion_south carolina
+Nonmetropolitan,south carolina,marlboro,161,2,8,14,137,845,263,517,65,5,marlboro_south carolina
+Nonmetropolitan,south carolina,mccormick,24,0,2,0,22,61,19,31,11,0,mccormick_south carolina
+Nonmetropolitan,south carolina,newberry,54,2,6,5,41,501,114,337,50,0,newberry_south carolina
+Nonmetropolitan,south carolina,oconee,305,4,42,13,246,1560,511,958,91,5,oconee_south carolina
+Nonmetropolitan,south carolina,union,64,2,12,8,42,602,167,408,27,4,union_south carolina
+Nonmetropolitan,south carolina,williamsburg,174,3,9,27,135,780,235,462,83,15,williamsburg_south carolina
+Nonmetropolitan,south dakota,aiken,424,11,48,82,283,3771,1329,2075,367,4,aiken_south dakota
+Nonmetropolitan,south dakota,anderson,776,11,46,84,635,6900,2061,4123,716,37,anderson_south dakota
+Nonmetropolitan,south dakota,aurora,0,0,0,0,0,4,1,2,1,0,aurora_south dakota
+Nonmetropolitan,south dakota,beadle,0,0,0,0,0,23,8,15,0,1,beadle_south dakota
+Nonmetropolitan,south dakota,bennett,5,0,0,0,5,8,3,2,3,0,bennett_south dakota
+Nonmetropolitan,south dakota,berkeley,503,5,38,73,387,3357,951,2076,330,24,berkeley_south dakota
+Nonmetropolitan,south dakota,bon homme,0,0,0,0,0,0,0,0,0,0,bon homme_south dakota
+Nonmetropolitan,south dakota,brookings,1,0,1,0,0,64,6,52,6,1,brookings_south dakota
+Nonmetropolitan,south dakota,brown,3,0,0,0,3,13,5,6,2,0,brown_south dakota
+Nonmetropolitan,south dakota,butte,1,0,0,0,1,31,11,15,5,0,butte_south dakota
+Nonmetropolitan,south dakota,calhoun,57,1,2,6,48,471,164,251,56,7,calhoun_south dakota
+Nonmetropolitan,south dakota,campbell,0,0,0,0,0,5,0,4,1,0,campbell_south dakota
+Nonmetropolitan,south dakota,charles mix,8,0,2,0,6,50,25,21,4,2,charles mix_south dakota
+Nonmetropolitan,south dakota,charleston,573,7,24,96,446,2304,730,1294,280,14,charleston_south dakota
+Nonmetropolitan,south dakota,clark,1,0,0,0,1,9,5,4,0,0,clark_south dakota
+Nonmetropolitan,south dakota,clay,2,0,1,0,1,33,4,27,2,0,clay_south dakota
+Nonmetropolitan,south dakota,codington,8,0,5,0,3,56,7,45,4,0,codington_south dakota
+Nonmetropolitan,south dakota,corson,0,0,0,0,0,18,1,16,1,0,corson_south dakota
+Nonmetropolitan,south dakota,custer,4,0,1,0,3,31,6,20,5,0,custer_south dakota
+Nonmetropolitan,south dakota,darlington,425,3,16,41,365,2325,876,1305,144,12,darlington_south dakota
+Nonmetropolitan,south dakota,davison,8,0,0,0,8,8,1,6,1,0,davison_south dakota
+Nonmetropolitan,south dakota,deuel,1,0,0,0,1,21,5,13,3,0,deuel_south dakota
+Nonmetropolitan,south dakota,dewey,1,0,0,0,1,5,1,3,1,0,dewey_south dakota
+Nonmetropolitan,south dakota,dorchester,372,2,18,63,289,2413,771,1413,229,9,dorchester_south dakota
+Nonmetropolitan,south dakota,douglas,0,0,0,0,0,3,1,2,0,0,douglas_south dakota
+Nonmetropolitan,south dakota,edgefield,18,2,4,3,9,455,188,240,27,2,edgefield_south dakota
+Nonmetropolitan,south dakota,edmunds,0,0,0,0,0,0,0,0,0,0,edmunds_south dakota
+Nonmetropolitan,south dakota,fairfield,120,2,7,9,102,720,233,439,48,5,fairfield_south dakota
+Nonmetropolitan,south dakota,faulk,0,0,0,0,0,12,2,9,1,0,faulk_south dakota
+Nonmetropolitan,south dakota,florence,276,6,14,48,208,2653,737,1731,185,4,florence_south dakota
+Nonmetropolitan,south dakota,greenville,1819,21,118,289,1391,10942,3014,7042,886,32,greenville_south dakota
+Nonmetropolitan,south dakota,hamlin,7,0,2,0,5,28,8,17,3,1,hamlin_south dakota
+Nonmetropolitan,south dakota,hand,0,0,0,0,0,8,4,3,1,0,hand_south dakota
+Nonmetropolitan,south dakota,hanson,0,0,0,0,0,12,4,8,0,0,hanson_south dakota
+Nonmetropolitan,south dakota,harding,0,0,0,0,0,1,1,0,0,0,harding_south dakota
+Nonmetropolitan,south dakota,horry,1060,16,111,161,772,7674,1997,5046,631,47,horry_south dakota
+Nonmetropolitan,south dakota,hughes,4,0,0,0,4,26,13,11,2,0,hughes_south dakota
+Nonmetropolitan,south dakota,hutchinson,1,0,0,0,1,4,2,2,0,0,hutchinson_south dakota
+Nonmetropolitan,south dakota,jerauld,0,0,0,0,0,7,2,5,0,0,jerauld_south dakota
+Nonmetropolitan,south dakota,kershaw,214,6,21,18,169,1371,396,890,85,21,kershaw_south dakota
+Nonmetropolitan,south dakota,laurens,295,1,17,22,255,1437,499,801,137,12,laurens_south dakota
+Nonmetropolitan,south dakota,lawrence,1,0,0,0,1,24,4,18,2,0,lawrence_south dakota
+Nonmetropolitan,south dakota,lexington,578,10,60,108,400,4508,1147,2953,408,9,lexington_south dakota
+Nonmetropolitan,south dakota,lincoln,10,0,6,0,4,175,56,111,8,0,lincoln_south dakota
+Nonmetropolitan,south dakota,marshall,6,0,4,1,1,34,19,10,5,0,marshall_south dakota
+Nonmetropolitan,south dakota,mccook,2,0,0,0,2,46,12,31,3,0,mccook_south dakota
+Nonmetropolitan,south dakota,mcpherson,2,0,2,0,0,1,1,0,0,0,mcpherson_south dakota
+Nonmetropolitan,south dakota,meade,11,0,1,1,9,56,8,40,8,0,meade_south dakota
+Nonmetropolitan,south dakota,mellette,7,0,2,0,5,11,4,4,3,0,mellette_south dakota
+Nonmetropolitan,south dakota,miner,0,0,0,0,0,19,13,6,0,0,miner_south dakota
+Nonmetropolitan,south dakota,minnehaha,30,0,10,1,19,364,101,244,19,8,minnehaha_south dakota
+Nonmetropolitan,south dakota,moody,3,0,0,0,3,23,5,15,3,1,moody_south dakota
+Nonmetropolitan,south dakota,pennington,44,1,22,0,21,383,108,259,16,2,pennington_south dakota
+Nonmetropolitan,south dakota,perkins,0,0,0,0,0,8,2,6,0,0,perkins_south dakota
+Nonmetropolitan,south dakota,pickens,222,7,11,18,186,2155,633,1326,196,4,pickens_south dakota
+Nonmetropolitan,south dakota,potter,1,0,1,0,0,1,0,1,0,0,potter_south dakota
+Nonmetropolitan,south dakota,richland,2366,13,93,406,1854,9954,2860,5947,1147,26,richland_south dakota
+Nonmetropolitan,south dakota,roberts,5,0,0,0,5,34,13,10,11,0,roberts_south dakota
+Nonmetropolitan,south dakota,saluda,36,0,1,2,33,349,148,178,23,3,saluda_south dakota
+Nonmetropolitan,south dakota,spartanburg,626,7,58,112,449,6338,1854,3953,531,21,spartanburg_south dakota
+Nonmetropolitan,south dakota,spink,11,0,4,0,7,48,18,28,2,6,spink_south dakota
+Nonmetropolitan,south dakota,stanley,5,0,4,0,1,31,11,19,1,0,stanley_south dakota
+Nonmetropolitan,south dakota,sully,2,0,0,0,2,7,2,5,0,0,sully_south dakota
+Nonmetropolitan,south dakota,tripp,0,0,0,0,0,9,1,8,0,0,tripp_south dakota
+Nonmetropolitan,south dakota,turner,3,0,0,0,3,32,11,20,1,3,turner_south dakota
+Nonmetropolitan,south dakota,union,2,0,0,0,2,54,7,47,0,0,union_south dakota
+Nonmetropolitan,south dakota,walworth,0,0,0,0,0,2,0,0,2,0,walworth_south dakota
+Nonmetropolitan,south dakota,yankton,8,0,1,0,7,77,23,45,9,1,yankton_south dakota
+Nonmetropolitan,south dakota,york,413,2,28,39,344,2559,657,1743,159,25,york_south dakota
+Nonmetropolitan,south dakota,ziebach,0,0,0,0,0,1,1,0,0,0,ziebach_south dakota
+Nonmetropolitan,tennessee,anderson,120,0,8,14,98,1015,443,515,57,4,anderson_tennessee
+Nonmetropolitan,tennessee,bedford,42,0,1,0,41,354,132,209,13,1,bedford_tennessee
+Nonmetropolitan,tennessee,benton,27,0,2,1,24,230,55,152,23,0,benton_tennessee
+Nonmetropolitan,tennessee,bledsoe,11,1,0,2,8,94,22,50,22,0,bledsoe_tennessee
+Nonmetropolitan,tennessee,blount,271,2,24,21,224,1840,658,1054,128,6,blount_tennessee
+Nonmetropolitan,tennessee,campbell,61,1,13,6,41,872,469,355,48,12,campbell_tennessee
+Nonmetropolitan,tennessee,cannon,19,0,2,0,17,132,47,63,22,3,cannon_tennessee
+Nonmetropolitan,tennessee,carroll,28,1,1,1,25,329,144,144,41,0,carroll_tennessee
+Nonmetropolitan,tennessee,carter,81,0,0,4,77,704,280,357,67,12,carter_tennessee
+Nonmetropolitan,tennessee,cheatham,109,1,5,6,97,739,227,427,85,4,cheatham_tennessee
+Nonmetropolitan,tennessee,chester,28,1,4,0,23,106,30,66,10,0,chester_tennessee
+Nonmetropolitan,tennessee,claiborne,87,1,6,10,70,723,333,350,40,7,claiborne_tennessee
+Nonmetropolitan,tennessee,clay,0,0,0,0,0,83,35,42,6,1,clay_tennessee
+Nonmetropolitan,tennessee,cocke,199,4,8,15,172,1097,518,505,74,30,cocke_tennessee
+Nonmetropolitan,tennessee,coffee,69,0,1,0,68,390,128,229,33,0,coffee_tennessee
+Nonmetropolitan,tennessee,crockett,13,1,1,0,11,118,50,57,11,2,crockett_tennessee
+Nonmetropolitan,tennessee,cumberland,102,1,3,5,93,985,391,519,75,15,cumberland_tennessee
+Nonmetropolitan,tennessee,decatur,8,0,0,0,8,194,71,115,8,1,decatur_tennessee
+Nonmetropolitan,tennessee,dekalb,24,2,2,2,18,287,91,175,21,1,dekalb_tennessee
+Nonmetropolitan,tennessee,dickson,102,0,14,4,84,591,232,327,32,4,dickson_tennessee
+Nonmetropolitan,tennessee,dyer,44,0,0,2,42,327,112,180,35,2,dyer_tennessee
+Nonmetropolitan,tennessee,fayette,81,1,2,6,72,468,139,276,53,1,fayette_tennessee
+Nonmetropolitan,tennessee,fentress,37,1,3,1,32,444,43,388,13,5,fentress_tennessee
+Nonmetropolitan,tennessee,franklin,42,0,5,0,37,336,52,264,20,5,franklin_tennessee
+Nonmetropolitan,tennessee,gibson,63,0,5,3,55,323,139,154,30,1,gibson_tennessee
+Nonmetropolitan,tennessee,giles,37,0,3,3,31,280,96,167,17,1,giles_tennessee
+Nonmetropolitan,tennessee,greene,177,1,13,16,147,1324,548,678,98,10,greene_tennessee
+Nonmetropolitan,tennessee,grundy,60,0,2,2,56,260,63,156,41,4,grundy_tennessee
+Nonmetropolitan,tennessee,hamblen,144,0,4,15,125,697,257,408,32,4,hamblen_tennessee
+Nonmetropolitan,tennessee,hamilton,266,4,13,14,235,1771,642,1011,118,11,hamilton_tennessee
+Nonmetropolitan,tennessee,hancock,26,0,1,0,25,159,34,118,7,0,hancock_tennessee
+Nonmetropolitan,tennessee,hardeman,67,0,7,4,56,404,195,159,50,5,hardeman_tennessee
+Nonmetropolitan,tennessee,hardin,52,0,6,2,44,444,161,234,49,1,hardin_tennessee
+Nonmetropolitan,tennessee,hartsville/trousdale,42,0,8,5,29,255,71,175,9,1,hartsville/trousdale_tennessee
+Nonmetropolitan,tennessee,hawkins,52,0,1,6,45,1077,420,603,54,4,hawkins_tennessee
+Nonmetropolitan,tennessee,haywood,47,0,3,4,40,233,100,118,15,0,haywood_tennessee
+Nonmetropolitan,tennessee,henderson,62,1,4,3,54,399,135,234,30,4,henderson_tennessee
+Nonmetropolitan,tennessee,henry,40,0,0,0,40,472,155,297,20,0,henry_tennessee
+Nonmetropolitan,tennessee,hickman,47,0,7,0,40,279,120,131,28,1,hickman_tennessee
+Nonmetropolitan,tennessee,houston,22,0,0,1,21,149,62,77,10,12,houston_tennessee
+Nonmetropolitan,tennessee,humphreys,20,1,0,1,18,162,56,97,9,0,humphreys_tennessee
+Nonmetropolitan,tennessee,jackson,18,1,2,3,12,207,78,112,17,0,jackson_tennessee
+Nonmetropolitan,tennessee,jefferson,80,1,6,10,63,960,343,541,76,3,jefferson_tennessee
+Nonmetropolitan,tennessee,johnson,93,0,2,3,88,251,120,110,21,4,johnson_tennessee
+Nonmetropolitan,tennessee,knox,625,8,23,118,476,5778,1458,3932,388,35,knox_tennessee
+Nonmetropolitan,tennessee,lake,5,2,0,0,3,21,5,14,2,0,lake_tennessee
+Nonmetropolitan,tennessee,lauderdale,56,2,3,0,51,428,215,184,29,4,lauderdale_tennessee
+Nonmetropolitan,tennessee,lawrence,123,0,5,3,115,676,253,395,28,9,lawrence_tennessee
+Nonmetropolitan,tennessee,lewis,24,0,0,1,23,179,53,108,18,0,lewis_tennessee
+Nonmetropolitan,tennessee,lincoln,81,0,0,4,77,524,193,302,29,4,lincoln_tennessee
+Nonmetropolitan,tennessee,loudon,56,1,2,11,42,542,214,292,36,3,loudon_tennessee
+Nonmetropolitan,tennessee,macon,71,0,3,0,68,186,38,129,19,2,macon_tennessee
+Nonmetropolitan,tennessee,madison,136,1,14,12,109,688,242,382,64,1,madison_tennessee
+Nonmetropolitan,tennessee,marion,62,1,1,0,60,333,97,198,38,1,marion_tennessee
+Nonmetropolitan,tennessee,marshall,18,0,1,0,17,173,55,109,9,1,marshall_tennessee
+Nonmetropolitan,tennessee,maury,144,1,15,8,120,709,188,461,60,8,maury_tennessee
+Nonmetropolitan,tennessee,mcminn,75,1,7,8,59,630,266,281,83,5,mcminn_tennessee
+Nonmetropolitan,tennessee,mcnairy,80,0,4,0,76,335,113,191,31,4,mcnairy_tennessee
+Nonmetropolitan,tennessee,meigs,45,0,4,0,41,289,104,141,44,2,meigs_tennessee
+Nonmetropolitan,tennessee,monroe,100,2,0,3,95,710,218,441,51,3,monroe_tennessee
+Nonmetropolitan,tennessee,montgomery,104,1,8,3,92,882,190,629,63,2,montgomery_tennessee
+Nonmetropolitan,tennessee,moore,2,0,2,0,0,106,23,78,5,1,moore_tennessee
+Nonmetropolitan,tennessee,morgan,39,1,3,1,34,563,238,295,30,1,morgan_tennessee
+Nonmetropolitan,tennessee,obion,27,0,1,0,26,245,57,161,27,2,obion_tennessee
+Nonmetropolitan,tennessee,overton,40,0,0,1,39,235,106,119,10,1,overton_tennessee
+Nonmetropolitan,tennessee,perry,20,0,3,1,16,120,50,66,4,2,perry_tennessee
+Nonmetropolitan,tennessee,pickett,3,0,0,1,2,61,7,54,0,0,pickett_tennessee
+Nonmetropolitan,tennessee,polk,37,0,1,2,34,350,106,205,39,2,polk_tennessee
+Nonmetropolitan,tennessee,putnam,90,0,1,4,85,1028,314,664,50,5,putnam_tennessee
+Nonmetropolitan,tennessee,rhea,74,0,2,3,69,373,103,234,36,0,rhea_tennessee
+Nonmetropolitan,tennessee,roane,36,0,1,3,32,424,155,239,30,0,roane_tennessee
+Nonmetropolitan,tennessee,robertson,59,0,4,3,52,495,160,302,33,2,robertson_tennessee
+Nonmetropolitan,tennessee,rutherford,234,1,15,22,196,1456,490,872,94,3,rutherford_tennessee
+Nonmetropolitan,tennessee,scott,27,1,3,1,22,497,221,256,20,0,scott_tennessee
+Nonmetropolitan,tennessee,sequatchie,36,1,3,0,32,219,78,114,27,4,sequatchie_tennessee
+Nonmetropolitan,tennessee,sevier,162,3,21,22,116,1884,830,964,90,2,sevier_tennessee
+Nonmetropolitan,tennessee,shelby,500,4,35,55,406,3327,1123,1979,225,8,shelby_tennessee
+Nonmetropolitan,tennessee,smith,63,1,5,4,53,267,89,147,31,6,smith_tennessee
+Nonmetropolitan,tennessee,sullivan,340,3,28,19,290,1586,499,981,106,18,sullivan_tennessee
+Nonmetropolitan,tennessee,sumner,101,3,5,8,85,828,238,551,39,4,sumner_tennessee
+Nonmetropolitan,tennessee,tipton,189,0,14,2,173,671,203,377,91,2,tipton_tennessee
+Nonmetropolitan,tennessee,unicoi,20,0,0,0,20,197,25,170,2,0,unicoi_tennessee
+Nonmetropolitan,tennessee,union,48,1,6,6,35,494,208,235,51,2,union_tennessee
+Nonmetropolitan,tennessee,van buren,10,0,1,0,9,53,14,35,4,3,van buren_tennessee
+Nonmetropolitan,tennessee,warren,43,1,5,4,33,443,161,237,45,2,warren_tennessee
+Nonmetropolitan,tennessee,washington,200,2,10,11,177,1009,328,621,60,10,washington_tennessee
+Nonmetropolitan,tennessee,wayne,21,2,0,0,19,80,38,36,6,3,wayne_tennessee
+Nonmetropolitan,tennessee,weakley,43,1,2,3,37,214,98,101,15,0,weakley_tennessee
+Nonmetropolitan,tennessee,white,59,1,5,2,51,458,91,333,34,3,white_tennessee
+Nonmetropolitan,tennessee,williamson,41,0,4,3,34,452,166,266,20,5,williamson_tennessee
+Nonmetropolitan,tennessee,wilson,186,0,12,8,166,1104,422,613,69,1,wilson_tennessee
+Nonmetropolitan,texas,anderson,66,2,3,4,57,495,206,232,57,6,anderson_texas
+Nonmetropolitan,texas,andrews,8,0,1,1,6,71,13,48,10,1,andrews_texas
+Nonmetropolitan,texas,angelina,86,0,8,9,69,665,255,381,29,0,angelina_texas
+Nonmetropolitan,texas,aransas,21,0,3,1,17,331,119,201,11,0,aransas_texas
+Nonmetropolitan,texas,archer,3,0,0,0,3,39,10,27,2,0,archer_texas
+Nonmetropolitan,texas,armstrong,0,0,0,0,0,15,12,2,1,0,armstrong_texas
+Nonmetropolitan,texas,atascosa,18,0,0,3,15,421,179,230,12,0,atascosa_texas
+Nonmetropolitan,texas,austin,27,1,2,3,21,203,101,98,4,0,austin_texas
+Nonmetropolitan,texas,bailey,7,0,0,0,7,51,28,21,2,2,bailey_texas
+Nonmetropolitan,texas,bandera,20,0,1,3,16,180,79,99,2,0,bandera_texas
+Nonmetropolitan,texas,bastrop,155,2,49,13,91,862,337,467,58,7,bastrop_texas
+Nonmetropolitan,texas,baylor,1,0,0,0,1,11,3,6,2,0,baylor_texas
+Nonmetropolitan,texas,bee,32,2,4,0,26,148,57,79,12,0,bee_texas
+Nonmetropolitan,texas,bell,29,2,11,3,13,761,262,463,36,15,bell_texas
+Nonmetropolitan,texas,bexar,496,12,61,90,333,6668,2013,4182,473,94,bexar_texas
+Nonmetropolitan,texas,blanco,5,0,0,0,5,85,35,44,6,2,blanco_texas
+Nonmetropolitan,texas,borden,0,0,0,0,0,7,1,6,0,0,borden_texas
+Nonmetropolitan,texas,bosque,15,0,2,1,12,172,82,84,6,4,bosque_texas
+Nonmetropolitan,texas,bowie,140,5,21,3,111,883,332,472,79,12,bowie_texas
+Nonmetropolitan,texas,brazoria,98,1,13,23,61,1744,620,1028,96,1,brazoria_texas
+Nonmetropolitan,texas,brazos,53,2,4,0,47,357,115,222,20,1,brazos_texas
+Nonmetropolitan,texas,brewster,4,0,0,0,4,28,20,6,2,0,brewster_texas
+Nonmetropolitan,texas,briscoe,0,0,0,0,0,0,0,0,0,0,briscoe_texas
+Nonmetropolitan,texas,brooks,11,0,1,0,10,15,6,6,3,0,brooks_texas
+Nonmetropolitan,texas,brown,18,0,0,0,18,176,68,99,9,2,brown_texas
+Nonmetropolitan,texas,burleson,20,0,7,2,11,123,51,57,15,1,burleson_texas
+Nonmetropolitan,texas,burnet,27,0,6,2,19,236,93,129,14,1,burnet_texas
+Nonmetropolitan,texas,caldwell,23,1,3,1,18,195,73,105,17,0,caldwell_texas
+Nonmetropolitan,texas,calhoun,11,0,0,0,11,170,55,101,14,0,calhoun_texas
+Nonmetropolitan,texas,callahan,3,0,0,0,3,40,12,25,3,0,callahan_texas
+Nonmetropolitan,texas,cameron,159,3,9,24,123,1745,615,1029,101,10,cameron_texas
+Nonmetropolitan,texas,camp,7,1,1,1,4,196,92,99,5,0,camp_texas
+Nonmetropolitan,texas,carson,13,2,2,0,9,46,15,29,2,0,carson_texas
+Nonmetropolitan,texas,cass,30,0,2,0,28,399,160,211,28,0,cass_texas
+Nonmetropolitan,texas,castro,3,0,0,0,3,87,32,49,6,2,castro_texas
+Nonmetropolitan,texas,chambers,54,1,2,7,44,536,134,364,38,4,chambers_texas
+Nonmetropolitan,texas,cherokee,79,0,11,6,62,641,194,369,78,6,cherokee_texas
+Nonmetropolitan,texas,childress,3,0,0,0,3,21,11,8,2,0,childress_texas
+Nonmetropolitan,texas,clay,4,0,2,0,2,140,68,66,6,0,clay_texas
+Nonmetropolitan,texas,cochran,2,0,1,0,1,85,18,61,6,1,cochran_texas
+Nonmetropolitan,texas,coke,1,0,0,0,1,8,2,6,0,0,coke_texas
+Nonmetropolitan,texas,coleman,1,0,0,0,1,84,34,46,4,1,coleman_texas
+Nonmetropolitan,texas,collin,89,2,9,7,71,725,300,355,70,0,collin_texas
+Nonmetropolitan,texas,collingsworth,1,1,0,0,0,0,0,0,0,0,collingsworth_texas
+Nonmetropolitan,texas,colorado,10,1,1,2,6,218,72,134,12,0,colorado_texas
+Nonmetropolitan,texas,comal,182,0,20,12,150,909,326,553,30,4,comal_texas
+Nonmetropolitan,texas,comanche,7,0,0,0,7,100,30,68,2,0,comanche_texas
+Nonmetropolitan,texas,concho,2,0,0,0,2,9,6,3,0,0,concho_texas
+Nonmetropolitan,texas,coryell,12,0,0,2,10,140,67,65,8,1,coryell_texas
+Nonmetropolitan,texas,cottle,0,0,0,0,0,1,1,0,0,0,cottle_texas
+Nonmetropolitan,texas,crane,0,0,0,0,0,25,10,15,0,0,crane_texas
+Nonmetropolitan,texas,crosby,3,0,0,0,3,17,9,6,2,0,crosby_texas
+Nonmetropolitan,texas,culberson,3,0,1,0,2,7,1,6,0,0,culberson_texas
+Nonmetropolitan,texas,dallam,1,0,0,0,1,25,9,14,2,0,dallam_texas
+Nonmetropolitan,texas,dallas,28,0,3,3,22,256,89,148,19,20,dallas_texas
+Nonmetropolitan,texas,dawson,2,0,0,1,1,46,10,34,2,1,dawson_texas
+Nonmetropolitan,texas,deaf smith,17,0,2,0,15,105,31,65,9,1,deaf smith_texas
+Nonmetropolitan,texas,delta,4,0,0,0,4,145,62,73,10,1,delta_texas
+Nonmetropolitan,texas,denton,137,1,23,13,100,1010,342,632,36,1,denton_texas
+Nonmetropolitan,texas,dewitt,8,0,0,0,8,107,45,55,7,0,dewitt_texas
+Nonmetropolitan,texas,dickens,0,0,0,0,0,0,0,0,0,0,dickens_texas
+Nonmetropolitan,texas,dimmit,45,0,1,5,39,218,71,126,21,0,dimmit_texas
+Nonmetropolitan,texas,donley,3,0,0,0,3,27,13,14,0,1,donley_texas
+Nonmetropolitan,texas,duval,47,0,4,1,42,142,54,63,25,4,duval_texas
+Nonmetropolitan,texas,eastland,5,0,1,0,4,41,25,13,3,0,eastland_texas
+Nonmetropolitan,texas,ector,182,5,1,22,154,1009,275,670,64,2,ector_texas
+Nonmetropolitan,texas,edwards,6,0,0,0,6,38,10,25,3,0,edwards_texas
+Nonmetropolitan,texas,el paso,237,2,18,21,196,1333,357,843,133,19,el paso_texas
+Nonmetropolitan,texas,ellis,51,1,4,5,41,672,228,375,69,2,ellis_texas
+Nonmetropolitan,texas,erath,9,2,1,1,5,111,31,73,7,0,erath_texas
+Nonmetropolitan,texas,falls,2,0,0,0,2,73,36,27,10,3,falls_texas
+Nonmetropolitan,texas,fannin,27,1,1,2,23,206,79,106,21,0,fannin_texas
+Nonmetropolitan,texas,fayette,12,0,4,0,8,190,75,105,10,1,fayette_texas
+Nonmetropolitan,texas,fisher,4,0,0,0,4,49,20,28,1,0,fisher_texas
+Nonmetropolitan,texas,floyd,3,0,0,0,3,12,4,7,1,0,floyd_texas
+Nonmetropolitan,texas,foard,0,0,0,0,0,5,0,5,0,0,foard_texas
+Nonmetropolitan,texas,fort bend,902,8,56,117,721,4155,1509,2399,247,10,fort bend_texas
+Nonmetropolitan,texas,franklin,20,0,10,1,9,109,38,64,7,2,franklin_texas
+Nonmetropolitan,texas,freestone,16,1,1,0,14,183,85,87,11,2,freestone_texas
+Nonmetropolitan,texas,frio,7,0,0,1,6,60,20,37,3,0,frio_texas
+Nonmetropolitan,texas,gaines,3,0,0,1,2,59,17,38,4,0,gaines_texas
+Nonmetropolitan,texas,galveston,81,2,14,16,49,847,288,478,81,16,galveston_texas
+Nonmetropolitan,texas,garza,2,0,0,0,2,38,10,25,3,0,garza_texas
+Nonmetropolitan,texas,gillespie,15,0,8,0,7,112,29,80,3,0,gillespie_texas
+Nonmetropolitan,texas,glasscock,2,0,0,1,1,4,1,2,1,0,glasscock_texas
+Nonmetropolitan,texas,goliad,14,0,0,2,12,69,27,36,6,0,goliad_texas
+Nonmetropolitan,texas,gonzales,19,1,0,0,18,135,52,62,21,1,gonzales_texas
+Nonmetropolitan,texas,gray,3,0,0,0,3,113,31,76,6,0,gray_texas
+Nonmetropolitan,texas,grayson,56,2,9,1,44,802,294,468,40,17,grayson_texas
+Nonmetropolitan,texas,gregg,81,3,14,7,57,595,160,361,74,8,gregg_texas
+Nonmetropolitan,texas,grimes,13,0,0,0,13,308,102,186,20,2,grimes_texas
+Nonmetropolitan,texas,guadalupe,78,0,14,4,60,659,277,348,34,12,guadalupe_texas
+Nonmetropolitan,texas,hale,7,0,0,0,7,121,39,74,8,0,hale_texas
+Nonmetropolitan,texas,hall,0,0,0,0,0,5,4,1,0,0,hall_texas
+Nonmetropolitan,texas,hamilton,16,0,2,0,14,135,69,60,6,1,hamilton_texas
+Nonmetropolitan,texas,hansford,0,0,0,0,0,15,1,13,1,0,hansford_texas
+Nonmetropolitan,texas,hardeman,0,0,0,0,0,81,36,42,3,0,hardeman_texas
+Nonmetropolitan,texas,hardin,50,3,4,4,39,408,104,259,45,5,hardin_texas
+Nonmetropolitan,texas,harrison,97,1,1,4,91,624,266,337,21,0,harrison_texas
+Nonmetropolitan,texas,hartley,1,0,0,0,1,29,13,12,4,0,hartley_texas
+Nonmetropolitan,texas,haskell,1,0,0,0,1,7,1,6,0,0,haskell_texas
+Nonmetropolitan,texas,hays,77,2,2,8,65,774,288,468,18,0,hays_texas
+Nonmetropolitan,texas,hemphill,17,0,3,0,14,71,22,48,1,0,hemphill_texas
+Nonmetropolitan,texas,henderson,192,2,39,8,143,1228,496,613,119,8,henderson_texas
+Nonmetropolitan,texas,hidalgo,525,20,66,116,323,6688,2498,3779,411,188,hidalgo_texas
+Nonmetropolitan,texas,hill,13,3,1,5,4,323,110,193,20,2,hill_texas
+Nonmetropolitan,texas,hockley,27,0,6,2,19,103,26,74,3,1,hockley_texas
+Nonmetropolitan,texas,hood,68,1,9,0,58,559,165,363,31,1,hood_texas
+Nonmetropolitan,texas,hopkins,38,1,11,2,24,135,62,70,3,0,hopkins_texas
+Nonmetropolitan,texas,houston,16,3,0,0,13,189,65,111,13,1,houston_texas
+Nonmetropolitan,texas,howard,15,0,1,0,14,117,25,82,10,0,howard_texas
+Nonmetropolitan,texas,hudspeth,1,0,0,0,1,22,5,16,1,0,hudspeth_texas
+Nonmetropolitan,texas,hunt,76,3,0,11,62,1222,524,604,94,1,hunt_texas
+Nonmetropolitan,texas,hutchinson,7,1,2,0,4,121,34,80,7,0,hutchinson_texas
+Nonmetropolitan,texas,irion,0,0,0,0,0,22,3,19,0,0,irion_texas
+Nonmetropolitan,texas,jack,3,0,0,0,3,53,12,35,6,0,jack_texas
+Nonmetropolitan,texas,jackson,16,0,0,1,15,76,32,44,0,0,jackson_texas
+Nonmetropolitan,texas,jasper,61,2,4,3,52,248,112,122,14,0,jasper_texas
+Nonmetropolitan,texas,jeff davis,3,0,0,0,3,14,5,7,2,0,jeff davis_texas
+Nonmetropolitan,texas,jefferson,25,0,2,1,22,500,176,276,48,3,jefferson_texas
+Nonmetropolitan,texas,jim hogg,12,0,1,0,11,21,10,11,0,0,jim hogg_texas
+Nonmetropolitan,texas,jim wells,55,0,10,0,45,392,177,194,21,3,jim wells_texas
+Nonmetropolitan,texas,johnson,128,3,4,2,119,1095,340,708,47,17,johnson_texas
+Nonmetropolitan,texas,jones,1,0,0,0,1,87,23,63,1,0,jones_texas
+Nonmetropolitan,texas,karnes,11,0,2,1,8,96,29,57,10,0,karnes_texas
+Nonmetropolitan,texas,kaufman,140,0,18,9,113,1254,526,605,123,1,kaufman_texas
+Nonmetropolitan,texas,kendall,16,2,8,0,6,232,74,148,10,0,kendall_texas
+Nonmetropolitan,texas,kenedy,5,0,1,0,4,4,1,2,1,0,kenedy_texas
+Nonmetropolitan,texas,kent,6,0,0,0,6,27,14,11,2,0,kent_texas
+Nonmetropolitan,texas,kerr,33,1,7,2,23,317,93,213,11,6,kerr_texas
+Nonmetropolitan,texas,kimble,7,0,0,1,6,17,11,6,0,0,kimble_texas
+Nonmetropolitan,texas,king,0,0,0,0,0,1,0,1,0,0,king_texas
+Nonmetropolitan,texas,kinney,0,0,0,0,0,2,0,1,1,0,kinney_texas
+Nonmetropolitan,texas,kleberg,14,1,6,0,7,239,37,197,5,3,kleberg_texas
+Nonmetropolitan,texas,knox,3,0,0,0,3,20,12,8,0,0,knox_texas
+Nonmetropolitan,texas,la salle,13,1,0,2,10,28,10,18,0,1,la salle_texas
+Nonmetropolitan,texas,lamar,32,1,2,3,26,372,143,218,11,0,lamar_texas
+Nonmetropolitan,texas,lamb,6,0,0,0,6,120,34,81,5,1,lamb_texas
+Nonmetropolitan,texas,lampasas,1,0,0,0,1,106,31,72,3,3,lampasas_texas
+Nonmetropolitan,texas,lavaca,6,0,1,0,5,89,51,31,7,0,lavaca_texas
+Nonmetropolitan,texas,lee,5,0,0,0,5,115,29,78,8,0,lee_texas
+Nonmetropolitan,texas,leon,23,0,1,3,19,178,53,110,15,0,leon_texas
+Nonmetropolitan,texas,liberty,165,1,0,8,156,1226,440,655,131,14,liberty_texas
+Nonmetropolitan,texas,limestone,73,3,8,3,59,355,125,205,25,7,limestone_texas
+Nonmetropolitan,texas,lipscomb,0,0,0,0,0,18,1,13,4,3,lipscomb_texas
+Nonmetropolitan,texas,live oak,7,0,0,1,6,99,45,43,11,0,live oak_texas
+Nonmetropolitan,texas,llano,8,0,0,1,7,290,97,190,3,1,llano_texas
+Nonmetropolitan,texas,loving,0,0,0,0,0,0,0,0,0,0,loving_texas
+Nonmetropolitan,texas,lubbock,111,3,18,5,85,820,361,405,54,1,lubbock_texas
+Nonmetropolitan,texas,lynn,6,1,1,0,4,64,14,45,5,1,lynn_texas
+Nonmetropolitan,texas,madison,6,0,1,0,5,85,33,38,14,1,madison_texas
+Nonmetropolitan,texas,marion,33,1,7,0,25,214,96,108,10,2,marion_texas
+Nonmetropolitan,texas,martin,6,1,0,0,5,51,15,35,1,0,martin_texas
+Nonmetropolitan,texas,mason,3,0,1,0,2,30,6,23,1,0,mason_texas
+Nonmetropolitan,texas,matagorda,53,1,1,0,51,261,87,161,13,0,matagorda_texas
+Nonmetropolitan,texas,maverick,130,1,11,7,111,587,229,332,26,3,maverick_texas
+Nonmetropolitan,texas,mcculloch,5,0,1,0,4,23,7,15,1,0,mcculloch_texas
+Nonmetropolitan,texas,mclennan,86,1,32,2,51,826,353,435,38,6,mclennan_texas
+Nonmetropolitan,texas,mcmullen,1,0,0,0,1,9,2,4,3,0,mcmullen_texas
+Nonmetropolitan,texas,medina,33,1,4,0,28,203,106,89,8,0,medina_texas
+Nonmetropolitan,texas,menard,6,0,0,0,6,2,1,1,0,0,menard_texas
+Nonmetropolitan,texas,midland,52,2,0,3,47,442,121,290,31,2,midland_texas
+Nonmetropolitan,texas,milam,20,1,2,0,17,189,66,117,6,1,milam_texas
+Nonmetropolitan,texas,mills,14,0,2,1,11,65,28,32,5,1,mills_texas
+Nonmetropolitan,texas,mitchell,2,0,0,0,2,31,10,20,1,0,mitchell_texas
+Nonmetropolitan,texas,montague,17,0,0,0,17,184,50,124,10,0,montague_texas
+Nonmetropolitan,texas,montgomery,648,7,49,119,473,6328,1837,4088,403,12,montgomery_texas
+Nonmetropolitan,texas,moore,3,1,2,0,0,83,27,52,4,0,moore_texas
+Nonmetropolitan,texas,morris,13,0,2,0,11,142,68,68,6,0,morris_texas
+Nonmetropolitan,texas,motley,1,0,0,0,1,14,4,9,1,0,motley_texas
+Nonmetropolitan,texas,nacogdoches,85,0,3,4,78,465,184,247,34,4,nacogdoches_texas
+Nonmetropolitan,texas,navarro,48,1,11,1,35,595,242,339,14,1,navarro_texas
+Nonmetropolitan,texas,newton,8,0,0,3,5,91,28,60,3,2,newton_texas
+Nonmetropolitan,texas,nolan,7,0,0,0,7,52,27,24,1,0,nolan_texas
+Nonmetropolitan,texas,nueces,48,1,5,2,40,256,113,138,5,4,nueces_texas
+Nonmetropolitan,texas,ochiltree,4,0,0,0,4,35,6,23,6,0,ochiltree_texas
+Nonmetropolitan,texas,oldham,1,0,0,0,1,26,4,20,2,0,oldham_texas
+Nonmetropolitan,texas,orange,107,0,6,16,85,817,284,470,63,2,orange_texas
+Nonmetropolitan,texas,palo pinto,22,2,1,0,19,148,71,67,10,1,palo pinto_texas
+Nonmetropolitan,texas,panola,23,0,3,0,20,329,89,199,41,1,panola_texas
+Nonmetropolitan,texas,parker,121,1,7,5,108,1061,408,601,52,0,parker_texas
+Nonmetropolitan,texas,parmer,1,0,1,0,0,60,25,33,2,0,parmer_texas
+Nonmetropolitan,texas,pecos,3,0,1,0,2,70,21,46,3,0,pecos_texas
+Nonmetropolitan,texas,polk,65,2,14,6,43,618,227,347,44,4,polk_texas
+Nonmetropolitan,texas,potter,26,0,2,3,21,251,75,159,17,5,potter_texas
+Nonmetropolitan,texas,presidio,3,0,0,0,3,13,9,4,0,0,presidio_texas
+Nonmetropolitan,texas,rains,17,0,7,0,10,187,44,138,5,0,rains_texas
+Nonmetropolitan,texas,randall,36,0,1,2,33,373,127,215,31,8,randall_texas
+Nonmetropolitan,texas,reagan,1,0,0,0,1,4,4,0,0,1,reagan_texas
+Nonmetropolitan,texas,real,0,0,0,0,0,13,2,11,0,0,real_texas
+Nonmetropolitan,texas,red river,19,1,2,2,14,170,75,79,16,5,red river_texas
+Nonmetropolitan,texas,reeves,18,0,0,0,18,76,16,59,1,0,reeves_texas
+Nonmetropolitan,texas,refugio,10,0,2,0,8,44,15,28,1,0,refugio_texas
+Nonmetropolitan,texas,roberts,0,0,0,0,0,18,5,11,2,0,roberts_texas
+Nonmetropolitan,texas,robertson,5,0,2,0,3,187,59,112,16,2,robertson_texas
+Nonmetropolitan,texas,rockwall,30,0,3,1,26,215,69,137,9,0,rockwall_texas
+Nonmetropolitan,texas,runnels,0,0,0,0,0,20,1,19,0,0,runnels_texas
+Nonmetropolitan,texas,rusk,73,0,10,2,61,665,249,356,60,1,rusk_texas
+Nonmetropolitan,texas,sabine,19,0,0,3,16,93,43,48,2,0,sabine_texas
+Nonmetropolitan,texas,san augustine,22,0,1,0,21,86,39,46,1,3,san augustine_texas
+Nonmetropolitan,texas,san jacinto,117,0,3,15,99,738,315,349,74,4,san jacinto_texas
+Nonmetropolitan,texas,san patricio,32,1,13,2,16,272,85,172,15,0,san patricio_texas
+Nonmetropolitan,texas,san saba,4,0,1,0,3,27,6,17,4,0,san saba_texas
+Nonmetropolitan,texas,schleicher,0,0,0,0,0,13,6,7,0,0,schleicher_texas
+Nonmetropolitan,texas,scurry,8,0,2,1,5,75,22,50,3,1,scurry_texas
+Nonmetropolitan,texas,shackelford,1,0,1,0,0,49,5,38,6,0,shackelford_texas
+Nonmetropolitan,texas,shelby,38,2,7,0,29,263,93,152,18,1,shelby_texas
+Nonmetropolitan,texas,sherman,0,0,0,0,0,1,1,0,0,0,sherman_texas
+Nonmetropolitan,texas,smith,238,5,47,23,163,2043,680,1224,139,18,smith_texas
+Nonmetropolitan,texas,somervell,5,0,0,0,5,88,39,48,1,0,somervell_texas
+Nonmetropolitan,texas,starr,71,2,7,2,60,336,151,152,33,3,starr_texas
+Nonmetropolitan,texas,stephens,5,0,0,0,5,41,8,29,4,0,stephens_texas
+Nonmetropolitan,texas,sterling,1,0,0,0,1,4,0,1,3,3,sterling_texas
+Nonmetropolitan,texas,stonewall,0,0,0,0,0,26,16,10,0,0,stonewall_texas
+Nonmetropolitan,texas,sutton,0,0,0,0,0,1,0,1,0,1,sutton_texas
+Nonmetropolitan,texas,swisher,4,0,0,0,4,36,9,22,5,0,swisher_texas
+Nonmetropolitan,texas,tarrant,124,3,16,12,93,1256,413,774,69,5,tarrant_texas
+Nonmetropolitan,texas,taylor,21,0,3,1,17,152,78,60,14,1,taylor_texas
+Nonmetropolitan,texas,terrell,4,0,0,0,4,9,6,3,0,0,terrell_texas
+Nonmetropolitan,texas,terry,1,0,0,0,1,38,15,20,3,0,terry_texas
+Nonmetropolitan,texas,throckmorton,1,0,0,0,1,0,0,0,0,0,throckmorton_texas
+Nonmetropolitan,texas,titus,24,0,2,1,21,293,159,124,10,1,titus_texas
+Nonmetropolitan,texas,tom green,36,0,16,3,17,237,77,150,10,6,tom green_texas
+Nonmetropolitan,texas,travis,367,6,11,23,327,3461,1039,2279,143,48,travis_texas
+Nonmetropolitan,texas,trinity,30,0,7,2,21,196,82,100,14,5,trinity_texas
+Nonmetropolitan,texas,tyler,77,1,5,4,67,388,187,176,25,4,tyler_texas
+Nonmetropolitan,texas,upshur,57,2,12,4,39,624,250,339,35,5,upshur_texas
+Nonmetropolitan,texas,upton,1,0,0,0,1,25,2,21,2,0,upton_texas
+Nonmetropolitan,texas,uvalde,22,1,0,1,20,129,44,75,10,0,uvalde_texas
+Nonmetropolitan,texas,val verde,10,0,0,0,10,146,70,67,9,0,val verde_texas
+Nonmetropolitan,texas,van zandt,78,0,0,3,75,813,352,397,64,1,van zandt_texas
+Nonmetropolitan,texas,victoria,83,1,15,3,64,521,172,320,29,0,victoria_texas
+Nonmetropolitan,texas,walker,92,3,9,5,75,418,173,204,41,0,walker_texas
+Nonmetropolitan,texas,waller,20,0,1,1,18,292,119,154,19,0,waller_texas
+Nonmetropolitan,texas,ward,4,0,1,1,2,77,28,45,4,0,ward_texas
+Nonmetropolitan,texas,washington,24,0,4,0,20,184,75,97,12,2,washington_texas
+Nonmetropolitan,texas,wharton,71,0,0,5,66,479,199,266,14,7,wharton_texas
+Nonmetropolitan,texas,wheeler,6,0,1,0,5,45,12,31,2,0,wheeler_texas
+Nonmetropolitan,texas,wichita,36,0,1,1,34,107,33,70,4,5,wichita_texas
+Nonmetropolitan,texas,wilbarger,3,0,1,1,1,39,7,27,5,1,wilbarger_texas
+Nonmetropolitan,texas,willacy,64,0,9,1,54,195,64,123,8,8,willacy_texas
+Nonmetropolitan,texas,williamson,106,5,14,14,73,1288,315,933,40,12,williamson_texas
+Nonmetropolitan,texas,wilson,33,1,3,0,29,255,81,153,21,0,wilson_texas
+Nonmetropolitan,texas,winkler,3,0,0,1,2,32,7,24,1,0,winkler_texas
+Nonmetropolitan,texas,wise,30,2,0,3,25,291,96,170,25,15,wise_texas
+Nonmetropolitan,texas,wood,46,2,2,1,41,539,204,304,31,1,wood_texas
+Nonmetropolitan,texas,yoakum,8,0,1,1,6,25,5,20,0,0,yoakum_texas
+Nonmetropolitan,texas,young,15,0,1,0,14,89,29,58,2,3,young_texas
+Nonmetropolitan,texas,zapata,21,0,1,1,19,264,143,106,15,0,zapata_texas
+Nonmetropolitan,texas,zavala,27,0,1,2,24,85,39,45,1,3,zavala_texas
+Nonmetropolitan,utah,beaver,4,0,1,0,3,36,11,18,7,0,beaver_utah
+Nonmetropolitan,utah,box elder,4,0,0,1,3,227,48,167,12,0,box elder_utah
+Nonmetropolitan,utah,cache,21,0,6,2,13,460,71,371,18,0,cache_utah
+Nonmetropolitan,utah,carbon,8,1,0,1,6,162,34,125,3,1,carbon_utah
+Nonmetropolitan,utah,daggett,0,0,0,0,0,18,9,9,0,0,daggett_utah
+Nonmetropolitan,utah,davis,17,0,5,1,11,203,42,148,13,1,davis_utah
+Nonmetropolitan,utah,duchesne,36,1,5,0,30,181,40,133,8,1,duchesne_utah
+Nonmetropolitan,utah,emery,1,0,0,1,0,115,39,71,5,0,emery_utah
+Nonmetropolitan,utah,grand,5,0,2,0,3,97,44,46,7,0,grand_utah
+Nonmetropolitan,utah,iron,38,0,4,1,33,233,84,117,32,0,iron_utah
+Nonmetropolitan,utah,juab,3,0,1,0,2,70,12,52,6,0,juab_utah
+Nonmetropolitan,utah,millard,18,0,3,0,15,233,42,184,7,1,millard_utah
+Nonmetropolitan,utah,morgan,5,2,1,0,2,62,21,41,0,0,morgan_utah
+Nonmetropolitan,utah,rich,3,0,0,0,3,40,7,31,2,0,rich_utah
+Nonmetropolitan,utah,salt lake,495,6,65,116,308,7922,1338,5853,731,37,salt lake_utah
+Nonmetropolitan,utah,sevier,12,1,4,0,7,177,30,141,6,0,sevier_utah
+Nonmetropolitan,utah,summit,25,0,2,4,19,480,57,393,30,1,summit_utah
+Nonmetropolitan,utah,tooele,19,0,3,1,15,162,51,93,18,1,tooele_utah
+Nonmetropolitan,utah,uintah,43,1,1,1,40,265,90,162,13,1,uintah_utah
+Nonmetropolitan,utah,utah,36,0,5,0,31,312,80,219,13,1,utah_utah
+Nonmetropolitan,utah,wasatch,12,0,1,0,11,165,39,119,7,0,wasatch_utah
+Nonmetropolitan,utah,washington,17,0,3,0,14,159,48,97,14,3,washington_utah
+Nonmetropolitan,utah,wayne,0,0,0,0,0,33,4,29,0,0,wayne_utah
+Nonmetropolitan,utah,weber,40,1,11,4,24,1115,275,788,52,0,weber_utah
+Nonmetropolitan,vermont,addison,0,0,0,0,0,0,0,0,0,0,addison_vermont
+Nonmetropolitan,vermont,bennington,0,0,0,0,0,17,10,6,1,0,bennington_vermont
+Nonmetropolitan,vermont,caledonia,0,0,0,0,0,0,0,0,0,0,caledonia_vermont
+Nonmetropolitan,vermont,franklin,6,0,1,0,5,127,29,89,9,0,franklin_vermont
+Nonmetropolitan,vermont,grand isle,4,0,0,0,4,48,20,25,3,0,grand isle_vermont
+Nonmetropolitan,vermont,lamoille,9,0,2,0,7,136,29,102,5,0,lamoille_vermont
+Nonmetropolitan,vermont,orange,4,0,3,0,1,47,20,24,3,0,orange_vermont
+Nonmetropolitan,vermont,orleans,0,0,0,0,0,57,24,32,1,0,orleans_vermont
+Nonmetropolitan,vermont,rutland,3,0,0,0,3,140,17,122,1,0,rutland_vermont
+Nonmetropolitan,vermont,washington,0,0,0,0,0,0,0,0,0,0,washington_vermont
+Nonmetropolitan,virginia,accomack,58,6,11,16,25,563,145,391,27,1,accomack_virginia
+Nonmetropolitan,virginia,albemarle,106,1,21,22,62,1653,227,1375,51,12,albemarle_virginia
+Nonmetropolitan,virginia,alleghany,15,1,4,1,9,158,47,103,8,3,alleghany_virginia
+Nonmetropolitan,virginia,amelia,17,0,1,1,15,133,35,81,17,2,amelia_virginia
+Nonmetropolitan,virginia,amherst,28,0,7,2,19,525,63,441,21,2,amherst_virginia
+Nonmetropolitan,virginia,appomattox,13,1,2,1,9,127,27,94,6,1,appomattox_virginia
+Nonmetropolitan,virginia,arlington,325,0,23,135,167,3739,251,3310,178,7,arlington_virginia
+Nonmetropolitan,virginia,augusta,86,2,13,7,64,817,124,653,40,1,augusta_virginia
+Nonmetropolitan,virginia,bedford,43,1,8,4,30,834,278,520,36,2,bedford_virginia
+Nonmetropolitan,virginia,bland,5,0,1,1,3,49,15,32,2,2,bland_virginia
+Nonmetropolitan,virginia,botetourt,23,0,2,3,18,286,60,213,13,4,botetourt_virginia
+Nonmetropolitan,virginia,brunswick,12,1,0,3,8,145,60,65,20,1,brunswick_virginia
+Nonmetropolitan,virginia,buchanan,27,3,6,1,17,488,131,325,32,0,buchanan_virginia
+Nonmetropolitan,virginia,buckingham,23,0,5,5,13,238,57,158,23,12,buckingham_virginia
+Nonmetropolitan,virginia,campbell,49,1,6,7,35,797,147,607,43,2,campbell_virginia
+Nonmetropolitan,virginia,caroline,37,0,8,10,19,497,75,403,19,4,caroline_virginia
+Nonmetropolitan,virginia,carroll,28,0,4,2,22,552,165,349,38,6,carroll_virginia
+Nonmetropolitan,virginia,charles city,5,0,1,0,4,17,9,6,2,0,charles city_virginia
+Nonmetropolitan,virginia,charlotte,21,1,1,3,16,121,28,89,4,1,charlotte_virginia
+Nonmetropolitan,virginia,chesterfield,385,8,36,145,196,6697,1535,4925,237,59,chesterfield_virginia
+Nonmetropolitan,virginia,clarke,9,0,4,2,3,141,34,100,7,1,clarke_virginia
+Nonmetropolitan,virginia,craig,5,0,0,0,5,10,0,8,2,0,craig_virginia
+Nonmetropolitan,virginia,culpeper,35,2,6,3,24,295,65,199,31,1,culpeper_virginia
+Nonmetropolitan,virginia,cumberland,9,0,1,0,8,34,12,19,3,0,cumberland_virginia
+Nonmetropolitan,virginia,dickenson,16,2,3,2,9,193,37,150,6,8,dickenson_virginia
+Nonmetropolitan,virginia,dinwiddie,43,1,7,6,29,431,131,268,32,1,dinwiddie_virginia
+Nonmetropolitan,virginia,essex,13,1,2,1,9,77,34,36,7,1,essex_virginia
+Nonmetropolitan,virginia,fairfax,909,11,94,421,383,14775,1007,12898,870,73,fairfax_virginia
+Nonmetropolitan,virginia,fauquier,38,1,11,7,19,684,114,535,35,4,fauquier_virginia
+Nonmetropolitan,virginia,floyd,10,0,2,0,8,185,38,139,8,0,floyd_virginia
+Nonmetropolitan,virginia,fluvanna,13,0,2,2,9,214,38,156,20,2,fluvanna_virginia
+Nonmetropolitan,virginia,franklin,39,2,4,5,28,632,118,466,48,1,franklin_virginia
+Nonmetropolitan,virginia,frederick,76,2,33,13,28,1513,337,1088,88,5,frederick_virginia
+Nonmetropolitan,virginia,giles,24,1,1,0,22,176,42,126,8,1,giles_virginia
+Nonmetropolitan,virginia,gloucester,35,8,3,7,17,522,76,421,25,4,gloucester_virginia
+Nonmetropolitan,virginia,goochland,32,0,0,3,29,206,46,147,13,0,goochland_virginia
+Nonmetropolitan,virginia,grayson,18,0,5,0,13,171,35,128,8,2,grayson_virginia
+Nonmetropolitan,virginia,greene,26,3,2,2,19,252,24,216,12,2,greene_virginia
+Nonmetropolitan,virginia,greensville,16,1,5,3,7,167,53,107,7,0,greensville_virginia
+Nonmetropolitan,virginia,halifax,32,1,7,4,20,430,127,272,31,4,halifax_virginia
+Nonmetropolitan,virginia,hanover,53,2,2,6,43,1112,124,925,63,2,hanover_virginia
+Nonmetropolitan,virginia,henrico,428,10,31,232,155,7634,1276,5986,372,94,henrico_virginia
+Nonmetropolitan,virginia,henry,168,7,9,21,131,1538,423,1039,76,7,henry_virginia
+Nonmetropolitan,virginia,isle of wight,30,0,4,6,20,382,97,264,21,2,isle of wight_virginia
+Nonmetropolitan,virginia,james city,80,2,19,16,43,971,161,786,24,17,james city_virginia
+Nonmetropolitan,virginia,king and queen,10,0,0,0,10,65,27,33,5,0,king and queen_virginia
+Nonmetropolitan,virginia,king george,22,0,8,4,10,335,65,247,23,2,king george_virginia
+Nonmetropolitan,virginia,king william,7,0,2,3,2,102,48,52,2,0,king william_virginia
+Nonmetropolitan,virginia,lancaster,11,1,5,0,5,120,33,84,3,1,lancaster_virginia
+Nonmetropolitan,virginia,lee,32,1,4,1,26,198,37,156,5,0,lee_virginia
+Nonmetropolitan,virginia,loudoun,237,1,45,36,155,2800,269,2377,154,27,loudoun_virginia
+Nonmetropolitan,virginia,louisa,28,0,10,0,18,324,63,261,0,0,louisa_virginia
+Nonmetropolitan,virginia,lunenburg,9,0,3,1,5,118,40,66,12,1,lunenburg_virginia
+Nonmetropolitan,virginia,madison,15,3,1,2,9,119,19,93,7,1,madison_virginia
+Nonmetropolitan,virginia,mathews,6,0,2,0,4,117,27,80,10,0,mathews_virginia
+Nonmetropolitan,virginia,mecklenburg,25,0,4,3,18,367,101,250,16,7,mecklenburg_virginia
+Nonmetropolitan,virginia,middlesex,12,1,1,4,6,161,36,116,9,0,middlesex_virginia
+Nonmetropolitan,virginia,montgomery,32,0,11,1,20,508,144,349,15,6,montgomery_virginia
+Nonmetropolitan,virginia,nelson,6,1,1,0,4,191,45,133,13,0,nelson_virginia
+Nonmetropolitan,virginia,new kent,30,0,5,1,24,253,54,185,14,0,new kent_virginia
+Nonmetropolitan,virginia,northampton,15,0,1,3,11,187,59,121,7,0,northampton_virginia
+Nonmetropolitan,virginia,northumberland,9,0,2,2,5,146,39,99,8,2,northumberland_virginia
+Nonmetropolitan,virginia,nottoway,7,0,0,1,6,88,20,63,5,3,nottoway_virginia
+Nonmetropolitan,virginia,orange,15,0,3,2,10,232,39,183,10,1,orange_virginia
+Nonmetropolitan,virginia,page,12,0,5,1,6,199,58,138,3,7,page_virginia
+Nonmetropolitan,virginia,patrick,22,0,2,0,20,361,84,247,30,2,patrick_virginia
+Nonmetropolitan,virginia,pittsylvania,44,4,10,8,22,663,242,390,31,4,pittsylvania_virginia
+Nonmetropolitan,virginia,powhatan,13,3,3,1,6,240,79,147,14,2,powhatan_virginia
+Nonmetropolitan,virginia,prince edward,12,0,2,2,8,62,18,37,7,1,prince edward_virginia
+Nonmetropolitan,virginia,prince george,37,0,6,4,27,450,93,336,21,0,prince george_virginia
+Nonmetropolitan,virginia,prince william,537,3,45,181,308,6965,967,5603,395,27,prince william_virginia
+Nonmetropolitan,virginia,pulaski,33,0,5,2,26,733,117,593,23,2,pulaski_virginia
+Nonmetropolitan,virginia,rappahannock,4,0,0,0,4,76,18,52,6,2,rappahannock_virginia
+Nonmetropolitan,virginia,richmond,10,0,2,0,8,35,10,20,5,0,richmond_virginia
+Nonmetropolitan,virginia,roanoke,98,0,20,12,66,1252,297,918,37,4,roanoke_virginia
+Nonmetropolitan,virginia,rockbridge,23,0,2,3,18,268,49,209,10,2,rockbridge_virginia
+Nonmetropolitan,virginia,rockingham,42,1,17,1,23,276,73,196,7,4,rockingham_virginia
+Nonmetropolitan,virginia,russell,21,3,1,2,15,352,136,205,11,7,russell_virginia
+Nonmetropolitan,virginia,scott,22,1,6,3,12,444,125,297,22,1,scott_virginia
+Nonmetropolitan,virginia,shenandoah,28,0,4,3,21,418,106,308,4,0,shenandoah_virginia
+Nonmetropolitan,virginia,smyth,40,3,5,0,32,352,62,271,19,5,smyth_virginia
+Nonmetropolitan,virginia,southampton,19,0,2,1,16,282,81,176,25,4,southampton_virginia
+Nonmetropolitan,virginia,spotsylvania,270,3,42,64,161,2580,268,2216,96,10,spotsylvania_virginia
+Nonmetropolitan,virginia,stafford,171,2,34,29,106,1950,205,1639,106,12,stafford_virginia
+Nonmetropolitan,virginia,surry,14,0,1,0,13,53,22,26,5,0,surry_virginia
+Nonmetropolitan,virginia,sussex,9,0,0,3,6,168,40,114,14,1,sussex_virginia
+Nonmetropolitan,virginia,tazewell,26,0,6,1,19,575,177,359,39,5,tazewell_virginia
+Nonmetropolitan,virginia,warren,19,0,8,2,9,311,37,256,18,2,warren_virginia
+Nonmetropolitan,virginia,washington,32,1,11,3,17,995,217,749,29,7,washington_virginia
+Nonmetropolitan,virginia,westmoreland,10,0,1,1,8,74,14,53,7,0,westmoreland_virginia
+Nonmetropolitan,virginia,wise,37,0,8,2,27,446,121,293,32,3,wise_virginia
+Nonmetropolitan,virginia,wythe,19,0,4,2,13,174,30,134,10,2,wythe_virginia
+Nonmetropolitan,virginia,york,75,3,4,24,44,1223,149,1042,32,16,york_virginia
+Nonmetropolitan,washington,asotin,18,0,0,0,18,215,45,160,10,0,asotin_washington
+Nonmetropolitan,washington,benton,64,0,10,8,46,645,231,350,64,6,benton_washington
+Nonmetropolitan,washington,chelan,36,3,8,3,22,667,189,432,46,2,chelan_washington
+Nonmetropolitan,washington,clallam,59,0,8,3,48,850,255,534,61,7,clallam_washington
+Nonmetropolitan,washington,clark,248,2,48,65,133,3853,924,2525,404,27,clark_washington
+Nonmetropolitan,washington,columbia,7,0,1,0,6,179,42,132,5,0,columbia_washington
+Nonmetropolitan,washington,cowlitz,78,1,36,4,37,501,189,275,37,11,cowlitz_washington
+Nonmetropolitan,washington,douglas,22,1,7,1,13,399,131,239,29,0,douglas_washington
+Nonmetropolitan,washington,ferry,2,0,0,0,2,25,12,12,1,0,ferry_washington
+Nonmetropolitan,washington,franklin,24,0,4,2,18,168,53,102,13,3,franklin_washington
+Nonmetropolitan,washington,garfield,4,0,1,0,3,62,13,47,2,1,garfield_washington
+Nonmetropolitan,washington,grant,111,3,7,10,91,1472,484,868,120,6,grant_washington
+Nonmetropolitan,washington,grays harbor,24,2,3,2,17,434,158,240,36,2,grays harbor_washington
+Nonmetropolitan,washington,island,43,1,13,3,26,773,331,426,16,5,island_washington
+Nonmetropolitan,washington,jefferson,22,0,12,1,9,360,109,236,15,1,jefferson_washington
+Nonmetropolitan,washington,king,430,5,85,127,213,5573,2200,2749,624,82,king_washington
+Nonmetropolitan,washington,kitsap,441,2,64,52,323,4000,1312,2387,301,13,kitsap_washington
+Nonmetropolitan,washington,kittitas,20,1,5,2,12,448,158,266,24,1,kittitas_washington
+Nonmetropolitan,washington,lewis,58,0,7,1,50,631,237,351,43,2,lewis_washington
+Nonmetropolitan,washington,lincoln,8,0,1,1,6,135,43,85,7,2,lincoln_washington
+Nonmetropolitan,washington,mason,101,0,17,5,79,1734,665,900,169,4,mason_washington
+Nonmetropolitan,washington,okanogan,55,2,4,4,45,308,103,181,24,0,okanogan_washington
+Nonmetropolitan,washington,pacific,13,1,6,1,5,333,163,154,16,1,pacific_washington
+Nonmetropolitan,washington,pend oreille,17,0,1,0,16,411,133,252,26,0,pend oreille_washington
+Nonmetropolitan,washington,pierce,919,10,88,218,603,9585,3132,5341,1112,48,pierce_washington
+Nonmetropolitan,washington,san juan,19,1,1,0,17,177,51,112,14,4,san juan_washington
+Nonmetropolitan,washington,skamania,10,0,2,0,8,214,52,151,11,0,skamania_washington
+Nonmetropolitan,washington,spokane,132,3,16,30,83,3912,1189,2439,284,16,spokane_washington
+Nonmetropolitan,washington,stevens,26,2,5,2,17,575,226,294,55,0,stevens_washington
+Nonmetropolitan,washington,thurston,294,3,32,24,235,2726,1086,1502,138,18,thurston_washington
+Nonmetropolitan,washington,wahkiakum,6,0,0,0,6,12,3,9,0,1,wahkiakum_washington
+Nonmetropolitan,washington,walla walla,25,0,8,2,15,365,90,251,24,3,walla walla_washington
+Nonmetropolitan,washington,whatcom,132,0,38,7,87,1339,485,789,65,12,whatcom_washington
+Nonmetropolitan,washington,whitman,8,0,0,0,8,58,28,28,2,0,whitman_washington
+Nonmetropolitan,washington,yakima,133,7,27,25,74,2290,999,995,296,31,yakima_washington
+Nonmetropolitan,west virginia,barbour,3,0,0,0,3,10,5,5,0,0,barbour_west virginia
+Nonmetropolitan,west virginia,berkeley,68,4,13,13,38,877,283,554,40,7,berkeley_west virginia
+Nonmetropolitan,west virginia,boone,21,0,1,1,19,47,18,20,9,0,boone_west virginia
+Nonmetropolitan,west virginia,braxton,13,0,0,1,12,54,12,38,4,1,braxton_west virginia
+Nonmetropolitan,west virginia,brooke,18,0,4,2,12,83,36,41,6,3,brooke_west virginia
+Nonmetropolitan,west virginia,grant,4,0,0,0,4,16,7,9,0,2,grant_west virginia
+Nonmetropolitan,west virginia,hampshire,73,1,0,0,72,74,43,27,4,2,hampshire_west virginia
+Nonmetropolitan,west virginia,hardy,7,0,0,0,7,35,15,15,5,0,hardy_west virginia
+Nonmetropolitan,west virginia,harrison,35,3,0,3,29,347,140,190,17,2,harrison_west virginia
+Nonmetropolitan,west virginia,jackson,5,0,0,0,5,36,3,27,6,0,jackson_west virginia
+Nonmetropolitan,west virginia,lewis,5,0,0,0,5,3,2,1,0,0,lewis_west virginia
+Nonmetropolitan,west virginia,logan,54,0,1,0,53,23,10,10,3,1,logan_west virginia
+Nonmetropolitan,west virginia,mason,4,0,1,0,3,164,0,144,20,0,mason_west virginia
+Nonmetropolitan,west virginia,mcdowell,24,1,2,2,19,113,43,63,7,4,mcdowell_west virginia
+Nonmetropolitan,west virginia,mineral,49,1,1,2,45,38,14,23,1,0,mineral_west virginia
+Nonmetropolitan,west virginia,mingo,7,0,0,0,7,7,2,4,1,0,mingo_west virginia
+Nonmetropolitan,west virginia,monroe,7,0,0,1,6,68,16,49,3,0,monroe_west virginia
+Nonmetropolitan,west virginia,morgan,10,2,1,2,5,119,51,60,8,1,morgan_west virginia
+Nonmetropolitan,west virginia,nicholas,167,0,3,2,162,209,46,153,10,5,nicholas_west virginia
+Nonmetropolitan,west virginia,preston,54,0,3,1,50,247,127,110,10,1,preston_west virginia
+Nonmetropolitan,west virginia,putnam,49,1,5,2,41,210,57,143,10,0,putnam_west virginia
+Nonmetropolitan,west virginia,randolph,44,1,0,0,43,43,15,28,0,1,randolph_west virginia
+Nonmetropolitan,west virginia,ritchie,5,3,0,0,2,65,30,31,4,2,ritchie_west virginia
+Nonmetropolitan,west virginia,roane,8,0,0,0,8,49,1,41,7,0,roane_west virginia
+Nonmetropolitan,west virginia,tyler,16,0,0,0,16,53,21,30,2,1,tyler_west virginia
+Nonmetropolitan,west virginia,upshur,2,1,0,0,1,50,16,34,0,3,upshur_west virginia
+Nonmetropolitan,west virginia,wetzel,2,0,0,0,2,15,8,7,0,0,wetzel_west virginia
+Nonmetropolitan,wisconsin,adams,15,0,5,1,9,470,207,259,4,0,adams_wisconsin
+Nonmetropolitan,wisconsin,ashland,8,0,0,0,8,80,25,51,4,0,ashland_wisconsin
+Nonmetropolitan,wisconsin,barron,1,0,0,0,1,199,83,110,6,0,barron_wisconsin
+Nonmetropolitan,wisconsin,bayfield,11,0,1,3,7,185,61,120,4,0,bayfield_wisconsin
+Nonmetropolitan,wisconsin,buffalo,0,0,0,0,0,22,10,12,0,0,buffalo_wisconsin
+Nonmetropolitan,wisconsin,burnett,25,0,5,0,20,243,116,113,14,2,burnett_wisconsin
+Nonmetropolitan,wisconsin,calumet,12,1,1,0,10,156,46,100,10,0,calumet_wisconsin
+Nonmetropolitan,wisconsin,chippewa,27,0,5,2,20,382,154,219,9,0,chippewa_wisconsin
+Nonmetropolitan,wisconsin,clark,77,0,0,2,75,201,72,111,18,3,clark_wisconsin
+Nonmetropolitan,wisconsin,columbia,41,1,7,0,33,426,138,269,19,1,columbia_wisconsin
+Nonmetropolitan,wisconsin,crawford,6,0,2,0,4,200,46,145,9,0,crawford_wisconsin
+Nonmetropolitan,wisconsin,dane,64,0,6,10,48,1031,222,760,49,5,dane_wisconsin
+Nonmetropolitan,wisconsin,dodge,14,0,1,0,13,223,67,148,8,2,dodge_wisconsin
+Nonmetropolitan,wisconsin,door,2,0,0,0,2,113,23,89,1,0,door_wisconsin
+Nonmetropolitan,wisconsin,douglas,12,0,6,1,5,381,194,159,28,1,douglas_wisconsin
+Nonmetropolitan,wisconsin,dunn,25,0,2,1,22,171,51,115,5,0,dunn_wisconsin
+Nonmetropolitan,wisconsin,eau claire,22,0,7,1,14,257,87,162,8,1,eau claire_wisconsin
+Nonmetropolitan,wisconsin,florence,7,0,1,0,6,88,34,51,3,1,florence_wisconsin
+Nonmetropolitan,wisconsin,fond du lac,18,0,4,2,12,314,96,197,21,2,fond du lac_wisconsin
+Nonmetropolitan,wisconsin,forest,7,1,1,1,4,217,74,127,16,0,forest_wisconsin
+Nonmetropolitan,wisconsin,grant,24,0,0,0,24,331,103,214,14,6,grant_wisconsin
+Nonmetropolitan,wisconsin,green,7,0,0,0,7,169,46,120,3,0,green_wisconsin
+Nonmetropolitan,wisconsin,green lake,1,0,1,0,0,98,40,53,5,0,green lake_wisconsin
+Nonmetropolitan,wisconsin,iron,3,0,0,0,3,70,20,47,3,0,iron_wisconsin
+Nonmetropolitan,wisconsin,jackson,8,0,5,0,3,201,67,104,30,2,jackson_wisconsin
+Nonmetropolitan,wisconsin,jefferson,36,2,7,7,20,415,109,298,8,8,jefferson_wisconsin
+Nonmetropolitan,wisconsin,juneau,23,0,1,0,22,332,101,214,17,1,juneau_wisconsin
+Nonmetropolitan,wisconsin,kenosha,23,0,7,2,14,805,205,569,31,2,kenosha_wisconsin
+Nonmetropolitan,wisconsin,kewaunee,1,0,0,0,1,65,11,47,7,0,kewaunee_wisconsin
+Nonmetropolitan,wisconsin,la crosse,19,0,0,1,18,222,79,136,7,0,la crosse_wisconsin
+Nonmetropolitan,wisconsin,lafayette,1,0,1,0,0,177,31,140,6,0,lafayette_wisconsin
+Nonmetropolitan,wisconsin,langlade,3,0,0,0,3,230,86,137,7,0,langlade_wisconsin
+Nonmetropolitan,wisconsin,lincoln,11,0,1,0,10,157,51,100,6,0,lincoln_wisconsin
+Nonmetropolitan,wisconsin,manitowoc,21,0,5,0,16,193,47,133,13,0,manitowoc_wisconsin
+Nonmetropolitan,wisconsin,marathon,19,0,4,3,12,481,107,361,13,1,marathon_wisconsin
+Nonmetropolitan,wisconsin,marinette,13,0,8,1,4,479,297,172,10,1,marinette_wisconsin
+Nonmetropolitan,wisconsin,marquette,4,0,3,0,1,164,34,122,8,0,marquette_wisconsin
+Nonmetropolitan,wisconsin,menominee,1,0,0,0,1,41,21,19,1,0,menominee_wisconsin
+Nonmetropolitan,wisconsin,monroe,9,0,0,1,8,220,80,127,13,1,monroe_wisconsin
+Nonmetropolitan,wisconsin,oconto,3,0,1,2,0,453,154,269,30,0,oconto_wisconsin
+Nonmetropolitan,wisconsin,oneida,20,0,3,1,16,225,99,121,5,1,oneida_wisconsin
+Nonmetropolitan,wisconsin,outagamie,20,1,5,1,13,422,122,286,14,2,outagamie_wisconsin
+Nonmetropolitan,wisconsin,pepin,4,0,0,0,4,20,11,7,2,0,pepin_wisconsin
+Nonmetropolitan,wisconsin,pierce,38,0,0,0,38,212,62,138,12,0,pierce_wisconsin
+Nonmetropolitan,wisconsin,polk,85,0,5,4,76,366,128,207,31,1,polk_wisconsin
+Nonmetropolitan,wisconsin,portage,14,1,1,0,12,305,77,202,26,1,portage_wisconsin
+Nonmetropolitan,wisconsin,price,11,0,0,0,11,105,32,65,8,0,price_wisconsin
+Nonmetropolitan,wisconsin,racine,14,2,3,2,7,569,86,459,24,0,racine_wisconsin
+Nonmetropolitan,wisconsin,richland,2,0,0,0,2,61,29,23,9,0,richland_wisconsin
+Nonmetropolitan,wisconsin,rock,24,1,5,3,15,609,250,342,17,6,rock_wisconsin
+Nonmetropolitan,wisconsin,rusk,23,0,0,1,22,112,31,75,6,2,rusk_wisconsin
+Nonmetropolitan,wisconsin,sauk,21,0,3,1,17,507,70,423,14,0,sauk_wisconsin
+Nonmetropolitan,wisconsin,sawyer,39,1,3,0,35,410,154,227,29,1,sawyer_wisconsin
+Nonmetropolitan,wisconsin,shawano,16,0,3,1,12,423,187,219,17,0,shawano_wisconsin
+Nonmetropolitan,wisconsin,sheboygan,11,0,0,2,9,538,108,406,24,3,sheboygan_wisconsin
+Nonmetropolitan,wisconsin,st. croix,19,1,0,2,16,474,72,360,42,0,st. croix_wisconsin
+Nonmetropolitan,wisconsin,taylor,7,0,3,0,4,142,41,94,7,4,taylor_wisconsin
+Nonmetropolitan,wisconsin,trempealeau,2,0,1,0,1,155,51,97,7,0,trempealeau_wisconsin
+Nonmetropolitan,wisconsin,vernon,6,2,1,0,3,182,71,103,8,1,vernon_wisconsin
+Nonmetropolitan,wisconsin,vilas,13,0,3,0,10,199,65,123,11,0,vilas_wisconsin
+Nonmetropolitan,wisconsin,walworth,12,0,3,4,5,314,102,202,10,1,walworth_wisconsin
+Nonmetropolitan,wisconsin,washburn,9,1,0,0,8,215,68,140,7,1,washburn_wisconsin
+Nonmetropolitan,wisconsin,washington,88,0,7,5,76,507,123,367,17,3,washington_wisconsin
+Nonmetropolitan,wisconsin,waukesha,30,1,6,1,22,732,134,557,41,2,waukesha_wisconsin
+Nonmetropolitan,wisconsin,waupaca,21,0,8,0,13,547,137,380,30,0,waupaca_wisconsin
+Nonmetropolitan,wisconsin,waushara,23,0,6,0,17,290,78,200,12,1,waushara_wisconsin
+Nonmetropolitan,wisconsin,winnebago,28,1,0,0,27,343,99,229,15,4,winnebago_wisconsin
+Nonmetropolitan,wisconsin,wood,4,0,1,0,3,182,55,118,9,2,wood_wisconsin
+Nonmetropolitan,wyoming,albany,4,0,0,0,4,43,12,30,1,0,albany_wyoming
+Nonmetropolitan,wyoming,big horn,4,0,2,0,2,15,12,3,0,0,big horn_wyoming
+Nonmetropolitan,wyoming,campbell,28,0,2,0,26,179,47,119,13,0,campbell_wyoming
+Nonmetropolitan,wyoming,carbon,8,0,0,0,8,76,7,64,5,0,carbon_wyoming
+Nonmetropolitan,wyoming,converse,12,0,1,0,11,46,9,30,7,0,converse_wyoming
+Nonmetropolitan,wyoming,crook,1,0,0,0,1,28,3,24,1,0,crook_wyoming
+Nonmetropolitan,wyoming,fremont,17,2,2,0,13,151,42,94,15,1,fremont_wyoming
+Nonmetropolitan,wyoming,goshen,8,0,1,1,6,59,16,41,2,1,goshen_wyoming
+Nonmetropolitan,wyoming,hot springs,1,0,0,0,1,28,3,24,1,0,hot springs_wyoming
+Nonmetropolitan,wyoming,johnson,3,0,0,0,3,30,8,22,0,0,johnson_wyoming
+Nonmetropolitan,wyoming,laramie,69,0,13,5,51,471,132,307,32,2,laramie_wyoming
+Nonmetropolitan,wyoming,lincoln,13,0,3,0,10,84,15,66,3,0,lincoln_wyoming
+Nonmetropolitan,wyoming,natrona,43,0,6,1,36,223,51,156,16,3,natrona_wyoming
+Nonmetropolitan,wyoming,niobrara,1,0,0,0,1,7,0,7,0,0,niobrara_wyoming
+Nonmetropolitan,wyoming,park,29,0,2,0,27,68,20,45,3,0,park_wyoming
+Nonmetropolitan,wyoming,platte,2,0,0,0,2,32,13,19,0,0,platte_wyoming
+Nonmetropolitan,wyoming,sheridan,1,0,0,0,1,61,10,47,4,3,sheridan_wyoming
+Nonmetropolitan,wyoming,sublette,10,0,1,0,9,151,29,116,6,0,sublette_wyoming
+Nonmetropolitan,wyoming,sweetwater,14,0,0,1,13,166,33,118,15,0,sweetwater_wyoming
+Nonmetropolitan,wyoming,uinta,0,0,0,0,0,88,6,78,4,0,uinta_wyoming
+Nonmetropolitan,wyoming,washakie,2,0,0,0,2,3,0,3,0,0,washakie_wyoming
+Nonmetropolitan,wyoming,weston,2,0,0,0,2,6,2,4,0,0,weston_wyoming
