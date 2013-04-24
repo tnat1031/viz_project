@@ -1,6 +1,8 @@
 /* Draw the initial map */
 function drawMap() {
-	drawChloro();	
+	drawCountiesMap();
+	//drawChloro();
+	//d3.select("#geo_link").on("click",alert("yaaaah booy"));	
 	//drawDots();
 
 }
@@ -16,7 +18,94 @@ function processJSON() {
 	return jdata;
 }
 
+function drawCountiesMap() {
+	var width = 960,
+    height = 500;
+
+	var rateById = d3.map();
+
+	var quantize = d3.scale.quantize()
+		.domain([0, .15])
+		.range(d3.range(9).map(function(i) { return "q" + i + "-9"; }));
+
+	var svg = d3.select("#mapDiv").append("svg")
+		.attr("width", width)
+		.attr("height", height);
+
+	queue()
+		.defer(d3.json, "data/us.json")
+		.defer(d3.tsv, "data/unemployment_noPuerto.tsv", function(d) { rateById.set(d.id, +d.rate); })
+		.await(ready);
+
+	function ready(error, us) {
+		var projection = d3.geo.albersUsa()
+			.scale(width)
+			.translate([width / 2, height / 2]);
+		
+		var path = d3.geo.path()
+			.projection(projection);
+		
+		var zoom = d3.behavior.zoom()
+		  .translate(projection.translate())
+		  .scale(projection.scale())
+		  .scaleExtent([height, 8 * height])
+		  .on("zoom", zoom);
+		
+		var counties = svg.append("g")
+		  .attr("class", "counties")
+		  .call(zoom);
+		
+		counties.selectAll("path")
+		  .data(topojson.feature(us, us.objects.counties).features)
+		  .enter().append("path")
+		  .attr("class", function(d) { return quantize(rateById.get(d.id)); })
+		  .attr("d", path)
+		  .on("click",click);
+
+		//states.append("rect")
+	   // .attr("class", "background")
+	 //   .attr("width", width)
+	//    .attr("height", height);
+		  
+	    var states = svg.append("path")
+		  .datum(topojson.mesh(us, us.objects.states, function(a, b) { return a !== b; }))
+		  .attr("class", "states")
+		  .attr("d", path)
+		  //.on("click",click);
+		  alert(states);
+
+		function click(d) {
+		  var centroid = path.centroid(d),
+			  translate = projection.translate();
+
+		  projection.translate([
+			translate[0] - centroid[0] + width / 2,
+			translate[1] - centroid[1] + height / 2
+		  ]);
+
+		  zoom.translate(projection.translate());
+
+		  counties.selectAll("path").transition()
+			  .duration(500)
+			  .attr("d", path);
+			  
+		  states.transition()
+			  .duration(500)
+			  .attr("d", path);
+		}
+
+		function zoom() {
+		  projection.translate(d3.event.translate).scale(d3.event.scale);
+		  counties.selectAll("path").attr("d", path);
+		  states.attr("d", path);
+		}
+	}
+}
+
+
+
 function drawChloro() {
+		
 	d3.select("p.map_desc").html("Tweets per capita for every state. Click the map to see exact tweet locations.");		
 	// grab the tweet count data
 	// data format: { "NY": {"tweets": 1977, "fillKey": "NY", "perCapita": 2.999999e-18 }, MA:... }
@@ -61,7 +150,9 @@ function drawChloro() {
    map.render();
    
    d3.select('#mapDiv').selectAll('svg')
-       .on("click",	switchToDots);
+       .attr("width",960)
+	   .attr("height",500)
+	   //.on("click",	switchToDots);
 }
 
 function switchToDots() {

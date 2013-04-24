@@ -7,11 +7,36 @@
         <script src="libraries/bootstrap/js/bootstrap.min.js"></script>
         <script src="libraries/d3.v3.min.js"></script>
 		<script src="libraries/datamaps-us-only.js"></script>
+		<script src="http://d3js.org/d3.v3.min.js"></script>
+		<script src="http://d3js.org/queue.v1.min.js"></script>
+		<script src="http://d3js.org/topojson.v1.min.js"></script>
 		<script src="js/brad.js"></script>
 		<script src="js/brad2.js"></script>
 		<script src="js/ted2.js"></script>
 		<script src="js/pageLoad.js"></script>
-		
+		<style>
+
+.counties {
+  fill: none;
+}
+
+.states {
+  fill: none;
+  stroke-linejoin: round;
+  stroke: #fff;
+}
+
+.q0-9 { fill:rgb(247,251,255); }
+.q1-9 { fill:rgb(222,235,247); }
+.q2-9 { fill:rgb(198,219,239); }
+.q3-9 { fill:rgb(158,202,225); }
+.q4-9 { fill:rgb(107,174,214); }
+.q5-9 { fill:rgb(66,146,198); }
+.q6-9 { fill:rgb(33,113,181); }
+.q7-9 { fill:rgb(8,81,156); }
+.q8-9 { fill:rgb(8,48,107); }
+
+</style>
     </head>
     <body>
     	<header>
@@ -48,6 +73,7 @@
             </div>
             <!-- geography -->
             <div class="tab-pane container" id="geo_tab">
+			<!--<div class="thing1" id="geo_tab">-->
                 <div class="ask"></div>
                     <h3>Ask</h3>
                 <div class="explore"></div>
