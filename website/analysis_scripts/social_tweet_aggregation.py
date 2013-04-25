@@ -30,7 +30,7 @@ search_terms = ['all_tweets','fuck','shit', 'bitch', 'ass', 'asshole','dick', 'c
 						'kill', 'beat', 'rape', 'fight', 'stab', 'shoot',
 						'twitter', 'tweet'];
 
-with open('tweets_rev_geo.csv', 'rb') as tcsv:
+with open('../data/tweets_rev_geo.csv', 'rb') as tcsv:
 
     tweets = {}
     tweetReader = csv.reader(tcsv)
@@ -57,8 +57,8 @@ with open('tweets_rev_geo.csv', 'rb') as tcsv:
             tweets[countyTag][searchTerm] += 1
             tweets[countyTag]['all_tweets'] += 1     
 
-with open('social_final.csv', 'rb') as sfcsv:
-    with open('social_tweet_data.csv', 'wb') as ocsv:
+with open('../data/social_final.csv', 'rb') as sfcsv:
+    with open('../data/social_tweet_data.csv', 'wb') as ocsv:
         
         # instantiate csv reader/writer objects
         reader = csv.reader(sfcsv)
@@ -80,47 +80,3 @@ with open('social_final.csv', 'rb') as sfcsv:
                 for term in search_terms:
                     line.append(0)
             writer.writerow(line)
-
-
-        
-##            searchTerm = line[10]
-##	    date = line[4]+"_"+line[5]+"_"+line[3]
-##            state = line[11]
-##            countyName = line[12].lower()
-##            countyTag = countyName+"_"+state
-##            # skip non-US counties
-##            if countyTag not in counties:
-##                #skipped+=1
-##                continue
-##            
-##            if date not in counties[countyTag]["data"]:
-##                counties[countyTag]["data"][date] = {}
-##            if searchTerm not in counties[countyTag]["data"][date]:
-##                counties[countyTag]["data"][date][searchTerm] = 1
-##            if 'all_terms' not in counties[countyTag]["data"][date]:
-##                counties[countyTag]["data"][date]['all_terms'] = 1
-##            else:
-##                counties[countyTag]["data"][date][searchTerm] += 1
-##                counties[countyTag]["data"][date]['all_terms'] += 1
-##
-##
-##        for i in counties:
-##            for j in counties[i]:
-##                print counties[i][j]
-        #print(counties)
-
-
-##        # append the fill keys to the state
-##        for state in stateData:
-##            stateData[state]['fillKey'] = state
-
-        # calculate the per-capita tweets (tweets/population)
-        # throw away any non-US-States
-##        finalData = {}
-##        for state in stateData:
-##            if state in statePops:
-##                finalData[state] = {}
-##                finalData[state]['tweets'] = stateData[state]['tweets']
-##                finalData[state]['perCapita']= (stateData[state]['tweets'] / statePops[state])
-##                finalData[state]['fillKey'] = state
-##        json.dump(finalData, fjson,indent=4,separators=(',',': '))

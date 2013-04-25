@@ -1,4 +1,4 @@
-geoid,ansi_code,county,state_name,state_abbrev,population_2010,population_per_square_mile,median_income_dollars,mean_income_dollars,percent_bachelors_or_higher,county_state of social_data_combined_cleaned,county_type,total_crime,crime_per_capita
+geoid,ansi_code,county of social_data_combined_cleaned,state_name,state_abbrev,population_2010,population_per_square_mile,median_income_dollars,mean_income_dollars,percent_bachelors_or_higher,county_state of social_data_combined_cleaned,county_type,total_crime,crime_per_capita
 1001,161526,autauga,alabama,AL,54571,91.80298636,53899,66457,21.6,autauga_alabama,Metropolitan,546,0.010005314
 1003,161527,baldwin,alabama,AL,182265,114.6476502,51321,67770,27.2,baldwin_alabama,Nonmetropolitan,1073,0.005887033
 1005,161528,barbour,alabama,AL,27457,31.02920635,34041,42287,13.9,barbour_alabama,Nonmetropolitan,57,0.002075973
@@ -66,35 +66,35 @@ geoid,ansi_code,county,state_name,state_abbrev,population_2010,population_per_sq
 1129,161590,washington,alabama,AL,17581,16.27558422,40286,51337,10.1,washington_alabama,Nonmetropolitan,203,0.011546556
 1131,161591,wilcox,alabama,AL,11670,13.13452591,23750,36605,12,wilcox_alabama,NA,-1,-0.001
 1133,161592,winston,alabama,AL,24484,39.94264078,32557,45115,11.5,winston_alabama,Nonmetropolitan,198,0.008086914
-2013,1419964,aleutians east borough,alaska,AK,3141,0.44987477,57083,67263,17.8,aleutians east borough_alaska,NA,-1,-0.001
-2016,1419965,aleutians west census area,alaska,AK,5561,1.266662962,75179,82729,11.1,aleutians west census area_alaska,NA,-1,-0.001
-2020,1416061,anchorage municipality,alaska,AK,291826,171.1907727,75485,94073,32.3,anchorage municipality_alaska,NA,-1,-0.001
-2050,1419966,bethel census area,alaska,AK,17013,0.419349232,52063,69727,12.5,bethel census area_alaska,NA,-1,-0.001
-2060,1419967,bristol bay borough,alaska,AK,997,1.978791012,80000,91508,19.6,bristol bay borough_alaska,NA,-1,-0.001
-2068,1419988,denali borough,alaska,AK,1826,0.143199839,82898,83741,24.2,denali borough_alaska,NA,-1,-0.001
-2070,1419968,dillingham census area,alaska,AK,4847,0.261029563,57681,74417,19.2,dillingham census area_alaska,NA,-1,-0.001
-2090,1419969,fairbanks north star borough,alaska,AK,97581,13.29765887,68922,81952,27.7,fairbanks north star borough_alaska,NA,-1,-0.001
-2100,1419970,haines borough,alaska,AK,2508,1.081687225,51667,66432,31.6,haines borough_alaska,NA,-1,-0.001
-2105,2371430,hoonah-angoon census area,alaska,AK,2150,0.285717513,49545,61984,27.9,hoonah-angoon census area_alaska,NA,-1,-0.001
-2110,1419971,juneau city and borough,alaska,AK,31275,11.57505503,77465,93994,36.4,juneau city and borough_alaska,NA,-1,-0.001
-2122,1419972,kenai peninsula borough,alaska,AK,55400,3.446274294,59256,73367,23.1,kenai peninsula borough_alaska,NA,-1,-0.001
-2130,1419973,ketchikan gateway borough,alaska,AK,13477,2.773950511,57243,71835,24.6,ketchikan gateway borough_alaska,NA,-1,-0.001
-2150,1419974,kodiak island borough,alaska,AK,13592,2.07524789,66326,75206,24.5,kodiak island borough_alaska,NA,-1,-0.001
-2164,1419975,lake and peninsula borough,alaska,AK,1631,0.068958201,51429,59655,19.8,lake and peninsula borough_alaska,NA,-1,-0.001
-2170,1419976,matanuska-susitna borough,alaska,AK,88995,3.616521818,70343,81319,20.9,matanuska-susitna borough_alaska,NA,-1,-0.001
-2180,1419977,nome census area,alaska,AK,9492,0.413382928,52435,67008,15.7,nome census area_alaska,NA,-1,-0.001
-2185,1419978,north slope borough,alaska,AK,9430,0.106318914,76667,85856,17.6,north slope borough_alaska,NA,-1,-0.001
-2188,1419979,northwest arctic borough,alaska,AK,7523,0.21148309,59893,69215,12.2,northwest arctic borough_alaska,NA,-1,-0.001
-2195,2516404,petersburg census area,alaska,AK,3815,1.16240735,64216,74481,24.2,petersburg census area_alaska,NA,-1,-0.001
-2198,1419980,prince of wales-hyder census area,alaska,AK,5559,1.41707366,45513,60413,16.1,prince of wales-hyder census area_alaska,NA,-1,-0.001
-2220,1419981,sitka city and borough,alaska,AK,8881,3.094059622,69798,79736,34.7,sitka city and borough_alaska,NA,-1,-0.001
-2230,2339479,skagway municipality,alaska,AK,968,2.140054165,73000,88057,28.8,skagway municipality_alaska,NA,-1,-0.001
-2240,1419983,southeast fairbanks census area,alaska,AK,7029,0.283784347,59917,70878,20.8,southeast fairbanks census area_alaska,NA,-1,-0.001
-2261,1419984,valdez-cordova census area,alaska,AK,9636,0.28142622,62238,77849,24.5,valdez-cordova census area_alaska,NA,-1,-0.001
-2270,1419985,wade hampton census area,alaska,AK,7459,0.436672965,39583,48736,6.9,wade hampton census area_alaska,NA,-1,-0.001
-2275,2418874,wrangell city and borough,alaska,AK,2369,0.932132932,50000,71537,19.3,wrangell city and borough_alaska,NA,-1,-0.001
-2282,1419986,yakutat city and borough,alaska,AK,662,0.086542091,74844,85346,25.8,yakutat city and borough_alaska,NA,-1,-0.001
-2290,1419987,yukon-koyukuk census area,alaska,AK,5588,0.038404234,35335,48366,10.1,yukon-koyukuk census area_alaska,NA,-1,-0.001
+2013,1419964,aleutians east,alaska,AK,3141,0.44987477,57083,67263,17.8,aleutians east borough_alaska,NA,-1,-0.001
+2016,1419965,aleutians west,alaska,AK,5561,1.266662962,75179,82729,11.1,aleutians west census area_alaska,NA,-1,-0.001
+2020,1416061,anchorage,alaska,AK,291826,171.1907727,75485,94073,32.3,anchorage municipality_alaska,NA,-1,-0.001
+2050,1419966,bethel,alaska,AK,17013,0.419349232,52063,69727,12.5,bethel census area_alaska,NA,-1,-0.001
+2060,1419967,bristol bay,alaska,AK,997,1.978791012,80000,91508,19.6,bristol bay borough_alaska,NA,-1,-0.001
+2068,1419988,denali,alaska,AK,1826,0.143199839,82898,83741,24.2,denali borough_alaska,NA,-1,-0.001
+2070,1419968,dillingham,alaska,AK,4847,0.261029563,57681,74417,19.2,dillingham census area_alaska,NA,-1,-0.001
+2090,1419969,fairbanks north star,alaska,AK,97581,13.29765887,68922,81952,27.7,fairbanks north star borough_alaska,NA,-1,-0.001
+2100,1419970,haines,alaska,AK,2508,1.081687225,51667,66432,31.6,haines borough_alaska,NA,-1,-0.001
+2105,2371430,hoonah-angoon,alaska,AK,2150,0.285717513,49545,61984,27.9,hoonah-angoon census area_alaska,NA,-1,-0.001
+2110,1419971,juneau city,alaska,AK,31275,11.57505503,77465,93994,36.4,juneau city and borough_alaska,NA,-1,-0.001
+2122,1419972,kenai peninsula,alaska,AK,55400,3.446274294,59256,73367,23.1,kenai peninsula borough_alaska,NA,-1,-0.001
+2130,1419973,ketchikan gateway,alaska,AK,13477,2.773950511,57243,71835,24.6,ketchikan gateway borough_alaska,NA,-1,-0.001
+2150,1419974,kodiak island,alaska,AK,13592,2.07524789,66326,75206,24.5,kodiak island borough_alaska,NA,-1,-0.001
+2164,1419975,lake and peninsula,alaska,AK,1631,0.068958201,51429,59655,19.8,lake and peninsula borough_alaska,NA,-1,-0.001
+2170,1419976,matanuska-susitna,alaska,AK,88995,3.616521818,70343,81319,20.9,matanuska-susitna borough_alaska,NA,-1,-0.001
+2180,1419977,nome,alaska,AK,9492,0.413382928,52435,67008,15.7,nome census area_alaska,NA,-1,-0.001
+2185,1419978,north slope,alaska,AK,9430,0.106318914,76667,85856,17.6,north slope borough_alaska,NA,-1,-0.001
+2188,1419979,northwest arctic,alaska,AK,7523,0.21148309,59893,69215,12.2,northwest arctic borough_alaska,NA,-1,-0.001
+2195,2516404,petersburg,alaska,AK,3815,1.16240735,64216,74481,24.2,petersburg census area_alaska,NA,-1,-0.001
+2198,1419980,prince of wales-hyder,alaska,AK,5559,1.41707366,45513,60413,16.1,prince of wales-hyder census area_alaska,NA,-1,-0.001
+2220,1419981,sitka city,alaska,AK,8881,3.094059622,69798,79736,34.7,sitka city and borough_alaska,NA,-1,-0.001
+2230,2339479,skagway,alaska,AK,968,2.140054165,73000,88057,28.8,skagway municipality_alaska,NA,-1,-0.001
+2240,1419983,southeast fairbanks,alaska,AK,7029,0.283784347,59917,70878,20.8,southeast fairbanks census area_alaska,NA,-1,-0.001
+2261,1419984,valdez-cordova,alaska,AK,9636,0.28142622,62238,77849,24.5,valdez-cordova census area_alaska,NA,-1,-0.001
+2270,1419985,wade hampton,alaska,AK,7459,0.436672965,39583,48736,6.9,wade hampton census area_alaska,NA,-1,-0.001
+2275,2418874,wrangell city,alaska,AK,2369,0.932132932,50000,71537,19.3,wrangell city and borough_alaska,NA,-1,-0.001
+2282,1419986,yakutat city,alaska,AK,662,0.086542091,74844,85346,25.8,yakutat city and borough_alaska,NA,-1,-0.001
+2290,1419987,yukon-koyukuk,alaska,AK,5588,0.038404234,35335,48366,10.1,yukon-koyukuk census area_alaska,NA,-1,-0.001
 4001,25441,apache,arizona,AZ,71518,6.386949397,31011,41584,10.1,apache_arizona,Nonmetropolitan,221,0.003090131
 4003,25442,cochise,arizona,AZ,131346,21.30272524,45906,59099,21.9,cochise_arizona,Nonmetropolitan,1164,0.008862089
 4005,25443,coconino,arizona,AZ,134421,7.219605256,49615,63513,31.5,coconino_arizona,Metropolitan,672,0.004999219
@@ -1112,69 +1112,69 @@ geoid,ansi_code,county,state_name,state_abbrev,population_2010,population_per_sq
 21235,516964,whitley,kentucky,KY,35637,81.39460521,29280,40283,11.7,whitley_kentucky,Nonmetropolitan,208,0.00583663
 21237,516965,wolfe,kentucky,KY,7355,33.10513073,21968,31359,8.7,wolfe_kentucky,Nonmetropolitan,26,0.00353501
 21239,516966,woodford,kentucky,KY,24939,132.1033562,55124,70836,30.4,woodford_kentucky,Metropolitan,20,0.000801957
-22001,558389,acadia parish,louisiana,LA,61773,94.29279261,37970,51108,10.6,acadia parish_louisiana,NA,-1,-0.001
-22003,558397,allen parish,louisiana,LA,25764,33.81781381,39007,51603,9.1,allen parish_louisiana,NA,-1,-0.001
-22005,558403,ascension parish,louisiana,LA,107215,369.7311203,66173,78177,22.8,ascension parish_louisiana,NA,-1,-0.001
-22007,558414,assumption parish,louisiana,LA,23421,69.15826586,46699,58162,8.1,assumption parish_louisiana,NA,-1,-0.001
-22009,558424,avoyelles parish,louisiana,LA,42073,50.54214508,32321,46062,9.6,avoyelles parish_louisiana,NA,-1,-0.001
-22011,558436,beauregard parish,louisiana,LA,35654,30.80679695,45113,57867,14.8,beauregard parish_louisiana,NA,-1,-0.001
-22013,558445,bienville parish,louisiana,LA,14353,17.69205737,30594,44642,13.6,bienville parish_louisiana,NA,-1,-0.001
-22015,558453,bossier parish,louisiana,LA,116979,139.2512651,51771,66492,22.8,bossier parish_louisiana,NA,-1,-0.001
-22017,558458,caddo parish,louisiana,LA,254969,290.21933,39086,58294,21.9,caddo parish_louisiana,NA,-1,-0.001
-22019,558468,calcasieu parish,louisiana,LA,192768,181.2310148,43614,61668,19.1,calcasieu parish_louisiana,NA,-1,-0.001
-22021,558477,caldwell parish,louisiana,LA,10132,19.13774378,38606,53857,11.2,caldwell parish_louisiana,NA,-1,-0.001
-22023,558488,cameron parish,louisiana,LA,6839,5.32264705,61679,68896,12.4,cameron parish_louisiana,NA,-1,-0.001
-22025,558495,catahoula parish,louisiana,LA,10407,14.69852972,37115,45760,10.2,catahoula parish_louisiana,NA,-1,-0.001
-22027,558505,claiborne parish,louisiana,LA,17195,22.7785152,32972,47409,11.7,claiborne parish_louisiana,NA,-1,-0.001
-22029,558515,concordia parish,louisiana,LA,20822,29.87717385,28705,43969,11,concordia parish_louisiana,NA,-1,-0.001
-22031,558521,de soto parish,louisiana,LA,26656,30.44385487,39213,52850,13.3,de soto parish_louisiana,NA,-1,-0.001
-22033,558530,east baton rouge parish,louisiana,LA,440171,966.6142555,46838,67323,33.4,east baton rouge parish_louisiana,NA,-1,-0.001
-22035,558534,east carroll parish,louisiana,LA,7759,18.44289572,25267,63083,9.7,east carroll parish_louisiana,NA,-1,-0.001
-22037,558542,east feliciana parish,louisiana,LA,20267,44.69905825,37403,53984,11.7,east feliciana parish_louisiana,NA,-1,-0.001
-22039,558551,evangeline parish,louisiana,LA,33984,51.30605183,34848,49260,12.3,evangeline parish_louisiana,NA,-1,-0.001
-22041,558557,franklin parish,louisiana,LA,20767,33.24927752,34105,50512,11.4,franklin parish_louisiana,NA,-1,-0.001
-22043,558567,grant parish,louisiana,LA,22309,34.69377599,39988,51131,10.6,grant parish_louisiana,NA,-1,-0.001
-22045,558576,iberia parish,louisiana,LA,73240,127.5711491,42989,58750,12.9,iberia parish_louisiana,NA,-1,-0.001
-22047,558582,iberville parish,louisiana,LA,33387,53.96951636,43195,60850,12,iberville parish_louisiana,NA,-1,-0.001
-22049,558592,jackson parish,louisiana,LA,16274,28.59185886,39809,50339,13.4,jackson parish_louisiana,NA,-1,-0.001
-22051,558027,jefferson parish,louisiana,LA,432552,1463.143367,48374,66845,23.3,jefferson parish_louisiana,NA,-1,-0.001
-22053,558039,jefferson davis parish,louisiana,LA,31594,48.50705021,43585,54703,12,jefferson davis parish_louisiana,NA,-1,-0.001
-22055,558059,lafayette parish,louisiana,LA,221578,824.5683239,48591,69207,27.3,lafayette parish_louisiana,NA,-1,-0.001
-22057,558065,lafourche parish,louisiana,LA,96318,90.16732602,49262,65770,14.8,lafourche parish_louisiana,NA,-1,-0.001
-22059,558049,la salle parish,louisiana,LA,14890,23.83605151,42066,56981,13.7,la salle parish_louisiana,NA,-1,-0.001
-22061,558077,lincoln parish,louisiana,LA,46735,99.06898262,34152,52099,32.3,lincoln parish_louisiana,NA,-1,-0.001
-22063,558083,livingston parish,louisiana,LA,128026,197.5194741,57254,67010,17.1,livingston parish_louisiana,NA,-1,-0.001
-22065,558088,madison parish,louisiana,LA,12093,19.36624511,26178,40311,11.5,madison parish_louisiana,NA,-1,-0.001
-22067,558097,morehouse parish,louisiana,LA,27979,35.19663268,31269,40648,11.3,morehouse parish_louisiana,NA,-1,-0.001
-22069,558108,natchitoches parish,louisiana,LA,39566,31.59592733,31830,47926,21.6,natchitoches parish_louisiana,NA,-1,-0.001
-22071,558113,orleans parish,louisiana,LA,343829,2029.411591,37325,59780,32.3,orleans parish_louisiana,NA,-1,-0.001
-22073,558114,ouachita parish,louisiana,LA,153720,251.832387,39724,58070,23.2,ouachita parish_louisiana,NA,-1,-0.001
-22075,558125,plaquemines parish,louisiana,LA,23042,29.54439673,55301,68588,16.8,plaquemines parish_louisiana,NA,-1,-0.001
-22077,559449,pointe coupee parish,louisiana,LA,22802,40.91174961,43030,56151,15.6,pointe coupee parish_louisiana,NA,-1,-0.001
-22079,559460,rapides parish,louisiana,LA,131613,99.86099751,40470,56670,18.5,rapides parish_louisiana,NA,-1,-0.001
-22081,559472,red river parish,louisiana,LA,9091,23.36477422,37159,56373,13,red river parish_louisiana,NA,-1,-0.001
-22083,559481,richland parish,louisiana,LA,20725,37.07228245,38469,48283,12.2,richland parish_louisiana,NA,-1,-0.001
-22085,559489,sabine parish,louisiana,LA,24233,27.9614012,36959,52927,11.9,sabine parish_louisiana,NA,-1,-0.001
-22087,1629542,st. bernard parish,louisiana,LA,35897,95.08710866,40450,51898,10.2,st. bernard parish_louisiana,NA,-1,-0.001
-22089,1629449,st. charles parish,louisiana,LA,52780,189.1193659,60207,73041,19.5,st. charles parish_louisiana,NA,-1,-0.001
-22091,1629457,st. helena parish,louisiana,LA,11203,27.43123826,29632,47423,9.9,st. helena parish_louisiana,NA,-1,-0.001
-22093,1629464,st. james parish,louisiana,LA,22102,91.50564924,52887,66453,11.3,st. james parish_louisiana,NA,-1,-0.001
-22095,1629472,st. john the baptist parish,louisiana,LA,45924,215.5337892,49671,60747,15.6,st. john the baptist parish_louisiana,NA,-1,-0.001
-22097,1629479,st. landry parish,louisiana,LA,83384,90.25424325,34350,49423,12.6,st. landry parish_louisiana,NA,-1,-0.001
-22099,1629486,st. martin parish,louisiana,LA,52160,70.71123354,40358,55533,12.1,st. martin parish_louisiana,NA,-1,-0.001
-22101,1629492,st. mary parish,louisiana,LA,54650,98.40127192,40171,53183,9.9,st. mary parish_louisiana,NA,-1,-0.001
-22103,1629503,st. tammany parish,louisiana,LA,233740,276.4351293,61442,79667,29.8,st. tammany parish_louisiana,NA,-1,-0.001
-22105,559500,tangipahoa parish,louisiana,LA,121097,153.0403463,40214,54803,19.8,tangipahoa parish_louisiana,NA,-1,-0.001
-22107,559509,tensas parish,louisiana,LA,5252,8.712905452,28090,41783,11.8,tensas parish_louisiana,NA,-1,-0.001
-22109,559517,terrebonne parish,louisiana,LA,111860,90.80909065,48166,63250,13.3,terrebonne parish_louisiana,NA,-1,-0.001
-22111,559528,union parish,louisiana,LA,22721,25.90799418,37426,51688,12.7,union parish_louisiana,NA,-1,-0.001
-22113,559538,vermilion parish,louisiana,LA,57999,49.43662584,43349,58315,12.1,vermilion parish_louisiana,NA,-1,-0.001
-22115,559548,vernon parish,louisiana,LA,52334,39.41080344,45292,55598,17.2,vernon parish_louisiana,NA,-1,-0.001
-22117,559557,washington parish,louisiana,LA,47168,70.44994586,30554,44716,11.4,washington parish_louisiana,NA,-1,-0.001
-22119,559567,webster parish,louisiana,LA,41207,69.4855235,36225,49025,13.7,webster parish_louisiana,NA,-1,-0.001
-22121,559570,west baton rouge parish,louisiana,LA,23788,123.6421094,49929,62508,17,west baton rouge parish_louisiana,NA,-1,-0.001
-22123,559578,west carroll parish,louisiana,LA,11604,32.26506064,30446,45658,7.8,west carroll parish_louisiana,NA,-1,-0.001
-22125,559584,west feliciana parish,louisiana,LA,15625,38.75113463,50685,66792,15.8,west feliciana parish_louisiana,NA,-1,-0.001
+22001,558389,acadia,louisiana,LA,61773,94.29279261,37970,51108,10.6,acadia_louisiana,Nonmetropolitan,102,0.001651207
+22003,558397,allen,louisiana,LA,25764,33.81781381,39007,51603,9.1,allen_louisiana,Nonmetropolitan,22,0.000853905
+22005,558403,ascension,louisiana,LA,107215,369.7311203,66173,78177,22.8,ascension_louisiana,Metropolitan,373,0.003478991
+22007,558414,assumption,louisiana,LA,23421,69.15826586,46699,58162,8.1,assumption_louisiana,Nonmetropolitan,86,0.003671918
+22009,558424,avoyelles,louisiana,LA,42073,50.54214508,32321,46062,9.6,avoyelles_louisiana,Nonmetropolitan,84,0.00199653
+22011,558436,beauregard,louisiana,LA,35654,30.80679695,45113,57867,14.8,beauregard_louisiana,NA,-1,-0.001
+22013,558445,bienville,louisiana,LA,14353,17.69205737,30594,44642,13.6,bienville_louisiana,Nonmetropolitan,42,0.002926218
+22015,558453,bossier,louisiana,LA,116979,139.2512651,51771,66492,22.8,bossier_louisiana,Metropolitan,66,0.000564204
+22017,558458,caddo,louisiana,LA,254969,290.21933,39086,58294,21.9,caddo_louisiana,Metropolitan,113,0.000443191
+22019,558468,calcasieu,louisiana,LA,192768,181.2310148,43614,61668,19.1,calcasieu_louisiana,Metropolitan,375,0.001945344
+22021,558477,caldwell,louisiana,LA,10132,19.13774378,38606,53857,11.2,caldwell_louisiana,Nonmetropolitan,22,0.002171338
+22023,558488,cameron,louisiana,LA,6839,5.32264705,61679,68896,12.4,cameron_louisiana,Metropolitan,15,0.002193303
+22025,558495,catahoula,louisiana,LA,10407,14.69852972,37115,45760,10.2,catahoula_louisiana,NA,-1,-0.001
+22027,558505,claiborne,louisiana,LA,17195,22.7785152,32972,47409,11.7,claiborne_louisiana,NA,-1,-0.001
+22029,558515,concordia,louisiana,LA,20822,29.87717385,28705,43969,11,concordia_louisiana,Nonmetropolitan,66,0.003169724
+22031,558521,de soto,louisiana,LA,26656,30.44385487,39213,52850,13.3,de soto_louisiana,NA,-1,-0.001
+22033,558530,east baton rouge,louisiana,LA,440171,966.6142555,46838,67323,33.4,east baton rouge_louisiana,Metropolitan,536,0.001217709
+22035,558534,east carroll,louisiana,LA,7759,18.44289572,25267,63083,9.7,east carroll_louisiana,Nonmetropolitan,25,0.003222065
+22037,558542,east feliciana,louisiana,LA,20267,44.69905825,37403,53984,11.7,east feliciana_louisiana,Metropolitan,1,4.93E-05
+22039,558551,evangeline,louisiana,LA,33984,51.30605183,34848,49260,12.3,evangeline_louisiana,Nonmetropolitan,50,0.001471281
+22041,558557,franklin,louisiana,LA,20767,33.24927752,34105,50512,11.4,franklin_louisiana,NA,-1,-0.001
+22043,558567,grant,louisiana,LA,22309,34.69377599,39988,51131,10.6,grant_louisiana,Metropolitan,10,0.00044825
+22045,558576,iberia,louisiana,LA,73240,127.5711491,42989,58750,12.9,iberia_louisiana,Nonmetropolitan,390,0.005324959
+22047,558582,iberville,louisiana,LA,33387,53.96951636,43195,60850,12,iberville_louisiana,Metropolitan,276,0.008266691
+22049,558592,jackson,louisiana,LA,16274,28.59185886,39809,50339,13.4,jackson_louisiana,NA,-1,-0.001
+22051,558027,jefferson,louisiana,LA,432552,1463.143367,48374,66845,23.3,jefferson_louisiana,Metropolitan,1809,0.004182156
+22053,558039,jefferson davis,louisiana,LA,31594,48.50705021,43585,54703,12,jefferson davis_louisiana,NA,-1,-0.001
+22055,558059,lafayette,louisiana,LA,221578,824.5683239,48591,69207,27.3,lafayette_louisiana,Metropolitan,336,0.001516396
+22057,558065,lafourche,louisiana,LA,96318,90.16732602,49262,65770,14.8,lafourche_louisiana,Metropolitan,77,0.000799435
+22059,558049,la salle,louisiana,LA,14890,23.83605151,42066,56981,13.7,la salle_louisiana,Nonmetropolitan,34,0.002283412
+22061,558077,lincoln,louisiana,LA,46735,99.06898262,34152,52099,32.3,lincoln_louisiana,NA,-1,-0.001
+22063,558083,livingston,louisiana,LA,128026,197.5194741,57254,67010,17.1,livingston_louisiana,Metropolitan,270,0.002108947
+22065,558088,madison,louisiana,LA,12093,19.36624511,26178,40311,11.5,madison_louisiana,Nonmetropolitan,25,0.002067312
+22067,558097,morehouse,louisiana,LA,27979,35.19663268,31269,40648,11.3,morehouse_louisiana,Nonmetropolitan,29,0.001036492
+22069,558108,natchitoches,louisiana,LA,39566,31.59592733,31830,47926,21.6,natchitoches_louisiana,Nonmetropolitan,118,0.002982359
+22071,558113,orleans,louisiana,LA,343829,2029.411591,37325,59780,32.3,orleans_louisiana,NA,-1,-0.001
+22073,558114,ouachita,louisiana,LA,153720,251.832387,39724,58070,23.2,ouachita_louisiana,Metropolitan,134,0.000871715
+22075,558125,plaquemines,louisiana,LA,23042,29.54439673,55301,68588,16.8,plaquemines_louisiana,Metropolitan,41,0.001779359
+22077,559449,pointe coupee,louisiana,LA,22802,40.91174961,43030,56151,15.6,pointe coupee_louisiana,Metropolitan,122,0.005350408
+22079,559460,rapides,louisiana,LA,131613,99.86099751,40470,56670,18.5,rapides_louisiana,Metropolitan,300,0.00227941
+22081,559472,red river,louisiana,LA,9091,23.36477422,37159,56373,13,red river_louisiana,NA,-1,-0.001
+22083,559481,richland,louisiana,LA,20725,37.07228245,38469,48283,12.2,richland_louisiana,NA,-1,-0.001
+22085,559489,sabine,louisiana,LA,24233,27.9614012,36959,52927,11.9,sabine_louisiana,NA,-1,-0.001
+22087,1629542,st. bernard,louisiana,LA,35897,95.08710866,40450,51898,10.2,st. bernard_louisiana,Metropolitan,75,0.002089311
+22089,1629449,st. charles,louisiana,LA,52780,189.1193659,60207,73041,19.5,st. charles_louisiana,Metropolitan,193,0.003656688
+22091,1629457,st. helena,louisiana,LA,11203,27.43123826,29632,47423,9.9,st. helena_louisiana,Metropolitan,58,0.005177185
+22093,1629464,st. james,louisiana,LA,22102,91.50564924,52887,66453,11.3,st. james_louisiana,Nonmetropolitan,110,0.004976925
+22095,1629472,st. john the baptist,louisiana,LA,45924,215.5337892,49671,60747,15.6,st. john the baptist_louisiana,Metropolitan,113,0.002460587
+22097,1629479,st. landry,louisiana,LA,83384,90.25424325,34350,49423,12.6,st. landry_louisiana,NA,-1,-0.001
+22099,1629486,st. martin,louisiana,LA,52160,70.71123354,40358,55533,12.1,st. martin_louisiana,Metropolitan,125,0.002396472
+22101,1629492,st. mary,louisiana,LA,54650,98.40127192,40171,53183,9.9,st. mary_louisiana,NA,-1,-0.001
+22103,1629503,st. tammany,louisiana,LA,233740,276.4351293,61442,79667,29.8,st. tammany_louisiana,Metropolitan,270,0.00115513
+22105,559500,tangipahoa,louisiana,LA,121097,153.0403463,40214,54803,19.8,tangipahoa_louisiana,NA,-1,-0.001
+22107,559509,tensas,louisiana,LA,5252,8.712905452,28090,41783,11.8,tensas_louisiana,NA,-1,-0.001
+22109,559517,terrebonne,louisiana,LA,111860,90.80909065,48166,63250,13.3,terrebonne_louisiana,Metropolitan,295,0.002637225
+22111,559528,union,louisiana,LA,22721,25.90799418,37426,51688,12.7,union_louisiana,NA,-1,-0.001
+22113,559538,vermilion,louisiana,LA,57999,49.43662584,43349,58315,12.1,vermilion_louisiana,NA,-1,-0.001
+22115,559548,vernon,louisiana,LA,52334,39.41080344,45292,55598,17.2,vernon_louisiana,NA,-1,-0.001
+22117,559557,washington,louisiana,LA,47168,70.44994586,30554,44716,11.4,washington_louisiana,NA,-1,-0.001
+22119,559567,webster,louisiana,LA,41207,69.4855235,36225,49025,13.7,webster_louisiana,NA,-1,-0.001
+22121,559570,west baton rouge,louisiana,LA,23788,123.6421094,49929,62508,17,west baton rouge_louisiana,Metropolitan,-1,-0.001
+22123,559578,west carroll,louisiana,LA,11604,32.26506064,30446,45658,7.8,west carroll_louisiana,NA,-1,-0.001
+22125,559584,west feliciana,louisiana,LA,15625,38.75113463,50685,66792,15.8,west feliciana_louisiana,Metropolitan,-1,-0.001
 22127,559594,winn parish,louisiana,LA,15313,16.11748831,30938,43700,12.2,winn parish_louisiana,NA,-1,-0.001
 23001,581286,androscoggin,maine,ME,107702,230.168381,45699,57121,18.6,androscoggin_maine,Metropolitan,260,0.002414068
 23003,581287,aroostook,maine,ME,71870,10.77296431,37138,47626,16.4,aroostook_maine,Nonmetropolitan,81,0.001127035
