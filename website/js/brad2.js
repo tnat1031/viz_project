@@ -1,3 +1,10 @@
+// from example here:
+// http://stackoverflow.com/questions/4878756/javascript-how-to-capitalize-first-letter-of-each-word-like-a-2-word-city
+function toTitleCase(str)
+{
+    return str.replace(/\w\S*/g, function(txt){return txt.charAt(0).toUpperCase() + txt.substr(1).toLowerCase();});
+}
+
 function drawScatter(file_path, colname) {
 	var parseDate = d3.time.format("%Y-%m-%d").parse;
 	d3.csv(file_path, function(rows) {
@@ -5,10 +12,14 @@ function drawScatter(file_path, colname) {
 		var datacol = datacols[0];
 		var data = {name: datacol, values: []};
 		rows.forEach(function(r) {
-			var d = +r.percent_bachelors_or_higher;
+			var d = +r.all_tweets;
 			var c = +r[datacol];
+			var n = r.county;
+			var s = r.state_abbrev;
 			data.values.push({tweets: d,
-							  factor2: c});
+							  factor2: c,
+							  county: n,
+							  state: s});
 		});
 		var e = d3.select("#social_tab").selectAll(".viz_body");
 		console.log(e);
@@ -33,7 +44,14 @@ function drawScatterPlot (element, data, name, color)  {
 		.style("position", "absolute")
 		.style("z-index", "10")
 		.style("visibility", "hidden"); 
-		 
+	var toolHead = tooltip.append("h3")
+		.attr("class", "tooltip_head")
+	var toolTweets = tooltip.append("p")
+		.attr("class", "tooltip_tweets")
+	var toolFact = tooltip.append("p")
+		.attr("class", "tooltip_factor")
+
+	
 	var margin = {top: 20, right: 100, bottom: 30, left: 50},
 	width = 960 - margin.left - margin.right,
 	height = 500 - margin.top - margin.bottom;
@@ -87,7 +105,7 @@ function drawScatterPlot (element, data, name, color)  {
         	.attr("y", 6)
         	.attr("dy", ".71em")
         	.style("text-anchor", "end")
-        	.text("Percent College Educated");
+        	.text("Vulgar tweets per person");
 
     // svg.append("path")
        // .datum(data.values)
@@ -101,9 +119,12 @@ function drawScatterPlot (element, data, name, color)  {
       	.attr("cx", function(v) { return x(v.factor2); })
       	.attr("cy", function(v) { return y(v.tweets); })
       	.attr("r", 5)
-      	.attr("fill", color)
+      	.attr("fill", function(v) { if(v.factor2 < 0){return 'grey'} return color})
       	.on("mouseover", function(v) {
-			return tooltip.style("visibility", "visible").text(Math.round(v.tweets*100)/100 + " tweets\n" + Math.round(v.factor2*100)/100 + " " + name)
+			toolHead.text(toTitleCase(v.county)+" "+v.state);
+			toolTweets.text(Math.round(v.tweets*1000000)/1000000 + " tweets per person");
+			toolFact.text(Math.round(v.factor2*1000)/1000 + " " + name);
+			return tooltip.style("visibility", "visible")
 		})
 		.on("mousemove", function() {
 			return tooltip.style("top", (event.pageY-10)+"px").style("left",(event.pageX+10)+"px");})

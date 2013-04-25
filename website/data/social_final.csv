@@ -1,4 +1,4 @@
-geoid,ansi_code,county of social_data_combined_cleaned,state_name,state_abbrev,population_2010,population_per_square_mile,median_income_dollars,mean_income_dollars,percent_bachelors_or_higher,county_state of social_data_combined_cleaned,county_type,total_crime,crime_per_capita
+geoid,ansi_code,county,state_name,state_abbrev,population_2010,population_per_square_mile,median_income_dollars,mean_income_dollars,percent_bachelors_or_higher,county_state of social_data_combined_cleaned,county_type,total_crime,crime_per_capita
 1001,161526,autauga,alabama,AL,54571,91.80298636,53899,66457,21.6,autauga_alabama,Metropolitan,546,0.010005314
 1003,161527,baldwin,alabama,AL,182265,114.6476502,51321,67770,27.2,baldwin_alabama,Nonmetropolitan,1073,0.005887033
 1005,161528,barbour,alabama,AL,27457,31.02920635,34041,42287,13.9,barbour_alabama,Nonmetropolitan,57,0.002075973
@@ -42,7 +42,7 @@ geoid,ansi_code,county of social_data_combined_cleaned,state_name,state_abbrev,p
 1081,161566,lee,alabama,AL,140247,230.8455795,42320,56979,31.2,lee_alabama,Metropolitan,124,0.000884154
 1083,161567,limestone,alabama,AL,82782,147.8418962,47199,62843,21.1,limestone_alabama,Metropolitan,226,0.002730062
 1085,161568,lowndes,alabama,AL,11299,15.78268807,27905,46229,13.7,lowndes_alabama,Metropolitan,314,0.02779007
-1087,161569,macon,alabama,AL,21452,35.23161188,29355,42088,21.1,macon_alabama,Nonmetropolitan,1,4.66157E-05
+1087,161569,macon,alabama,AL,21452,35.23161188,29355,42088,21.1,macon_alabama,Nonmetropolitan,1,4.66E-05
 1089,161570,madison,alabama,AL,334811,417.6820406,57453,76342,37.4,madison_alabama,NA,-1,-0.001
 1091,161572,marengo,alabama,AL,21027,21.52460584,35165,47426,17.8,marengo_alabama,Nonmetropolitan,203,0.009654254
 1093,161573,marion,alabama,AL,30776,41.46077285,31799,43452,8.5,marion_alabama,Nonmetropolitan,275,0.008935534
@@ -414,7 +414,7 @@ geoid,ansi_code,county of social_data_combined_cleaned,state_name,state_abbrev,p
 13053,351012,chattahoochee,georgia,GA,11267,45.29702174,49969,57795,28.4,chattahoochee_georgia,Metropolitan,73,0.006479098
 13055,352213,chattooga,georgia,GA,26015,83.0253592,32224,40539,7.8,chattooga_georgia,NA,-1,-0.001
 13057,1685718,cherokee,georgia,GA,214346,508.3215944,66717,82591,33.6,cherokee_georgia,Metropolitan,2221,0.010361752
-13059,1672699,clarke,georgia,GA,116714,979.1442953,34151,51588,40.7,clarke_georgia,Metropolitan,2,1.71359E-05
+13059,1672699,clarke,georgia,GA,116714,979.1442953,34151,51588,40.7,clarke_georgia,Metropolitan,2,1.71E-05
 13061,344805,clay,georgia,GA,3183,16.29124633,24750,32870,9.5,clay_georgia,Nonmetropolitan,16,0.005026704
 13063,1672399,clayton,georgia,GA,259424,1832.478632,42936,52521,17.8,clayton_georgia,Metropolitan,11236,0.043311336
 13065,351285,clinch,georgia,GA,6798,8.495142598,33143,40445,13.9,clinch_georgia,Nonmetropolitan,75,0.011032657
@@ -1311,7 +1311,7 @@ geoid,ansi_code,county of social_data_combined_cleaned,state_name,state_abbrev,p
 26157,1623019,tuscola,michigan,MI,55729,69.39002175,43315,52263,12.9,tuscola_michigan,Nonmetropolitan,371,0.006657216
 26159,1623020,van buren,michigan,MI,76258,125.5329446,44428,56181,17.8,van buren_michigan,Metropolitan,709,0.009297385
 26161,1623021,washtenaw,michigan,MI,344791,488.3967335,59737,80560,51,washtenaw_michigan,Metropolitan,2577,0.007474093
-26163,1623022,wayne,michigan,MI,1820584,2974.421644,41886,57673,20.6,wayne_michigan,Metropolitan,26,1.42811E-05
+26163,1623022,wayne,michigan,MI,1820584,2974.421644,41886,57673,20.6,wayne_michigan,Metropolitan,26,1.43E-05
 26165,1623023,wexford,michigan,MI,32735,57.93784801,42209,52310,16.5,wexford_michigan,Nonmetropolitan,422,0.012891401
 27001,663198,aitkin,minnesota,MN,16202,8.894070967,41301,52927,15.1,aitkin_minnesota,Nonmetropolitan,408,0.025182076
 27003,659447,anoka,minnesota,MN,330844,782.118626,69139,80327,25.8,anoka_minnesota,Metropolitan,1674,0.005059786
@@ -1659,7 +1659,7 @@ geoid,ansi_code,county of social_data_combined_cleaned,state_name,state_abbrev,p
 31007,835826,banner,nebraska,NE,690,0.924791654,27167,47400,23.5,banner_nebraska,NA,-1,-0.001
 31009,835827,blaine,nebraska,NE,478,0.672411707,39688,43662,14.3,blaine_nebraska,NA,-1,-0.001
 31011,835828,boone,nebraska,NE,5505,8.018305916,41691,55912,12.8,boone_nebraska,NA,-1,-0.001
-31013,835991,box butte,nebraska,NE,11308,10.51620349,44118,56717,21.1,box butte_nebraska,Nonmetropolitan,1,8.8433E-05
+31013,835991,box butte,nebraska,NE,11308,10.51620349,44118,56717,21.1,box butte_nebraska,Nonmetropolitan,1,8.84E-05
 31015,835829,boyd,nebraska,NE,2099,3.887468978,37375,46852,13.7,boyd_nebraska,Nonmetropolitan,9,0.004287756
 31017,835830,brown,nebraska,NE,3145,2.575055288,29856,39729,17.8,brown_nebraska,Nonmetropolitan,28,0.008903021
 31019,835831,buffalo,nebraska,NE,46102,47.62052325,49851,61699,31.5,buffalo_nebraska,Nonmetropolitan,149,0.003231964
@@ -1770,7 +1770,7 @@ geoid,ansi_code,county of social_data_combined_cleaned,state_name,state_abbrev,p
 33009,873178,grafton,new hampshire,NH,89118,52.1539442,53000,71765,36,grafton_new hampshire,NA,-1,-0.001
 33011,873179,hillsborough,new hampshire,NH,400721,457.3714901,70591,86639,34.6,hillsborough_new hampshire,NA,-1,-0.001
 33013,873180,merrimack,new hampshire,NH,146445,156.773891,65722,79649,33.4,merrimack_new hampshire,Nonmetropolitan,21,0.000143399
-33015,873181,rockingham,new hampshire,NH,295223,424.9524988,77470,95164,36.8,rockingham_new hampshire,Nonmetropolitan,11,3.726E-05
+33015,873181,rockingham,new hampshire,NH,295223,424.9524988,77470,95164,36.8,rockingham_new hampshire,Nonmetropolitan,11,3.73E-05
 33017,873182,strafford,new hampshire,NH,123143,333.7434786,59082,75961,30.2,strafford_new hampshire,NA,-1,-0.001
 33019,873183,sullivan,new hampshire,NH,43742,81.4087878,51678,64391,25.8,sullivan_new hampshire,NA,-1,-0.001
 34001,882270,atlantic,new jersey,NJ,274549,494.0561882,55222,72025,23.2,atlantic_new jersey,Nonmetropolitan,0,0
@@ -1828,7 +1828,7 @@ geoid,ansi_code,county of social_data_combined_cleaned,state_name,state_abbrev,p
 35059,929115,union,new mexico,NM,4549,1.189671694,42230,52584,17.2,union_new mexico,Nonmetropolitan,20,0.004396571
 35061,933052,valencia,new mexico,NM,76569,71.81654044,41388,53942,16.2,valencia_new mexico,Nonmetropolitan,1606,0.020974546
 36001,974099,albany,new york,NY,304204,581.8700699,57715,75821,37.8,albany_new york,Nonmetropolitan,194,0.00063773
-36003,974100,allegany,new york,NY,48946,47.55233613,41900,51838,17.4,allegany_new york,Nonmetropolitan,2,4.08614E-05
+36003,974100,allegany,new york,NY,48946,47.55233613,41900,51838,17.4,allegany_new york,Nonmetropolitan,2,4.09E-05
 36005,974101,bronx,new york,NY,1385108,32903.55378,34744,48609,17.9,bronx_new york,NA,-1,-0.001
 36007,974102,broome,new york,NY,200600,284.2301839,45619,60123,25.7,broome_new york,Nonmetropolitan,974,0.004855434
 36009,974103,cattaraugus,new york,NY,80317,61.3880078,42754,52267,17.5,cattaraugus_new york,Nonmetropolitan,557,0.00693502
@@ -1848,7 +1848,7 @@ geoid,ansi_code,county of social_data_combined_cleaned,state_name,state_abbrev,p
 36037,974117,genesee,new york,NY,60079,121.8799195,50861,61933,20.4,genesee_new york,Nonmetropolitan,701,0.011667971
 36039,974118,greene,new york,NY,49221,76.05680812,47033,59327,18.6,greene_new york,Nonmetropolitan,79,0.001605006
 36041,974119,hamilton,new york,NY,4836,2.815928747,51142,63732,25.6,hamilton_new york,Nonmetropolitan,9,0.001861042
-36043,974120,herkimer,new york,NY,64519,45.7105004,42680,53916,18.5,herkimer_new york,Nonmetropolitan,2,3.09986E-05
+36043,974120,herkimer,new york,NY,64519,45.7105004,42680,53916,18.5,herkimer_new york,Nonmetropolitan,2,3.10E-05
 36045,974121,jefferson,new york,NY,116229,91.62061817,45559,56361,20.6,jefferson_new york,Nonmetropolitan,277,0.002383226
 36047,974122,kings,new york,NY,2504700,35369.12562,44593,64845,29.2,kings_new york,NA,-1,-0.001
 36049,974123,lewis,new york,NY,27087,21.2500559,44281,53980,13.7,lewis_new york,Nonmetropolitan,254,0.009377192
@@ -1873,7 +1873,7 @@ geoid,ansi_code,county of social_data_combined_cleaned,state_name,state_abbrev,p
 36087,974142,rockland,new york,NY,311687,1795.949294,84661,107873,40.8,rockland_new york,Nonmetropolitan,46,0.000147584
 36089,977309,st. lawrence,new york,NY,111944,41.7642742,43390,54104,18.9,st. lawrence_new york,Nonmetropolitan,102,0.00091117
 36091,974143,saratoga,new york,NY,219607,271.1251086,67186,82308,35.4,saratoga_new york,Nonmetropolitan,1328,0.006047166
-36093,974144,schenectady,new york,NY,154727,756.5520546,55587,69316,28.8,schenectady_new york,Nonmetropolitan,15,9.69449E-05
+36093,974144,schenectady,new york,NY,154727,756.5520546,55587,69316,28.8,schenectady_new york,Nonmetropolitan,15,9.69E-05
 36095,974145,schoharie,new york,NY,32749,52.66645117,50795,62290,20.5,schoharie_new york,Nonmetropolitan,89,0.00271764
 36097,974146,schuyler,new york,NY,18343,55.86706179,47804,55831,17,schuyler_new york,Nonmetropolitan,62,0.003380036
 36099,974147,seneca,new york,NY,35251,108.8985342,47266,57137,18.3,seneca_new york,Nonmetropolitan,219,0.00621259
@@ -2244,12 +2244,12 @@ geoid,ansi_code,county of social_data_combined_cleaned,state_name,state_abbrev,p
 41069,1135865,wheeler,oregon,OR,1441,0.840356227,34338,46787,13,wheeler_oregon,NA,-1,-0.001
 41071,1135866,yamhill,oregon,OR,99193,138.5648032,53819,66376,22.5,yamhill_oregon,Nonmetropolitan,613,0.006179872
 42001,1213656,adams,pennsylvania,PA,101407,195.5142789,57097,68149,18.8,adams_pennsylvania,NA,-1,-0.001
-42003,1213657,allegheny,pennsylvania,PA,1223348,1675.647023,49805,69718,34.5,allegheny_pennsylvania,Nonmetropolitan,5,4.08714E-06
+42003,1213657,allegheny,pennsylvania,PA,1223348,1675.647023,49805,69718,34.5,allegheny_pennsylvania,Nonmetropolitan,5,4.09E-06
 42005,1213658,armstrong,pennsylvania,PA,68941,105.5429935,44663,54741,13.8,armstrong_pennsylvania,NA,-1,-0.001
 42007,1214112,beaver,pennsylvania,PA,170539,392.3034101,47928,59878,20.3,beaver_pennsylvania,Nonmetropolitan,0,0
 42009,1209171,bedford,pennsylvania,PA,49762,49.15755866,40710,50487,12,bedford_pennsylvania,Nonmetropolitan,0,0
 42011,1209172,berks,pennsylvania,PA,411442,480.3725835,54823,68611,22.1,berks_pennsylvania,NA,-1,-0.001
-42013,1213659,blair,pennsylvania,PA,127089,241.7059719,43243,56424,17.3,blair_pennsylvania,Nonmetropolitan,2,1.5737E-05
+42013,1213659,blair,pennsylvania,PA,127089,241.7059719,43243,56424,17.3,blair_pennsylvania,Nonmetropolitan,2,1.57E-05
 42015,1213660,bradford,pennsylvania,PA,62622,54.57735278,42433,54010,16.5,bradford_pennsylvania,NA,-1,-0.001
 42017,1209173,bucks,pennsylvania,PA,625249,1034.654571,76019,97147,34.7,bucks_pennsylvania,NA,-1,-0.001
 42019,1213661,butler,pennsylvania,PA,183862,233.1487033,57474,74141,29.3,butler_pennsylvania,Nonmetropolitan,0,0
@@ -2258,7 +2258,7 @@ geoid,ansi_code,county of social_data_combined_cleaned,state_name,state_abbrev,p
 42025,1213664,carbon,pennsylvania,PA,65249,171.0506999,49056,59589,15,carbon_pennsylvania,NA,-1,-0.001
 42027,1214720,centre,pennsylvania,PA,153990,138.739604,48262,64731,39.8,centre_pennsylvania,Nonmetropolitan,0,0
 42029,1209174,chester,pennsylvania,PA,498886,664.7310888,86264,113068,48.1,chester_pennsylvania,NA,-1,-0.001
-42031,1210234,clarion,pennsylvania,PA,39988,66.55415639,41557,52491,17.8,clarion_pennsylvania,Nonmetropolitan,1,2.50075E-05
+42031,1210234,clarion,pennsylvania,PA,39988,66.55415639,41557,52491,17.8,clarion_pennsylvania,Nonmetropolitan,1,2.50E-05
 42033,1209175,clearfield,pennsylvania,PA,81642,71.32037298,39391,49790,13.3,clearfield_pennsylvania,NA,-1,-0.001
 42035,1214721,clinton,pennsylvania,PA,39238,44.18773311,39696,51468,16.4,clinton_pennsylvania,NA,-1,-0.001
 42037,1213665,columbia,pennsylvania,PA,67295,139.2959752,44136,57277,18.8,columbia_pennsylvania,NA,-1,-0.001
@@ -2290,11 +2290,11 @@ geoid,ansi_code,county of social_data_combined_cleaned,state_name,state_abbrev,p
 42089,1209184,monroe,pennsylvania,PA,169842,279.2140539,57700,69302,23.3,monroe_pennsylvania,NA,-1,-0.001
 42091,1213680,montgomery,pennsylvania,PA,799874,1655.916694,78446,104819,44.4,montgomery_pennsylvania,Nonmetropolitan,0,0
 42093,1213681,montour,pennsylvania,PA,18267,140.2542958,46421,67489,25.6,montour_pennsylvania,NA,-1,-0.001
-42095,1209185,northampton,pennsylvania,PA,297735,805.4053469,60540,74952,26.7,northampton_pennsylvania,Nonmetropolitan,1,3.35869E-06
+42095,1209185,northampton,pennsylvania,PA,297735,805.4053469,60540,74952,26.7,northampton_pennsylvania,Nonmetropolitan,1,3.36E-06
 42097,1209186,northumberland,pennsylvania,PA,94528,206.2273108,39605,51186,14,northumberland_pennsylvania,NA,-1,-0.001
 42099,1213682,perry,pennsylvania,PA,45969,83.36098795,54626,62415,14.7,perry_pennsylvania,NA,-1,-0.001
 42101,1209187,philadelphia,pennsylvania,PA,1526006,11379.52737,36957,52473,22.6,philadelphia_pennsylvania,NA,-1,-0.001
-42103,1213683,pike,pennsylvania,PA,57369,105.2717534,58672,71646,23.2,pike_pennsylvania,Nonmetropolitan,1,1.7431E-05
+42103,1213683,pike,pennsylvania,PA,57369,105.2717534,58672,71646,23.2,pike_pennsylvania,Nonmetropolitan,1,1.74E-05
 42105,1213684,potter,pennsylvania,PA,17457,16.14411235,40000,52141,12.8,potter_pennsylvania,NA,-1,-0.001
 42107,1213685,schuylkill,pennsylvania,PA,148289,190.4476301,44150,54210,14.3,schuylkill_pennsylvania,Nonmetropolitan,0,0
 42109,1213686,snyder,pennsylvania,PA,39702,120.783073,46184,58507,16.3,snyder_pennsylvania,Nonmetropolitan,0,0
@@ -2305,11 +2305,11 @@ geoid,ansi_code,county of social_data_combined_cleaned,state_name,state_abbrev,p
 42119,1213689,union,pennsylvania,PA,44947,142.2454444,46269,61689,21.6,union_pennsylvania,Nonmetropolitan,0,0
 42121,1213690,venango,pennsylvania,PA,54984,81.54427511,40986,50307,14.5,venango_pennsylvania,NA,-1,-0.001
 42123,1213691,warren,pennsylvania,PA,41815,47.29481357,42167,54615,16.6,warren_pennsylvania,Nonmetropolitan,0,0
-42125,1209190,washington,pennsylvania,PA,207820,242.5001955,51965,65471,24.7,washington_pennsylvania,Nonmetropolitan,4,1.92474E-05
+42125,1209190,washington,pennsylvania,PA,207820,242.5001955,51965,65471,24.7,washington_pennsylvania,Nonmetropolitan,4,1.92E-05
 42127,1213692,wayne,pennsylvania,PA,52822,72.79728337,49020,60430,17.3,wayne_pennsylvania,Nonmetropolitan,0,0
 42129,1209191,westmoreland,pennsylvania,PA,365169,355.3769437,48979,63540,24.3,westmoreland_pennsylvania,Nonmetropolitan,0,0
 42131,1209192,wyoming,pennsylvania,PA,28276,71.16610122,48063,58599,17.3,wyoming_pennsylvania,NA,-1,-0.001
-42133,1209193,york,pennsylvania,PA,434972,481.0673969,58586,71197,21.6,york_pennsylvania,Nonmetropolitan,3,6.897E-06
+42133,1209193,york,pennsylvania,PA,434972,481.0673969,58586,71197,21.6,york_pennsylvania,Nonmetropolitan,3,6.90E-06
 44001,1219777,bristol,rhode island,RI,49875,2064.020857,70553,94123,41.7,bristol_rhode island,NA,-1,-0.001
 44003,1219778,kent,rhode island,RI,166158,985.937055,61279,76645,28.9,kent_rhode island,NA,-1,-0.001
 44005,1219779,newport,rhode island,RI,82888,809.5638076,69369,88550,44.1,newport_rhode island,NA,-1,-0.001

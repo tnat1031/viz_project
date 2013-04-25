@@ -2,10 +2,10 @@ bnames_json = [ { name: "avg_vulgar_tweets", display: "Average vulgar tweets"},
 				{ name: "avg_control_tweets", display: "Average innocuous tweets"},
 				{ name: "norm_tweets", display: "Ratio"} ];
 				
-snames_json = [ { name: "population_per_square_mile", display: "Population Density"},
+snames_json = [ { name: "crime_per_capita", display: "Crime"},
+				{ name: "population_per_square_mile", display: "Population Density"},
 				{ name: "median_income_dollars", display: "Median Income"},
-				{ name: "percent_bachelors_or_higher", display: "Percent College Educated"}, 
-				{ name: "crime_per_capita", display: "Crime"}];
+				{ name: "percent_bachelors_or_higher", display: "Percent College Educated"} ]
 
 window.onload = function() {
 	drawMap();
@@ -20,9 +20,9 @@ window.onload = function() {
 	drawBarChart("2013-04-02", "red");
 	
 	// draw the scatter chart
-	drawScatter("data/social_final.csv", "median_income_dollars");
+	drawScatter("data/social_tweet_data.csv", "crime_per_capita");
 	var s = d3.select("#social_tab").selectAll(".viz_sidebar");
 	//console.log(s);
-	addSocialButtons(s, "data/social_final.csv", snames_json);
+	addSocialButtons(s, "data/social_tweet_data.csv", snames_json);
 
 }
