@@ -1,4 +1,4 @@
-geoid,ansi_code,county of social_data_combined_cleaned,state_name,state_abbrev,population_2010,population_per_square_mile,median_income_dollars,mean_income_dollars,percent_bachelors_or_higher,county_state of social_data_combined_cleaned,county_type,total_crime,crime_per_capita
+geoid,ansi_code,county,state_name,state_abbrev,population_2010,population_per_square_mile,median_income_dollars,mean_income_dollars,percent_bachelors_or_higher,county_state of social_data_combined_cleaned,county_type,total_crime,crime_per_capita
 1001,161526,autauga,alabama,AL,54571,91.80298636,53899,66457,21.6,autauga_alabama,Metropolitan,546,0.010005314
 1003,161527,baldwin,alabama,AL,182265,114.6476502,51321,67770,27.2,baldwin_alabama,Nonmetropolitan,1073,0.005887033
 1005,161528,barbour,alabama,AL,27457,31.02920635,34041,42287,13.9,barbour_alabama,Nonmetropolitan,57,0.002075973
