@@ -5,6 +5,31 @@ function toTitleCase(str)
     return str.replace(/\w\S*/g, function(txt){return txt.charAt(0).toUpperCase() + txt.substr(1).toLowerCase();});
 }
 
+function drawMap(file_path, colname, date) {
+	d3.csv(file_path, function(rows) {
+		var datacols = d3.keys(rows[0]).filter(function(key) { return key == colname; });
+		var datacol = datacols[0];
+		var data = {name: datacol, values: []};
+		rows.forEach(
+			function(r) {
+			if (r.date != date) {
+				var g = +r.geoid;
+				var c = +r[datacol];
+				var n = r.county;
+				var s = r.state_abbrev;
+				data.values.push({geoid: g,
+							  count: c,
+							  county: n,
+							  state: s});
+			}
+		});
+		var e = d3.select("#geo_tab").selectAll("#mapDiv");
+		console.log(e);
+		drawCountiesMap(e, data, colname, "red");
+	});
+	//drawCountiesMap();
+}
+
 function drawScatter(file_path, colname) {
 	var parseDate = d3.time.format("%Y-%m-%d").parse;
 	d3.csv(file_path, function(rows) {
@@ -33,6 +58,100 @@ function addSocialButtons(element, file_path, snames_json) {
     .text(function(d) { return d.display; })
     .attr("class", "btn btn-danger btn-large btn-block")
     .on("click", function(d) { drawScatter(file_path, d.name); });
+}
+
+function addMapButtons(element, file_path, tnames_json) {
+  element.data(tnames_json).enter()
+    .append("button")
+    .text(function(d) { return d.display; })
+    .attr("class", "btn btn-danger btn-large btn-block")
+    .on("click", function(d) { drawMap(file_path, d.name); });
+}
+
+function drawCountiesMap(element, data, term, date) {
+	var width = 960,
+    height = 500;
+
+	var rateById = d3.map();
+
+	var quantize = d3.scale.quantize()
+		//.domain([0, d3.max(data.values, function(d) { return d.tweets; })])
+		.domain([0, 100000])
+		.range(d3.range(9).map(function(i) { return "q" + i + "-9"; }));
+
+	var svg = d3.select("#mapDiv").append("svg")
+		.attr("width", width)
+		.attr("height", height);
+
+	queue()
+		.defer(d3.json, "data/us.json")
+		.defer(d3.csv, "data/social_final.csv", function(d) { rateById.set(d.geoid, +d.median_income_dollars); })
+		.await(ready);
+
+	function ready(error, us) {
+		var projection = d3.geo.albersUsa()
+			.scale(width)
+			.translate([width / 2, height / 2]);
+		
+		var path = d3.geo.path()
+			.projection(projection);
+		
+		var zoom = d3.behavior.zoom()
+		  .translate(projection.translate())
+		  .scale(projection.scale())
+		  .scaleExtent([height, 8 * height])
+		  .on("zoom", zoom);
+		
+		var counties = svg.append("g")
+		  .attr("class", "counties")
+		  .call(zoom);
+		
+		counties.selectAll("path")
+		  .data(topojson.feature(us, us.objects.counties).features)
+		  .enter().append("path")
+		  .attr("class", function(d) { return quantize(rateById.get(d.id)); })
+		  //.attr("class", function(d) { return quantize(data.values.tweets); })
+		  .attr("d", path)
+		  .on("click",click);
+
+		//states.append("rect")
+	   // .attr("class", "background")
+	 //   .attr("width", width)
+	//    .attr("height", height);
+		  
+	    var states = svg.append("path")
+		  .datum(topojson.mesh(us, us.objects.states, function(a, b) { return a !== b; }))
+		  .attr("class", "states")
+		  .attr("d", path)
+		  //.on("click",click);
+		  //alert(states);
+
+		function click(d) {
+		  var centroid = path.centroid(d),
+			  translate = projection.translate();
+
+		  projection.translate([
+			translate[0] - centroid[0] + width / 2,
+			translate[1] - centroid[1] + height / 2
+		  ]);
+
+		  zoom.translate(projection.translate());
+
+		  counties.selectAll("path").transition()
+			  .duration(500)
+			  .attr("d", path);
+			  
+		  states.transition()
+			  .duration(500)
+			  .attr("d", path);
+		}
+
+		function zoom() {
+		  projection.translate(d3.event.translate).scale(d3.event.scale);
+		  counties.selectAll("path").attr("d", path);
+		  states.attr("d", path);
+		}
+	}
 }
 
 function drawScatterPlot (element, data, name, color)  {
