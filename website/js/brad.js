@@ -72,7 +72,7 @@ function drawCountiesMap() {
 		  .attr("class", "states")
 		  .attr("d", path)
 		  //.on("click",click);
-		  alert(states);
+		  //alert(states);
 
 		function click(d) {
 		  var centroid = path.centroid(d),

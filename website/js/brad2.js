@@ -12,11 +12,19 @@ function drawScatter(file_path, colname) {
 		});
 		var e = d3.select("#social_tab").selectAll(".viz_body");
 		console.log(e);
-		drawPlot(e, data, colname, "red");
+		drawScatterPlot(e, data, colname, "red");
 	});
 }
 
-function drawPlot (element, data, name, color)  {
+function addSocialButtons(element, file_path, snames_json) {
+  element.data(snames_json).enter()
+    .append("button")
+    .text(function(d) { return d.display; })
+    .attr("class", "btn btn-danger btn-large btn-block")
+    .on("click", function(d) { drawScatter(file_path, d.name); });
+}
+
+function drawScatterPlot (element, data, name, color)  {
     d3.select("#social_svg").remove();
 
 	var tooltip = element
@@ -37,8 +45,8 @@ function drawPlot (element, data, name, color)  {
     	.range([height, 0]);
 	
 	// DO I WANT TO SCALE TO MINIMUM OF DATASET OR TO ZERO???
-    x.domain(d3.extent(data.values, function(d) { return d.tweets; })).nice();
-    y.domain([0, d3.max(data.values, function(d) { return d.factor2; })]).nice();
+    x.domain(d3.extent(data.values, function(d) { return d.factor2; })).nice();
+    y.domain([0, d3.max(data.values, function(d) { return d.tweets; })]).nice();
 
 	var xAxis = d3.svg.axis()
     	.scale(x)
@@ -49,8 +57,8 @@ function drawPlot (element, data, name, color)  {
     	.orient("left");
 
     var line = d3.svg.line()
-        .x(function(d) { return x(d.tweets); })
-        .y(function(d) { return y(d.factor2); });
+        .x(function(d) { return x(d.factor2); })
+        .y(function(d) { return y(d.tweets); });
     
     var svg = element.append("svg")
 		.attr("id", "social_svg")
@@ -79,7 +87,7 @@ function drawPlot (element, data, name, color)  {
         	.attr("y", 6)
         	.attr("dy", ".71em")
         	.style("text-anchor", "end")
-        	.text("Number of Tweets");
+        	.text("Percent College Educated");
 
     // svg.append("path")
        // .datum(data.values)
@@ -90,8 +98,8 @@ function drawPlot (element, data, name, color)  {
     svg.selectAll("null_selection").data(data.values).enter().append("circle")
       	.attr("class", "tooltip_circle")
       	.attr("id", function(v) { return v.tweets; })
-      	.attr("cx", function(v) { return x(v.tweets); })
-      	.attr("cy", function(v) { return y(v.factor2); })
+      	.attr("cx", function(v) { return x(v.factor2); })
+      	.attr("cy", function(v) { return y(v.tweets); })
       	.attr("r", 5)
       	.attr("fill", color)
       	.on("mouseover", function(v) {
