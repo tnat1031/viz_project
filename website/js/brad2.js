@@ -71,14 +71,15 @@ function addMapButtons(element, file_path, tnames_json) {
 function drawCountiesMap(element, data11, term, date) {
 	var width = 960,
     height = 500;
-
+	
 	var rateById = d3.map();
 	
 	var quantize = d3.scale.quantize()
-		.domain([0, 0.00000000000006])
+		.domain([0, 0.00003])
+		.range(d3.range(9).map(function(i) { return "q" + i + "-9"; }));
 		//.domain([0, d3.max(data.values, function(d) { return d.tweets; })])
 		//.domain([0, 100000])
-		.range(d3.range(9).map(function(i) { return "q" + i + "-9"; }));
+		//.range(d3.range(9).map(function(i) { return "q" + i + "-9"; }));
 		
 		//alert(d3.max(data11.values, function(d) { return d.all_tweets; }));
 		
@@ -88,9 +89,34 @@ function drawCountiesMap(element, data11, term, date) {
 	
 	queue()
 		.defer(d3.json, "data/us.json")
-		.defer(d3.csv, "data/chloropleth_data.csv", function(d) { if (d.date == date){ rateById.set(d.geoid, +d.all_terms);} })
-		//.defer(d3.csv, "data/social_final.csv", function(d) { rateById.set(d.geoid, +d.median_income_dollars); })
+		.defer(d3.csv, "data/chloropleth_data.csv", function(r) { 
+					if (r.date == '4_20_2013') {
+						rateById.set(r.geoid, +r.all_terms);
+					}
+		})
 		.await(ready);
+		
+		// d3.csv(file_path, function(rows) {
+		// var datacols = d3.keys(rows[0]).filter(function(key) { return key == colname; });
+		// var datacol = datacols[0];
+		// var data = {name: datacol, values: []};
+		// rows.forEach(function(r) {
+			// var d = +r.all_tweets;
+			// var c = +r[datacol];
+		
+		
+		// .defer(d3.csv, "data/chloropleth_data.csv", function(rows) { 
+			// var datacols = d3.keys(rows[0]).filter(function(key) { return key == term; });
+			// var datacol = datacols[0];
+			// alert(datacol)
+			// rows.forEach(
+				// function(r) {
+					// if (r.date == '4_20_2013') {
+						// rateById.set(r.geoid, +r.all_terms);
+					// }
+			// });
+		// })
+		// .await(ready);
 	
 	//alert(rateById.get('1003'));
 	
@@ -116,7 +142,6 @@ function drawCountiesMap(element, data11, term, date) {
 		  .data(topojson.feature(us, us.objects.counties).features)
 		  .enter().append("path")
 		  .attr("class", function(d) { return quantize(rateById.get(d.id)); })
-		  //.attr("class", function(d) { return quantize(data.values.tweets); })
 		  .attr("d", path)
 		  .on("click",click);
 
