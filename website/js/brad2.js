@@ -12,7 +12,7 @@ function drawMap(file_path, colname, date) {
 		var data = {name: datacol, values: []};
 		rows.forEach(
 			function(r) {
-			if (r.date != date) {
+			if (r.date == date) {
 				var g = +r.geoid;
 				var c = +r[datacol];
 				var n = r.county;
@@ -25,7 +25,7 @@ function drawMap(file_path, colname, date) {
 		});
 		var e = d3.select("#geo_tab").selectAll("#mapDiv");
 		console.log(e);
-		drawCountiesMap(e, data, colname, "red");
+		drawCountiesMap(e, data, colname, date);
 	});
 	//drawCountiesMap();
 }
@@ -68,26 +68,32 @@ function addMapButtons(element, file_path, tnames_json) {
     .on("click", function(d) { drawMap(file_path, d.name); });
 }
 
-function drawCountiesMap(element, data, term, date) {
+function drawCountiesMap(element, data11, term, date) {
 	var width = 960,
     height = 500;
 
 	var rateById = d3.map();
-
+	
 	var quantize = d3.scale.quantize()
+		.domain([0, 0.00000000000006])
 		//.domain([0, d3.max(data.values, function(d) { return d.tweets; })])
-		.domain([0, 100000])
+		//.domain([0, 100000])
 		.range(d3.range(9).map(function(i) { return "q" + i + "-9"; }));
-
+		
+		//alert(d3.max(data11.values, function(d) { return d.all_tweets; }));
+		
 	var svg = d3.select("#mapDiv").append("svg")
 		.attr("width", width)
 		.attr("height", height);
-
+	
 	queue()
 		.defer(d3.json, "data/us.json")
-		.defer(d3.csv, "data/social_final.csv", function(d) { rateById.set(d.geoid, +d.median_income_dollars); })
+		.defer(d3.csv, "data/chloropleth_data.csv", function(d) { if (d.date == date){ rateById.set(d.geoid, +d.all_terms);} })
+		//.defer(d3.csv, "data/social_final.csv", function(d) { rateById.set(d.geoid, +d.median_income_dollars); })
 		.await(ready);
-
+	
+	//alert(rateById.get('1003'));
+	
 	function ready(error, us) {
 		var projection = d3.geo.albersUsa()
 			.scale(width)
