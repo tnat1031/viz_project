@@ -40,13 +40,14 @@ window.onload = function() {
 	addMapButtons(m, "data/chloropleth_data.csv", tnames_json);
 	
 	// draw the line graph
-	drawOne("data/norm_tweets_per_day.csv", "avg_vulgar_tweets");
+	drawOne("data/norm_tweets_per_day.csv", "avg_vulgar_tweets", "linegraph_svg", 250, 960, true);
 	var e = d3.select("#time_tab").selectAll(".viz_sidebar");
-	console.log(e);
-	addButtons(e, "data/norm_tweets_per_day.csv", bnames_json);
+	addLineButtons(e, "data/norm_tweets_per_day.csv", bnames_json, "linegraph_svg", 250, 960, true);
 
 	// draw the bar chart
-	drawBarChart("2013-04-02", "red");
+	drawBarChart(null, "red");
+    var t = d3.select("#words_tab").selectAll(".viz_sidebar");
+    drawTimeLine("data/raw_tweet_distrib_by_day.json", t, "timeline");
 	
 	// draw the scatter chart
 	drawScatter("data/social_tweet_data.csv", "crime_per_capita");
