@@ -88,13 +88,7 @@ function drawCountiesMap(file_path, term, date) {
 	queue()
 		.defer(d3.json, "data/us.json")
 		.defer(d3.csv, "data/chloropleth_data.csv", function(r) { 				
-					if (r.date == date) {
-						if (r.all_terms > -1) {
-							alert(r.geoid);
-							alert(r.date);
-							alert(r.all_terms);
-						}
-						
+					if (r.date == date) {				
 						rateById.set(r.geoid, r[term]);
 					}
 		})
