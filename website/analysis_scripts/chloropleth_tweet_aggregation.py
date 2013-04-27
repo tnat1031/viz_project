@@ -48,7 +48,7 @@ with open('../data/social_final.csv', 'rb') as sfcsv:
         
 # loop through our reverse geocoded tweets and aggregate them by county/date/searchterm
 with open('../data/tweets_rev_geo.csv', 'rb') as tcsv:
-    with open('../data/chloroplath_data.csv', 'wb') as ocsv:
+    with open('../data/chloropleth_data.csv', 'wb') as ocsv:
         # keep track of the dates we've seen
         dates = []
         
@@ -76,13 +76,21 @@ with open('../data/tweets_rev_geo.csv', 'rb') as tcsv:
             
             if date not in counties[countyTag]["data"]:
                 counties[countyTag]["data"][date] = {}
+            if 'all_dates' not in counties[countyTag]["data"]:
+                counties[countyTag]["data"]['all_dates'] = {}
             if searchTerm not in counties[countyTag]["data"][date]:
                 counties[countyTag]["data"][date][searchTerm] = 1
+            if searchTerm not in counties[countyTag]["data"]['all_dates']:
+                counties[countyTag]["data"]['all_dates'][searchTerm] = 1
             if 'all_terms' not in counties[countyTag]["data"][date]:
                 counties[countyTag]["data"][date]['all_terms'] = 1
+            if 'all_terms' not in counties[countyTag]["data"]['all_dates']:
+                counties[countyTag]["data"]['all_dates']['all_terms'] = 1
             else:
                 counties[countyTag]["data"][date][searchTerm] += 1
                 counties[countyTag]["data"][date]['all_terms'] += 1
+                counties[countyTag]["data"]['all_dates'][searchTerm] += 1
+                counties[countyTag]["data"]['all_dates']['all_terms'] += 1
         dates.append('all_dates')
         dates.sort()
 
