@@ -5,31 +5,6 @@ function toTitleCase(str)
     return str.replace(/\w\S*/g, function(txt){return txt.charAt(0).toUpperCase() + txt.substr(1).toLowerCase();});
 }
 
-function drawMap(file_path, colname, date) {
-	d3.csv(file_path, function(rows) {
-		var datacols = d3.keys(rows[0]).filter(function(key) { return key == colname; });
-		var datacol = datacols[0];
-		var data = {name: datacol, values: []};
-		rows.forEach(
-			function(r) {
-			if (r.date == date) {
-				var g = +r.geoid;
-				var c = +r[datacol];
-				var n = r.county;
-				var s = r.state_abbrev;
-				data.values.push({geoid: g,
-							  count: c,
-							  county: n,
-							  state: s});
-			}
-		});
-		var e = d3.select("#geo_tab").selectAll("#mapDiv");
-		console.log(e);
-		drawCountiesMap(e, data, colname, date);
-	});
-	//drawCountiesMap();
-}
-
 function drawScatter(file_path, colname) {
 	var parseDate = d3.time.format("%Y-%m-%d").parse;
 	d3.csv(file_path, function(rows) {
@@ -65,60 +40,36 @@ function addMapButtons(element, file_path, tnames_json) {
     .append("button")
     .text(function(d) { return d.display; })
     .attr("class", "btn btn-danger btn-large btn-block")
-    .on("click", function(d) { drawMap(file_path, d.name); });
+    .on("click", function(d) { drawCountiesMap(file_path, d.name, '4_20_2013'); });
+
+  d3.select("#geo_tab").selectAll(".btn").style("width",'500px')
 }
 
-function drawCountiesMap(element, data11, term, date) {
-	var width = 960,
-    height = 500;
+function drawCountiesMap(file_path, term, date) {
+	d3.select("#geo_svg").remove();
+	
+	var width = 1440,
+    height = 750;
 	
 	var rateById = d3.map();
 	
 	var quantize = d3.scale.quantize()
 		.domain([0, 0.00003])
 		.range(d3.range(9).map(function(i) { return "q" + i + "-9"; }));
-		//.domain([0, d3.max(data.values, function(d) { return d.tweets; })])
-		//.domain([0, 100000])
-		//.range(d3.range(9).map(function(i) { return "q" + i + "-9"; }));
-		
-		//alert(d3.max(data11.values, function(d) { return d.all_tweets; }));
-		
+
 	var svg = d3.select("#mapDiv").append("svg")
 		.attr("width", width)
-		.attr("height", height);
-	
+		.attr("height", height)
+		.attr("id", "geo_svg");
+
 	queue()
 		.defer(d3.json, "data/us.json")
-		.defer(d3.csv, "data/chloropleth_data.csv", function(r) { 
-					if (r.date == '4_20_2013') {
-						rateById.set(r.geoid, +r.all_terms);
+		.defer(d3.csv, "data/chloropleth_data.csv", function(r) { 			
+					if (r.date == date) {
+						rateById.set(r.geoid, r[term]);
 					}
 		})
 		.await(ready);
-		
-		// d3.csv(file_path, function(rows) {
-		// var datacols = d3.keys(rows[0]).filter(function(key) { return key == colname; });
-		// var datacol = datacols[0];
-		// var data = {name: datacol, values: []};
-		// rows.forEach(function(r) {
-			// var d = +r.all_tweets;
-			// var c = +r[datacol];
-		
-		
-		// .defer(d3.csv, "data/chloropleth_data.csv", function(rows) { 
-			// var datacols = d3.keys(rows[0]).filter(function(key) { return key == term; });
-			// var datacol = datacols[0];
-			// alert(datacol)
-			// rows.forEach(
-				// function(r) {
-					// if (r.date == '4_20_2013') {
-						// rateById.set(r.geoid, +r.all_terms);
-					// }
-			// });
-		// })
-		// .await(ready);
-	
-	//alert(rateById.get('1003'));
 	
 	function ready(error, us) {
 		var projection = d3.geo.albersUsa()

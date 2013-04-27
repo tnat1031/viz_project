@@ -79,6 +79,14 @@ header p {
 	cursor: pointer;
 }
 
+#geo_tab{
+	width: 3000px;
+}
+#mapDiv{
+	height: 750px;
+	width: 3000px;
+}
+
 .vulgar{
 	color:blue;
 }
@@ -93,6 +101,7 @@ header p {
 
 .counties {
   fill: none;
+
 }
 
 .states {
@@ -101,8 +110,8 @@ header p {
   stroke: #fff;
 }
 
-.q0-9 { fill:rgb(247,251,255); }
-.q0-9 { fill:grey; }
+.q0-9 { fill:grey; } 
+/* .q0-9 { stroke:black; fill:rgb(247,251,255); } */
 .q1-9 { fill:rgb(222,235,247); }
 .q2-9 { fill:rgb(198,219,239); }
 .q3-9 { fill:rgb(158,202,225); }

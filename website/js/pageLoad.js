@@ -34,7 +34,7 @@ tnames_json = [ { name: "all_terms", display: "all terms"},
 				
 window.onload = function() {
 	// draw the chloropleth map
-	drawMap("data/chloropleth_data.csv", "all_terms", "all_dates");
+	drawCountiesMap("data/chloropleth_data.csv", "all_terms", "4_20_2013");
 	var m = d3.select("#geo_tab").selectAll(".viz_sidebar");
 	//console.log(m);
 	addMapButtons(m, "data/chloropleth_data.csv", tnames_json);
