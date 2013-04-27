@@ -71,7 +71,8 @@ header p {
 	font: 20px sans-serif;
 }
 
-.tooltip_circle {
+#timeline .tooltip_circle {
+    cursor: pointer;
 }
 
 

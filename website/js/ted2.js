@@ -30,7 +30,7 @@ function sortTwo(arr1, arr2) {
     return(arr2);
 }
 
-function drawOne(file_path, colname) {
+function drawOne(file_path, colname, id, h, w, overwrite) {
   d3.csv(file_path, function(rows) {
 		var datacols = d3.keys(rows[0]).filter(function(key) { return key == colname; });
 		var datacol = datacols[0];
@@ -42,20 +42,41 @@ function drawOne(file_path, colname) {
 							  count: c});
 		});
 		var e = d3.select("#time_tab").selectAll(".viz_body");
-		drawLine(e, data, "red");
+		drawLine(e, id, data, "red", 5, h, w, overwrite, true, true, true);
 	});
 }
 
-function addButtons(element, file_path, bnames_json) {
+function drawTimeLine(file_path, element, id) {
+    d3.json(file_path, function(json) {
+        var data = {name: "bargraph_dates", values: []};
+        json.forEach(function(j) {
+            var d = parseDate(j.date);
+            var c = 50;
+            data.values.push({date: d,
+                              count: c});
+        })
+        drawLine(element, id, data, "red", 10, 100, 960, false, false, true, false);
+        var timeline = d3.select("#"+id);
+        timeline.selectAll("circle")
+            .on("click", function() {
+                drawBarChart(this.id, "red");
+        });
+    });
+
+}
+
+function addLineButtons(element, file_path, bnames_json, id, h, w, overwrite) {
   element.data(bnames_json).enter()
     .append("button")
     .text(function(d) { return d.display; })
     .attr("class", "btn btn-danger btn-large btn-block")
-    .on("click", function(d) { drawOne(file_path, d.name); });
+    .on("click", function(d) { drawOne(file_path, d.name, id, h, w, overwrite); });
 }
 
-function drawLine(element, data, color)  {
-    d3.select("#linegraph_svg").remove();
+function drawLine(element, id, data, color, radius, h, w, overwrite, y_axis_on, x_axis_on, tooltip_enabled) {
+    if (overwrite) {
+        d3.select("#"+id).remove();
+    }
 
 	var tooltip = element
 		.append("div")
@@ -64,9 +85,9 @@ function drawLine(element, data, color)  {
 		.style("z-index", "10")
 		.style("visibility", "hidden"); 
 		 
-	var margin = {top: 20, right: 100, bottom: 30, left: 50},
-	width = 960 - margin.left - margin.right,
-	height = 250 - margin.top - margin.bottom;
+	var margin = {top: 20, right: 20, bottom: 30, left: 50},
+	width = w - margin.left - margin.right,
+	height = h - margin.top - margin.bottom;
 
 	var x = d3.time.scale()
     	.range([0, width]);
@@ -90,27 +111,31 @@ function drawLine(element, data, color)  {
         .y(function(d) { return y(d.count); });
     
     var svg = element.append("svg")
-		.attr("id", "linegraph_svg")
+		.attr("id", id)
     	.attr("width", width + margin.left + margin.right)
     	.attr("height", height + margin.top + margin.bottom)
   		.append("g")
     		.attr("transform", "translate(" + margin.left + "," + margin.top + ")");
 
 
-    svg.append("g")
-        .attr("class", "x axis")
-        .attr("transform", "translate(0," + height + ")")
-        .call(xAxis);
+    if (x_axis_on) {
+        svg.append("g")
+            .attr("class", "x axis")
+            .attr("transform", "translate(0," + height + ")")
+            .call(xAxis);
+    }
 
-    svg.append("g")
-        .attr("class", "y axis")
-        .call(yAxis)
-    	.append("text")
-        	.attr("transform", "rotate(-90)")
-        	.attr("y", 6)
-        	.attr("dy", ".71em")
-        	.style("text-anchor", "end")
-        	.text("Number of Tweets");
+    if (y_axis_on) {
+        svg.append("g")
+            .attr("class", "y axis")
+            .call(yAxis)
+            .append("text")
+                .attr("transform", "rotate(-90)")
+                .attr("y", 6)
+                .attr("dy", ".71em")
+                .style("text-anchor", "end")
+                .text("Number of Tweets");
+    }
 
     svg.append("path")
        .datum(data.values)
@@ -118,14 +143,17 @@ function drawLine(element, data, color)  {
        .attr("d", line)
        .style("stroke",  color);
 
-    svg.selectAll("null_selection").data(data.values).enter().append("circle")
+    var circles = svg.selectAll("null_selection").data(data.values).enter().append("circle")
       	.attr("class", "tooltip_circle")
       	.attr("id", function(v) { return v.date; })
       	.attr("cx", function(v) { return x(v.date); })
       	.attr("cy", function(v) { return y(v.count); })
-      	.attr("r", 5)
-      	.attr("fill", color)
-      	.on("mouseover", function(v) {
+      	.attr("r", radius)
+      	.attr("fill", color);
+
+    if (tooltip_enabled) {
+      	circles
+        .on("mouseover", function(v) {
 			return tooltip.style("visibility", "visible").text(Math.round(v.count*100)/100 + " tweets");
 		})
 		.on("mousemove", function() {
@@ -133,6 +161,7 @@ function drawLine(element, data, color)  {
 		.on("mouseout", function() {
 			return tooltip.style("visibility", "hidden");
 		});
+    }
 			      
 		/*.append("text")
      	.attr("class", "tweet_line_text")
@@ -143,10 +172,10 @@ function drawLine(element, data, color)  {
         .text(function(d) { return d.name; });*/
 }
 
+
 var chart_shown = false;
 
-function drawBarChart(date, color) {    
-
+function drawBarChart(date, color) {
   // is there another chart already shown? if so, destroy it
   if (chart_shown) {    
     d3.select("#barchart_svg").remove();
@@ -194,13 +223,22 @@ function drawBarChart(date, color) {
     if (error) return console.warn(error);
     
     data = null;
-    
-    for (var i = 0; i < json.length; i++) { 
-      if (String(parseDate(json[i].date)) === String(parseDate(date))) {
-      data = json[i];
-      d3.select("#barchart_header").text("Vulgar Tweets on " + date);         
-      }
+
+    if (date==null) {
+        // just use the first element in json
+        data = json[0];
     }
+    else {
+        // figure out which date to use
+        for (var i = 0; i < json.length; i++) {
+            if (String(parseDate(json[i].date)) === date) {
+                data = json[i];
+                break;
+            }
+        }
+    }
+
+    d3.select("#barchart_header").text("Vulgar Tweets on " + data.date);
  
     x.domain(data.search_term);
     y.domain([0, d3.max(data.count, function(d) { return +d; })]);

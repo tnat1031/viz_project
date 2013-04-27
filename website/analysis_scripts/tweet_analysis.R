@@ -6,7 +6,7 @@ library("reshape")
 library("rjson")
 
 # load data
-tweets <- read.csv("~/github/viz_project/website/data/tweets.csv", header=T)
+tweets <- read.csv("~/github/viz_project/website/data/tweets.csv", header=T, stringsAsFactors=F)
 
 # fix headers
 names(tweets) <- gsub("..STRING.", "", names(tweets))
@@ -41,6 +41,9 @@ control_terms <- c("tweet", "twitter")
 # additional date fields
 tweets$full_date <- paste(tweets$year, tweets$month, tweets$day, sep="-")
 tweets$full_date_hour <- paste(tweets$full_date, tweets$hour)
+
+# filter out any wierd data (bad dates)
+tweets <- tweets[grep("2013", tweets$full_date), ]
 
 # raw tweet frequency
 tbl <- as.data.frame.table(table(tweets$full_date))
