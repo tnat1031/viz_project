@@ -54,7 +54,7 @@ function addSocialButtons(element, file_path, snames_json) {
 }
 
 function addMapButtons(element, file_path, tnames_json) {
-  date = "4_20_2013";
+  date = "all_dates";
   
   element.data(tnames_json).enter()
     .append("button")
@@ -89,6 +89,12 @@ function drawCountiesMap(file_path, term, date) {
 		.defer(d3.json, "data/us.json")
 		.defer(d3.csv, "data/chloropleth_data.csv", function(r) { 				
 					if (r.date == date) {
+						if (r.all_terms > -1) {
+							alert(r.geoid);
+							alert(r.date);
+							alert(r.all_terms);
+						}
+						
 						rateById.set(r.geoid, r[term]);
 					}
 		})
@@ -186,7 +192,7 @@ function drawScatterPlot (element, data, name, color)  {
 	var y = d3.scale.linear()
     	.range([height, 0]);
 	
-	// DO I WANT TO SCALE TO MINIMUM OF DATASET OR TO ZERO???
+	// minimum tweets seen for a county is zero tweets
     x.domain(d3.extent(data.values, function(d) { return d.factor2; })).nice();
     y.domain([0, d3.max(data.values, function(d) { return d.tweets; })]).nice();
 
