@@ -23,7 +23,7 @@ function changeMap(term, date) {
 	});
 }
 
-function drawScatter(file_path, colname) {
+function drawScatter(file_path, colname, displayname) {
 	var parseDate = d3.time.format("%Y-%m-%d").parse;
 	d3.csv(file_path, function(rows) {
 		var datacols = d3.keys(rows[0]).filter(function(key) { return key == colname; });
@@ -41,7 +41,7 @@ function drawScatter(file_path, colname) {
 		});
 		var e = d3.select("#social_tab").selectAll(".viz_body");
 		//console.log(e);
-		drawScatterPlot(e, data, colname, "red");
+		drawScatterPlot(e, data, colname, "red", displayname);
 	});
 }
 
@@ -50,7 +50,7 @@ function addSocialButtons(element, file_path, snames_json) {
     .append("button")
     .text(function(d) { return d.display; })
     .attr("class", "btn btn-danger btn-large btn-block")
-    .on("click", function(d) { drawScatter(file_path, d.name); });
+    .on("click", function(d) { drawScatter(file_path, d.name, d.display); });
 }
 
 function addMapButtons(element, file_path, tnames_json) {
@@ -159,7 +159,7 @@ function drawCountiesMap(file_path, term, date) {
 	}
 }
 
-function drawScatterPlot (element, data, name, color)  {
+function drawScatterPlot (element, data, name, color, display)  {
     d3.select("#social_svg").remove();
 
 	var tooltip = element
@@ -202,6 +202,8 @@ function drawScatterPlot (element, data, name, color)  {
         .x(function(d) { return x(d.factor2); })
         .y(function(d) { return y(d.tweets); });
     
+	var h1 = element.append("h1").attr("id", "scatter_header");
+	
     var svg = element.append("svg")
 		.attr("id", "social_svg")
     	.attr("width", width + margin.left + margin.right)
@@ -209,7 +211,8 @@ function drawScatterPlot (element, data, name, color)  {
   		.append("g")
     		.attr("transform", "translate(" + margin.left + "," + margin.top + ")");
 
-
+	d3.select("#scatter_header").text("Vulgar Tweets Per Person vs " + display);
+			
     svg.append("g")
         .attr("class", "x axis")
         .attr("transform", "translate(0," + height + ")")

@@ -37,6 +37,7 @@ window.onload = function() {
 	drawCountiesMap("data/chloropleth_data.csv", "all_terms", "all_dates");
 	var m = d3.select("#geo_tab").selectAll(".viz_sidebar");
 	//console.log(m);
+	drawTimeLine("data/raw_tweet_distrib_by_day.json", m, "timeline");
 	addMapButtons(m, "data/chloropleth_data.csv", tnames_json);
 	
 	// draw the line graph
@@ -50,7 +51,7 @@ window.onload = function() {
     drawTimeLine("data/raw_tweet_distrib_by_day.json", t, "timeline");
 	
 	// draw the scatter chart
-	drawScatter("data/social_tweet_data.csv", "crime_per_capita");
+	drawScatter("data/social_tweet_data.csv", "crime_per_capita", "Crime");
 	var s = d3.select("#social_tab").selectAll(".viz_sidebar");
 	//console.log(s);
 	addSocialButtons(s, "data/social_tweet_data.csv", snames_json);
