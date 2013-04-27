@@ -5,6 +5,24 @@ function toTitleCase(str)
     return str.replace(/\w\S*/g, function(txt){return txt.charAt(0).toUpperCase() + txt.substr(1).toLowerCase();});
 }
 
+function changeMap(term, date) {
+	var rateById = d3.map();
+	
+	var quantize = d3.scale.quantize()
+		.domain([0, 0.00003])
+		.range(d3.range(9).map(function(i) { return "q" + i + "-9"; }));
+	
+	d3.csv("data/chloropleth_data.csv", function(rows) { 				
+					rows.forEach(function(r) {
+						if (r.date == date) {
+							d3.select("#geo_svg").select(".county"+String(r.geoid))
+								//.attr("class","q8-9");
+								.attr("class", function(d) { return "county"+String(r.geoid)+" "+quantize(r[term]); });
+						}
+					});
+	});
+}
+
 function drawScatter(file_path, colname) {
 	var parseDate = d3.time.format("%Y-%m-%d").parse;
 	d3.csv(file_path, function(rows) {
@@ -22,7 +40,7 @@ function drawScatter(file_path, colname) {
 							  state: s});
 		});
 		var e = d3.select("#social_tab").selectAll(".viz_body");
-		console.log(e);
+		//console.log(e);
 		drawScatterPlot(e, data, colname, "red");
 	});
 }
@@ -36,12 +54,17 @@ function addSocialButtons(element, file_path, snames_json) {
 }
 
 function addMapButtons(element, file_path, tnames_json) {
+  date = "4_20_2013";
+  
   element.data(tnames_json).enter()
     .append("button")
     .text(function(d) { return d.display; })
     .attr("class", "btn btn-danger btn-large btn-block")
-    .on("click", function(d) { drawCountiesMap(file_path, d.name, '4_20_2013'); });
-
+    .on("click", function(d) { 
+		changeMap(d.name, date);
+		//drawCountiesMap(file_path, d.name, '4_20_2013'); 
+	});
+	
   d3.select("#geo_tab").selectAll(".btn").style("width",'500px')
 }
 
@@ -64,13 +87,13 @@ function drawCountiesMap(file_path, term, date) {
 
 	queue()
 		.defer(d3.json, "data/us.json")
-		.defer(d3.csv, "data/chloropleth_data.csv", function(r) { 			
+		.defer(d3.csv, "data/chloropleth_data.csv", function(r) { 				
 					if (r.date == date) {
 						rateById.set(r.geoid, r[term]);
 					}
 		})
 		.await(ready);
-	
+		
 	function ready(error, us) {
 		var projection = d3.geo.albersUsa()
 			.scale(width)
@@ -92,7 +115,7 @@ function drawCountiesMap(file_path, term, date) {
 		counties.selectAll("path")
 		  .data(topojson.feature(us, us.objects.counties).features)
 		  .enter().append("path")
-		  .attr("class", function(d) { return quantize(rateById.get(d.id)); })
+		  .attr("class", function(d) { return "county"+String(d.id)+" "+quantize(rateById.get(d.id)); })
 		  .attr("d", path)
 		  .on("click",click);
 
