@@ -38,6 +38,7 @@ window.onload = function() {
 	var m = d3.select("#geo_tab").selectAll(".viz_sidebar");
 	//console.log(m);
 	drawTimeLine("data/raw_tweet_distrib_by_day.json", m, "timeline");
+	var m = d3.select("#geo_tab").selectAll(".mapButtons");
 	addMapButtons(m, "data/chloropleth_data.csv", tnames_json);
 	
 	// draw the line graph

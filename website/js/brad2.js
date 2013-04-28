@@ -12,12 +12,17 @@ function changeMap(term, date) {
 		.domain([0, 0.00003])
 		.range(d3.range(9).map(function(i) { return "q" + i + "-9"; }));
 	
+	var color = d3.scale.linear()
+		.domain([0, 0.000015, 0.00003])
+		.range(["blue", "white", "red"]);
+	
 	d3.csv("data/chloropleth_data.csv", function(rows) { 				
 					rows.forEach(function(r) {
 						if (r.date == date) {
 							d3.select("#geo_svg").select(".county"+String(r.geoid))
+								.style("fill", color(r[term]) );
 								//.attr("class","q8-9");
-								.attr("class", function(d) { return "county"+String(r.geoid)+" "+quantize(r[term]); });
+								//.attr("class", function(d) { return "county"+String(r.geoid)+" "+quantize(r[term]); });
 						}
 					});
 	});
@@ -84,7 +89,23 @@ function drawCountiesMap(file_path, term, date) {
 		.attr("width", width)
 		.attr("height", height)
 		.attr("id", "geo_svg");
-
+	
+	var color = d3.scale.linear()
+		.domain([0, 0.000015, 0.00003])
+		.range(["blue", "white", "red"]);
+		
+	// var color = d3.scale.linear()
+		// .domain([0, 0.00003])
+		// .range(["blue", "red"]);	
+		
+	// var color = d3.scale.linear()
+		// .domain([0, 0.00003])
+		// .range(["red", "maroon"]);	
+	
+	// var color = d3.scale.linear()
+		// .domain([0, 0.00003])
+		// .range(["blue", "navy"]);	
+	
 	queue()
 		.defer(d3.json, "data/us.json")
 		.defer(d3.csv, "data/chloropleth_data.csv", function(r) { 				
@@ -115,7 +136,9 @@ function drawCountiesMap(file_path, term, date) {
 		counties.selectAll("path")
 		  .data(topojson.feature(us, us.objects.counties).features)
 		  .enter().append("path")
-		  .attr("class", function(d) { return "county"+String(d.id)+" "+quantize(rateById.get(d.id)); })
+		  .attr("class", function(d) { return "county"+String(d.id)})
+		  .style("fill", function(d) { return color(rateById.get(d.id)) } )
+		  //.attr("class", function(d) { return "county"+String(d.id)+" "+quantize(rateById.get(d.id)); })
 		  .attr("d", path)
 		  .on("click",click);
 
