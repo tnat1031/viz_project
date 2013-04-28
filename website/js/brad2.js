@@ -1,5 +1,32 @@
-// from example here:
-// http://stackoverflow.com/questions/4878756/javascript-how-to-capitalize-first-letter-of-each-word-like-a-2-word-city
+/* 
+* 
+* The map view was based on the county chloropleth example here:
+* http://bl.ocks.org/mbostock/4060606
+* 
+* The following enhancements were made to the map view:
+*    Added the ability to filter the data displayed on the map by search term and by date
+*        The above necessitated refactoring the way data were accessed
+*    Change the color scale from a quantized to a linear color scale with a different range
+*
+* In addition, map interaction features to zoom by scrolling and center based on clicking a county were taken from the following example:
+* http://bl.ocks.org/mbostock/2206340
+*    This functionality was integrated with the chloropleth view with the aim to "combine and deeply integrate multiple examples" as per Piazza post 812
+* 
+* The scatterplot draw function was adapted from the following scatterplot example:
+* http://bl.ocks.org/mbostock/3887118
+* 
+* The following enhancements were made to the scatterplot view:
+*     Added the ability to select different social factors for the x-axis
+*         The above necessitated refactoring the way data were accessed
+*     Added a tooltip displaying the county name and values for both tweets and social factor
+*     Added an automatically updating title
+*     Updated fill coloring to cause negative values to be colored grey, to account for counties which did not report crimes to the FBI.
+*
+* 
+* The function toTitleCase() was borrowed in its entirety from an example on the following forum post:
+* http://stackoverflow.com/questions/4878756/javascript-how-to-capitalize-first-letter-of-each-word-like-a-2-word-city
+*
+*/
 function toTitleCase(str)
 {
     return str.replace(/\w\S*/g, function(txt){return txt.charAt(0).toUpperCase() + txt.substr(1).toLowerCase();});
@@ -12,9 +39,13 @@ function changeMap(term, date) {
 		.domain([0, 0.00003])
 		.range(d3.range(9).map(function(i) { return "q" + i + "-9"; }));
 	
+	// var color = d3.scale.linear()
+		// .domain([0, 0.000015, 0.00003])
+		// .range(["blue", "white", "red"]);
+		
 	var color = d3.scale.linear()
-		.domain([0, 0.000015, 0.00003])
-		.range(["blue", "white", "red"]);
+		.domain([0, 0.00003])
+		.range(["pink","red"]);
 	
 	d3.csv("data/chloropleth_data.csv", function(rows) { 				
 					rows.forEach(function(r) {
@@ -90,9 +121,9 @@ function drawCountiesMap(file_path, term, date) {
 		.attr("height", height)
 		.attr("id", "geo_svg");
 	
-	var color = d3.scale.linear()
-		.domain([0, 0.000015, 0.00003])
-		.range(["blue", "white", "red"]);
+	// var color = d3.scale.linear()
+		// .domain([0, 0.000015, 0.00003])
+		// .range(["blue", "white", "red"]);
 		
 	// var color = d3.scale.linear()
 		// .domain([0, 0.00003])
@@ -102,9 +133,10 @@ function drawCountiesMap(file_path, term, date) {
 		// .domain([0, 0.00003])
 		// .range(["red", "maroon"]);	
 	
-	// var color = d3.scale.linear()
-		// .domain([0, 0.00003])
-		// .range(["blue", "navy"]);	
+	var color = d3.scale.linear()
+		.domain([0, 0.00003])
+		.range(["pink","red"]);
+		//.range(["pink", "#8B0000"]);	
 	
 	queue()
 		.defer(d3.json, "data/us.json")
