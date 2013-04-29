@@ -1,3 +1,12 @@
+/*
+* pageLoad.js
+* Ted Natoli and Brad Taylor; April 2013
+*
+* Wrapper script to initialize multi-view visualization
+*
+* No individual view examples were directly used in this script
+*/
+
 bnames_json = [ { name: "avg_vulgar_tweets", display: "Average vulgar tweets"},
 				{ name: "avg_control_tweets", display: "Average innocuous tweets"},
 				{ name: "norm_tweets", display: "Ratio"} ];

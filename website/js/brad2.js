@@ -1,12 +1,23 @@
 /* 
+* brad2.js
+* Brad Taylor, April 2013 
+*
+* Functions to draw the chloropleth map and social-factor-scatterplot views.
+* Includes implementation of appropriate user-interaction features. 
 * 
+* Examples used in developing this  script:
+* --------------------
 * The map view was based on the county chloropleth example here:
 * http://bl.ocks.org/mbostock/4060606
 * 
 * The following enhancements were made to the map view:
 *    Added the ability to filter the data displayed on the map by search term and by date
 *        The above necessitated refactoring the way data were accessed
-*    Change the color scale from a quantized to a linear color scale with a different range
+*		 New dom elements were added to represent user selections
+*		 User-selected states for search-term and date are stored in a hidden text area for simultaneous global access
+*		 The map is recolored based on user-selected parameters by altering the fill of the county svg paths.
+*    Changed the color scale from a quantized to a linear color scale with a different range
+*	 Added an automatically updating title.
 *
 * In addition, map interaction features to zoom by scrolling and center based on clicking a county were taken from the following example:
 * http://bl.ocks.org/mbostock/2206340
@@ -18,6 +29,8 @@
 * The following enhancements were made to the scatterplot view:
 *     Added the ability to select different social factors for the x-axis
 *         The above necessitated refactoring the way data were accessed
+*		  New dom elements were added to represent user selections.
+*		  The svg is now redrawn to correspond to a user-selected search term.
 *     Added a tooltip displaying the county name and values for both tweets and social factor
 *     Added an automatically updating title
 *     Updated fill coloring to cause negative values to be colored grey, to account for counties which did not report crimes to the FBI.
@@ -51,6 +64,8 @@ function changeMap() {
 	// to keep it universally available, we have hidden it in a text area in the html
 	var date = document.getElementById("mapDate").innerHTML	
 	var term = document.getElementById("mapTerm").innerHTML
+	
+	d3.select("#map_header").text("Showing tweets/person for "+term+" from "+date);
 	
 	d3.csv("data/chloropleth_data.csv", function(rows) { 				
 					rows.forEach(function(r) {

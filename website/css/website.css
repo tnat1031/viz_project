@@ -75,7 +75,6 @@ header p {
     cursor: pointer;
 }
 
-
 #sterms span {
 	cursor: pointer;
 }
@@ -86,6 +85,10 @@ header p {
 #mapDiv{
 	height: 750px;
 	width: 3000px;
+}
+
+.mapParams{
+	display:none;
 }
 
 .vulgar{
