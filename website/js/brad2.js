@@ -32,7 +32,7 @@ function toTitleCase(str)
     return str.replace(/\w\S*/g, function(txt){return txt.charAt(0).toUpperCase() + txt.substr(1).toLowerCase();});
 }
 
-function changeMap(term, date) {
+function changeMap() {
 	var rateById = d3.map();
 	
 	var quantize = d3.scale.quantize()
@@ -46,6 +46,11 @@ function changeMap(term, date) {
 	var color = d3.scale.linear()
 		.domain([0, 0.00003])
 		.range(["pink","red"]);
+	
+	// read the date and term representing the current user selection
+	// to keep it universally available, we have hidden it in a text area in the html
+	var date = document.getElementById("mapDate").innerHTML	
+	var term = document.getElementById("mapTerm").innerHTML
 	
 	d3.csv("data/chloropleth_data.csv", function(rows) { 				
 					rows.forEach(function(r) {
@@ -97,7 +102,9 @@ function addMapButtons(element, file_path, tnames_json) {
     .text(function(d) { return d.display; })
     .attr("class", "btn btn-danger btn-large btn-block")
     .on("click", function(d) { 
-		changeMap(d.name, date);
+		//changeMap(d.name, date);
+		document.getElementById("mapTerm").innerHTML = d.name;
+		changeMap();
 		//drawCountiesMap(file_path, d.name, '4_20_2013'); 
 	});
 	

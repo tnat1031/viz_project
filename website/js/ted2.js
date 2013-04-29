@@ -1,4 +1,7 @@
 var parseDate = d3.time.format("%Y-%m-%d").parse;
+var parseLineDate = d3.time.format("%a %b %d %Y").parse;
+var encodeDate = d3.time.format("%m_%d_%Y");
+
 
 function sortTwo(arr1, arr2) {
   arr1.sort();
@@ -46,7 +49,7 @@ function drawOne(file_path, colname, id, h, w, overwrite) {
 	});
 }
 
-function drawTimeLine(file_path, element, id) {
+function drawTimeLine(file_path, element, id, chart) {
     d3.json(file_path, function(json) {
         var data = {name: "bargraph_dates", values: []};
         json.forEach(function(j) {
@@ -59,7 +62,15 @@ function drawTimeLine(file_path, element, id) {
         var timeline = d3.select("#"+id);
         timeline.selectAll("circle")
             .on("click", function() {
-                drawBarChart(this.id, "red");
+				if (chart == "map") {
+					var datestring = this.id.substring(0,15);
+					datestring = encodeDate(parseLineDate(datestring)).substring(1);
+					document.getElementById("mapDate").innerHTML = datestring;
+					changeMap();
+				}
+				else {
+					drawBarChart(this.id, "red");
+				}
         });
     });
 

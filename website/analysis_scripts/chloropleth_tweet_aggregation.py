@@ -51,6 +51,7 @@ with open('../data/tweets_rev_geo.csv', 'rb') as tcsv:
     with open('../data/chloropleth_data.csv', 'wb') as ocsv:
         # keep track of the dates we've seen
         dates = []
+        jdate = []
         
         # instantiate csv reader/writer objects
         reader = csv.reader(tcsv)
@@ -65,7 +66,14 @@ with open('../data/tweets_rev_geo.csv', 'rb') as tcsv:
         for line in reader:
             searchTerm = line[10]
 	    date = line[4]+"_"+line[5]+"_"+line[3]
-            if date not in dates: dates.append(date)
+            jsonDate = line[3]+"-"+line[4]+"-"+line[5]
+
+            if date not in dates:
+                dates.append(date)
+                thisdate= {}
+                thisdate["date"] = jsonDate
+                jdate.append(thisdate)
+                
             state = line[11]
             countyName = line[12].lower()
             countyTag = countyName+"_"+state
@@ -120,7 +128,11 @@ with open('../data/tweets_rev_geo.csv', 'rb') as tcsv:
                     for term in search_terms:
                         outline.append(0)
                 writer.writerow(outline)
-                            
+
+with open('../data/chloropleth_dates.json', 'wb') as ojson:
+    jdate.sort
+    json.dump(jdate, ojson,indent=4,separators=(',',': '))
+        
                             
 ##        for i in counties:
 ##            for j in counties[i]:

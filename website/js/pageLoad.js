@@ -33,11 +33,12 @@ tnames_json = [ { name: "all_terms", display: "all terms"},
 				{ name: "tweet", display: "tweet"} ];
 				
 window.onload = function() {
+	
 	// draw the chloropleth map
 	drawCountiesMap("data/chloropleth_data.csv", "all_terms", "all_dates");
 	var m = d3.select("#geo_tab").selectAll(".viz_sidebar");
 	//console.log(m);
-	drawTimeLine("data/raw_tweet_distrib_by_day.json", m, "timeline");
+	drawTimeLine("data/chloropleth_dates.json", m, "timeline", "map");
 	var m = d3.select("#geo_tab").selectAll(".mapButtons");
 	addMapButtons(m, "data/chloropleth_data.csv", tnames_json);
 	
@@ -49,7 +50,7 @@ window.onload = function() {
 	// draw the bar chart
 	drawBarChart(null, "red");
     var t = d3.select("#words_tab").selectAll(".viz_sidebar");
-    drawTimeLine("data/raw_tweet_distrib_by_day.json", t, "timeline");
+    drawTimeLine("data/raw_tweet_distrib_by_day.json", t, "timeline", "bars");
 	
 	// draw the scatter chart
 	drawScatter("data/social_tweet_data.csv", "crime_per_capita", "Crime");
