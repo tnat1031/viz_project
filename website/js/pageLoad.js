@@ -52,9 +52,9 @@ window.onload = function() {
 	addMapButtons(m, "data/chloropleth_data.csv", tnames_json);
 	
 	// draw the line graph
-	drawOne("data/norm_tweets_per_day.csv", "avg_vulgar_tweets", "linegraph_svg", 250, 960, true);
+	drawOne("data/norm_tweets_per_day.csv", "avg_vulgar_tweets", "linegraph_svg", 500, 960, true);
 	var e = d3.select("#time_tab").selectAll(".viz_sidebar");
-	addLineButtons(e, "data/norm_tweets_per_day.csv", bnames_json, "linegraph_svg", 250, 960, true);
+	addLineButtons(e, "data/norm_tweets_per_day.csv", bnames_json, "linegraph_svg", 500, 960, true);
 
 	// draw the bar chart
 	drawBarChart(null, "red");

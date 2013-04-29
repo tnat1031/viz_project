@@ -1,8 +1,15 @@
 body {
-  width: 1500px;
   margin: 0 auto;
   font-family: sans-serif;
   font: 14px sans-serif;
+}
+
+.hover {
+    /*position: absolute;*/
+    z-index: 100;
+    box-shadow: firebrick;
+    background-color: #EFEAEA;
+    height: 500px;
 }
 
 h1 {
