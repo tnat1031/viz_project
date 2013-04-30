@@ -47,9 +47,11 @@ window.onload = function() {
 	drawCountiesMap("data/chloropleth_data.csv", "all_terms", "all_dates");
 	var m = d3.select("#geo_tab").selectAll(".viz_sidebar");
 	//console.log(m);
+	addAllDates(20);
 	drawTimeLine("data/chloropleth_dates.json", m, "timeline", "map");
-	var m = d3.select("#geo_tab").selectAll(".mapButtons");
-	addMapButtons(m, "data/chloropleth_data.csv", tnames_json);
+	var n = d3.select("#geo_tab").selectAll("#mapButtons");
+	//console.log(n);
+	addMapButtons(n, "data/chloropleth_data.csv", tnames_json);
 	
 	// draw the line graph
 	drawOne("data/norm_tweets_per_day.csv", "avg_vulgar_tweets", "linegraph_svg", 500, 960, true);
