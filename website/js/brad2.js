@@ -125,28 +125,40 @@ function addAllDates(element, size) {
 }
 
 function addSocialButtons(element, file_path, snames_json) {
-  element.selectAll("button").data(snames_json).enter()
+  
+  var group = element.append("div")
+	.attr("class","btn-group")
+    .attr("data-toggle","buttons-radio");
+  
+  group.selectAll("button").data(snames_json).enter()
     .append("button")
     .text(function(d) { return d.display; })
-    .attr("class", "btn btn-danger btn-large btn-block")
+    .attr("class", "btn btn-danger btn-large btn-block btn-primary")
     .on("click", function(d) { drawScatter(file_path, d.name, d.display); });
+	
+  d3.select("#social_tab").select(".btn")
+	.attr("class","btn btn-danger btn-large btn-block btn-primary active");
 }
 
 function addMapButtons(element, file_path, tnames_json) {
   date = "all_dates";
-  
-   element.selectAll("button").data(tnames_json).enter()
+   
+   var group = element.append("div")
+	  .attr("class","btn-group")
+      .attr("data-toggle","buttons-radio");
+	  
+   group.selectAll("button").data(tnames_json).enter()
      .append("button")
      .text(function(d) { return d.display; })
-     .attr("class", "btn btn-danger btn-large btn-block")
+     .attr("class", "btn btn-danger btn-large btn-block btn-primary")
      .on("click", function(d) { 
-		//changeMap(d.name, date);
 		document.getElementById("mapTerm").innerHTML = d.name;
 		changeMap();
 		//drawCountiesMap(file_path, d.name, '4_20_2013'); 
 	 });
 	
-  //d3.select("#geo_tab").selectAll(".btn").style("width",'500px')
+   d3.select("#geo_tab").select(".btn")
+	 .attr("class","btn btn-danger btn-large btn-block btn-primary active");
 }
 
 function drawCountiesMap(file_path, term, date) {
@@ -302,7 +314,7 @@ function drawScatterPlot (element, data, name, color, display)  {
         .x(function(d) { return x(d.factor2); })
         .y(function(d) { return y(d.tweets); });
     
-	var h1 = element.append("h1").attr("id", "scatter_header");
+	var h1 = element.append("h2").attr("id", "scatter_header");
 	
     var svg = element.append("svg")
 		.attr("id", "social_svg")

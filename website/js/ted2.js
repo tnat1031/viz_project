@@ -80,11 +80,18 @@ function drawTimeLine(file_path, element, id, chart) {
 }
 
 function addLineButtons(element, file_path, bnames_json, id, h, w, overwrite) {
-  element.selectAll("button").data(bnames_json).enter()
+  var group = element.append("div")
+	.attr("class","btn-group")
+    .attr("data-toggle","buttons-radio");
+  
+  group.selectAll("button").data(bnames_json).enter()
     .append("button")
     .text(function(d) { return d.display; })
-    .attr("class", "btn btn-danger btn-large btn-block")
+    .attr("class", "btn btn-danger btn-large btn-block btn-primary")
     .on("click", function(d) { drawOne(file_path, d.name, id, h, w, overwrite); });
+  
+  d3.select("#time_tab").select(".btn")
+	.attr("class","btn btn-danger btn-large btn-block btn-primary active");
 }
 
 function drawLine(element, id, data, color, radius, h, w, overwrite, y_axis_on, x_axis_on, tooltip_enabled) {

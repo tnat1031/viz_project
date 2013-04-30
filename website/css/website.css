@@ -121,6 +121,10 @@ header p {
 	 left:250px;
 }
 
+.btn-group{
+	width:100%;
+}
+
 .mapParams{
 	display:none;
 }
