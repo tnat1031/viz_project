@@ -4,12 +4,36 @@ body {
   font: 14px sans-serif;
 }
 
-.hover {
-    /*position: absolute;*/
+#splash {
+    position: fixed;
+    margin-top: 0px;
+    margin-left: 20%;
+    margin-right: 20%;
+    border: solid;
+    background-color: white;
     z-index: 100;
-    box-shadow: firebrick;
-    background-color: #EFEAEA;
-    height: 500px;
+    height: 450px;
+    width: 60%;
+}
+
+#splash .page-header {
+	margin-left: 20px;
+	margin-right: 20px;
+}
+
+#splash .question_list {
+	margin-left: 20px;
+	margin-right: 20px;
+}
+
+#splash .navbar-inner {
+	margin: 10px;
+	cursor: pointer;
+}
+
+#splash .explore_question {
+	font-weight: bold;
+	font-style: italic;
 }
 
 h1 {
@@ -59,20 +83,6 @@ header p {
 #linegraph_svg {
 	border-style: none;
 }
-
-/*#barchart_svg {
-	border-style: none;
-	border-width: 5px;
-	position: relative;
-	top: -800px;
-	right: -600px;
-}*/
-
-/*#barchart_header{ 
-	position: relative;
-	top: -875px;
-	right: -600px;
-}*/
 
 .tooltip_div {
 	font: 20px sans-serif;

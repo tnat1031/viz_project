@@ -19,6 +19,7 @@
 
         <header>
     		<div class="hero-unit">
+                <iframe class="pull-right" height="100%" src="http://www.youtube.com/embed/PwpZqQNQv_c" frameborder="0" allowfullscreen></iframe>
                 <h1>Fighting Words</h1>
     		<p>A project examining profane and violent language use on
     			<a href="http://www.twitter.com">Twitter</a><br>
@@ -27,9 +28,33 @@
     	</header>
 
         <!-- the splash div -->
-        <!--<div class="row">-->
-            <!--<div class="hover offset1 span10" id="splash"></div>-->
-        <!--</div>-->
+        <div class="hover" id="splash">
+            <div class="page-header">
+                <h1>Choose a question to explore</h1>
+            </div>
+            <div class="question_list">
+                <div class="navbar">
+                    <div class="navbar-inner" id="word_question">
+                        <a class="brand" href="#">Does word preference in tweet vulgarity vary over time?</a>
+                    </div>
+                    <div class="navbar-inner" id="geo_question">
+                        <a class="brand" href="#">Does tweet vulgarity vary geographically?</a>
+                    </div>
+                    <div class="navbar-inner" id="time_question">
+                        <a class="brand" href="#">Does tweet vulgarity vary over time?</a>
+                    </div>
+                    <div class="navbar-inner" id="social_question">
+                        <a class="brand" href="#">Does tweet vulgarity correlate with any social factors?</a>
+                    </div>
+                    <div class="pull-center">
+                        <p>OR</p>
+                    </div>
+                    <div class="navbar-inner" id="explore_question">
+                        <a class="brand" href="#">Explore on your own</a>
+                    </div>
+                </div>
+            </div>
+        </div>
     	
         <!-- create the tab navigation -->
         <div class="row">
@@ -39,7 +64,7 @@
                 <li><a href="#geo_tab" data-toggle="tab" id="geo_link">Geography</a></li>
                 <li><a href="#time_tab" data-toggle="tab">Time</a></li>
                 <li><a href="#social_tab" data-toggle="tab">Social</a></li>
-                <li><a href="#video_tab" data-toggle="tab">Video</a></li>
+                <li><a href="#references_tab" data-toggle="tab">References</a></li>
               </ul>
               <!-- define content within the tabs -->
               <div class="tab-content lead span12">
@@ -131,8 +156,11 @@
                     <div class="span10 viz_body">
                     </div>
                 </div>
-                <div class="video tab-pane container" id="video_tab">
-                    <iframe width="420" height="315" src="http://www.youtube.com/embed/PwpZqQNQv_c" allowfullscreen></iframe>
+                <!-- video -->
+                <div class="tab-pane container" id="references_tab">
+                    <div class="viz_header">
+                        <h3>References</h3>
+                    </div>
                 </div>
              </div>
             </div>

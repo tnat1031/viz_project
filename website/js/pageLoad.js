@@ -67,4 +67,17 @@ window.onload = function() {
 	//console.log(s);
 	addSocialButtons(s, "data/social_tweet_data.csv", snames_json);
 
+	// create the links in the splash div
+	var geo_question = d3.select("#geo_question")
+		.on("click", function() {
+			d3.select("#geo_tab").attr("class", "active");
+		});
+
+	// add a function to close the splash
+	var splash = d3.select("#explore_question")
+		.on("click", function() {
+			d3.select("#splash")
+			.style("display", "none");
+		});
+
 }
