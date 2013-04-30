@@ -107,12 +107,13 @@
 					<div class="container-fluid viz">
 						<h1 id="map_header">Showing tweets/person for all_terms from all_dates</h1>
 						<div class="row-fluid">
-							<div class="span2 viz_sidebar">
+							<div class="span2 viz_sidebar" id="mapTimeline">
 							</div>
 						</div>
 						<div class="row-fluid">
-							<div id="mapDiv"></div>
-							<div id="mapButtons"></div>
+							<div class="span2 viz_sidebar" id="mapButtons">
+							</div>
+							<div class="span10 viz_body" id="mapDiv"></div>	
 						</div>	
 					</div>
 					<textarea class="mapParams" id="mapTerm">all_terms</textarea>
@@ -134,9 +135,9 @@
                     </div>
                     <div class="container-fluid viz">
                         <div class="row-fluid">
-                            <div class="span10 viz_body">
-                            </div>
                             <div class="span2 viz_sidebar">
+                            </div>
+							<div class="span10 viz_body">
                             </div>
                         </div>
                     </div>
@@ -156,7 +157,9 @@
                         <div class="row-fluid">
 							<div class="span10 viz_body">
 							</div>
-							<div class="span2 viz_sidebar">
+						</div>
+						<div class="row-fluid">
+							<div class="span10 viz_sidebar">
 							</div>
 						</div>
 					</div>

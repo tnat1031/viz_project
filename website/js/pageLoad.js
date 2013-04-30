@@ -45,9 +45,9 @@ window.onload = function() {
 	
 	// draw the chloropleth map
 	drawCountiesMap("data/chloropleth_data.csv", "all_terms", "all_dates");
-	var m = d3.select("#geo_tab").selectAll(".viz_sidebar");
+	var m = d3.select("#geo_tab").selectAll("#mapTimeline");
 	//console.log(m);
-	addAllDates(20);
+	addAllDates(m, 20);
 	drawTimeLine("data/chloropleth_dates.json", m, "timeline", "map");
 	var n = d3.select("#geo_tab").selectAll("#mapButtons");
 	//console.log(n);

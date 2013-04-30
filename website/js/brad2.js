@@ -101,12 +101,11 @@ function drawScatter(file_path, colname, displayname) {
 	});
 }
 
-function addAllDates(size) {
-	var svg = d3.select("#geo_tab").selectAll(".viz_sidebar")
-		.append("svg")
-			.attr("height", 50)
-			.attr("width", 300)
-			.attr("id", "map_all_dates")
+function addAllDates(element, size) {
+	var svg = element.append("svg")
+		.attr("height", 50)
+		.attr("width", 300)
+		.attr("id", "map_all_dates")
 	
 	svg.append("rect")
 					.attr("height",size)
@@ -147,7 +146,7 @@ function addMapButtons(element, file_path, tnames_json) {
 		//drawCountiesMap(file_path, d.name, '4_20_2013'); 
 	 });
 	
-  d3.select("#geo_tab").selectAll(".btn").style("width",'500px')
+  //d3.select("#geo_tab").selectAll(".btn").style("width",'500px')
 }
 
 function drawCountiesMap(file_path, term, date) {
@@ -355,7 +354,7 @@ function drawScatterPlot (element, data, name, color, display)  {
 			return tooltip.style("visibility", "visible")
 		})
 		.on("mousemove", function() {
-			return tooltip.style("top", (event.pageY-10)+"px").style("left",(event.pageX+10)+"px");})
+			return tooltip.style("top", (event.pageY-300)+"px").style("left",(event.pageX-240)+"px");})
 		.on("mouseout", function() {
 			return tooltip.style("visibility", "hidden");
 		});

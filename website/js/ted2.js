@@ -171,7 +171,7 @@ function drawLine(element, id, data, color, radius, h, w, overwrite, y_axis_on, 
 			return tooltip.style("visibility", "visible").text(Math.round(v.count*100)/100 + " tweets");
 		})
 		.on("mousemove", function() {
-			return tooltip.style("top", (event.pageY-10)+"px").style("left",(event.pageX+10)+"px");})
+			return tooltip.style("top", (event.pageY-300)+"px").style("left",(event.pageX-250)+"px");})
 		.on("mouseout", function() {
 			return tooltip.style("visibility", "hidden");
 		});
@@ -280,7 +280,7 @@ function drawBarChart(date, color) {
       .attr("width", x.rangeBand())
       .attr("height", function(d) { return height - y(+d); } )
       .on("mouseover", function(d){return tooltip.style("visibility", "visible").text(+d  + " tweets"); })
-      .on("mousemove", function(){return tooltip.style("top", (event.pageY-10)+"px").style("left",(event.pageX+10)+"px");})
+      .on("mousemove", function(){return tooltip.style("top", (event.pageY-300)+"px").style("left",(event.pageX-250)+"px");})
       .on("mouseout", function(){return tooltip.style("visibility", "hidden");});
       
     svg.append("g")
