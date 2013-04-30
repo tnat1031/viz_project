@@ -68,14 +68,44 @@ window.onload = function() {
 	addSocialButtons(s, "data/social_tweet_data.csv", snames_json);
 
 	// create the links in the splash div
-	var geo_question = d3.select("#geo_question")
+	d3.select("#words_question")
 		.on("click", function() {
-			d3.select("#geo_tab").attr("class", "active");
+			d3.select("#words_tab").attr("class", "tab-pane container active");
+			d3.select("#words_link").attr("class", "active");
+			d3.select("#splash")
+			.style("display", "none");
+		});
+
+	d3.select("#geo_question")
+		.on("click", function() {
+			d3.select("#geo_tab").attr("class", "tab-pane container active");
+			d3.select("#geo_link").attr("class", "active");
+			d3.select("#splash")
+			.style("display", "none");
+		});
+
+	d3.select("#time_question")
+		.on("click", function() {
+			d3.select("#time_tab").attr("class", "tab-pane container active");
+			d3.select("#time_link").attr("class", "active");
+			d3.select("#splash")
+			.style("display", "none");
+		});
+
+	d3.select("#social_question")
+		.on("click", function() {
+			d3.select("#social_tab").attr("class", "tab-pane container active");
+			d3.select("#social_link").attr("class", "active");
+			d3.select("#splash")
+			.style("display", "none");
 		});
 
 	// add a function to close the splash
-	var splash = d3.select("#explore_question")
+	// default to showing words tab
+	d3.select("#explore_question")
 		.on("click", function() {
+			d3.select("#words_tab").attr("class", "tab-pane container active");
+			d3.select("#words_link").attr("class", "active");
 			d3.select("#splash")
 			.style("display", "none");
 		});

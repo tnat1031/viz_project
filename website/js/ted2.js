@@ -71,7 +71,10 @@ function drawTimeLine(file_path, element, id, chart) {
 				else {
 					drawBarChart(this.id, "red");
 				}
-        });
+        })
+          .on("mouseover", function() {
+            this.attr("r", 20);
+          });
     });
 
 }
