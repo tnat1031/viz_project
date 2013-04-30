@@ -126,7 +126,7 @@ function addAllDates(size) {
 }
 
 function addSocialButtons(element, file_path, snames_json) {
-  element.data(snames_json).enter()
+  element.selectAll("button").data(snames_json).enter()
     .append("button")
     .text(function(d) { return d.display; })
     .attr("class", "btn btn-danger btn-large btn-block")
@@ -136,16 +136,16 @@ function addSocialButtons(element, file_path, snames_json) {
 function addMapButtons(element, file_path, tnames_json) {
   date = "all_dates";
   
-  element.data(tnames_json).enter()
-    .append("button")
-    .text(function(d) { return d.display; })
-    .attr("class", "btn btn-danger btn-large btn-block")
-    .on("click", function(d) { 
+   element.selectAll("button").data(tnames_json).enter()
+     .append("button")
+     .text(function(d) { return d.display; })
+     .attr("class", "btn btn-danger btn-large btn-block")
+     .on("click", function(d) { 
 		//changeMap(d.name, date);
 		document.getElementById("mapTerm").innerHTML = d.name;
 		changeMap();
 		//drawCountiesMap(file_path, d.name, '4_20_2013'); 
-	});
+	 });
 	
   d3.select("#geo_tab").selectAll(".btn").style("width",'500px')
 }

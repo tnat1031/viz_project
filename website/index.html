@@ -95,13 +95,15 @@
                 </div>
                 <!-- geography -->
 				<div class="tab-pane container" id="geo_tab">
-					<div class="ask"></div>
-						<h3>Ask</h3>
-					<div class="explore"></div>
-						<h3>Explore</h3>
-					<div class="conclude"></div>
-						<h3>Conclude</h3>
-					<hr>
+					<div class="viz_header">
+						<div class="ask"></div>
+							<h3>Ask</h3>
+						<div class="explore"></div>
+							<h3>Explore</h3>
+						<div class="conclude"></div>
+							<h3>Conclude</h3>
+						<hr>
+					</div>
 					<div class="container-fluid viz">
 						<h1 id="map_header">Showing tweets/person for all_terms from all_dates</h1>
 						<div class="row-fluid">
@@ -109,10 +111,8 @@
 							</div>
 						</div>
 						<div class="row-fluid">
-							<div id="mapDiv">
-							</div>
-							<div id="mapButtons">
-							</div>
+							<div id="mapDiv"></div>
+							<div id="mapButtons"></div>
 						</div>	
 					</div>
 					<textarea class="mapParams" id="mapTerm">all_terms</textarea>
@@ -152,8 +152,14 @@
                     <div class="conclude"></div>
                         <h3>Conclude</h3>
                     <hr>
-                    <div class="span10 viz_body">
-                    </div>
+					<div class="container-fluid viz">
+                        <div class="row-fluid">
+							<div class="span10 viz_body">
+							</div>
+							<div class="span2 viz_sidebar">
+							</div>
+						</div>
+					</div>
                 </div>
                 <!-- video -->
                 <div class="tab-pane container" id="references_tab">

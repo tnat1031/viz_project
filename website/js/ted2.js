@@ -80,7 +80,7 @@ function drawTimeLine(file_path, element, id, chart) {
 }
 
 function addLineButtons(element, file_path, bnames_json, id, h, w, overwrite) {
-  element.data(bnames_json).enter()
+  element.selectAll("button").data(bnames_json).enter()
     .append("button")
     .text(function(d) { return d.display; })
     .attr("class", "btn btn-danger btn-large btn-block")
