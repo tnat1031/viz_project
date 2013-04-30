@@ -101,6 +101,30 @@ function drawScatter(file_path, colname, displayname) {
 	});
 }
 
+function addAllDates(size) {
+	var svg = d3.select("#geo_tab").selectAll(".viz_sidebar")
+		.append("svg")
+			.attr("height", 50)
+			.attr("width", 300)
+			.attr("id", "map_all_dates")
+	
+	svg.append("rect")
+					.attr("height",size)
+					.attr("width",size)
+					.attr("fill", "red")
+					.attr("x",40)
+					.attr("y",15)
+					.on("click", function () {
+						document.getElementById("mapDate").innerHTML = "all_dates";
+						changeMap();
+					});
+	svg.append("text")
+		.text("All Dates")
+		.attr("x", 70)
+		.attr("y",35)
+				
+}
+
 function addSocialButtons(element, file_path, snames_json) {
   element.data(snames_json).enter()
     .append("button")
