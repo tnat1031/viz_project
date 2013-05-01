@@ -113,6 +113,7 @@ function addAllDates(element, size) {
 					.attr("fill", "red")
 					.attr("x",40)
 					.attr("y",15)
+					.attr("id","allRect")
 					.on("click", function () {
 						document.getElementById("mapDate").innerHTML = "all_dates";
 						changeMap();
@@ -359,6 +360,7 @@ function drawScatterPlot (element, data, name, color, display)  {
       	.attr("cy", function(v) { return y(v.tweets); })
       	.attr("r", 5)
       	.attr("fill", function(v) { if(v.factor2 < 0){return 'grey'} return color})
+		.attr("opacity",0.25)
       	.on("mouseover", function(v) {
 			toolHead.text(toTitleCase(v.county)+" "+v.state);
 			toolTweets.text(Math.round(v.tweets*1000000)/1000000 + " tweets per person");

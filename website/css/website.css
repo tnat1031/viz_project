@@ -93,6 +93,7 @@ header p {
 	font: 20px sans-serif;
 }
 
+#allRect,
 #timeline .tooltip_circle {
     cursor: pointer;
 }
