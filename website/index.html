@@ -131,11 +131,11 @@
                             <p>Does tweet vulgarity vary over time?</p>
                         <div class="explore"></div>
                             <h3>Explore</h3>
-                            <p>The chart shows the number of tweets collected over time. Click the buttons to select the trend to display. You can view counts of vulgar tweets, or of innocucous control tweets for comparison ('twitter' and 'tweet'). Finally, you can view the ratio of vulgar/control tweets to see relative twitter vulgarity over time. Hover your mouse over the data points to see
-                             their values.</p>
+                            <p><small>The chart shows the number of tweets collected over time. Tweets can be plotted according to the day they were collected, or the hour-of-day across all dates. Use the radio buttons to switch between these aggregations. Click the buttons to select the trend to display. You can view counts of vulgar tweets, or of innocucous control tweets for comparison ('twitter' and 'tweet'). Finally, you can view the ratio of vulgar/control tweets to see relative twitter vulgarity over time. Hover your mouse over the data points to see
+                             their values.</small></p>
                         <div class="conclude"></div>
                             <h3>Conclude</h3>
-							<p>Placeholder for now</p>
+							<p><small>We see interesting patterns in the volume of tweets we collect, while observing that relative vulgarity is quite consistent over time. Examining different dates, we see a wide range the number of tweets we observed. However, there does not seem to be a consistent pattern. For all dates, the volume of vulgar tweets tracks with the number of innocuous control tweets. Thus despite fluctuations in overall tweet volume, the relative vulgarity ratio is consistent over time. Evidently, people do not curse relatively more frequently on certain days, such as weekends or mondays.</small></p><p><small>Aggregating tweets by hour of day, we see a peak in Twitter volume in the afternoon and another at midnight. Tweet volumes are lowest at 9AM and 6PM. We hypothesize that this is reflective of the morning and evening commutes. People are then active on twitter throughout the day, peaking at the end of the work day (4-5PM). Twitter volume increases steadily throughout the evening to another peak at mightnight, before falling steadily as the hour grows increasingly late. There is a small spike in tweeting from 6-7AM, which may reflect users waking up. Interestingly, the relative vulgarity of control-corrected Twitter activity is fairly consistent throughout the day. Users are evidently just as inclined to curse during the workday as they are at 3AM. We do see a spike in relative vulgarity at 9AM. We hypothesize that this may reflect the frustrations of the morning commute.</small></p>
                         <hr>
                     </div>
                     <div class="container-fluid viz">
@@ -206,6 +206,12 @@
 						<h4>The topojson.js library was also used in producing the chloropleth:</h4>
 						<p>Bostock, M. (n.d.). <i>topoJSON</i>. Retreived April 23, 2013 from <a href="https://github.com/mbostock/topojson">https://github.com/mbostock/topojson</a>. Copyright 2012 Michael Bostock. <a href="https://github.com/mbostock/topojson/blob/master/LICENSE">License</a></p>
 						<br>
+						<h4>The Pattern library for python was downloaded and the source was modified for use in our tweet scraping script:</h4>
+						<p>Computational Linguistics & Psycholinguistics Research Center. (n.d.). <i>Pattern</i>. Retreived as part of Project II from <a href="http://www.clips.ua.ac.be/pattern">http://www.clips.ua.ac.be/pattern</a>.  Copyright 2010 CLiPs Research Center. Licensed under <a href="http://www.linfo.org/bsdlicense.html">BSD</a>.</p>
+						<br>
+						<h4>Reverse geocoding of tweets was accomplished using the following API:</h4>
+						<p>Google. (February 13, 2013). <i>Google Geocoding API V3</i>. Accessed as part of Project II from <a href="https://developers.google.com/maps/documentation/geocoding/#ReverseGeocoding">https://developers.google.com/maps/documentation/geocoding/#ReverseGeocoding</a>. <a href="https://developers.google.com/maps/licensing">License information</a>.</p>
+						<br>
 						<h4>The chloropleth map view was adapted from the following example:</h4>
 						<p>Bostock, M. (April 21, 2013). mbostocks block #4060606; Chloropleth. In <i>D3 Gallery</i>. Retrieved April 23, 2013 from <a href="http://bl.ocks.org/mbostock/4060606">http://bl.ocks.org/mbostock/4060606</a></p>
 						<br>
@@ -223,6 +229,20 @@
                         <br>
                         <h4>Sorting the bars in the bar graph view was facilitated by the following example:</h4>
                         <p><a href="http://answers.unity3d.com/users/10388/almo.html">almo</a> (unityAnswers user). Question: Sort Two Arrays. In <i>unityAnswers</i>. Accessed April 12, 2013 at <a href="http://answers.unity3d.com/questions/63520/sort-two-arrays.html">http://answers.unity3d.com/questions/63520/sort-two-arrays.html</a></p>
+						<br>
+						<h4>County areas and population values were derived from the following data source:</h4>
+						<p>U.S. Census Bureau. (n.d.) “National Counties Gazetteer File”. In <i>2010 Census Gazetteer Files</i>. Accessed April 18, 2013. File: <a href="http://www.census.gov/geo/maps-data/data/docs/gazetteer/Gaz_counties_national.zip">http://www.census.gov/geo/maps-data/data/docs/gazetteer/Gaz_counties_national.zip</a>
+						Available at: <a href="http://www.census.gov/geo/maps-data/data/gazetteer2010.html http://www.census.gov/geo/maps-data/data/gazetteer2010.html">http://www.census.gov/geo/maps-data/data/gazetteer2010.html http://www.census.gov/geo/maps-data/data/gazetteer2010.html</a></p>
+						<br>
+						<h4>The median income for each county was derived from the following data source</h4>
+						<p>U.S. Census Bureau. (n.d.). Table S1901: INCOME IN THE PAST 12 MONTHS (IN 2011 INFLATION-ADJUSTED DOLLARS) . Dataset: <i>007-2011 American Community Survey 5-Year Estimates</i>. Generated by Brad Taylor; using American FactFinder; <a href="http://factfinder2.census.gov"><http://factfinder2.census.gov></a>; April 18, 2013. Available at <a href="http://factfinder2.census.gov/faces/tableservices/jsf/pages/productview.xhtml?pid=ACS_11_5YR_S1901&prodType=table"> http://factfinder2.census.gov/faces/tableservices/jsf/pages/productview.xhtml?pid=ACS_11_5YR_S1901&prodType=table</a></p>
+						<br>
+						<h4>Percentage of U.S. county residents with a bachelors degree or higher was derived from the following data source:</h4>
+						<p>U.S. Census Bureau. (n.d.). Table DP02: SELECTED SOCIAL CHARACTERISTICS IN THE UNITED STATES, 2. Dataset: <i>007-2011 American Community Survey 5-Year Estimates</i>. Generated by Brad Taylor; using American FactFinder; <a href="http://factfinder2.census.gov"><http://factfinder2.census.gov></a>; April 18, 2013. Available at <a href="http://factfinder2.census.gov/faces/tableservices/jsf/pages/productview.xhtml?pid=ACS_11_5YR_DP02&prodType=table"> http://factfinder2.census.gov/faces/tableservices/jsf/pages/productview.xhtml?pid=ACS_11_5YR_DP02&prodType=table</a></p>
+						<br>
+						<h4>National crime statistics were derived from the following data source:</h4>
+						<p>U.S. Federal Bureau of Investigation. (n.d.). Table 10–Offenses Known to Law Enforcement, by State by Metropolitan and Nonmetropolitan Counties, 2011. In <i>Crime in the United States 2011</i>. Accessed April 18, 2013. File: <a href="http://www.fbi.gov/about-us/cjis/ucr/crime-in-the-u.s/2011/crime-in-the-u.s.-2011/tables/table_10_offenses_known_to_law_enforcement_by_state_by_metropolitan_and_nonmetropolitan_counties_2011.xls"> http://www.fbi.gov/about-us/cjis/ucr/crime-in-the-u.s/2011/crime-in-the-u.s.-2011/tables/table_10_offenses_known_to_law_enforcement_by_state_by_metropolitan_and_nonmetropolitan_counties_2011.xls</a>
+						Available at: <a href="http://www.fbi.gov/about-us/cjis/ucr/crime-in-the-u.s/2011/crime-in-the-u.s.-2011/offenses-known-to-law-enforcement/standard-links/county-agency"> http://www.fbi.gov/about-us/cjis/ucr/crime-in-the-u.s/2011/crime-in-the-u.s.-2011/offenses-known-to-law-enforcement/standard-links/county-agency</a></p>
                     </div>
                 </div>
              </div>
