@@ -102,10 +102,6 @@ Bostock, M. (October 14, 2012). mbostocks block #3887188; Scatterplot. In D3 Gal
 
 The line graph view was adapted from the following example:
 
-Bostock, M. (April 10, 2013). mbostocks block #3883245; Line Chart. In D3 Galleryhttp://bl.ocks.org/mbostock/3883245
-
-The line graph view was adapted from the following example:
-
 Bostock, M. (April 10, 2013). mbostocks block #3883245; Line Chart. In D3 Gallery. http://bl.ocks.org/mbostock/3883245
 
 Sorting the bars in the bar graph view was facilitated by the following example:
