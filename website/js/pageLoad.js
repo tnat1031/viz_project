@@ -40,34 +40,11 @@ tnames_json = [ { name: "all_terms", display: "all terms"},
 				{ name: "shoot", display: "shoot"},
 				{ name: "twitter", display: "twitter"},
 				{ name: "tweet", display: "tweet"} ];
+
+rnames_json = [ { id: "by_day", display: "Aggregated by Day", file: "data/norm_tweets_per_day.csv"},
+				{ id: "by_hour", display: "Aggregated by Hour", file: "data/norm_tweets_per_hour.csv"}];
 				
 window.onload = function() {
-	
-	// draw the chloropleth map
-	drawCountiesMap("data/chloropleth_data.csv", "all_terms", "all_dates");
-	var m = d3.select("#geo_tab").selectAll("#mapTimeline");
-	//console.log(m);
-	addAllDates(m, 20);
-	drawTimeLine("data/chloropleth_dates.json", m, "timeline", "map");
-	var n = d3.select("#geo_tab").selectAll("#mapButtons");
-	//console.log(n);
-	addMapButtons(n, "data/chloropleth_data.csv", tnames_json);
-	
-	// draw the line graph
-	drawOne("data/norm_tweets_per_day.csv", "avg_vulgar_tweets", "linegraph_svg", 500, 960, true);
-	var e = d3.select("#time_tab").selectAll(".viz_sidebar");
-	addLineButtons(e, "data/norm_tweets_per_day.csv", bnames_json, "linegraph_svg", 500, 960, true);
-
-	// draw the bar chart
-	drawBarChart(null, "red");
-    var t = d3.select("#words_tab").selectAll(".viz_sidebar");
-    drawTimeLine("data/raw_tweet_distrib_by_day.json", t, "timeline", "bars");
-	
-	// draw the scatter chart
-	drawScatter("data/social_tweet_data.csv", "crime_per_capita", "Crime");
-	var s = d3.select("#social_tab").selectAll(".viz_sidebar");
-	//console.log(s);
-	addSocialButtons(s, "data/social_tweet_data.csv", snames_json);
 
 	// create the links in the splash div
 	d3.select("#words_question")
@@ -111,5 +88,32 @@ window.onload = function() {
 			d3.select("#splash")
 			.style("display", "none");
 		});
+	
+	// draw the chloropleth map
+	drawCountiesMap("data/chloropleth_data.csv", "all_terms", "all_dates");
+	var m = d3.select("#geo_tab").selectAll("#mapTimeline");
+	//console.log(m);
+	addAllDates(m, 20);
+	drawTimeLine("data/chloropleth_dates.json", m, "timeline", "map");
+	var n = d3.select("#geo_tab").selectAll("#mapButtons");
+	//console.log(n);
+	addMapButtons(n, "data/chloropleth_data.csv", tnames_json);
+	
+	// draw the line graph
+	drawOne("data/norm_tweets_per_day.csv", "avg_vulgar_tweets", "linegraph_svg", 500, 960, true, true);
+	var e = d3.select("#time_tab").selectAll("#series_toggle");
+	addLineButtons(e, "data/norm_tweets_per_day.csv", bnames_json, "linegraph_svg", 500, 960, true, true);
+	addRadioFunctions(bnames_json);
+	
+	// draw the bar chart
+	drawBarChart(null, "red");
+    var t = d3.select("#words_tab").selectAll(".viz_sidebar");
+    drawTimeLine("data/raw_tweet_distrib_by_day.json", t, "timeline", "bars");
+	
+	// draw the scatter chart
+	drawScatter("data/social_tweet_data.csv", "crime_per_capita", "Crime");
+	var s = d3.select("#social_tab").selectAll(".viz_sidebar");
+	//console.log(s);
+	addSocialButtons(s, "data/social_tweet_data.csv", snames_json);
 
 }

@@ -50,7 +50,7 @@ tbl <- as.data.frame.table(table(tweets$full_date))
 names(tbl) <- c("date", "num_tweets")
 write.table(tbl, file="~/github/viz_project/website/data/raw_tweets_per_day.csv", col.names=T, row.names=F, sep=",", quote=F, eol="\n")
 
-# normalized tweet frequency
+# normalized tweet frequency per day
 avg_tbl <- as.data.frame.table(table(tweets$full_date) / length(setdiff(unique(tweets$search_term), control_terms)))
 names(avg_tbl) <- c("date", "avg_vulgar_tweets")
 control_tbl <- as.data.frame.table(table(tweets[tweets$search_term=="tweet" | tweets$search_term=="twitter", ]$full_date) / length(control_terms))
@@ -58,6 +58,15 @@ names(control_tbl) <- c("date", "avg_control_tweets")
 norm_tbl <- merge(avg_tbl, control_tbl, by="date")
 norm_tbl$norm_tweets <- norm_tbl$avg_vulgar_tweets / norm_tbl$avg_control_tweets
 write.table(norm_tbl, file="~/github/viz_project/website/data/norm_tweets_per_day.csv", col.names=T, row.names=F, sep=",", quote=F, eol="\n")
+
+# normalized tweet frequency per day
+hour_tbl <- as.data.frame.table(table(tweets$hour) / length(setdiff(unique(tweets$search_term), control_terms)))
+names(hour_tbl) <- c("date", "avg_vulgar_tweets")
+control_tbl <- as.data.frame.table(table(tweets[tweets$search_term=="tweet" | tweets$search_term=="twitter", ]$hour) / length(control_terms))
+names(control_tbl) <- c("date", "avg_control_tweets")
+norm_tbl <- merge(hour_tbl, control_tbl, by="date")
+norm_tbl$norm_tweets <- norm_tbl$avg_vulgar_tweets / norm_tbl$avg_control_tweets
+write.table(norm_tbl, file="~/github/viz_project/website/data/norm_tweets_per_hour.csv", col.names=T, row.names=F, sep=",", quote=F, eol="\n")
 
 
 
@@ -76,10 +85,21 @@ day_list <- list()
 for (d in levels(as.factor(tmp_tbl$Var.1))) {
   tmp <- tmp_tbl[tmp_tbl$Var.1==d, c("Var.2", "value")]
   names(tmp) <- c("search_term", "count")
-  tmp_list <- list("date"=d, "search_term"=tmp$search_term, "count"=tmp$count)
+  tmp_list <- list("date"=d, "search_term"=as.character(tmp$search_term), "count"=tmp$count)
   day_list[[length(day_list) + 1]] <- tmp_list
 }
 cat(toJSON(day_list), file="~/github/viz_project/website/data/raw_tweet_distrib_by_day.json")
+
+# tweet count per hour by search term
+tmp_tbl <- melt(table(tweets$hour, tweets$search_term))
+day_list <- list()
+for (d in levels(as.factor(tmp_tbl$Var.1))) {
+  tmp <- tmp_tbl[tmp_tbl$Var.1==d, c("Var.2", "value")]
+  names(tmp) <- c("search_term", "count")
+  tmp_list <- list("hour"=d, "search_term"=tmp$search_term, "count"=tmp$count)
+  day_list[[length(day_list) + 1]] <- tmp_list
+}
+cat(toJSON(day_list), file="~/github/viz_project/website/data/raw_tweet_distrib_by_hour.json")
 
 
 makePlots <- function() {

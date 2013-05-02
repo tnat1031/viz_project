@@ -1,6 +1,33 @@
 var parseDate = d3.time.format("%Y-%m-%d").parse;
+var parseHour = d3.time.format("%H").parse;
 var parseLineDate = d3.time.format("%a %b %d %Y").parse;
 var encodeDate = d3.time.format("%m_%d_%Y");
+
+function addRadioFunctions(bnames_json) {
+  var r = d3.select("#time_tab").selectAll("input")
+    .on("click", function() {
+      if(this.checked) {
+        var time_scale_x = true;
+        if (this.id == "by_hour") {
+          var time_scale_x = false;
+        }
+        file_path = this.value;
+        // disable click functionality on existing buttons
+        d3.select("#time_tab").select("#series_toggle").selectAll("button")
+          .on("click", null);
+        // figure out which button is currently depressed
+        var selected = d3.select("#time_tab").select("#series_toggle").selectAll(".active");
+        console.log(selected.attr("id"));
+        // draw a time series
+        drawOne(this.value, selected.attr("id"), "linegraph_svg", 500, 960, true, time_scale_x);
+        // upate buttons with click functions
+        d3.select("#time_tab").select("#series_toggle").selectAll("button")
+          .data(bnames_json)
+          .on("click", function(d) {
+            drawOne(file_path, d.name, "linegraph_svg", 500, 960, true, time_scale_x); });
+          }
+    });
+}
 
 
 function sortTwo(arr1, arr2) {
@@ -33,17 +60,30 @@ function sortTwo(arr1, arr2) {
     return(arr2);
 }
 
-function drawOne(file_path, colname, id, h, w, overwrite) {
+function drawOne(file_path, colname, id, h, w, overwrite, time_scale_x) {
+  console.log(colname);
   d3.csv(file_path, function(rows) {
-		var datacols = d3.keys(rows[0]).filter(function(key) { return key == colname; });
+    console.log(rows);
+    var datacols = d3.keys(rows[0]).filter(function(key) { return key == colname; });
 		var datacol = datacols[0];
 		var data = {name: datacol, values: []};
-		rows.forEach(function(r) {
-			var d = parseDate(r.date);
-			var c = +r[datacol];
-			data.values.push({date: d,
-							  count: c});
-		});
+		if (time_scale_x) {
+      rows.forEach(function(r) {
+  			var d = parseDate(r.date);
+  			var c = +r[datacol];
+  			data.values.push({date: d,
+  							  count: c});
+  		});
+    }
+    else {
+      rows.forEach(function(r) {
+        var d = parseHour(r.date);
+        var c = +r[datacol];
+        data.values.push({date: d,
+                  count: c});
+      });
+    }
+    console.log(data);
 		var e = d3.select("#time_tab").selectAll(".viz_body");
 		drawLine(e, id, data, "red", 5, h, w, overwrite, true, true, true);
 	});
@@ -72,14 +112,10 @@ function drawTimeLine(file_path, element, id, chart) {
 					drawBarChart(this.id, "red");
 				}
         })
-          .on("mouseover", function() {
-            this.attr("r", 20);
-          });
     });
-
 }
 
-function addLineButtons(element, file_path, bnames_json, id, h, w, overwrite) {
+function addLineButtons(element, file_path, bnames_json, id, h, w, overwrite, time_scale_x) {
   var group = element.append("div")
 	.attr("class","btn-group")
     .attr("data-toggle","buttons-radio");
@@ -88,7 +124,8 @@ function addLineButtons(element, file_path, bnames_json, id, h, w, overwrite) {
     .append("button")
     .text(function(d) { return d.display; })
     .attr("class", "btn btn-danger btn-large btn-block btn-primary")
-    .on("click", function(d) { drawOne(file_path, d.name, id, h, w, overwrite); });
+    .attr("id", function(d) { return d.name; })
+    .on("click", function(d) { drawOne(file_path, d.name, id, h, w, overwrite, time_scale_x); });
   
   d3.select("#time_tab").select(".btn")
 	.attr("class","btn btn-danger btn-large btn-block btn-primary active");
@@ -110,8 +147,9 @@ function drawLine(element, id, data, color, radius, h, w, overwrite, y_axis_on, 
 	width = w - margin.left - margin.right,
 	height = h - margin.top - margin.bottom;
 
-	var x = d3.time.scale()
-    	.range([0, width]);
+
+  var x = d3.time.scale()
+    .range([0, width]);
 
 	var y = d3.scale.linear()
     	.range([height, 0]);

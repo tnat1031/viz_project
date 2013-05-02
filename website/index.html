@@ -140,10 +140,24 @@
                     </div>
                     <div class="container-fluid viz">
                         <div class="row-fluid">
-                            <div class="span3 viz_sidebar">
+                            <div class="span3 viz_sidebar" id="series_toggle">
+                                <input type = "radio"
+                                     name = "radio_buttons"
+                                     id = "by_day"
+                                     value = "data/norm_tweets_per_day.csv"
+                                     checked = "checked" />
+                              <label for = "by_day">Aggregated by Day</label>
+                              <input type = "radio"
+                                     name = "radio_buttons"
+                                     id = "by_hour"
+                                     value = "data/norm_tweets_per_hour.csv"/>
+                              <label for = "by_hour">Aggregated by Hour</label>
+                              <hr>
                             </div>
 							<div class="span9 viz_body">
                             </div>
+                        </div>
+                        <div class="viz_sidebar" id="aggregate_toggle">
                         </div>
                     </div>
                 </div>
