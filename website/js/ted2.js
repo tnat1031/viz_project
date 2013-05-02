@@ -1,3 +1,25 @@
+/* 
+* ted2.js
+* Ted Natoli, April 2013 
+*
+* Functions to draw the line graph and bar chart views.
+* Includes implementation of appropriate user-interaction features. 
+* 
+* Examples used in developing this  script:
+* --------------------
+* The line graph view was inspired by Mike Bostok's example found here:
+* http://bl.ocks.org/mbostock/3883245
+* This view was modified to display data points with tooltips and to allow
+* switching between multiple views of the dataset.
+*
+* The bar graph view required a function that would allow sorting two arrays simultaneously,
+* (one each of our tweet search teams and their respective counts), and I found
+* an example at http://answers.unity3d.com/questions/63520/sort-two-arrays.html. The 
+* bar graph view itself is not taken from any existing exmample.
+*
+*/
+
+
 var parseDate = d3.time.format("%Y-%m-%d").parse;
 var parseHour = d3.time.format("%H").parse;
 var parseLineDate = d3.time.format("%a %b %d %Y").parse;
